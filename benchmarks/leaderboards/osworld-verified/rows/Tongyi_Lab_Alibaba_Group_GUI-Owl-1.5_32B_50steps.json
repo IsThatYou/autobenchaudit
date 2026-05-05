@@ -1,0 +1,59 @@
+{
+  "slug": "Tongyi_Lab_Alibaba_Group_GUI-Owl-1.5_32B_50steps",
+  "model": "GUI-Owl-1.5 32B",
+  "institution": "Tongyi Lab, Alibaba Group",
+  "paper_link": "https://arxiv.org/abs/2602.16855",
+  "paper_authors": "Mobile-Agent Team",
+  "approach_type": "Specialized model",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2026-03-27",
+  "success_rate": 55.44,
+  "success_total_raw": "197.37/356",
+  "success_count": 197.37,
+  "total_tasks": 356,
+  "per_category": {
+    "chrome": {
+      "success": 29.96,
+      "total": 45
+    },
+    "gimp": {
+      "success": 20.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 23.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 29.99,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 14.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 25.43,
+      "total": 93
+    },
+    "os": {
+      "success": 16.0,
+      "total": 21
+    },
+    "thunderbird": {
+      "success": 13.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 5.99,
+      "total": 16
+    },
+    "vs_code": {
+      "success": 20.0,
+      "total": 23
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "GBOX.AI_GBOX_Agent_15steps",
+  "model": "GBOX Agent",
+  "institution": "GBOX.AI",
+  "paper_link": "https://github.com/babelcloud/GBOXBlog/blob/main/From_Vision_to_Action.md",
+  "paper_authors": "GBOX.AI",
+  "approach_type": "Agentic framework",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-11-25",
+  "success_rate": 64.22,
+  "success_total_raw": "230.54/359",
+  "success_count": 230.54,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 28.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 20.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 35.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 29.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 15.0,
+      "total": 22
+    },
+    "multi_apps": {
+      "success": 45.75,
+      "total": 92
+    },
+    "os": {
+      "success": 17.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 7.87,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 21.0,
+      "total": 23
+    }
+  }
+}

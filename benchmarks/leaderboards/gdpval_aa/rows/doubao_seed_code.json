@@ -1,0 +1,43 @@
+{
+  "slug": "doubao_seed_code",
+  "model_id": "4d6dd5ce-08cb-4e87-9288-1dd2f022aa35",
+  "model_slug": "doubao-seed-code",
+  "name": "Doubao Seed Code",
+  "gdpval_name": null,
+  "short_name": "Doubao Seed Code",
+  "creator": {
+    "name": "ByteDance Seed",
+    "slug": "bytedance_seed",
+    "country": null,
+    "logo": "/img/logos/bytedance.svg"
+  },
+  "release_date": "2025-11-11",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 988.6779378466745,
+    "lower_95ci": 959.167693514481,
+    "upper_95ci": 1019.9656952703833,
+    "n_matches": 1801,
+    "avg_turns": 18.595959595959595
+  },
+  "gdpval_breakdown": {
+    "elo": 988.6779378466745,
+    "avg_turns": 18.595959595959595,
+    "n_matches": 1801,
+    "lower_95ci": 959.167693514481,
+    "upper_95ci": 1019.9656952703833,
+    "last_updated": "2026-04-22T02:15:29.935377"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 51772253,
+    "answer_tokens": 2365508,
+    "output_tokens": 2702781,
+    "reasoning_tokens": 337272
+  },
+  "intelligence_index": 33.52,
+  "agentic_index": 36.45,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

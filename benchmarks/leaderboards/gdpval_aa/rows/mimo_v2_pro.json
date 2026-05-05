@@ -1,0 +1,43 @@
+{
+  "slug": "mimo_v2_pro",
+  "model_id": "5d8183dc-24f4-46c5-a1d0-d937de149364",
+  "model_slug": "mimo-v2-pro",
+  "name": "MiMo-V2-Pro",
+  "gdpval_name": null,
+  "short_name": "MiMo-V2-Pro",
+  "creator": {
+    "name": "Xiaomi",
+    "slug": "xiaomi",
+    "country": null,
+    "logo": "/img/logos/xiaomi.png"
+  },
+  "release_date": "2026-03-18",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1419.4340175567136,
+    "lower_95ci": 1395.6679550262845,
+    "upper_95ci": 1448.2471154442667,
+    "n_matches": 2942,
+    "avg_turns": 13.963133640552995
+  },
+  "gdpval_breakdown": {
+    "elo": 1419.4340175567136,
+    "avg_turns": 13.963133640552995,
+    "n_matches": 2942,
+    "lower_95ci": 1395.6679550262845,
+    "upper_95ci": 1448.2471154442667,
+    "last_updated": "2026-04-22T02:15:11.706692"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 56815094,
+    "answer_tokens": 3639615,
+    "output_tokens": 4026063,
+    "reasoning_tokens": 386448
+  },
+  "intelligence_index": 49.2,
+  "agentic_index": 62.8,
+  "price_1m_input_tokens": 1,
+  "price_1m_output_tokens": 3
+}

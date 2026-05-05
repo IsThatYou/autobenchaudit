@@ -1,0 +1,26 @@
+{
+  "slug": "InternVL2-Llama3-76B",
+  "name": "InternVL2-Llama3-76B",
+  "size": "76B",
+  "date": "2024-07-04",
+  "type": "open_source",
+  "link": "https://huggingface.co/OpenGVLab/InternVL2-Llama3-76B",
+  "pro_overall": 40.0,
+  "pro_vision": 38.0,
+  "pro_standard": 41.9,
+  "pro_source": null,
+  "mmmu_val_overall": 58.3,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

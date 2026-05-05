@@ -1,0 +1,43 @@
+{
+  "slug": "claude_opus_4_6_adaptive",
+  "model_id": "53c98840-47af-49aa-94e6-469fb17e9a1b",
+  "model_slug": "claude-opus-4-6-adaptive",
+  "name": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
+  "gdpval_name": null,
+  "short_name": "Claude Opus 4.6 (max)",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2026-02-05",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1618.7033667235428,
+    "lower_95ci": 1587.7852526013605,
+    "upper_95ci": 1651.9993801152023,
+    "n_matches": 4430,
+    "avg_turns": 24.40909090909091
+  },
+  "gdpval_breakdown": {
+    "elo": 1618.7033667235428,
+    "avg_turns": 24.40909090909091,
+    "n_matches": 4430,
+    "lower_95ci": 1587.7852526013605,
+    "upper_95ci": 1651.9993801152023,
+    "last_updated": "2026-04-16T07:28:35.606654"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 154352184,
+    "answer_tokens": 5519384,
+    "output_tokens": 8750831,
+    "reasoning_tokens": 3231447
+  },
+  "intelligence_index": 52.95,
+  "agentic_index": 67.58,
+  "price_1m_input_tokens": 5,
+  "price_1m_output_tokens": 25
+}

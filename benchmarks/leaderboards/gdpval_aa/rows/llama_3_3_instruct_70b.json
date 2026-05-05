@@ -1,0 +1,43 @@
+{
+  "slug": "llama_3_3_instruct_70b",
+  "model_id": "976cc8ad-7904-4056-83c5-960181f47d5f",
+  "model_slug": "llama-3-3-instruct-70b",
+  "name": "Llama 3.3 Instruct 70B",
+  "gdpval_name": null,
+  "short_name": "Llama 3.3 70B",
+  "creator": {
+    "name": "Meta",
+    "slug": "meta",
+    "country": null,
+    "logo": "/img/logos/meta.svg"
+  },
+  "release_date": "2024-12-06",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 406.40763997011754,
+    "lower_95ci": 376.0009199660978,
+    "upper_95ci": 437.7321471685548,
+    "n_matches": 1442,
+    "avg_turns": 50.08212560386473
+  },
+  "gdpval_breakdown": {
+    "elo": 406.40763997011754,
+    "avg_turns": 50.08212560386473,
+    "n_matches": 1442,
+    "lower_95ci": 376.0009199660978,
+    "upper_95ci": 437.7321471685548,
+    "last_updated": "2026-04-22T02:15:52.627360"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 97029692,
+    "answer_tokens": 825078,
+    "output_tokens": 825078,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 14.49,
+  "agentic_index": 9.09,
+  "price_1m_input_tokens": 0.585,
+  "price_1m_output_tokens": 0.71
+}

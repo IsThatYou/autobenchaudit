@@ -1,0 +1,26 @@
+{
+  "slug": "LLaVA-NeXT-13B",
+  "name": "LLaVA-NeXT-13B",
+  "size": "13B",
+  "date": "2024-01-30",
+  "type": "open_source",
+  "link": "https://huggingface.co/llava-hf/llava-v1.6-vicuna-13b-hf",
+  "pro_overall": 17.2,
+  "pro_vision": 14.5,
+  "pro_standard": 19.8,
+  "pro_source": null,
+  "mmmu_val_overall": 36.2,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

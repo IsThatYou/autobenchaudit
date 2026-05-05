@@ -1,0 +1,43 @@
+{
+  "slug": "llama_4_scout",
+  "model_id": "adf9a85e-abc3-4f28-937b-db6655cc5238",
+  "model_slug": "llama-4-scout",
+  "name": "Llama 4 Scout",
+  "gdpval_name": null,
+  "short_name": "Llama 4 Scout",
+  "creator": {
+    "name": "Meta",
+    "slug": "meta",
+    "country": null,
+    "logo": "/img/logos/meta.svg"
+  },
+  "release_date": "2025-04-05",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 283.7881998031969,
+    "lower_95ci": 252.00580221739264,
+    "upper_95ci": 314.6715750226352,
+    "n_matches": 1191,
+    "avg_turns": 31.114155251141554
+  },
+  "gdpval_breakdown": {
+    "elo": 283.7881998031969,
+    "avg_turns": 31.114155251141554,
+    "n_matches": 1191,
+    "lower_95ci": 252.00580221739264,
+    "upper_95ci": 314.6715750226352,
+    "last_updated": "2026-04-22T02:15:59.243397"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 77125073,
+    "answer_tokens": 1483519,
+    "output_tokens": 1483519,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 13.52,
+  "agentic_index": 5.17,
+  "price_1m_input_tokens": 0.17,
+  "price_1m_output_tokens": 0.66
+}

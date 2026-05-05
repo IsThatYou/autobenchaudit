@@ -1,0 +1,43 @@
+{
+  "slug": "hermes_4_llama_3_1_70b_reasoning",
+  "model_id": "6ba9e8eb-8124-436d-842f-dbe36df80c27",
+  "model_slug": "hermes-4-llama-3-1-70b-reasoning",
+  "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Hermes 4 70B",
+  "creator": {
+    "name": "Nous Research",
+    "slug": "nous-research",
+    "country": null,
+    "logo": "/img/logos/nous-research.png"
+  },
+  "release_date": "2025-08-27",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 543.1224310858026,
+    "lower_95ci": 518.7523411504746,
+    "upper_95ci": 566.8710610777913,
+    "n_matches": 3403,
+    "avg_turns": 46.37327188940092
+  },
+  "gdpval_breakdown": {
+    "elo": 543.1224310858026,
+    "avg_turns": 46.37327188940092,
+    "n_matches": 3403,
+    "lower_95ci": 518.7523411504746,
+    "upper_95ci": 566.8710610777913,
+    "last_updated": "2026-04-22T02:15:46.179260"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 173639663,
+    "answer_tokens": 3202051,
+    "output_tokens": 4200715,
+    "reasoning_tokens": 998664
+  },
+  "intelligence_index": 15.99,
+  "agentic_index": 11.7,
+  "price_1m_input_tokens": 0.13,
+  "price_1m_output_tokens": 0.4
+}

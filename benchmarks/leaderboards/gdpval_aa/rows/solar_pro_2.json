@@ -1,0 +1,43 @@
+{
+  "slug": "solar_pro_2",
+  "model_id": "44db6283-aa82-4799-af4a-679fe0530845",
+  "model_slug": "solar-pro-2",
+  "name": "Solar Pro 2 (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Solar Pro 2",
+  "creator": {
+    "name": "Upstage",
+    "slug": "upstage",
+    "country": null,
+    "logo": "/img/logos/upstage.png"
+  },
+  "release_date": "2025-07-09",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 450.46122834872745,
+    "lower_95ci": 419.4079215241568,
+    "upper_95ci": 480.4153250788064,
+    "n_matches": 1708,
+    "avg_turns": 13.735159817351597
+  },
+  "gdpval_breakdown": {
+    "elo": 450.46122834872745,
+    "avg_turns": 13.735159817351597,
+    "n_matches": 1708,
+    "lower_95ci": 419.4079215241568,
+    "upper_95ci": 480.4153250788064,
+    "last_updated": "2026-04-22T02:15:49.680849"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 37693875,
+    "answer_tokens": 1793547,
+    "output_tokens": 1793547,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 13.59,
+  "agentic_index": 12.71,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

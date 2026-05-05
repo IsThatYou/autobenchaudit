@@ -1,0 +1,43 @@
+{
+  "slug": "llama_nemotron_super_49b_v1_5_reasoning",
+  "model_id": "e1cfa926-9e2b-4a0d-8c31-48366a5041c5",
+  "model_slug": "llama-nemotron-super-49b-v1-5-reasoning",
+  "name": "Llama Nemotron Super 49B v1.5 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Llama Nemotron Super 49B v1.5",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2025-07-25",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 374.2811715460652,
+    "lower_95ci": 342.891432595156,
+    "upper_95ci": 404.99686261593274,
+    "n_matches": 1350,
+    "avg_turns": 87.81642512077295
+  },
+  "gdpval_breakdown": {
+    "elo": 374.2811715460652,
+    "avg_turns": 87.81642512077295,
+    "n_matches": 1350,
+    "lower_95ci": 342.891432595156,
+    "upper_95ci": 404.99686261593274,
+    "last_updated": "2026-04-22T02:15:52.487344"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 123759399,
+    "answer_tokens": 1490652,
+    "output_tokens": 7301439,
+    "reasoning_tokens": 5810787
+  },
+  "intelligence_index": 18.68,
+  "agentic_index": 9.36,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.4
+}

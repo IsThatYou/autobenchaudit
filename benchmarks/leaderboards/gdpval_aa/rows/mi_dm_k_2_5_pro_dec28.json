@@ -1,0 +1,43 @@
+{
+  "slug": "mi_dm_k_2_5_pro_dec28",
+  "model_id": "df4c5a29-4b5c-4fef-9f7f-5e24e118ab65",
+  "model_slug": "mi-dm-k-2-5-pro-dec28",
+  "name": "Mi:dm K 2.5 Pro",
+  "gdpval_name": null,
+  "short_name": "Mi:dm K 2.5 Pro",
+  "creator": {
+    "name": "Korea Telecom",
+    "slug": "korea-telecom",
+    "country": null,
+    "logo": "/img/logos/korea-telecom.svg"
+  },
+  "release_date": "2025-12-11",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 645.2038874521106,
+    "lower_95ci": 617.0488663187573,
+    "upper_95ci": 675.4012259228485,
+    "n_matches": 1894,
+    "avg_turns": 12.51336898395722
+  },
+  "gdpval_breakdown": {
+    "elo": 645.2038874521106,
+    "avg_turns": 12.51336898395722,
+    "n_matches": 1894,
+    "lower_95ci": 617.0488663187573,
+    "upper_95ci": 675.4012259228485,
+    "last_updated": "2026-04-22T02:15:42.538178"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 25779847,
+    "answer_tokens": 1518583,
+    "output_tokens": 9672499,
+    "reasoning_tokens": 8153916
+  },
+  "intelligence_index": 23.06,
+  "agentic_index": 36.76,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

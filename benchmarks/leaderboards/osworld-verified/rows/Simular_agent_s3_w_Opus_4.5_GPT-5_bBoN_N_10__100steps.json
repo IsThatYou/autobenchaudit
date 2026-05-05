@@ -1,0 +1,59 @@
+{
+  "slug": "Simular_agent_s3_w_Opus_4.5_GPT-5_bBoN_N_10__100steps",
+  "model": "agent s3 w/ Opus 4.5 + GPT-5 bBoN (N=10)",
+  "institution": "Simular",
+  "paper_link": "https://arxiv.org/abs/2510.02250",
+  "paper_authors": "Simular Research, 25",
+  "approach_type": "Agentic framework",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "Yes",
+  "date": "2025-12-11",
+  "success_rate": 72.58,
+  "success_total_raw": "262.02/361",
+  "success_count": 262.02,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 28.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 19.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 41.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 33.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 19.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 59.43,
+      "total": 93
+    },
+    "os": {
+      "success": 19.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 11.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 10.7,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

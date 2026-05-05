@@ -1,0 +1,2048 @@
+{
+  "slug": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+  "folder": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+  "name": "Claude 4.5 Sonnet",
+  "date": "2026-02-13",
+  "resolved_pct": 67.0,
+  "accuracy": 0.67,
+  "checked": true,
+  "os_model": false,
+  "os_system": true,
+  "site": "https://www.anthropic.com/news/claude-opus-4-5",
+  "logo": [
+    "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_400x400.jpg"
+  ],
+  "logs": "s3://swe-bench-submissions/multilingual/20260213_mini-v2.0.0a0_claude-4-5-sonnet/logs",
+  "trajs": "s3://swe-bench-submissions/multilingual/20260213_mini-v2.0.0a0_claude-4-5-sonnet/trajs",
+  "cost": 200.8596708,
+  "instance_cost": 0.669532236,
+  "instance_calls": 42.54333333333334,
+  "warning": null,
+  "tags": [
+    "Model: claude-sonnet-4-5-20250929",
+    "Org: Anthropic",
+    "System: Attempts - 1",
+    "Mini: 2.0.0a0"
+  ],
+  "parsed_tags": {
+    "model": [
+      "claude-sonnet-4-5-20250929"
+    ],
+    "org": [
+      "Anthropic"
+    ],
+    "system": [
+      "Attempts - 1"
+    ]
+  },
+  "results_url": "https://raw.githubusercontent.com/SWE-bench/experiments/main/evaluation/multilingual/20260213_mini-v2.0.0a0_claude-4-5-sonnet/per_instance_details.json",
+  "num_resolved": 201,
+  "resolved_instance_ids": [
+    "apache__druid-13704",
+    "apache__druid-14136",
+    "apache__druid-15402",
+    "apache__druid-16875",
+    "apache__lucene-11760",
+    "apache__lucene-12196",
+    "apache__lucene-12212",
+    "apache__lucene-12626",
+    "apache__lucene-13301",
+    "apache__lucene-13494",
+    "apache__lucene-13704",
+    "astral-sh__ruff-15330",
+    "astral-sh__ruff-15443",
+    "astral-sh__ruff-15543",
+    "astral-sh__ruff-15626",
+    "axios__axios-4731",
+    "axios__axios-4738",
+    "axios__axios-5085",
+    "axios__axios-5892",
+    "babel__babel-13928",
+    "babel__babel-14532",
+    "babel__babel-15445",
+    "briannesbitt__carbon-2665",
+    "briannesbitt__carbon-2752",
+    "briannesbitt__carbon-2762",
+    "briannesbitt__carbon-2813",
+    "briannesbitt__carbon-2981",
+    "briannesbitt__carbon-3005",
+    "briannesbitt__carbon-3073",
+    "briannesbitt__carbon-3098",
+    "briannesbitt__carbon-3103",
+    "burntsushi__ripgrep-2209",
+    "burntsushi__ripgrep-2576",
+    "caddyserver__caddy-4774",
+    "caddyserver__caddy-5626",
+    "caddyserver__caddy-5870",
+    "caddyserver__caddy-5995",
+    "caddyserver__caddy-6288",
+    "caddyserver__caddy-6345",
+    "caddyserver__caddy-6350",
+    "caddyserver__caddy-6370",
+    "facebook__docusaurus-10130",
+    "facebook__docusaurus-10309",
+    "facebook__docusaurus-9897",
+    "faker-ruby__faker-2705",
+    "faker-ruby__faker-2970",
+    "fastlane__fastlane-19304",
+    "fastlane__fastlane-19765",
+    "fastlane__fastlane-20958",
+    "fastlane__fastlane-21857",
+    "fluent__fluentd-3328",
+    "fluent__fluentd-3608",
+    "fluent__fluentd-3616",
+    "fluent__fluentd-3631",
+    "fluent__fluentd-3917",
+    "fluent__fluentd-4030",
+    "fluent__fluentd-4311",
+    "fluent__fluentd-4598",
+    "fluent__fluentd-4655",
+    "fmtlib__fmt-2317",
+    "fmtlib__fmt-2457",
+    "fmtlib__fmt-3248",
+    "fmtlib__fmt-3272",
+    "fmtlib__fmt-3729",
+    "fmtlib__fmt-3863",
+    "fmtlib__fmt-3901",
+    "gin-gonic__gin-1805",
+    "gin-gonic__gin-2121",
+    "gin-gonic__gin-4003",
+    "gohugoio__hugo-12171",
+    "gohugoio__hugo-12204",
+    "gohugoio__hugo-12562",
+    "gohugoio__hugo-12579",
+    "gohugoio__hugo-12768",
+    "google__gson-1014",
+    "google__gson-1093",
+    "google__gson-2024",
+    "google__gson-2061",
+    "google__gson-2134",
+    "google__gson-2311",
+    "hashicorp__terraform-34580",
+    "hashicorp__terraform-34814",
+    "immutable-js__immutable-js-2005",
+    "immutable-js__immutable-js-2006",
+    "javaparser__javaparser-4538",
+    "javaparser__javaparser-4561",
+    "jekyll__jekyll-8047",
+    "jekyll__jekyll-8167",
+    "jordansissel__fpm-1850",
+    "jqlang__jq-2598",
+    "jqlang__jq-2658",
+    "jqlang__jq-2681",
+    "jqlang__jq-2839",
+    "jqlang__jq-2919",
+    "laravel__framework-48573",
+    "laravel__framework-48636",
+    "laravel__framework-51195",
+    "laravel__framework-51890",
+    "laravel__framework-52451",
+    "laravel__framework-52680",
+    "laravel__framework-52684",
+    "laravel__framework-52866",
+    "laravel__framework-53206",
+    "laravel__framework-53696",
+    "laravel__framework-53914",
+    "laravel__framework-53949",
+    "micropython__micropython-10095",
+    "micropython__micropython-13039",
+    "micropython__micropython-13569",
+    "micropython__micropython-15898",
+    "mrdoob__three.js-26589",
+    "mrdoob__three.js-27395",
+    "nlohmann__json-4237",
+    "nushell__nushell-12901",
+    "nushell__nushell-12950",
+    "nushell__nushell-13246",
+    "nushell__nushell-13605",
+    "nushell__nushell-13831",
+    "php-cs-fixer__php-cs-fixer-7523",
+    "php-cs-fixer__php-cs-fixer-8064",
+    "php-cs-fixer__php-cs-fixer-8256",
+    "php-cs-fixer__php-cs-fixer-8331",
+    "php-cs-fixer__php-cs-fixer-8367",
+    "phpoffice__phpspreadsheet-3463",
+    "phpoffice__phpspreadsheet-3903",
+    "phpoffice__phpspreadsheet-3940",
+    "phpoffice__phpspreadsheet-4186",
+    "phpoffice__phpspreadsheet-4214",
+    "phpoffice__phpspreadsheet-4313",
+    "preactjs__preact-2896",
+    "preactjs__preact-2927",
+    "preactjs__preact-3010",
+    "preactjs__preact-3062",
+    "preactjs__preact-3454",
+    "preactjs__preact-3689",
+    "preactjs__preact-3763",
+    "preactjs__preact-4152",
+    "preactjs__preact-4182",
+    "preactjs__preact-4245",
+    "preactjs__preact-4316",
+    "projectlombok__lombok-3009",
+    "projectlombok__lombok-3042",
+    "projectlombok__lombok-3312",
+    "projectlombok__lombok-3326",
+    "projectlombok__lombok-3350",
+    "projectlombok__lombok-3371",
+    "projectlombok__lombok-3422",
+    "projectlombok__lombok-3479",
+    "projectlombok__lombok-3571",
+    "projectlombok__lombok-3594",
+    "projectlombok__lombok-3602",
+    "projectlombok__lombok-3697",
+    "prometheus__prometheus-10720",
+    "prometheus__prometheus-12874",
+    "prometheus__prometheus-13845",
+    "prometheus__prometheus-15142",
+    "prometheus__prometheus-9248",
+    "reactivex__rxjava-7597",
+    "redis__redis-10068",
+    "redis__redis-10095",
+    "redis__redis-10764",
+    "redis__redis-11510",
+    "redis__redis-11631",
+    "redis__redis-11734",
+    "redis__redis-12472",
+    "redis__redis-13115",
+    "redis__redis-9733",
+    "rubocop__rubocop-13362",
+    "rubocop__rubocop-13375",
+    "rubocop__rubocop-13424",
+    "rubocop__rubocop-13479",
+    "rubocop__rubocop-13503",
+    "rubocop__rubocop-13627",
+    "rubocop__rubocop-13668",
+    "rubocop__rubocop-13680",
+    "rubocop__rubocop-13705",
+    "sharkdp__bat-1892",
+    "sharkdp__bat-2201",
+    "sharkdp__bat-2260",
+    "sharkdp__bat-2393",
+    "sharkdp__bat-562",
+    "tokio-rs__axum-1119",
+    "tokio-rs__axum-1934",
+    "tokio-rs__axum-682",
+    "tokio-rs__axum-691",
+    "tokio-rs__axum-734",
+    "tokio-rs__tokio-4867",
+    "tokio-rs__tokio-4898",
+    "tokio-rs__tokio-6603",
+    "tokio-rs__tokio-6724",
+    "tokio-rs__tokio-6752",
+    "tokio-rs__tokio-6838",
+    "tokio-rs__tokio-7139",
+    "uutils__coreutils-6682",
+    "uutils__coreutils-6731",
+    "valkey-io__valkey-1499",
+    "valkey-io__valkey-1842",
+    "valkey-io__valkey-790",
+    "vuejs__core-11589",
+    "vuejs__core-11870",
+    "vuejs__core-11915"
+  ],
+  "num_tasks": 300,
+  "total_trials": 300,
+  "total_successes": 201,
+  "tasks": [
+    {
+      "task_name": "apache__druid-13704",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__druid-14092",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "apache__druid-14136",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__druid-15402",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__druid-16875",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-11760",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-12022",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "apache__lucene-12196",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-12212",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-12626",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-13170",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "apache__lucene-13301",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-13494",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "apache__lucene-13704",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15309",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15330",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15356",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15394",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15443",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15543",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astral-sh__ruff-15626",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "axios__axios-4731",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "axios__axios-4738",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "axios__axios-5085",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "axios__axios-5316",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "axios__axios-5892",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "axios__axios-6539",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "babel__babel-13928",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "babel__babel-14532",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "babel__babel-15445",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "babel__babel-15649",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "babel__babel-16130",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-2665",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-2752",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-2762",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-2813",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-2981",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-3005",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-3041",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-3073",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-3098",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "briannesbitt__carbon-3103",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "burntsushi__ripgrep-2209",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "burntsushi__ripgrep-2576",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-4774",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-4943",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "caddyserver__caddy-5404",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "caddyserver__caddy-5626",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-5761",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "caddyserver__caddy-5870",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-5995",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6051",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6115",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6288",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6345",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6350",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6370",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "caddyserver__caddy-6411",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "facebook__docusaurus-10130",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "facebook__docusaurus-10309",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "facebook__docusaurus-8927",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "facebook__docusaurus-9183",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "facebook__docusaurus-9897",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "faker-ruby__faker-2705",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "faker-ruby__faker-2970",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fastlane__fastlane-19207",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fastlane__fastlane-19304",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fastlane__fastlane-19765",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fastlane__fastlane-20642",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fastlane__fastlane-20958",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fastlane__fastlane-20975",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fastlane__fastlane-21857",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-3328",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-3466",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fluent__fluentd-3608",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-3616",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-3631",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-3640",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fluent__fluentd-3641",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fluent__fluentd-3917",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-4030",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-4311",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-4598",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fluent__fluentd-4655",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-1683",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fmtlib__fmt-2310",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fmtlib__fmt-2317",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-2457",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3158",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3248",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3272",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3729",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3750",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3863",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "fmtlib__fmt-3901",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gin-gonic__gin-1805",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gin-gonic__gin-1957",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gin-gonic__gin-2121",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gin-gonic__gin-2755",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gin-gonic__gin-3227",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gin-gonic__gin-3741",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gin-gonic__gin-3820",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gin-gonic__gin-4003",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12171",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12204",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12343",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12448",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12562",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12579",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "gohugoio__hugo-12768",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-1014",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-1093",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-1100",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "google__gson-2024",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-2061",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-2134",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-2158",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "google__gson-2311",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "google__gson-2479",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "hashicorp__terraform-34580",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "hashicorp__terraform-34814",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "hashicorp__terraform-34900",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "hashicorp__terraform-35543",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "hashicorp__terraform-35611",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "immutable-js__immutable-js-2005",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "immutable-js__immutable-js-2006",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "javaparser__javaparser-4538",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "javaparser__javaparser-4561",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jekyll__jekyll-8047",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jekyll__jekyll-8167",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jekyll__jekyll-8761",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jekyll__jekyll-8771",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jekyll__jekyll-9141",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jordansissel__fpm-1829",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jordansissel__fpm-1850",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jqlang__jq-2235",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jqlang__jq-2598",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jqlang__jq-2650",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jqlang__jq-2658",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jqlang__jq-2681",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jqlang__jq-2728",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jqlang__jq-2750",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "jqlang__jq-2839",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "jqlang__jq-2919",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-46234",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "laravel__framework-48573",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-48636",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-51195",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-51890",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-52451",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-52680",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-52684",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-52866",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-53206",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-53696",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-53914",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "laravel__framework-53949",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "micropython__micropython-10095",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "micropython__micropython-12158",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "micropython__micropython-13039",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "micropython__micropython-13569",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "micropython__micropython-15898",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "mrdoob__three.js-25687",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "mrdoob__three.js-26589",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "mrdoob__three.js-27395",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nlohmann__json-4237",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nushell__nushell-12901",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nushell__nushell-12950",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nushell__nushell-13246",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nushell__nushell-13605",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "nushell__nushell-13831",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-7523",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-7635",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-7663",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-7875",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-7998",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-8064",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-8075",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-8256",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-8331",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "php-cs-fixer__php-cs-fixer-8367",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3463",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3469",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3570",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3659",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3903",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-3940",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-4114",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-4186",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-4214",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "phpoffice__phpspreadsheet-4313",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-2757",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "preactjs__preact-2896",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-2927",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-3010",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-3062",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-3345",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "preactjs__preact-3454",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-3562",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "preactjs__preact-3567",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "preactjs__preact-3689",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-3739",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "preactjs__preact-3763",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-4152",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-4182",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-4245",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-4316",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "preactjs__preact-4436",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-2792",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3009",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3042",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3052",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3215",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3312",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3326",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3350",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3371",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3422",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3479",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3486",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3571",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3594",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3602",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3674",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "projectlombok__lombok-3697",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "prometheus__prometheus-10633",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "prometheus__prometheus-10720",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "prometheus__prometheus-11859",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "prometheus__prometheus-12874",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "prometheus__prometheus-13845",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "prometheus__prometheus-14861",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "prometheus__prometheus-15142",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "prometheus__prometheus-9248",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "reactivex__rxjava-7597",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-10068",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-10095",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-10764",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-11279",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "redis__redis-11510",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-11631",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-11734",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-12272",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "redis__redis-12472",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-13115",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "redis__redis-13338",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "redis__redis-9733",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13362",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13375",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13393",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13396",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13424",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13431",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13479",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13503",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13560",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13579",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13627",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13653",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13668",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13680",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13687",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "rubocop__rubocop-13705",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sharkdp__bat-1892",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sharkdp__bat-2201",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sharkdp__bat-2260",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sharkdp__bat-2393",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sharkdp__bat-2650",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sharkdp__bat-2835",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sharkdp__bat-3108",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sharkdp__bat-562",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__axum-1119",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__axum-1730",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "tokio-rs__axum-1934",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__axum-2096",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "tokio-rs__axum-682",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__axum-691",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__axum-734",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-4384",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-4867",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-4898",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-6551",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-6603",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-6724",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-6752",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-6838",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "tokio-rs__tokio-7139",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "uutils__coreutils-6377",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "uutils__coreutils-6575",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "uutils__coreutils-6682",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "uutils__coreutils-6690",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "uutils__coreutils-6731",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "valkey-io__valkey-1499",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "valkey-io__valkey-1842",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "valkey-io__valkey-790",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "valkey-io__valkey-928",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "vuejs__core-11589",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "vuejs__core-11739",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "vuejs__core-11870",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "vuejs__core-11899",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "vuejs__core-11915",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_5_omni_flash",
+  "model_id": "6f3534b1-1168-472e-b3e3-23ab521504f5",
+  "model_slug": "qwen3-5-omni-flash",
+  "name": "Qwen3.5 Omni Flash",
+  "gdpval_name": null,
+  "short_name": "Qwen3.5 Omni Flash",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2026-03-30",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 899.5232883460371,
+    "lower_95ci": 873.416389304934,
+    "upper_95ci": 924.8664039403768,
+    "n_matches": 2147,
+    "avg_turns": 32.940298507462686
+  },
+  "gdpval_breakdown": {
+    "elo": 899.5232883460371,
+    "avg_turns": 32.940298507462686,
+    "n_matches": 2147,
+    "lower_95ci": 873.416389304934,
+    "upper_95ci": 924.8664039403768,
+    "last_updated": "2026-04-22T02:15:32.459701"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 182527633,
+    "answer_tokens": 5314147,
+    "output_tokens": 5314147,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 25.87,
+  "agentic_index": 41.63,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.8
+}

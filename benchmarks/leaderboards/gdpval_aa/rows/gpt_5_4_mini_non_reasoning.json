@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_5_4_mini_non_reasoning",
+  "model_id": "ae447455-940d-4d30-9139-a664fa896eaf",
+  "model_slug": "gpt-5-4-mini-non-reasoning",
+  "name": "GPT-5.4 mini (Non-Reasoning)",
+  "gdpval_name": null,
+  "short_name": "GPT-5.4 mini",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2026-03-17",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1003.7801282418875,
+    "lower_95ci": 978.8576912698315,
+    "upper_95ci": 1029.028799886936,
+    "n_matches": 3019,
+    "avg_turns": 9.654028436018958
+  },
+  "gdpval_breakdown": {
+    "elo": 1003.7801282418875,
+    "avg_turns": 9.654028436018958,
+    "n_matches": 3019,
+    "lower_95ci": 978.8576912698315,
+    "upper_95ci": 1029.028799886936,
+    "last_updated": "2026-04-22T02:15:26.995064"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 16732726,
+    "answer_tokens": 1143564,
+    "output_tokens": 1143564,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 23.28,
+  "agentic_index": 25.01,
+  "price_1m_input_tokens": 0.75,
+  "price_1m_output_tokens": 4.5
+}

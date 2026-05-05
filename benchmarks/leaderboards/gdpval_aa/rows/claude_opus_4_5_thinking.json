@@ -1,0 +1,43 @@
+{
+  "slug": "claude_opus_4_5_thinking",
+  "model_id": "2660d74f-ce79-48a8-8b53-6e668e2071a2",
+  "model_slug": "claude-opus-4-5-thinking",
+  "name": "Claude Opus 4.5 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Claude Opus 4.5",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2025-11-24",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1449.1695280477024,
+    "lower_95ci": 1421.9417931448208,
+    "upper_95ci": 1476.9083389765779,
+    "n_matches": 2874,
+    "avg_turns": 24.10909090909091
+  },
+  "gdpval_breakdown": {
+    "elo": 1449.1695280477024,
+    "avg_turns": 24.10909090909091,
+    "n_matches": 2874,
+    "lower_95ci": 1421.9417931448208,
+    "upper_95ci": 1476.9083389765779,
+    "last_updated": "2026-04-22T02:15:10.865763"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 131919431,
+    "answer_tokens": 4604772,
+    "output_tokens": 5522921,
+    "reasoning_tokens": 918149
+  },
+  "intelligence_index": 49.73,
+  "agentic_index": 59.64,
+  "price_1m_input_tokens": 5,
+  "price_1m_output_tokens": 25
+}

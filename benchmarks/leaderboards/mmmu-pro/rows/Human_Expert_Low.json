@@ -1,0 +1,26 @@
+{
+  "slug": "Human_Expert_Low",
+  "name": "Human Expert (Low)",
+  "size": "-",
+  "date": "2024-01-31",
+  "type": "human_expert",
+  "link": null,
+  "pro_overall": 73.0,
+  "pro_vision": 73.0,
+  "pro_standard": 73.0,
+  "pro_source": null,
+  "mmmu_val_overall": 76.2,
+  "mmmu_val_by_domain": {
+    "art_design": 80.8,
+    "business": 78.0,
+    "science": 78.0,
+    "health_medicine": 73.3,
+    "humanities_social_sci": 74.2,
+    "tech_engineering": 74.3
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

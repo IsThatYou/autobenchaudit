@@ -1,0 +1,31 @@
+{
+  "slug": "grok_chatbot",
+  "model_id": "8dbc2e46-ca52-4b81-a6a1-a8c97f5af8cb",
+  "model_slug": "grok-chatbot",
+  "name": "SuperGrok",
+  "gdpval_name": "SuperGrok - Grok 4",
+  "short_name": "SuperGrok - Grok 4",
+  "creator": {
+    "name": "",
+    "slug": "",
+    "country": null,
+    "logo": ""
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 882.37,
+    "lower_95ci": 836.27,
+    "upper_95ci": 922.14,
+    "n_matches": 560,
+    "avg_turns": null
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

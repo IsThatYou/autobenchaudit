@@ -1,0 +1,31 @@
+{
+  "slug": "claude_pro_chatbot",
+  "model_id": "408470c3-9935-42b3-b54c-ccdc7f3790cf",
+  "model_slug": "claude-pro-chatbot",
+  "name": "Claude Pro",
+  "gdpval_name": "Claude Pro - 4.5 Opus (Extended Thinking)",
+  "short_name": "Claude Pro - 4.5 Opus (Extended Thinking)",
+  "creator": {
+    "name": "",
+    "slug": "",
+    "country": null,
+    "logo": ""
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1319.22,
+    "lower_95ci": 1278.07,
+    "upper_95ci": 1357.11,
+    "n_matches": 1768,
+    "avg_turns": null
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

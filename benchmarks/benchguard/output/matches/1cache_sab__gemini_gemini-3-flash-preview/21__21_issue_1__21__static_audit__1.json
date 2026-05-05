@@ -1,0 +1,4 @@
+{
+  "verdict": "ALIGNED",
+  "reasoning": "The gold issue describes a general update to the calculation script for accuracy, while the finding identifies the specific technical reason (incorrect CRS) why that calculation was inaccurate."
+}

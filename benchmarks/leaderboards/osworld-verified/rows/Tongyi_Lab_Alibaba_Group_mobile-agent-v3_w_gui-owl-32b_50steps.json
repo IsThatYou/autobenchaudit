@@ -1,0 +1,59 @@
+{
+  "slug": "Tongyi_Lab_Alibaba_Group_mobile-agent-v3_w_gui-owl-32b_50steps",
+  "model": "mobile-agent-v3 w/ gui-owl-32b",
+  "institution": "Tongyi Lab, Alibaba Group",
+  "paper_link": "https://arxiv.org/abs/2508.15144",
+  "paper_authors": "Ye et al., '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-09-03",
+  "success_rate": 38.91,
+  "success_total_raw": "139.70/359",
+  "success_count": 139.7,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 22.92,
+      "total": 45
+    },
+    "gimp": {
+      "success": 16.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 6.0,
+      "total": 46
+    },
+    "libreoffice_impress": {
+      "success": 13.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 12.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 19.0,
+      "total": 93
+    },
+    "os": {
+      "success": 14.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 9.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 7.83,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

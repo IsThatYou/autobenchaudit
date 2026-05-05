@@ -1,0 +1,59 @@
+{
+  "slug": "UCSC_VLAA_Lab_VLAA-GUI_w_Opus_4.5_100steps",
+  "model": "VLAA-GUI w/ Opus 4.5",
+  "institution": "UCSC VLAA Lab",
+  "paper_link": "https://ucsc-vlaa.github.io/VLAA-GUI/",
+  "paper_authors": "VLAA Lab",
+  "approach_type": "Agentic framework",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2026-04-20",
+  "success_rate": 76.26,
+  "success_total_raw": "272.24/357",
+  "success_count": 272.24,
+  "total_tasks": 357,
+  "per_category": {
+    "chrome": {
+      "success": 29.96,
+      "total": 45
+    },
+    "gimp": {
+      "success": 20.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 42.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 35.58,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 21.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 56.81,
+      "total": 93
+    },
+    "os": {
+      "success": 22.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 11.89,
+      "total": 14
+    },
+    "vs_code": {
+      "success": 21.0,
+      "total": 23
+    }
+  }
+}

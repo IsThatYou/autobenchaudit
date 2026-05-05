@@ -1,0 +1,26 @@
+{
+  "slug": "Random_Choice",
+  "name": "Random Choice",
+  "size": "-",
+  "date": "2023-11-27",
+  "type": "random_frequent",
+  "link": null,
+  "pro_overall": 12.6,
+  "pro_vision": 12.4,
+  "pro_standard": 12.8,
+  "pro_source": null,
+  "mmmu_val_overall": 22.1,
+  "mmmu_val_by_domain": {
+    "art_design": 29.2,
+    "business": 24.7,
+    "science": 18.0,
+    "health_medicine": 20.7,
+    "humanities_social_sci": 20.0,
+    "tech_engineering": 21.4
+  },
+  "mmmu_test_overall": 25.8,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

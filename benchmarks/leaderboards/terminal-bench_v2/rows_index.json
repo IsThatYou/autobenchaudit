@@ -1,0 +1,1750 @@
+{
+  "num_rows": 124,
+  "rows": [
+    {
+      "slug": "codex__gpt-5.5",
+      "key": "codex__gpt-5.5",
+      "agent": "Codex",
+      "model": [
+        "GPT-5.5"
+      ],
+      "date": "2026-04-23",
+      "accuracy": 0.8202247191011236,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.8224719101123595
+    },
+    {
+      "slug": "forgecode__gpt-5.4",
+      "key": "forgecode__gpt-5.4",
+      "agent": "ForgeCode",
+      "model": [
+        "GPT-5.4"
+      ],
+      "date": "2026-03-12",
+      "accuracy": 0.8179775280898877,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.8179775280898877
+    },
+    {
+      "slug": "tongagents__gemini_3.1_pro",
+      "key": "tongagents__gemini 3.1 pro",
+      "agent": "TongAgents",
+      "model": [
+        "Gemini 3.1 Pro"
+      ],
+      "date": "2026-03-13",
+      "accuracy": 0.802247191011236,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.802247191011236
+    },
+    {
+      "slug": "forgecode__claude_opus_4.6",
+      "key": "forgecode__claude opus 4.6",
+      "agent": "ForgeCode",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-03-12",
+      "accuracy": 0.797752808988764,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.8179775280898877
+    },
+    {
+      "slug": "forgecode__gemini_3.1_pro",
+      "key": "forgecode__gemini 3.1 pro",
+      "agent": "ForgeCode",
+      "model": [
+        "Gemini 3.1 Pro"
+      ],
+      "date": "2026-03-02",
+      "accuracy": 0.7842696629213484,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7842696629213484
+    },
+    {
+      "slug": "sageagent__gpt-5.3-codex",
+      "key": "sageagent__gpt-5.3-codex",
+      "agent": "SageAgent",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-03-13",
+      "accuracy": 0.7842696629213484,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7842696629213484
+    },
+    {
+      "slug": "droid__gpt-5.3-codex",
+      "key": "droid__gpt-5.3-codex",
+      "agent": "Droid",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-02-24",
+      "accuracy": 0.7730337078651686,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7730337078651686
+    },
+    {
+      "slug": "capy__claude_opus_4.6",
+      "key": "capy__claude opus 4.6",
+      "agent": "Capy",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-03-12",
+      "accuracy": 0.7528089887640449,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7528089887640449
+    },
+    {
+      "slug": "simple_codex__gpt-5.3-codex",
+      "key": "simple codex__gpt-5.3-codex",
+      "agent": "Simple Codex",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-02-06",
+      "accuracy": 0.750561797752809,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 443,
+      "recomputed_pass_rate": 0.7494356659142212
+    },
+    {
+      "slug": "terminus-kira__gemini_3.1_pro",
+      "key": "terminus-kira__gemini 3.1 pro",
+      "agent": "Terminus-KIRA",
+      "model": [
+        "Gemini 3.1 Pro"
+      ],
+      "date": "2026-02-23",
+      "accuracy": 0.748314606741573,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.748314606741573
+    },
+    {
+      "slug": "terminus-kira__claude_opus_4.6",
+      "key": "terminus-kira__claude opus 4.6",
+      "agent": "Terminus-KIRA",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-22",
+      "accuracy": 0.7471910112359551,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.748868778280543
+    },
+    {
+      "slug": "mux__gpt-5.3-codex",
+      "key": "mux__gpt-5.3-codex",
+      "agent": "Mux",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-03-06",
+      "accuracy": 0.7460674157303371,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7460674157303371
+    },
+    {
+      "slug": "maya-v2__claude_4.6_opus",
+      "key": "maya-v2__claude 4.6 opus",
+      "agent": "MAYA-V2",
+      "model": [
+        "Claude 4.6 Opus"
+      ],
+      "date": "2026-03-12",
+      "accuracy": 0.7207865168539326,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 436,
+      "recomputed_pass_rate": 0.7339449541284404
+    },
+    {
+      "slug": "tongagents__claude_opus_4.6",
+      "key": "tongagents__claude opus 4.6",
+      "agent": "TongAgents",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-22",
+      "accuracy": 0.7191011235955056,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7191011235955056
+    },
+    {
+      "slug": "junie_cli__claude_opus_4.6_gemini_3_flash_gemini_3.1_pro_gpt-5.3-codex",
+      "key": "junie cli__claude opus 4.6,gemini 3 flash,gemini 3.1 pro,gpt-5.3-codex",
+      "agent": "Junie CLI",
+      "model": [
+        "Claude Opus 4.6",
+        "Gemini 3 Flash",
+        "Gemini 3.1 Pro",
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-03-07",
+      "accuracy": 0.7101123595505618,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7101123595505618
+    },
+    {
+      "slug": "codebrain-1__gpt-5.3-codex",
+      "key": "codebrain-1__gpt-5.3-codex",
+      "agent": "CodeBrain-1",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-02-10",
+      "accuracy": 0.7033707865168539,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.7033707865168539
+    },
+    {
+      "slug": "droid__claude_opus_4.6",
+      "key": "droid__claude opus 4.6",
+      "agent": "Droid",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-05",
+      "accuracy": 0.698876404494382,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.698876404494382
+    },
+    {
+      "slug": "ante__gemini_3_pro",
+      "key": "ante__gemini 3 pro",
+      "agent": "Ante",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2026-01-06",
+      "accuracy": 0.6942571785268414,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 887,
+      "recomputed_pass_rate": 0.6944757609921083
+    },
+    {
+      "slug": "indusagi_coding_agent__gpt-5.3-codex",
+      "key": "indusagi coding agent__gpt-5.3-codex",
+      "agent": "IndusAGI Coding Agent",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-03-18",
+      "accuracy": 0.6913857677902622,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 381,
+      "recomputed_pass_rate": 0.6850393700787402
+    },
+    {
+      "slug": "crux__claude_opus_4.6",
+      "key": "crux__claude opus 4.6",
+      "agent": "Crux",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-23",
+      "accuracy": 0.6687265917602996,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 398,
+      "recomputed_pass_rate": 0.6608040201005025
+    },
+    {
+      "slug": "deep_agents__gpt-5.2-codex",
+      "key": "deep agents__gpt-5.2-codex",
+      "agent": "Deep Agents",
+      "model": [
+        "GPT-5.2-Codex"
+      ],
+      "date": "2026-02-12",
+      "accuracy": 0.6651685393258427,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 433,
+      "recomputed_pass_rate": 0.6766743648960739
+    },
+    {
+      "slug": "mux__claude_opus_4.6",
+      "key": "mux__claude opus 4.6",
+      "agent": "Mux",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-13",
+      "accuracy": 0.6651685393258427,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6651685393258427
+    },
+    {
+      "slug": "sageagent__gemini_3_pro",
+      "key": "sageagent__gemini 3 pro",
+      "agent": "SageAgent",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2026-02-23",
+      "accuracy": 0.651685393258427,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.651685393258427
+    },
+    {
+      "slug": "droid__gpt-5.2",
+      "key": "droid__gpt-5.2",
+      "agent": "Droid",
+      "model": [
+        "GPT-5.2"
+      ],
+      "date": "2025-12-24",
+      "accuracy": 0.6494382022471911,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.6509009009009009
+    },
+    {
+      "slug": "terminus_2__gpt-5.3-codex",
+      "key": "terminus 2__gpt-5.3-codex",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5.3-Codex"
+      ],
+      "date": "2026-02-05",
+      "accuracy": 0.647191011235955,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.647191011235955
+    },
+    {
+      "slug": "junie_cli__gemini_3_flash",
+      "key": "junie cli__gemini 3 flash",
+      "agent": "Junie CLI",
+      "model": [
+        "Gemini 3 Flash"
+      ],
+      "date": "2025-12-23",
+      "accuracy": 0.6426966292134831,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6426966292134831
+    },
+    {
+      "slug": "droid__claude_opus_4.5",
+      "key": "droid__claude opus 4.5",
+      "agent": "Droid",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2025-12-11",
+      "accuracy": 0.6314606741573033,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6314606741573033
+    },
+    {
+      "slug": "terminus_2__claude_opus_4.6",
+      "key": "terminus 2__claude opus 4.6",
+      "agent": "Terminus 2",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-06",
+      "accuracy": 0.6292134831460674,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6292134831460674
+    },
+    {
+      "slug": "codex_cli__gpt-5.2",
+      "key": "codex cli__gpt-5.2",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5.2"
+      ],
+      "date": "2025-12-18",
+      "accuracy": 0.6292134831460674,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6292134831460674
+    },
+    {
+      "slug": "codebrain-1__gemini_3_pro",
+      "key": "codebrain-1__gemini 3 pro",
+      "agent": "CodeBrain-1",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2026-02-05",
+      "accuracy": 0.6224719101123596,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6224719101123596
+    },
+    {
+      "slug": "ii-agent__gemini_3_pro",
+      "key": "ii-agent__gemini 3 pro",
+      "agent": "II-Agent",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2025-12-23",
+      "accuracy": 0.6179775280898876,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6179775280898876
+    },
+    {
+      "slug": "warp__claude_haiku_4.5_gpt-5.2",
+      "key": "warp__claude haiku 4.5,gpt-5.2",
+      "agent": "Warp",
+      "model": [
+        "Claude Haiku 4.5",
+        "GPT-5.2"
+      ],
+      "date": "2025-12-12",
+      "accuracy": 0.6123595505617978,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.6126126126126126
+    },
+    {
+      "slug": "droid__gemini_3_pro",
+      "key": "droid__gemini 3 pro",
+      "agent": "Droid",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2025-12-24",
+      "accuracy": 0.6112359550561798,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.6112359550561798
+    },
+    {
+      "slug": "mux__gpt-5.2",
+      "key": "mux__gpt-5.2",
+      "agent": "Mux",
+      "model": [
+        "GPT-5.2"
+      ],
+      "date": "2026-01-17",
+      "accuracy": 0.6067415730337079,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 89,
+      "recomputed_pass_rate": 0.6067415730337079
+    },
+    {
+      "slug": "codex_cli__gpt-5.1-codex-max",
+      "key": "codex cli__gpt-5.1-codex-max",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5.1-Codex-Max"
+      ],
+      "date": "2025-11-24",
+      "accuracy": 0.604494382022472,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.604494382022472
+    },
+    {
+      "slug": "letta_code__claude_opus_4.5",
+      "key": "letta code__claude opus 4.5",
+      "agent": "Letta Code",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2025-12-17",
+      "accuracy": 0.5910112359550562,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5910112359550562
+    },
+    {
+      "slug": "warp__claude_haiku_4.5_gemini_3_pro_gpt-5-nano",
+      "key": "warp__claude haiku 4.5,gemini 3 pro,gpt-5-nano",
+      "agent": "Warp",
+      "model": [
+        "Claude Haiku 4.5",
+        "Gemini 3 Pro",
+        "GPT-5-Nano"
+      ],
+      "date": "2025-11-20",
+      "accuracy": 0.5910112359550562,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5910112359550562
+    },
+    {
+      "slug": "abacus_ai_desktop__claude_haiku_4.5_gemini_3_pro",
+      "key": "abacus ai desktop__claude haiku 4.5,gemini 3 pro",
+      "agent": "Abacus AI Desktop",
+      "model": [
+        "Claude Haiku 4.5",
+        "Gemini 3 Pro"
+      ],
+      "date": "2025-12-11",
+      "accuracy": 0.5842696629213483,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5842696629213483
+    },
+    {
+      "slug": "mux__claude_opus_4.5",
+      "key": "mux__claude opus 4.5",
+      "agent": "Mux",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2026-01-17",
+      "accuracy": 0.5842696629213483,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 89,
+      "recomputed_pass_rate": 0.5842696629213483
+    },
+    {
+      "slug": "claude_code__claude_opus_4.6",
+      "key": "claude code__claude opus 4.6",
+      "agent": "Claude Code",
+      "model": [
+        "Claude Opus 4.6"
+      ],
+      "date": "2026-02-07",
+      "accuracy": 0.5797752808988764,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5797752808988764
+    },
+    {
+      "slug": "terminus_2__claude_opus_4.5",
+      "key": "terminus 2__claude opus 4.5",
+      "agent": "Terminus 2",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2025-11-22",
+      "accuracy": 0.5775280898876405,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5775280898876405
+    },
+    {
+      "slug": "crux__gpt-5.1-codex",
+      "key": "crux__gpt-5.1-codex",
+      "agent": "Crux",
+      "model": [
+        "GPT-5.1-Codex"
+      ],
+      "date": "2025-11-16",
+      "accuracy": 0.5775280898876405,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5775280898876405
+    },
+    {
+      "slug": "grok-cli__grok_4.20_reasoning",
+      "key": "grok-cli__grok 4.20 reasoning",
+      "agent": "grok-cli",
+      "model": [
+        "Grok 4.20 Reasoning"
+      ],
+      "date": "2026-04-02",
+      "accuracy": 0.5730337078651685,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 333,
+      "recomputed_pass_rate": 0.6276276276276276
+    },
+    {
+      "slug": "terminus_2__gemini_3_pro",
+      "key": "terminus 2__gemini 3 pro",
+      "agent": "Terminus 2",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2025-11-21",
+      "accuracy": 0.5685393258426966,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5685393258426966
+    },
+    {
+      "slug": "letta_code__gemini_3_pro",
+      "key": "letta code__gemini 3 pro",
+      "agent": "Letta Code",
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "date": "2025-12-17",
+      "accuracy": 0.5595505617977528,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5595505617977528
+    },
+    {
+      "slug": "goose__claude_opus_4.5",
+      "key": "goose__claude opus 4.5",
+      "agent": "Goose",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2025-12-11",
+      "accuracy": 0.5432584269662921,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.5407239819004525
+    },
+    {
+      "slug": "terminus_2__gpt-5.2",
+      "key": "terminus 2__gpt-5.2",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5.2"
+      ],
+      "date": "2025-12-12",
+      "accuracy": 0.5404494382022472,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.5405405405405406
+    },
+    {
+      "slug": "letta_code__gpt-5.1-codex",
+      "key": "letta code__gpt-5.1-codex",
+      "agent": "Letta Code",
+      "model": [
+        "GPT-5.1-Codex"
+      ],
+      "date": "2025-12-17",
+      "accuracy": 0.5348314606741573,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5348314606741573
+    },
+    {
+      "slug": "terminus_2__glm_5",
+      "key": "terminus 2__glm 5",
+      "agent": "Terminus 2",
+      "model": [
+        "GLM 5"
+      ],
+      "date": "2026-02-23",
+      "accuracy": 0.5241573033707865,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.5226244343891403
+    },
+    {
+      "slug": "claude_code__claude_opus_4.5",
+      "key": "claude code__claude opus 4.5",
+      "agent": "Claude Code",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2025-12-18",
+      "accuracy": 0.5213483146067416,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5213483146067416
+    },
+    {
+      "slug": "openhands__claude_opus_4.5",
+      "key": "openhands__claude opus 4.5",
+      "agent": "OpenHands",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2026-01-04",
+      "accuracy": 0.5191011235955056,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5191011235955056
+    },
+    {
+      "slug": "opencode__claude_opus_4.5",
+      "key": "opencode__claude opus 4.5",
+      "agent": "OpenCode",
+      "model": [
+        "Claude Opus 4.5"
+      ],
+      "date": "2026-01-12",
+      "accuracy": 0.5168539325842697,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 89,
+      "recomputed_pass_rate": 0.5168539325842697
+    },
+    {
+      "slug": "terminus_2__gemini_3_flash",
+      "key": "terminus 2__gemini 3 flash",
+      "agent": "Terminus 2",
+      "model": [
+        "Gemini 3 Flash"
+      ],
+      "date": "2026-01-07",
+      "accuracy": 0.5168539325842697,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.5168539325842697
+    },
+    {
+      "slug": "warp__claude_haiku_4.5_claude_sonnet_4.5_gpt-5-nano",
+      "key": "warp__claude haiku 4.5,claude sonnet 4.5,gpt-5-nano",
+      "agent": "Warp",
+      "model": [
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "GPT-5-Nano"
+      ],
+      "date": "2025-11-11",
+      "accuracy": 0.501123595505618,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.501123595505618
+    },
+    {
+      "slug": "codex_cli__gpt-5",
+      "key": "codex cli__gpt-5",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.4960674157303371,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 439,
+      "recomputed_pass_rate": 0.49430523917995445
+    },
+    {
+      "slug": "terminus_2__gpt-5.1",
+      "key": "terminus 2__gpt-5.1",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5.1"
+      ],
+      "date": "2025-11-16",
+      "accuracy": 0.47584269662921347,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.4764044943820225
+    },
+    {
+      "slug": "gemini_cli__gemini_3_flash",
+      "key": "gemini cli__gemini 3 flash",
+      "agent": "Gemini CLI",
+      "model": [
+        "Gemini 3 Flash"
+      ],
+      "date": "2026-03-06",
+      "accuracy": 0.47415730337078654,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.47415730337078654
+    },
+    {
+      "slug": "camel-ai__claude_sonnet_4.5",
+      "key": "camel-ai__claude sonnet 4.5",
+      "agent": "CAMEL-AI",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-12-24",
+      "accuracy": 0.4651685393258427,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.4651685393258427
+    },
+    {
+      "slug": "codex_cli__gpt-5-codex",
+      "key": "codex cli__gpt-5-codex",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5-Codex"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.44325842696629214,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 436,
+      "recomputed_pass_rate": 0.4426605504587156
+    },
+    {
+      "slug": "openhands__gpt-5",
+      "key": "openhands__gpt-5",
+      "agent": "OpenHands",
+      "model": [
+        "GPT-5"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.43820224719101125,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.43820224719101125
+    },
+    {
+      "slug": "terminus_2__gpt-5-codex",
+      "key": "terminus 2__gpt-5-codex",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5-Codex"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.43426966292134833,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.4416475972540046
+    },
+    {
+      "slug": "terminus_2__kimi_k2.5",
+      "key": "terminus 2__kimi k2.5",
+      "agent": "Terminus 2",
+      "model": [
+        "Kimi K2.5"
+      ],
+      "date": "2026-02-04",
+      "accuracy": 0.43202247191011234,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 435,
+      "recomputed_pass_rate": 0.43448275862068964
+    },
+    {
+      "slug": "crux__gpt-5.1-codex-mini",
+      "key": "crux__gpt-5.1-codex-mini",
+      "agent": "Crux",
+      "model": [
+        "GPT-5.1-Codex-Mini"
+      ],
+      "date": "2025-11-17",
+      "accuracy": 0.4314606741573034,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.4314606741573034
+    },
+    {
+      "slug": "goose__claude_sonnet_4.5",
+      "key": "goose__claude sonnet 4.5",
+      "agent": "Goose",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-12-11",
+      "accuracy": 0.4314606741573034,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.4314606741573034
+    },
+    {
+      "slug": "terminus_2__claude_sonnet_4.5",
+      "key": "terminus 2__claude sonnet 4.5",
+      "agent": "Terminus 2",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.4280898876404494,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 440,
+      "recomputed_pass_rate": 0.4318181818181818
+    },
+    {
+      "slug": "maya-v2__claude_4.5_sonnet",
+      "key": "maya-v2__claude 4.5 sonnet",
+      "agent": "MAYA-V2",
+      "model": [
+        "Claude 4.5 Sonnet"
+      ],
+      "date": "2026-01-04",
+      "accuracy": 0.42696629213483145,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.43478260869565216
+    },
+    {
+      "slug": "cchuter__minimax-m2.5",
+      "key": "cchuter__minimax-m2.5",
+      "agent": "cchuter",
+      "model": [
+        "minimax-m2.5"
+      ],
+      "date": "2026-03-30",
+      "accuracy": 0.42696629213483145,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.4253393665158371
+    },
+    {
+      "slug": "openhands__claude_sonnet_4.5",
+      "key": "openhands__claude sonnet 4.5",
+      "agent": "OpenHands",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.4258426966292135,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 443,
+      "recomputed_pass_rate": 0.42437923250564336
+    },
+    {
+      "slug": "mini-swe-agent__claude_sonnet_4.5",
+      "key": "mini-swe-agent__claude sonnet 4.5",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.42528089887640447,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.4253393665158371
+    },
+    {
+      "slug": "terminus_2__minimax_m2.5",
+      "key": "terminus 2__minimax m2.5",
+      "agent": "Terminus 2",
+      "model": [
+        "Minimax m2.5"
+      ],
+      "date": "2026-02-23",
+      "accuracy": 0.42247191011235957,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.42247191011235957
+    },
+    {
+      "slug": "mini-swe-agent__gpt-5-codex",
+      "key": "mini-swe-agent__gpt-5-codex",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-5-Codex"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.4134831460674157,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.4144144144144144
+    },
+    {
+      "slug": "claude_code__claude_sonnet_4.5",
+      "key": "claude code__claude sonnet 4.5",
+      "agent": "Claude Code",
+      "model": [
+        "Claude Sonnet 4.5"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.400561797752809,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.39588100686498856
+    },
+    {
+      "slug": "terminus_2__deepseek-v3.2",
+      "key": "terminus 2__deepseek-v3.2",
+      "agent": "Terminus 2",
+      "model": [
+        "DeepSeek-V3.2"
+      ],
+      "date": "2026-02-10",
+      "accuracy": 0.3955056179775281,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3955056179775281
+    },
+    {
+      "slug": "terminus_2__claude_opus_4.1",
+      "key": "terminus 2__claude opus 4.1",
+      "agent": "Terminus 2",
+      "model": [
+        "Claude Opus 4.1"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.3797752808988764,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 443,
+      "recomputed_pass_rate": 0.38148984198645597
+    },
+    {
+      "slug": "terminus_2__gpt-5.1-codex",
+      "key": "terminus 2__gpt-5.1-codex",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5.1-Codex"
+      ],
+      "date": "2025-11-17",
+      "accuracy": 0.3685393258426966,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3685393258426966
+    },
+    {
+      "slug": "openhands__claude_opus_4.1",
+      "key": "openhands__claude opus 4.1",
+      "agent": "OpenHands",
+      "model": [
+        "Claude Opus 4.1"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.3685393258426966,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3685393258426966
+    },
+    {
+      "slug": "crux__minimax_m2.1",
+      "key": "crux__minimax m2.1",
+      "agent": "Crux",
+      "model": [
+        "MiniMax M2.1"
+      ],
+      "date": "2025-12-22",
+      "accuracy": 0.36629213483146067,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.36629213483146067
+    },
+    {
+      "slug": "terminus_2__kimi_k2_thinking",
+      "key": "terminus 2__kimi k2 thinking",
+      "agent": "Terminus 2",
+      "model": [
+        "Kimi K2 Thinking"
+      ],
+      "date": "2025-11-11",
+      "accuracy": 0.35730337078651686,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 446,
+      "recomputed_pass_rate": 0.35874439461883406
+    },
+    {
+      "slug": "goose__claude_haiku_4.5",
+      "key": "goose__claude haiku 4.5",
+      "agent": "Goose",
+      "model": [
+        "Claude Haiku 4.5"
+      ],
+      "date": "2025-12-11",
+      "accuracy": 0.3550561797752809,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3550561797752809
+    },
+    {
+      "slug": "terminus_2__gpt-5",
+      "key": "terminus 2__gpt-5",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.35168539325842696,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 438,
+      "recomputed_pass_rate": 0.3561643835616438
+    },
+    {
+      "slug": "mini-swe-agent__claude_opus_4.1",
+      "key": "mini-swe-agent__claude opus 4.1",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Claude Opus 4.1"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.350561797752809,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.35135135135135137
+    },
+    {
+      "slug": "claude_code__claude_opus_4.1",
+      "key": "claude code__claude opus 4.1",
+      "agent": "Claude Code",
+      "model": [
+        "Claude Opus 4.1"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.34831460674157305,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.34782608695652173
+    },
+    {
+      "slug": "spoox-m__gpt-5-mini",
+      "key": "spoox-m__gpt-5-mini",
+      "agent": "spoox-m",
+      "model": [
+        "GPT-5-Mini"
+      ],
+      "date": "2025-12-24",
+      "accuracy": 0.34831460674157305,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.34831460674157305
+    },
+    {
+      "slug": "mini-swe-agent__gpt-5",
+      "key": "mini-swe-agent__gpt-5",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-5"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.3393258426966292,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3393258426966292
+    },
+    {
+      "slug": "terminus_2__glm_4.7",
+      "key": "terminus 2__glm 4.7",
+      "agent": "Terminus 2",
+      "model": [
+        "GLM 4.7"
+      ],
+      "date": "2026-01-28",
+      "accuracy": 0.3338951310861423,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 427,
+      "recomputed_pass_rate": 0.3442622950819672
+    },
+    {
+      "slug": "crux__glm_4.7",
+      "key": "crux__glm 4.7",
+      "agent": "Crux",
+      "model": [
+        "GLM 4.7"
+      ],
+      "date": "2026-02-08",
+      "accuracy": 0.3325842696629214,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.3325842696629214
+    },
+    {
+      "slug": "terminus_2__gemini_2.5_pro",
+      "key": "terminus 2__gemini 2.5 pro",
+      "agent": "Terminus 2",
+      "model": [
+        "Gemini 2.5 Pro"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.32640449438202246,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.32805429864253394
+    },
+    {
+      "slug": "codex_cli__gpt-5-mini",
+      "key": "codex cli__gpt-5-mini",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5-Mini"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.3185393258426966,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.3157894736842105
+    },
+    {
+      "slug": "terminus_2__minimax_m2",
+      "key": "terminus 2__minimax m2",
+      "agent": "Terminus 2",
+      "model": [
+        "MiniMax M2"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.300374531835206,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 451,
+      "recomputed_pass_rate": 0.30598669623059865
+    },
+    {
+      "slug": "mini-swe-agent__claude_haiku_4.5",
+      "key": "mini-swe-agent__claude haiku 4.5",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Claude Haiku 4.5"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.298314606741573,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.2972972972972973
+    },
+    {
+      "slug": "terminus_2__minimax_m2.1",
+      "key": "terminus 2__minimax m2.1",
+      "agent": "Terminus 2",
+      "model": [
+        "MiniMax M2.1"
+      ],
+      "date": "2025-12-23",
+      "accuracy": 0.29213483146067415,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 438,
+      "recomputed_pass_rate": 0.2968036529680365
+    },
+    {
+      "slug": "openhands__gpt-5-mini",
+      "key": "openhands__gpt-5-mini",
+      "agent": "OpenHands",
+      "model": [
+        "GPT-5-Mini"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.29213483146067415,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.29213483146067415
+    },
+    {
+      "slug": "terminus_2__claude_haiku_4.5",
+      "key": "terminus 2__claude haiku 4.5",
+      "agent": "Terminus 2",
+      "model": [
+        "Claude Haiku 4.5"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.28314606741573034,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 439,
+      "recomputed_pass_rate": 0.2847380410022779
+    },
+    {
+      "slug": "terminus_2__kimi_k2_instruct",
+      "key": "terminus 2__kimi k2 instruct",
+      "agent": "Terminus 2",
+      "model": [
+        "Kimi K2 Instruct"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.27790262172284647,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 462,
+      "recomputed_pass_rate": 0.2792207792207792
+    },
+    {
+      "slug": "claude_code__claude_haiku_4.5",
+      "key": "claude code__claude haiku 4.5",
+      "agent": "Claude Code",
+      "model": [
+        "Claude Haiku 4.5"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.2752808988764045,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 438,
+      "recomputed_pass_rate": 0.2762557077625571
+    },
+    {
+      "slug": "dakou_agent__qwen_3_coder_480b",
+      "key": "dakou agent__qwen 3 coder 480b",
+      "agent": "Dakou Agent",
+      "model": [
+        "Qwen 3 Coder 480B"
+      ],
+      "date": "2025-12-28",
+      "accuracy": 0.27191011235955054,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 442,
+      "recomputed_pass_rate": 0.2737556561085973
+    },
+    {
+      "slug": "openhands__grok_4",
+      "key": "openhands__grok 4",
+      "agent": "OpenHands",
+      "model": [
+        "Grok 4"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.27191011235955054,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.2725225225225225
+    },
+    {
+      "slug": "openhands__kimi_k2_instruct",
+      "key": "openhands__kimi k2 instruct",
+      "agent": "OpenHands",
+      "model": [
+        "Kimi K2 Instruct"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.26741573033707866,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.26741573033707866
+    },
+    {
+      "slug": "mini-swe-agent__gemini_2.5_pro",
+      "key": "mini-swe-agent__gemini 2.5 pro",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Gemini 2.5 Pro"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.2606741573033708,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.26126126126126126
+    },
+    {
+      "slug": "mini-swe-agent__grok_code_fast_1",
+      "key": "mini-swe-agent__grok code fast 1",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Grok Code Fast 1"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.25842696629213485,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.25842696629213485
+    },
+    {
+      "slug": "mini-swe-agent__grok_4",
+      "key": "mini-swe-agent__grok 4",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Grok 4"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.2539325842696629,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.2539325842696629
+    },
+    {
+      "slug": "openhands__qwen_3_coder_480b",
+      "key": "openhands__qwen 3 coder 480b",
+      "agent": "OpenHands",
+      "model": [
+        "Qwen 3 Coder 480B"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.2539325842696629,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 443,
+      "recomputed_pass_rate": 0.255079006772009
+    },
+    {
+      "slug": "terminus_2__glm_4.6",
+      "key": "terminus 2__glm 4.6",
+      "agent": "Terminus 2",
+      "model": [
+        "GLM 4.6"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.24531835205992508,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 452,
+      "recomputed_pass_rate": 0.24778761061946902
+    },
+    {
+      "slug": "terminus_2__gpt-5-mini",
+      "key": "terminus 2__gpt-5-mini",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5-Mini"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.24044943820224718,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 438,
+      "recomputed_pass_rate": 0.24429223744292236
+    },
+    {
+      "slug": "terminus_2__qwen_3_coder_480b",
+      "key": "terminus 2__qwen 3 coder 480b",
+      "agent": "Terminus 2",
+      "model": [
+        "Qwen 3 Coder 480B"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.2389513108614232,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 465,
+      "recomputed_pass_rate": 0.24086021505376345
+    },
+    {
+      "slug": "terminus_2__grok_4",
+      "key": "terminus 2__grok 4",
+      "agent": "Terminus 2",
+      "model": [
+        "Grok 4"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.23146067415730337,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 436,
+      "recomputed_pass_rate": 0.23623853211009174
+    },
+    {
+      "slug": "mini-swe-agent__gpt-5-mini",
+      "key": "mini-swe-agent__gpt-5-mini",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-5-Mini"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.22247191011235956,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.22247191011235956
+    },
+    {
+      "slug": "gemini_cli__gemini_2.5_pro",
+      "key": "gemini cli__gemini 2.5 pro",
+      "agent": "Gemini CLI",
+      "model": [
+        "Gemini 2.5 Pro"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.19550561797752808,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 437,
+      "recomputed_pass_rate": 0.19679633867276888
+    },
+    {
+      "slug": "terminus_2__gpt-oss-120b",
+      "key": "terminus 2__gpt-oss-120b",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-OSS-120B"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.18689138576779027,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 463,
+      "recomputed_pass_rate": 0.19222462203023757
+    },
+    {
+      "slug": "mini-swe-agent__gemini_2.5_flash",
+      "key": "mini-swe-agent__gemini 2.5 flash",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "Gemini 2.5 Flash"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.1707865168539326,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.1707865168539326
+    },
+    {
+      "slug": "terminus_2__afterquery-gpt-oss-20b",
+      "key": "terminus 2__afterquery-gpt-oss-20b",
+      "agent": "Terminus 2",
+      "model": [
+        "AfterQuery-GPT-OSS-20B"
+      ],
+      "date": "2026-03-31",
+      "accuracy": 0.1702247191011236,
+      "verified": false,
+      "num_tasks": 89,
+      "total_trials": 435,
+      "recomputed_pass_rate": 0.1724137931034483
+    },
+    {
+      "slug": "terminus_2__gemini_2.5_flash",
+      "key": "terminus 2__gemini 2.5 flash",
+      "agent": "Terminus 2",
+      "model": [
+        "Gemini 2.5 Flash"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.16853932584269662,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 439,
+      "recomputed_pass_rate": 0.17084282460136674
+    },
+    {
+      "slug": "openhands__gemini_2.5_flash",
+      "key": "openhands__gemini 2.5 flash",
+      "agent": "OpenHands",
+      "model": [
+        "Gemini 2.5 Flash"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.16404494382022472,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.16404494382022472
+    },
+    {
+      "slug": "openhands__gemini_2.5_pro",
+      "key": "openhands__gemini 2.5 pro",
+      "agent": "OpenHands",
+      "model": [
+        "Gemini 2.5 Pro"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.16404494382022472,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.16404494382022472
+    },
+    {
+      "slug": "gemini_cli__gemini_2.5_flash",
+      "key": "gemini cli__gemini 2.5 flash",
+      "agent": "Gemini CLI",
+      "model": [
+        "Gemini 2.5 Flash"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.1544943820224719,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 439,
+      "recomputed_pass_rate": 0.1548974943052392
+    },
+    {
+      "slug": "mini-swe-agent__gpt-oss-120b",
+      "key": "mini-swe-agent__gpt-oss-120b",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-OSS-120B"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.14157303370786517,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.14157303370786517
+    },
+    {
+      "slug": "terminus_2__grok_code_fast_1",
+      "key": "terminus 2__grok code fast 1",
+      "agent": "Terminus 2",
+      "model": [
+        "Grok Code Fast 1"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.14157303370786517,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.14157303370786517
+    },
+    {
+      "slug": "openhands__claude_haiku_4.5",
+      "key": "openhands__claude haiku 4.5",
+      "agent": "OpenHands",
+      "model": [
+        "Claude Haiku 4.5"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.1393258426966292,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.13963963963963963
+    },
+    {
+      "slug": "codex_cli__gpt-5-nano",
+      "key": "codex cli__gpt-5-nano",
+      "agent": "Codex CLI",
+      "model": [
+        "GPT-5-Nano"
+      ],
+      "date": "2025-11-04",
+      "accuracy": 0.1146067415730337,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 440,
+      "recomputed_pass_rate": 0.1159090909090909
+    },
+    {
+      "slug": "openhands__gpt-5-nano",
+      "key": "openhands__gpt-5-nano",
+      "agent": "OpenHands",
+      "model": [
+        "GPT-5-Nano"
+      ],
+      "date": "2025-11-02",
+      "accuracy": 0.09887640449438202,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 444,
+      "recomputed_pass_rate": 0.0990990990990991
+    },
+    {
+      "slug": "terminus_2__gpt-5-nano",
+      "key": "terminus 2__gpt-5-nano",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-5-Nano"
+      ],
+      "date": "2025-10-31",
+      "accuracy": 0.07865168539325842,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 436,
+      "recomputed_pass_rate": 0.08027522935779817
+    },
+    {
+      "slug": "mini-swe-agent__gpt-5-nano",
+      "key": "mini-swe-agent__gpt-5-nano",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-5-Nano"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.0696629213483146,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.0696629213483146
+    },
+    {
+      "slug": "mini-swe-agent__gpt-oss-20b",
+      "key": "mini-swe-agent__gpt-oss-20b",
+      "agent": "Mini-SWE-Agent",
+      "model": [
+        "GPT-OSS-20B"
+      ],
+      "date": "2025-11-03",
+      "accuracy": 0.033707865168539325,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 445,
+      "recomputed_pass_rate": 0.033707865168539325
+    },
+    {
+      "slug": "terminus_2__gpt-oss-20b",
+      "key": "terminus 2__gpt-oss-20b",
+      "agent": "Terminus 2",
+      "model": [
+        "GPT-OSS-20B"
+      ],
+      "date": "2025-11-01",
+      "accuracy": 0.030711610486891385,
+      "verified": true,
+      "num_tasks": 89,
+      "total_trials": 466,
+      "recomputed_pass_rate": 0.030042918454935622
+    }
+  ]
+}

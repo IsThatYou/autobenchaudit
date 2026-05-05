@@ -1,0 +1,31 @@
+{
+  "slug": "chatgpt_plus_chatbot",
+  "model_id": "384c2855-0e82-4c34-9d3a-edc941359b05",
+  "model_slug": "chatgpt-plus-chatbot",
+  "name": "ChatGPT Plus",
+  "gdpval_name": "ChatGPT Plus - 5.1 Thinking (Extended Thinking)",
+  "short_name": "ChatGPT Plus - 5.1 Thinking (Extended Thinking)",
+  "creator": {
+    "name": "",
+    "slug": "",
+    "country": null,
+    "logo": ""
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1148.89,
+    "lower_95ci": 1107.75,
+    "upper_95ci": 1193.66,
+    "n_matches": 707,
+    "avg_turns": null
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The Gold Issue concerns the definition of the metric (overlap ratio vs. proportion), while the BenchGuard Finding concerns the filtering criteria used to define the set of differentially expressed genes."
+}

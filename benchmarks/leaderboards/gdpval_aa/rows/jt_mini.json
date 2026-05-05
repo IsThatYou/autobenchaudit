@@ -1,0 +1,43 @@
+{
+  "slug": "jt_mini",
+  "model_id": "3d4e7366-928c-4eff-a8b0-2919c7d334c9",
+  "model_slug": "jt-mini",
+  "name": "JT-MINI",
+  "gdpval_name": null,
+  "short_name": "JT-MINI",
+  "creator": {
+    "name": "China Mobile",
+    "slug": "china-mobile",
+    "country": null,
+    "logo": "/img/logos/china_mobile.svg"
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 832.2458792511449,
+    "lower_95ci": 807.3916507240696,
+    "upper_95ci": 856.9035155160853,
+    "n_matches": 2639,
+    "avg_turns": 32.195454545454545
+  },
+  "gdpval_breakdown": {
+    "elo": 832.2458792511449,
+    "avg_turns": 32.195454545454545,
+    "n_matches": 2639,
+    "lower_95ci": 807.3916507240696,
+    "upper_95ci": 856.9035155160853,
+    "last_updated": "2026-04-22T02:15:34.140309"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 170940696,
+    "answer_tokens": 4086487,
+    "output_tokens": 4086487,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 25.37,
+  "agentic_index": 42.36,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

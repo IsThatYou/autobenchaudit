@@ -1,0 +1,59 @@
+{
+  "slug": "Anthropic_claude-sonnet-4-6_100steps",
+  "model": "claude-sonnet-4-6",
+  "institution": "Anthropic",
+  "paper_link": "https://www.anthropic.com/news/claude-sonnet-4-6",
+  "paper_authors": "Anthropic, '26",
+  "approach_type": "General model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2026-03-08",
+  "success_rate": 72.11,
+  "success_total_raw": "256.71/356",
+  "success_count": 256.71,
+  "total_tasks": 356,
+  "per_category": {
+    "chrome": {
+      "success": 32.96,
+      "total": 42
+    },
+    "gimp": {
+      "success": 18.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 35.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 33.0,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 19.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 55.95,
+      "total": 93
+    },
+    "os": {
+      "success": 22.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 13.84,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 16.0,
+      "total": 22
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "step_3_vl_10b",
+  "model_id": "acad0665-9457-4531-abd5-b59efd7a89ea",
+  "model_slug": "step-3-vl-10b",
+  "name": "Step3 VL 10B",
+  "gdpval_name": null,
+  "short_name": "Step3 VL 10B",
+  "creator": {
+    "name": "StepFun",
+    "slug": "stepfun",
+    "country": null,
+    "logo": "/img/logos/stepfun.png"
+  },
+  "release_date": "2026-01-20",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 261.7250889109828,
+    "lower_95ci": 229.87203870827904,
+    "upper_95ci": 291.1034936689383,
+    "n_matches": 1182,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 261.7250889109828,
+    "avg_turns": 100,
+    "n_matches": 1182,
+    "lower_95ci": 229.87203870827904,
+    "upper_95ci": 291.1034936689383,
+    "last_updated": "2026-04-22T02:16:00.933180"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 377311448,
+    "answer_tokens": 6379202,
+    "output_tokens": 9110280,
+    "reasoning_tokens": 2731078
+  },
+  "intelligence_index": 15.45,
+  "agentic_index": 5.36,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

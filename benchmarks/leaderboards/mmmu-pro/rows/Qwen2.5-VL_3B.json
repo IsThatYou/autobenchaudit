@@ -1,0 +1,26 @@
+{
+  "slug": "Qwen2.5-VL_3B",
+  "name": "Qwen2.5-VL 3B",
+  "size": "3B",
+  "date": "2025-02-19",
+  "type": "open_source",
+  "link": "https://arxiv.org/pdf/2502.13923",
+  "pro_overall": 31.6,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 53.1,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

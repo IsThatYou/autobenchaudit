@@ -1,0 +1,43 @@
+{
+  "slug": "motif_2_12_7b",
+  "model_id": "666eb13f-0d22-4438-8eb0-01876e1a8604",
+  "model_slug": "motif-2-12-7b",
+  "name": "Motif-2-12.7B-Reasoning",
+  "gdpval_name": null,
+  "short_name": "Motif-2-12.7B",
+  "creator": {
+    "name": "Motif Technologies",
+    "slug": "motif-technologies",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-12-04",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 488.9430309426243,
+    "lower_95ci": 458.1109744305359,
+    "upper_95ci": 519.4359185663295,
+    "n_matches": 1564,
+    "avg_turns": 8.114754098360656
+  },
+  "gdpval_breakdown": {
+    "elo": 488.9430309426243,
+    "avg_turns": 8.114754098360656,
+    "n_matches": 1564,
+    "lower_95ci": 458.1109744305359,
+    "upper_95ci": 519.4359185663295,
+    "last_updated": "2026-04-22T02:15:48.280692"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 9393501,
+    "answer_tokens": 411992,
+    "output_tokens": 3651101,
+    "reasoning_tokens": 3239109
+  },
+  "intelligence_index": 19.08,
+  "agentic_index": 19.17,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

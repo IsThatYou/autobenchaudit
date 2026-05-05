@@ -1,0 +1,18 @@
+{
+  "slug": "Qwen3.6_Plus",
+  "model": "Qwen3.6 Plus",
+  "organization": "Alibaba Cloud / Qwen Team",
+  "rank": 3,
+  "score": 0.838,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://qwen.ai/blog?id=qwen3.6",
+  "announcement_date": "2026-04-02",
+  "param_count": null,
+  "is_open_source": false,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

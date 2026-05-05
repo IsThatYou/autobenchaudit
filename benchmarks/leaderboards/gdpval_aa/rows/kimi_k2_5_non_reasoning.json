@@ -1,0 +1,43 @@
+{
+  "slug": "kimi_k2_5_non_reasoning",
+  "model_id": "ba04694d-326a-4a6a-8f1b-46316f872a7f",
+  "model_slug": "kimi-k2-5-non-reasoning",
+  "name": "Kimi K2.5 (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Kimi K2.5",
+  "creator": {
+    "name": "Kimi",
+    "slug": "kimi",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2026-01-27",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1278.512657355548,
+    "lower_95ci": 1253.0689600018973,
+    "upper_95ci": 1304.2020163638904,
+    "n_matches": 2136,
+    "avg_turns": 26.245454545454546
+  },
+  "gdpval_breakdown": {
+    "elo": 1278.512657355548,
+    "avg_turns": 26.245454545454546,
+    "n_matches": 2136,
+    "lower_95ci": 1253.0689600018973,
+    "upper_95ci": 1304.2020163638904,
+    "last_updated": "2026-04-22T02:15:15.774576"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 120446988,
+    "answer_tokens": 3845461,
+    "output_tokens": 3845461,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 37.27,
+  "agentic_index": 52.84,
+  "price_1m_input_tokens": 0.6,
+  "price_1m_output_tokens": 3
+}

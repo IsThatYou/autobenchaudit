@@ -1,0 +1,43 @@
+{
+  "slug": "claude_sonnet_4_6_adaptive",
+  "model_id": "df8d14e0-3997-4e4d-b4ad-9c047acc9c69",
+  "model_slug": "claude-sonnet-4-6-adaptive",
+  "name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
+  "gdpval_name": null,
+  "short_name": "Claude Sonnet 4.6 (max)",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2026-02-17",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1673.592193534703,
+    "lower_95ci": 1644.9058713002908,
+    "upper_95ci": 1705.8545541437302,
+    "n_matches": 4700,
+    "avg_turns": 33.595454545454544
+  },
+  "gdpval_breakdown": {
+    "elo": 1673.592193534703,
+    "avg_turns": 33.595454545454544,
+    "n_matches": 4700,
+    "lower_95ci": 1644.9058713002908,
+    "upper_95ci": 1705.8545541437302,
+    "last_updated": "2026-04-22T02:15:07.456744"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 278897731,
+    "answer_tokens": 8276261,
+    "output_tokens": 15028715,
+    "reasoning_tokens": 6752454
+  },
+  "intelligence_index": 51.72,
+  "agentic_index": 63,
+  "price_1m_input_tokens": 3,
+  "price_1m_output_tokens": 15
+}

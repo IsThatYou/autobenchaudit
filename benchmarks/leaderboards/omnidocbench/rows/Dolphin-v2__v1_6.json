@@ -1,0 +1,20 @@
+{
+  "slug": "Dolphin-v2__v1_6",
+  "track": "v1.6_full",
+  "name": "Dolphin-v2",
+  "model_type": "Specialized VLMs",
+  "size": "3B",
+  "overall": 89.5,
+  "text_edit": 0.069,
+  "formula_cdm": 91.01,
+  "table_teds": 84.4,
+  "table_teds_s": 87.44,
+  "reading_order_edit": 0.15,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

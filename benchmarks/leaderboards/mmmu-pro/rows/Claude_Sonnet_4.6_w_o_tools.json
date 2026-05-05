@@ -1,0 +1,26 @@
+{
+  "slug": "Claude_Sonnet_4.6_w_o_tools",
+  "name": "Claude Sonnet 4.6 w/o tools",
+  "size": "-",
+  "date": "2026-02-17",
+  "type": "proprietary",
+  "link": "https://www.anthropic.com/news/claude-sonnet-4-6",
+  "pro_overall": 74.5,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": null,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

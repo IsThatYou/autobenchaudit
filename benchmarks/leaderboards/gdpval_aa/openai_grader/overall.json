@@ -1,0 +1,97 @@
+{
+  "source_url": "https://evals.openai.com/gdpval/leaderboard",
+  "source_bundle": "https://evals.openai.com/assets/index-Dn260R3L.js",
+  "num_models": 17,
+  "schema": {
+    "model": "OpenAI grader model id (not AA slug)",
+    "win_rate": "Fraction of pairwise matches where model beat human expert",
+    "win_or_tie_rate": "Fraction of wins+ties"
+  },
+  "entries": [
+    {
+      "model": "gpt-5p2-high",
+      "win_rate": 0.49747474747474746,
+      "win_or_tie_rate": 0.7085858585858585
+    },
+    {
+      "model": "claude-45",
+      "win_rate": 0.45505050505050504,
+      "win_or_tie_rate": 0.595959595959596
+    },
+    {
+      "model": "gemini-3",
+      "win_rate": 0.4025252525252525,
+      "win_or_tie_rate": 0.5353535353535354
+    },
+    {
+      "model": "claude-sonnet-45",
+      "win_rate": 0.4252525252525252,
+      "win_or_tie_rate": 0.5025252525252525
+    },
+    {
+      "model": "claude",
+      "win_rate": 0.43586,
+      "win_or_tie_rate": 0.47576
+    },
+    {
+      "model": "gpt-5-high",
+      "win_rate": 0.34812,
+      "win_or_tie_rate": 0.37996
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "win_rate": 0.32979,
+      "win_or_tie_rate": 0.36474
+    },
+    {
+      "model": "o3-high",
+      "win_rate": 0.30777,
+      "win_or_tie_rate": 0.34057
+    },
+    {
+      "model": "o4-mini-high",
+      "win_rate": 0.25277,
+      "win_or_tie_rate": 0.27834
+    },
+    {
+      "model": "gemini",
+      "win_rate": 0.2333333333333333,
+      "win_or_tie_rate": 0.2545454545454545
+    },
+    {
+      "model": "grok",
+      "win_rate": 0.21060606060606063,
+      "win_or_tie_rate": 0.2429292929292929
+    },
+    {
+      "model": "gpt-5-medium",
+      "win_rate": 0.148989898989899,
+      "win_or_tie_rate": 0.16161616161616163
+    },
+    {
+      "model": "gpt-5-low",
+      "win_rate": 0.1398989898989899,
+      "win_or_tie_rate": 0.152020202020202
+    },
+    {
+      "model": "o3-medium",
+      "win_rate": 0.12525252525252525,
+      "win_or_tie_rate": 0.13939393939393938
+    },
+    {
+      "model": "o3-low",
+      "win_rate": 0.11717171717171718,
+      "win_or_tie_rate": 0.13636363636363633
+    },
+    {
+      "model": "gpt-4o",
+      "win_rate": 0.09889,
+      "win_or_tie_rate": 0.12349
+    },
+    {
+      "model": "human",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    }
+  ]
+}

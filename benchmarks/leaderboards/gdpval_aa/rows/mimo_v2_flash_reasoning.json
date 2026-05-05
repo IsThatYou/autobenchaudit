@@ -1,0 +1,43 @@
+{
+  "slug": "mimo_v2_flash_reasoning",
+  "model_id": "be185709-ddb4-4268-9597-856464359b25",
+  "model_slug": "mimo-v2-flash-reasoning",
+  "name": "MiMo-V2-Flash (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "MiMo-V2-Flash",
+  "creator": {
+    "name": "Xiaomi",
+    "slug": "xiaomi",
+    "country": null,
+    "logo": "/img/logos/xiaomi.png"
+  },
+  "release_date": "2025-12-16",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1084.1550258870363,
+    "lower_95ci": 1058.3272782963907,
+    "upper_95ci": 1109.4901595778092,
+    "n_matches": 2340,
+    "avg_turns": 31.995391705069125
+  },
+  "gdpval_breakdown": {
+    "elo": 1084.1550258870363,
+    "avg_turns": 31.995391705069125,
+    "n_matches": 2340,
+    "lower_95ci": 1058.3272782963907,
+    "upper_95ci": 1109.4901595778092,
+    "last_updated": "2026-04-22T02:15:23.489094"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 117731027,
+    "answer_tokens": 2402902,
+    "output_tokens": 3813316,
+    "reasoning_tokens": 1410414
+  },
+  "intelligence_index": 39.24,
+  "agentic_index": 52.1,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.3
+}

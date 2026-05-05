@@ -1,0 +1,43 @@
+{
+  "slug": "nvidia_nemotron_3_nano_30b_a3b_reasoning",
+  "model_id": "76dcf6ef-39ea-4be0-b693-b88da25b4caf",
+  "model_slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+  "name": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "NVIDIA Nemotron 3 Nano",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2025-12-15",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 566.8066599748627,
+    "lower_95ci": 538.0147761143654,
+    "upper_95ci": 594.4354088014217,
+    "n_matches": 2113,
+    "avg_turns": 70.64953271028037
+  },
+  "gdpval_breakdown": {
+    "elo": 566.8066599748627,
+    "avg_turns": 70.64953271028037,
+    "n_matches": 2113,
+    "lower_95ci": 538.0147761143654,
+    "upper_95ci": 594.4354088014217,
+    "last_updated": "2026-04-22T02:15:44.778461"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 142139348,
+    "answer_tokens": 1239989,
+    "output_tokens": 31762668,
+    "reasoning_tokens": 30522679
+  },
+  "intelligence_index": 24.27,
+  "agentic_index": 19.14,
+  "price_1m_input_tokens": 0.06,
+  "price_1m_output_tokens": 0.24
+}

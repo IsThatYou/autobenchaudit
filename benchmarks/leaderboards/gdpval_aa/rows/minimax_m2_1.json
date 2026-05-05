@@ -1,0 +1,43 @@
+{
+  "slug": "minimax_m2_1",
+  "model_id": "272ff333-442f-4169-a804-ac9177bc99d7",
+  "model_slug": "minimax-m2-1",
+  "name": "MiniMax-M2.1",
+  "gdpval_name": null,
+  "short_name": "MiniMax-M2.1",
+  "creator": {
+    "name": "MiniMax",
+    "slug": "minimax",
+    "country": null,
+    "logo": "/img/logos/minimax.webp"
+  },
+  "release_date": "2025-12-23",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1087.1548280829193,
+    "lower_95ci": 1061.4129025073732,
+    "upper_95ci": 1112.6614233329256,
+    "n_matches": 2358,
+    "avg_turns": 21.825688073394495
+  },
+  "gdpval_breakdown": {
+    "elo": 1087.1548280829193,
+    "avg_turns": 21.825688073394495,
+    "n_matches": 2358,
+    "lower_95ci": 1061.4129025073732,
+    "upper_95ci": 1112.6614233329256,
+    "last_updated": "2026-04-22T02:15:23.770055"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 83282005,
+    "answer_tokens": 4141622,
+    "output_tokens": 4473575,
+    "reasoning_tokens": 331952
+  },
+  "intelligence_index": 39.42,
+  "agentic_index": 47.4,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 1.2
+}

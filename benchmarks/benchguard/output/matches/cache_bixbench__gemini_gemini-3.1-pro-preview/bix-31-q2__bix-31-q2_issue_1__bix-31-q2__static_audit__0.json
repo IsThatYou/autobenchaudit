@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses missing instructions for batch correction and specific software usage, while the finding identifies a contradiction where the target gene is excluded by the prompt's explicit filter for protein-coding genes."
+}

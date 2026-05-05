@@ -1,0 +1,59 @@
+{
+  "slug": "Salesforce_University_of_Southern_California_University_of_Washington_CoACT-1_50steps",
+  "model": "CoACT-1",
+  "institution": "Salesforce & University of Southern California & University of Washington",
+  "paper_link": "https://arxiv.org/abs/2508.03923",
+  "paper_authors": "Song et al., '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2025-08-04",
+  "success_rate": 56.39,
+  "success_total_raw": "203.55/361",
+  "success_count": 203.55,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 20.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 16.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 32.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 21.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 17.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 39.4,
+      "total": 93
+    },
+    "os": {
+      "success": 17.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 11.23,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 18.0,
+      "total": 23
+    }
+  }
+}

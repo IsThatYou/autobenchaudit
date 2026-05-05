@@ -1,0 +1,59 @@
+{
+  "slug": "UiPath_UiPath_Screen_Agent_w_Opus_4.5_50steps",
+  "model": "UiPath Screen Agent w/ Opus 4.5",
+  "institution": "UiPath",
+  "paper_link": "https://github.com/xlang-ai/OSWorld/tree/main/mm_agents/uipath",
+  "paper_authors": "UiPath",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-12-24",
+  "success_rate": 64.4,
+  "success_total_raw": "229.92/357",
+  "success_count": 229.92,
+  "total_tasks": 357,
+  "per_category": {
+    "chrome": {
+      "success": 29.96,
+      "total": 44
+    },
+    "gimp": {
+      "success": 15.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 32.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 31.63,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 18.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 44.44,
+      "total": 91
+    },
+    "os": {
+      "success": 17.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 10.89,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

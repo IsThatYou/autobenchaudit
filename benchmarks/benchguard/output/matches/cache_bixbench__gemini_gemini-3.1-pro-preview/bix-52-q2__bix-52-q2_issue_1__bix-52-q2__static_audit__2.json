@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses an ambiguity in the question text regarding the definition of 'average', whereas the finding identifies a Python code bug in the grader that causes an UnboundLocalError for incorrect predictions."
+}

@@ -1,0 +1,738 @@
+{
+  "leaderboard_missing": false,
+  "num_third_party_rows": 78,
+  "num_single": 20,
+  "num_multi": 17,
+  "num_none": 41,
+  "note": "Names are normalized (lower-case, dates stripped, reasoning-knob tokens stripped, all separators dropped) and compared for equality. 'multi' means Scale lists the same base model under several reasoning efforts or dates; pick one by comparing created_at or reasoning-effort suffix. Pure substring matches are not reported because they confuse model tiers (mini/nano/lite/chat).",
+  "mappings": [
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-haiku__amazon-bedrock",
+      "third_party_model": "claude-3.5-haiku",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-haiku__google-vertex",
+      "third_party_model": "claude-3.5-haiku",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-haiku__anthropic",
+      "third_party_model": "claude-3.5-haiku",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-sonnet__amazon-bedrock",
+      "third_party_model": "claude-3.5-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.5_Sonnet_October_2024"
+      ],
+      "leaderboard_models": [
+        "Claude 3.5 Sonnet (October 2024)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-sonnet__anthropic",
+      "third_party_model": "claude-3.5-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.5_Sonnet_October_2024"
+      ],
+      "leaderboard_models": [
+        "Claude 3.5 Sonnet (October 2024)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.5-sonnet__google-vertex",
+      "third_party_model": "claude-3.5-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.5_Sonnet_October_2024"
+      ],
+      "leaderboard_models": [
+        "Claude 3.5 Sonnet (October 2024)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.7-sonnet__anthropic",
+      "third_party_model": "claude-3.7-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.7_Sonnet_Thinking"
+      ],
+      "leaderboard_models": [
+        "Claude 3.7 Sonnet (Thinking)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.7-sonnet__google-vertex",
+      "third_party_model": "claude-3.7-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.7_Sonnet_Thinking"
+      ],
+      "leaderboard_models": [
+        "Claude 3.7 Sonnet (Thinking)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-3.7-sonnet__amazon-bedrock",
+      "third_party_model": "claude-3.7-sonnet",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Claude_3.7_Sonnet_Thinking"
+      ],
+      "leaderboard_models": [
+        "Claude 3.7 Sonnet (Thinking)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4.1__amazon-bedrock",
+      "third_party_model": "claude-opus-4.1",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ],
+      "leaderboard_models": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4.1__anthropic",
+      "third_party_model": "claude-opus-4.1",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ],
+      "leaderboard_models": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4__google-vertex",
+      "third_party_model": "claude-opus-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Opus_4_Thinking",
+        "Claude_Opus_4"
+      ],
+      "leaderboard_models": [
+        "Claude Opus 4 (Thinking)",
+        "Claude Opus 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4__amazon-bedrock",
+      "third_party_model": "claude-opus-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Opus_4_Thinking",
+        "Claude_Opus_4"
+      ],
+      "leaderboard_models": [
+        "Claude Opus 4 (Thinking)",
+        "Claude Opus 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4__anthropic",
+      "third_party_model": "claude-opus-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Opus_4_Thinking",
+        "Claude_Opus_4"
+      ],
+      "leaderboard_models": [
+        "Claude Opus 4 (Thinking)",
+        "Claude Opus 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-opus-4.1__google-vertex",
+      "third_party_model": "claude-opus-4.1",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ],
+      "leaderboard_models": [
+        "claude-opus-4-1-20250805-thinking",
+        "claude-opus-4-1-20250805"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-sonnet-4__amazon-bedrock",
+      "third_party_model": "claude-sonnet-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Sonnet_4_Thinking",
+        "Claude_Sonnet_4"
+      ],
+      "leaderboard_models": [
+        "Claude Sonnet 4 (Thinking)",
+        "Claude Sonnet 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-sonnet-4__anthropic",
+      "third_party_model": "claude-sonnet-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Sonnet_4_Thinking",
+        "Claude_Sonnet_4"
+      ],
+      "leaderboard_models": [
+        "Claude Sonnet 4 (Thinking)",
+        "Claude Sonnet 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__deepseek__deepseek-chat-v3.1__volcengine",
+      "third_party_model": "deepseek-chat-v3.1",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__anthropic__claude-sonnet-4__google-vertex",
+      "third_party_model": "claude-sonnet-4",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Claude_Sonnet_4_Thinking",
+        "Claude_Sonnet_4"
+      ],
+      "leaderboard_models": [
+        "Claude Sonnet 4 (Thinking)",
+        "Claude Sonnet 4"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__deepseek__deepseek-r1-0528__volcengine",
+      "third_party_model": "deepseek-r1-0528",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.0-flash-lite-001__google-vertex",
+      "third_party_model": "gemini-2.0-flash-lite-001",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.0-flash__google-vertex",
+      "third_party_model": "gemini-2.0-flash",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Gemini_2.0_Flash_Thinking_January_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.0 Flash Thinking (January 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__deepseek__deepseek-chat__deepseek",
+      "third_party_model": "deepseek-chat",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-flash__skyrouter",
+      "third_party_model": "gemini-2.5-flash",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Flash_April_2025",
+        "Gemini_2.5_Flash_Preview_May_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Flash (April 2025)",
+        "Gemini 2.5 Flash Preview (May 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-flash-lite__google-vertex",
+      "third_party_model": "gemini-2.5-flash-lite",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-flash-lite__skyrouter",
+      "third_party_model": "gemini-2.5-flash-lite",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-flash__google-vertex",
+      "third_party_model": "gemini-2.5-flash",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Flash_April_2025",
+        "Gemini_2.5_Flash_Preview_May_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Flash (April 2025)",
+        "Gemini 2.5 Flash Preview (May 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__moonshotai__kimi-k2-0711__volcengine",
+      "third_party_model": "kimi-k2-0711",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-pro__google-vertex",
+      "third_party_model": "gemini-2.5-pro",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Pro_Experimental_March_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Pro Experimental (March 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__moonshotai__kimi-k2-0905__moonshotai",
+      "third_party_model": "kimi-k2-0905",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__google__gemini-2.5-pro__skyrouter",
+      "third_party_model": "gemini-2.5-pro",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Pro_Experimental_March_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Pro Experimental (March 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1-nano__azure",
+      "third_party_model": "gpt-4.1-nano",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1-mini__azure",
+      "third_party_model": "gpt-4.1-mini",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1-mini__openai",
+      "third_party_model": "gpt-4.1-mini",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1-nano__openai",
+      "third_party_model": "gpt-4.1-nano",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4o-mini__azure",
+      "third_party_model": "gpt-4o-mini",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1__openai",
+      "third_party_model": "gpt-4.1",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "GPT-4.1"
+      ],
+      "leaderboard_models": [
+        "GPT-4.1"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4o-mini__openai",
+      "third_party_model": "gpt-4o-mini",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4.1__azure",
+      "third_party_model": "gpt-4.1",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "GPT-4.1"
+      ],
+      "leaderboard_models": [
+        "GPT-4.1"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4o__openai",
+      "third_party_model": "gpt-4o",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "GPT-4o_November_2024"
+      ],
+      "leaderboard_models": [
+        "GPT-4o (November 2024)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-4o__azure",
+      "third_party_model": "gpt-4o",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "GPT-4o_November_2024"
+      ],
+      "leaderboard_models": [
+        "GPT-4o (November 2024)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-chat__azure",
+      "third_party_model": "gpt-5-chat",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-chat__openai",
+      "third_party_model": "gpt-5-chat",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-mini__openai",
+      "third_party_model": "gpt-5-mini",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "leaderboard_models": [
+        "gpt-5-mini-2025-08-07"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-nano__openai",
+      "third_party_model": "gpt-5-nano",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-mini__azure",
+      "third_party_model": "gpt-5-mini",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "leaderboard_models": [
+        "gpt-5-mini-2025-08-07"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5-nano__azure",
+      "third_party_model": "gpt-5-nano",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5__azure",
+      "third_party_model": "gpt-5",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gpt-5-2025-08-07"
+      ],
+      "leaderboard_models": [
+        "gpt-5-2025-08-07"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__o4-mini__azure",
+      "third_party_model": "o4-mini",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "o4-mini_high_April_2025",
+        "o4-mini_medium_April_2025"
+      ],
+      "leaderboard_models": [
+        "o4-mini (high) (April 2025)",
+        "o4-mini (medium) (April 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__gpt-5__openai",
+      "third_party_model": "gpt-5",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gpt-5-2025-08-07"
+      ],
+      "leaderboard_models": [
+        "gpt-5-2025-08-07"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__openai__o4-mini__openai",
+      "third_party_model": "o4-mini",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "o4-mini_high_April_2025",
+        "o4-mini_medium_April_2025"
+      ],
+      "leaderboard_models": [
+        "o4-mini (high) (April 2025)",
+        "o4-mini (medium) (April 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "zenmux__x-ai__grok-4-fast-non-reasoning__x-ai",
+      "third_party_model": "grok-4-fast-non-reasoning",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__qwen__qwen3-max__alibaba",
+      "third_party_model": "qwen3-max",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__qwen__qwen3-coder-plus__alibaba",
+      "third_party_model": "qwen3-coder-plus",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__qwen__qwen3-vl-plus__alibaba",
+      "third_party_model": "qwen3-vl-plus",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__x-ai__grok-4-fast__x-ai",
+      "third_party_model": "grok-4-fast",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__x-ai__grok-4__x-ai",
+      "third_party_model": "grok-4",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__x-ai__grok-code-fast-1__x-ai",
+      "third_party_model": "grok-code-fast-1",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__z-ai__glm-4.5-air__z-ai",
+      "third_party_model": "glm-4.5-air",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "zenmux__z-ai__glm-4.5__z-ai",
+      "third_party_model": "glm-4.5",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__google-gemini-3-pro-preview",
+      "third_party_model": "gemini-3-pro-preview",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gemini-3-pro-preview"
+      ],
+      "leaderboard_models": [
+        "gemini-3-pro-preview"
+      ]
+    },
+    {
+      "third_party_slug": "supai__openai-gpt-5-pro",
+      "third_party_model": "gpt-5-pro",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "gpt-5-pro-2025-10-06"
+      ],
+      "leaderboard_models": [
+        "gpt-5-pro-2025-10-06"
+      ]
+    },
+    {
+      "third_party_slug": "supai__openai-gpt-5.1",
+      "third_party_model": "gpt-5.1",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "gpt-5.1-thinking",
+        "gpt-5.1-instant"
+      ],
+      "leaderboard_models": [
+        "gpt-5.1-thinking",
+        "gpt-5.1-instant"
+      ]
+    },
+    {
+      "third_party_slug": "supai__alibaba-qwen3-vl-thinking",
+      "third_party_model": "qwen3-vl-thinking",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__anthropic-claude-opus-4.5",
+      "third_party_model": "claude-opus-4.5",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "claude-opus-4-5-20251101-thinking",
+        "claude-opus-4-5-20251101"
+      ],
+      "leaderboard_models": [
+        "claude-opus-4-5-20251101-thinking",
+        "claude-opus-4-5-20251101"
+      ]
+    },
+    {
+      "third_party_slug": "supai__xai-grok-4",
+      "third_party_model": "grok-4",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__deepseek-deepseek-v3.2-thinking",
+      "third_party_model": "deepseek-v3.2-thinking",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__zai-glm-4.6",
+      "third_party_model": "glm-4.6",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__anthropic-claude-sonnet-4.5",
+      "third_party_model": "claude-sonnet-4.5",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "claude-sonnet-4-5-20250929-thinking",
+        "claude-sonnet-4-5-20250929"
+      ],
+      "leaderboard_models": [
+        "claude-sonnet-4-5-20250929-thinking",
+        "claude-sonnet-4-5-20250929"
+      ]
+    },
+    {
+      "third_party_slug": "supai__moonshotai-kimi-k2-thinking-turbo",
+      "third_party_model": "kimi-k2-thinking-turbo",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__alibaba-qwen3-next-80b-a3b-thinking",
+      "third_party_model": "qwen3-next-80b-a3b-thinking",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__alibaba-qwen3-max",
+      "third_party_model": "qwen3-max",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__minimax-minimax-m2",
+      "third_party_model": "minimax-m2",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__google-gemini-2.5-pro",
+      "third_party_model": "gemini-2.5-pro",
+      "match_kind": "single",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Pro_Experimental_March_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Pro Experimental (March 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "supai__mistral-magistral-medium",
+      "third_party_model": "magistral-medium",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__mistral-mistral-large",
+      "third_party_model": "mistral-large",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    },
+    {
+      "third_party_slug": "supai__google-gemini-2.5-flash",
+      "third_party_model": "gemini-2.5-flash",
+      "match_kind": "multi",
+      "leaderboard_slugs": [
+        "Gemini_2.5_Flash_April_2025",
+        "Gemini_2.5_Flash_Preview_May_2025"
+      ],
+      "leaderboard_models": [
+        "Gemini 2.5 Flash (April 2025)",
+        "Gemini 2.5 Flash Preview (May 2025)"
+      ]
+    },
+    {
+      "third_party_slug": "supai__deepseek-deepseek-v3.2-exp-thinking",
+      "third_party_model": "deepseek-v3.2-exp-thinking",
+      "match_kind": "none",
+      "leaderboard_slugs": [],
+      "leaderboard_models": []
+    }
+  ]
+}

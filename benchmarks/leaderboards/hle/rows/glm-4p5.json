@@ -1,0 +1,18 @@
+{
+  "slug": "glm-4p5",
+  "model": "glm-4p5",
+  "company": "zai",
+  "rank": 28,
+  "created_at": "2025-08-13T20:52:24.000Z",
+  "accuracy": 8.32,
+  "ci_upper": 1.08,
+  "calibration_error": 79,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions. Sampled at 32K Tokens, temp = null (default temp).",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

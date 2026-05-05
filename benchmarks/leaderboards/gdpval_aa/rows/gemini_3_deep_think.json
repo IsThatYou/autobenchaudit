@@ -1,0 +1,43 @@
+{
+  "slug": "gemini_3_deep_think",
+  "model_id": "a5092ece-d5a7-461f-b036-3faef262423f",
+  "model_slug": "gemini-3-deep-think",
+  "name": "Gemini 3 Deep Think",
+  "gdpval_name": null,
+  "short_name": "Gemini 3 Deep Think",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2026-02-05",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1323.6828076179922,
+    "lower_95ci": 1293.2420463442977,
+    "upper_95ci": 1354.224319167646,
+    "n_matches": 2113,
+    "avg_turns": 19.365296803652967
+  },
+  "gdpval_breakdown": {
+    "elo": 1323.6828076179922,
+    "avg_turns": 19.365296803652967,
+    "n_matches": 2113,
+    "lower_95ci": 1293.2420463442977,
+    "upper_95ci": 1354.224319167646,
+    "last_updated": "2026-03-26T03:54:07.342255"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 56436807,
+    "answer_tokens": 2449034,
+    "output_tokens": 2940291,
+    "reasoning_tokens": 491257
+  },
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

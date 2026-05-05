@@ -1,0 +1,18 @@
+{
+  "slug": "Gemini_2.5_Flash_Preview_May_2025",
+  "model": "Gemini 2.5 Flash Preview (May 2025)",
+  "company": "google",
+  "rank": 24,
+  "created_at": "2025-05-20T18:29:27.000Z",
+  "accuracy": 10.96,
+  "ci_upper": 1.22,
+  "calibration_error": 82,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "llama_3_1_nemotron_instruct_70b",
+  "model_id": "7393c56a-ec31-48e9-b804-c04f2d2cb641",
+  "model_slug": "llama-3-1-nemotron-instruct-70b",
+  "name": "Llama 3.1 Nemotron Instruct 70B",
+  "gdpval_name": null,
+  "short_name": "Llama 3.1 Nemotron 70B",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2024-10-15",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 345.467183801841,
+    "lower_95ci": 315.00320986662706,
+    "upper_95ci": 376.1247114145975,
+    "n_matches": 1376,
+    "avg_turns": 11.657534246575343
+  },
+  "gdpval_breakdown": {
+    "elo": 345.467183801841,
+    "avg_turns": 11.657534246575343,
+    "n_matches": 1376,
+    "lower_95ci": 315.00320986662706,
+    "upper_95ci": 376.1247114145975,
+    "last_updated": "2026-04-22T02:15:54.174183"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 13374087,
+    "answer_tokens": 240966,
+    "output_tokens": 240966,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 13.44,
+  "agentic_index": 7.7,
+  "price_1m_input_tokens": 1.2,
+  "price_1m_output_tokens": 1.2
+}

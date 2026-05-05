@@ -1,0 +1,1401 @@
+{
+  "benchmark": "gpqa-diamond",
+  "source_dataset": "hf://datasets/hendrydong/gpqa_diamond:test",
+  "num_tasks": 198,
+  "note": "198 Diamond questions mirrored via hendrydong/gpqa_diamond (the canonical Idavidrein/gpqa dataset is gated). Stable task IDs are sha256(problem)[:12] \u2014 the HF mirror does not preserve the canonical Record ID. Question text is intentionally not stored here; consumers needing the text should pull the HF dataset directly.",
+  "schema": {
+    "task_id": "Stable ID: gpqa_diamond_<sha256(problem)[:12]>",
+    "question_hash": "sha256(problem)[:12] (without the prefix)",
+    "domain": "High-level domain (Physics / Chemistry / Biology)",
+    "problem_length": "Character count of the problem statement",
+    "hf_row_idx": "Positional index in the HF dataset (0-197)"
+  },
+  "tasks": [
+    {
+      "task_id": "gpqa_diamond_b698ebb0cb6d",
+      "question_hash": "b698ebb0cb6d",
+      "domain": "Physics",
+      "problem_length": 262,
+      "hf_row_idx": 0
+    },
+    {
+      "task_id": "gpqa_diamond_2662eff7a623",
+      "question_hash": "2662eff7a623",
+      "domain": "Chemistry",
+      "problem_length": 307,
+      "hf_row_idx": 1
+    },
+    {
+      "task_id": "gpqa_diamond_13e7c71f8aae",
+      "question_hash": "13e7c71f8aae",
+      "domain": "Physics",
+      "problem_length": 354,
+      "hf_row_idx": 2
+    },
+    {
+      "task_id": "gpqa_diamond_ee40e0ba4774",
+      "question_hash": "ee40e0ba4774",
+      "domain": "Physics",
+      "problem_length": 174,
+      "hf_row_idx": 3
+    },
+    {
+      "task_id": "gpqa_diamond_f69ff8c0001c",
+      "question_hash": "f69ff8c0001c",
+      "domain": "Physics",
+      "problem_length": 817,
+      "hf_row_idx": 4
+    },
+    {
+      "task_id": "gpqa_diamond_d81eab0b3dee",
+      "question_hash": "d81eab0b3dee",
+      "domain": "Physics",
+      "problem_length": 181,
+      "hf_row_idx": 5
+    },
+    {
+      "task_id": "gpqa_diamond_d48362abba76",
+      "question_hash": "d48362abba76",
+      "domain": "Physics",
+      "problem_length": 380,
+      "hf_row_idx": 6
+    },
+    {
+      "task_id": "gpqa_diamond_b15ab8a50cd7",
+      "question_hash": "b15ab8a50cd7",
+      "domain": "Biology",
+      "problem_length": 1154,
+      "hf_row_idx": 7
+    },
+    {
+      "task_id": "gpqa_diamond_fc081c2fbb63",
+      "question_hash": "fc081c2fbb63",
+      "domain": "Chemistry",
+      "problem_length": 205,
+      "hf_row_idx": 8
+    },
+    {
+      "task_id": "gpqa_diamond_85f5a80c9029",
+      "question_hash": "85f5a80c9029",
+      "domain": "Physics",
+      "problem_length": 343,
+      "hf_row_idx": 9
+    },
+    {
+      "task_id": "gpqa_diamond_1dec0a47229d",
+      "question_hash": "1dec0a47229d",
+      "domain": "Biology",
+      "problem_length": 139,
+      "hf_row_idx": 10
+    },
+    {
+      "task_id": "gpqa_diamond_4c49b01c534d",
+      "question_hash": "4c49b01c534d",
+      "domain": "Physics",
+      "problem_length": 144,
+      "hf_row_idx": 11
+    },
+    {
+      "task_id": "gpqa_diamond_a8be7a4963bf",
+      "question_hash": "a8be7a4963bf",
+      "domain": "Chemistry",
+      "problem_length": 564,
+      "hf_row_idx": 12
+    },
+    {
+      "task_id": "gpqa_diamond_435ccdce7cc6",
+      "question_hash": "435ccdce7cc6",
+      "domain": "Biology",
+      "problem_length": 328,
+      "hf_row_idx": 13
+    },
+    {
+      "task_id": "gpqa_diamond_6b778965b459",
+      "question_hash": "6b778965b459",
+      "domain": "Physics",
+      "problem_length": 828,
+      "hf_row_idx": 14
+    },
+    {
+      "task_id": "gpqa_diamond_f730b35adb89",
+      "question_hash": "f730b35adb89",
+      "domain": "Chemistry",
+      "problem_length": 334,
+      "hf_row_idx": 15
+    },
+    {
+      "task_id": "gpqa_diamond_1ce3d847d25b",
+      "question_hash": "1ce3d847d25b",
+      "domain": "Chemistry",
+      "problem_length": 168,
+      "hf_row_idx": 16
+    },
+    {
+      "task_id": "gpqa_diamond_a80144fd5822",
+      "question_hash": "a80144fd5822",
+      "domain": "Physics",
+      "problem_length": 481,
+      "hf_row_idx": 17
+    },
+    {
+      "task_id": "gpqa_diamond_d8c36bd55ba5",
+      "question_hash": "d8c36bd55ba5",
+      "domain": "Chemistry",
+      "problem_length": 737,
+      "hf_row_idx": 18
+    },
+    {
+      "task_id": "gpqa_diamond_0c1cc6cb8c9b",
+      "question_hash": "0c1cc6cb8c9b",
+      "domain": "Physics",
+      "problem_length": 577,
+      "hf_row_idx": 19
+    },
+    {
+      "task_id": "gpqa_diamond_40b2b50a3c99",
+      "question_hash": "40b2b50a3c99",
+      "domain": "Chemistry",
+      "problem_length": 595,
+      "hf_row_idx": 20
+    },
+    {
+      "task_id": "gpqa_diamond_a2136b05b782",
+      "question_hash": "a2136b05b782",
+      "domain": "Chemistry",
+      "problem_length": 308,
+      "hf_row_idx": 21
+    },
+    {
+      "task_id": "gpqa_diamond_cbf5c336a099",
+      "question_hash": "cbf5c336a099",
+      "domain": "Chemistry",
+      "problem_length": 316,
+      "hf_row_idx": 22
+    },
+    {
+      "task_id": "gpqa_diamond_16464cac7090",
+      "question_hash": "16464cac7090",
+      "domain": "Chemistry",
+      "problem_length": 717,
+      "hf_row_idx": 23
+    },
+    {
+      "task_id": "gpqa_diamond_d49aa1d9efc3",
+      "question_hash": "d49aa1d9efc3",
+      "domain": "Chemistry",
+      "problem_length": 515,
+      "hf_row_idx": 24
+    },
+    {
+      "task_id": "gpqa_diamond_a5bf307fdc69",
+      "question_hash": "a5bf307fdc69",
+      "domain": "Chemistry",
+      "problem_length": 650,
+      "hf_row_idx": 25
+    },
+    {
+      "task_id": "gpqa_diamond_29ffae74d292",
+      "question_hash": "29ffae74d292",
+      "domain": "Biology",
+      "problem_length": 312,
+      "hf_row_idx": 26
+    },
+    {
+      "task_id": "gpqa_diamond_b690990e73ef",
+      "question_hash": "b690990e73ef",
+      "domain": "Chemistry",
+      "problem_length": 390,
+      "hf_row_idx": 27
+    },
+    {
+      "task_id": "gpqa_diamond_42da82ad5cb9",
+      "question_hash": "42da82ad5cb9",
+      "domain": "Biology",
+      "problem_length": 1040,
+      "hf_row_idx": 28
+    },
+    {
+      "task_id": "gpqa_diamond_29e6a1db070b",
+      "question_hash": "29e6a1db070b",
+      "domain": "Chemistry",
+      "problem_length": 158,
+      "hf_row_idx": 29
+    },
+    {
+      "task_id": "gpqa_diamond_62f7808cdd91",
+      "question_hash": "62f7808cdd91",
+      "domain": "Chemistry",
+      "problem_length": 247,
+      "hf_row_idx": 30
+    },
+    {
+      "task_id": "gpqa_diamond_e302b2005d8d",
+      "question_hash": "e302b2005d8d",
+      "domain": "Physics",
+      "problem_length": 213,
+      "hf_row_idx": 31
+    },
+    {
+      "task_id": "gpqa_diamond_e1448af5dcb7",
+      "question_hash": "e1448af5dcb7",
+      "domain": "Chemistry",
+      "problem_length": 125,
+      "hf_row_idx": 32
+    },
+    {
+      "task_id": "gpqa_diamond_123161632faf",
+      "question_hash": "123161632faf",
+      "domain": "Chemistry",
+      "problem_length": 498,
+      "hf_row_idx": 33
+    },
+    {
+      "task_id": "gpqa_diamond_8f0911e951ad",
+      "question_hash": "8f0911e951ad",
+      "domain": "Physics",
+      "problem_length": 539,
+      "hf_row_idx": 34
+    },
+    {
+      "task_id": "gpqa_diamond_8d132ce83553",
+      "question_hash": "8d132ce83553",
+      "domain": "Physics",
+      "problem_length": 285,
+      "hf_row_idx": 35
+    },
+    {
+      "task_id": "gpqa_diamond_7fda2b6ca2ff",
+      "question_hash": "7fda2b6ca2ff",
+      "domain": "Chemistry",
+      "problem_length": 277,
+      "hf_row_idx": 36
+    },
+    {
+      "task_id": "gpqa_diamond_ff60c18b72aa",
+      "question_hash": "ff60c18b72aa",
+      "domain": "Chemistry",
+      "problem_length": 482,
+      "hf_row_idx": 37
+    },
+    {
+      "task_id": "gpqa_diamond_089a55e5a3fb",
+      "question_hash": "089a55e5a3fb",
+      "domain": "Physics",
+      "problem_length": 621,
+      "hf_row_idx": 38
+    },
+    {
+      "task_id": "gpqa_diamond_83e987d2b0fb",
+      "question_hash": "83e987d2b0fb",
+      "domain": "Chemistry",
+      "problem_length": 271,
+      "hf_row_idx": 39
+    },
+    {
+      "task_id": "gpqa_diamond_18c1c5c103fb",
+      "question_hash": "18c1c5c103fb",
+      "domain": "Physics",
+      "problem_length": 302,
+      "hf_row_idx": 40
+    },
+    {
+      "task_id": "gpqa_diamond_f56e41493e43",
+      "question_hash": "f56e41493e43",
+      "domain": "Physics",
+      "problem_length": 613,
+      "hf_row_idx": 41
+    },
+    {
+      "task_id": "gpqa_diamond_4ea09b6f6020",
+      "question_hash": "4ea09b6f6020",
+      "domain": "Chemistry",
+      "problem_length": 325,
+      "hf_row_idx": 42
+    },
+    {
+      "task_id": "gpqa_diamond_145b51d1c857",
+      "question_hash": "145b51d1c857",
+      "domain": "Biology",
+      "problem_length": 674,
+      "hf_row_idx": 43
+    },
+    {
+      "task_id": "gpqa_diamond_477410454021",
+      "question_hash": "477410454021",
+      "domain": "Physics",
+      "problem_length": 260,
+      "hf_row_idx": 44
+    },
+    {
+      "task_id": "gpqa_diamond_d21ba2f1c06b",
+      "question_hash": "d21ba2f1c06b",
+      "domain": "Chemistry",
+      "problem_length": 116,
+      "hf_row_idx": 45
+    },
+    {
+      "task_id": "gpqa_diamond_19d5ec504b70",
+      "question_hash": "19d5ec504b70",
+      "domain": "Chemistry",
+      "problem_length": 233,
+      "hf_row_idx": 46
+    },
+    {
+      "task_id": "gpqa_diamond_f6518dd763c1",
+      "question_hash": "f6518dd763c1",
+      "domain": "Chemistry",
+      "problem_length": 322,
+      "hf_row_idx": 47
+    },
+    {
+      "task_id": "gpqa_diamond_73f52d6a4b6c",
+      "question_hash": "73f52d6a4b6c",
+      "domain": "Chemistry",
+      "problem_length": 448,
+      "hf_row_idx": 48
+    },
+    {
+      "task_id": "gpqa_diamond_9443960fd266",
+      "question_hash": "9443960fd266",
+      "domain": "Physics",
+      "problem_length": 557,
+      "hf_row_idx": 49
+    },
+    {
+      "task_id": "gpqa_diamond_6aff7faed92c",
+      "question_hash": "6aff7faed92c",
+      "domain": "Physics",
+      "problem_length": 151,
+      "hf_row_idx": 50
+    },
+    {
+      "task_id": "gpqa_diamond_20d48d5f0a9a",
+      "question_hash": "20d48d5f0a9a",
+      "domain": "Physics",
+      "problem_length": 769,
+      "hf_row_idx": 51
+    },
+    {
+      "task_id": "gpqa_diamond_ca2abe8a98bc",
+      "question_hash": "ca2abe8a98bc",
+      "domain": "Chemistry",
+      "problem_length": 535,
+      "hf_row_idx": 52
+    },
+    {
+      "task_id": "gpqa_diamond_1f101bccd200",
+      "question_hash": "1f101bccd200",
+      "domain": "Chemistry",
+      "problem_length": 120,
+      "hf_row_idx": 53
+    },
+    {
+      "task_id": "gpqa_diamond_b560f550d5d9",
+      "question_hash": "b560f550d5d9",
+      "domain": "Chemistry",
+      "problem_length": 318,
+      "hf_row_idx": 54
+    },
+    {
+      "task_id": "gpqa_diamond_229ffbdb7744",
+      "question_hash": "229ffbdb7744",
+      "domain": "Physics",
+      "problem_length": 241,
+      "hf_row_idx": 55
+    },
+    {
+      "task_id": "gpqa_diamond_299c83f78042",
+      "question_hash": "299c83f78042",
+      "domain": "Physics",
+      "problem_length": 319,
+      "hf_row_idx": 56
+    },
+    {
+      "task_id": "gpqa_diamond_e9afb4888113",
+      "question_hash": "e9afb4888113",
+      "domain": "Physics",
+      "problem_length": 88,
+      "hf_row_idx": 57
+    },
+    {
+      "task_id": "gpqa_diamond_618551bfaaf7",
+      "question_hash": "618551bfaaf7",
+      "domain": "Chemistry",
+      "problem_length": 110,
+      "hf_row_idx": 58
+    },
+    {
+      "task_id": "gpqa_diamond_ebc638f9e42b",
+      "question_hash": "ebc638f9e42b",
+      "domain": "Physics",
+      "problem_length": 573,
+      "hf_row_idx": 59
+    },
+    {
+      "task_id": "gpqa_diamond_63318cb18413",
+      "question_hash": "63318cb18413",
+      "domain": "Chemistry",
+      "problem_length": 340,
+      "hf_row_idx": 60
+    },
+    {
+      "task_id": "gpqa_diamond_1037e0c8b2c1",
+      "question_hash": "1037e0c8b2c1",
+      "domain": "Chemistry",
+      "problem_length": 133,
+      "hf_row_idx": 61
+    },
+    {
+      "task_id": "gpqa_diamond_1054cb147fa0",
+      "question_hash": "1054cb147fa0",
+      "domain": "Physics",
+      "problem_length": 469,
+      "hf_row_idx": 62
+    },
+    {
+      "task_id": "gpqa_diamond_80cca49a2f6a",
+      "question_hash": "80cca49a2f6a",
+      "domain": "Chemistry",
+      "problem_length": 583,
+      "hf_row_idx": 63
+    },
+    {
+      "task_id": "gpqa_diamond_58604895b423",
+      "question_hash": "58604895b423",
+      "domain": "Chemistry",
+      "problem_length": 275,
+      "hf_row_idx": 64
+    },
+    {
+      "task_id": "gpqa_diamond_82e6266418c6",
+      "question_hash": "82e6266418c6",
+      "domain": "Physics",
+      "problem_length": 155,
+      "hf_row_idx": 65
+    },
+    {
+      "task_id": "gpqa_diamond_7f9b4679645e",
+      "question_hash": "7f9b4679645e",
+      "domain": "Physics",
+      "problem_length": 634,
+      "hf_row_idx": 66
+    },
+    {
+      "task_id": "gpqa_diamond_f56f3f5d135d",
+      "question_hash": "f56f3f5d135d",
+      "domain": "Physics",
+      "problem_length": 374,
+      "hf_row_idx": 67
+    },
+    {
+      "task_id": "gpqa_diamond_71075d4447ee",
+      "question_hash": "71075d4447ee",
+      "domain": "Physics",
+      "problem_length": 300,
+      "hf_row_idx": 68
+    },
+    {
+      "task_id": "gpqa_diamond_bd713289ab1f",
+      "question_hash": "bd713289ab1f",
+      "domain": "Chemistry",
+      "problem_length": 388,
+      "hf_row_idx": 69
+    },
+    {
+      "task_id": "gpqa_diamond_cf500f5f0764",
+      "question_hash": "cf500f5f0764",
+      "domain": "Physics",
+      "problem_length": 375,
+      "hf_row_idx": 70
+    },
+    {
+      "task_id": "gpqa_diamond_57b065d28a6d",
+      "question_hash": "57b065d28a6d",
+      "domain": "Chemistry",
+      "problem_length": 397,
+      "hf_row_idx": 71
+    },
+    {
+      "task_id": "gpqa_diamond_826fb502d2db",
+      "question_hash": "826fb502d2db",
+      "domain": "Physics",
+      "problem_length": 226,
+      "hf_row_idx": 72
+    },
+    {
+      "task_id": "gpqa_diamond_0cda758f1290",
+      "question_hash": "0cda758f1290",
+      "domain": "Physics",
+      "problem_length": 396,
+      "hf_row_idx": 73
+    },
+    {
+      "task_id": "gpqa_diamond_89fa5b222a94",
+      "question_hash": "89fa5b222a94",
+      "domain": "Biology",
+      "problem_length": 1642,
+      "hf_row_idx": 74
+    },
+    {
+      "task_id": "gpqa_diamond_025e20e6e9b4",
+      "question_hash": "025e20e6e9b4",
+      "domain": "Biology",
+      "problem_length": 563,
+      "hf_row_idx": 75
+    },
+    {
+      "task_id": "gpqa_diamond_f634534b5e23",
+      "question_hash": "f634534b5e23",
+      "domain": "Chemistry",
+      "problem_length": 552,
+      "hf_row_idx": 76
+    },
+    {
+      "task_id": "gpqa_diamond_2e908bfe562b",
+      "question_hash": "2e908bfe562b",
+      "domain": "Physics",
+      "problem_length": 743,
+      "hf_row_idx": 77
+    },
+    {
+      "task_id": "gpqa_diamond_733e93868ff7",
+      "question_hash": "733e93868ff7",
+      "domain": "Chemistry",
+      "problem_length": 537,
+      "hf_row_idx": 78
+    },
+    {
+      "task_id": "gpqa_diamond_2413c551ec9a",
+      "question_hash": "2413c551ec9a",
+      "domain": "Biology",
+      "problem_length": 149,
+      "hf_row_idx": 79
+    },
+    {
+      "task_id": "gpqa_diamond_b51a836cebaa",
+      "question_hash": "b51a836cebaa",
+      "domain": "Chemistry",
+      "problem_length": 131,
+      "hf_row_idx": 80
+    },
+    {
+      "task_id": "gpqa_diamond_8efc35cf270e",
+      "question_hash": "8efc35cf270e",
+      "domain": "Chemistry",
+      "problem_length": 283,
+      "hf_row_idx": 81
+    },
+    {
+      "task_id": "gpqa_diamond_797be7099117",
+      "question_hash": "797be7099117",
+      "domain": "Chemistry",
+      "problem_length": 233,
+      "hf_row_idx": 82
+    },
+    {
+      "task_id": "gpqa_diamond_045347c35e29",
+      "question_hash": "045347c35e29",
+      "domain": "Physics",
+      "problem_length": 333,
+      "hf_row_idx": 83
+    },
+    {
+      "task_id": "gpqa_diamond_9d46302b7638",
+      "question_hash": "9d46302b7638",
+      "domain": "Physics",
+      "problem_length": 796,
+      "hf_row_idx": 84
+    },
+    {
+      "task_id": "gpqa_diamond_27ae63a85927",
+      "question_hash": "27ae63a85927",
+      "domain": "Chemistry",
+      "problem_length": 304,
+      "hf_row_idx": 85
+    },
+    {
+      "task_id": "gpqa_diamond_f328e748a74c",
+      "question_hash": "f328e748a74c",
+      "domain": "Chemistry",
+      "problem_length": 279,
+      "hf_row_idx": 86
+    },
+    {
+      "task_id": "gpqa_diamond_c4d795814405",
+      "question_hash": "c4d795814405",
+      "domain": "Biology",
+      "problem_length": 491,
+      "hf_row_idx": 87
+    },
+    {
+      "task_id": "gpqa_diamond_8b5b2cb731b5",
+      "question_hash": "8b5b2cb731b5",
+      "domain": "Chemistry",
+      "problem_length": 584,
+      "hf_row_idx": 88
+    },
+    {
+      "task_id": "gpqa_diamond_11464d18e1d6",
+      "question_hash": "11464d18e1d6",
+      "domain": "Chemistry",
+      "problem_length": 175,
+      "hf_row_idx": 89
+    },
+    {
+      "task_id": "gpqa_diamond_654fc443f2ef",
+      "question_hash": "654fc443f2ef",
+      "domain": "Chemistry",
+      "problem_length": 262,
+      "hf_row_idx": 90
+    },
+    {
+      "task_id": "gpqa_diamond_c6231a95c81b",
+      "question_hash": "c6231a95c81b",
+      "domain": "Chemistry",
+      "problem_length": 261,
+      "hf_row_idx": 91
+    },
+    {
+      "task_id": "gpqa_diamond_c1dea594f51b",
+      "question_hash": "c1dea594f51b",
+      "domain": "Biology",
+      "problem_length": 879,
+      "hf_row_idx": 92
+    },
+    {
+      "task_id": "gpqa_diamond_836be405f3d0",
+      "question_hash": "836be405f3d0",
+      "domain": "Chemistry",
+      "problem_length": 126,
+      "hf_row_idx": 93
+    },
+    {
+      "task_id": "gpqa_diamond_790d06fbc2ae",
+      "question_hash": "790d06fbc2ae",
+      "domain": "Chemistry",
+      "problem_length": 383,
+      "hf_row_idx": 94
+    },
+    {
+      "task_id": "gpqa_diamond_6dbc821cf1e8",
+      "question_hash": "6dbc821cf1e8",
+      "domain": "Physics",
+      "problem_length": 222,
+      "hf_row_idx": 95
+    },
+    {
+      "task_id": "gpqa_diamond_acf784efba89",
+      "question_hash": "acf784efba89",
+      "domain": "Biology",
+      "problem_length": 735,
+      "hf_row_idx": 96
+    },
+    {
+      "task_id": "gpqa_diamond_ec22f627211f",
+      "question_hash": "ec22f627211f",
+      "domain": "Chemistry",
+      "problem_length": 151,
+      "hf_row_idx": 97
+    },
+    {
+      "task_id": "gpqa_diamond_e23b62b19c3a",
+      "question_hash": "e23b62b19c3a",
+      "domain": "Chemistry",
+      "problem_length": 668,
+      "hf_row_idx": 98
+    },
+    {
+      "task_id": "gpqa_diamond_339602fd0ae9",
+      "question_hash": "339602fd0ae9",
+      "domain": "Chemistry",
+      "problem_length": 571,
+      "hf_row_idx": 99
+    },
+    {
+      "task_id": "gpqa_diamond_db2ca8d93d5f",
+      "question_hash": "db2ca8d93d5f",
+      "domain": "Chemistry",
+      "problem_length": 331,
+      "hf_row_idx": 100
+    },
+    {
+      "task_id": "gpqa_diamond_c003a37af0ea",
+      "question_hash": "c003a37af0ea",
+      "domain": "Biology",
+      "problem_length": 1392,
+      "hf_row_idx": 101
+    },
+    {
+      "task_id": "gpqa_diamond_ea1d2c2fd439",
+      "question_hash": "ea1d2c2fd439",
+      "domain": "Chemistry",
+      "problem_length": 158,
+      "hf_row_idx": 102
+    },
+    {
+      "task_id": "gpqa_diamond_a452108cbace",
+      "question_hash": "a452108cbace",
+      "domain": "Physics",
+      "problem_length": 634,
+      "hf_row_idx": 103
+    },
+    {
+      "task_id": "gpqa_diamond_9d42c24c2f67",
+      "question_hash": "9d42c24c2f67",
+      "domain": "Physics",
+      "problem_length": 721,
+      "hf_row_idx": 104
+    },
+    {
+      "task_id": "gpqa_diamond_41b609bbf5cd",
+      "question_hash": "41b609bbf5cd",
+      "domain": "Chemistry",
+      "problem_length": 487,
+      "hf_row_idx": 105
+    },
+    {
+      "task_id": "gpqa_diamond_e426a9a1b097",
+      "question_hash": "e426a9a1b097",
+      "domain": "Biology",
+      "problem_length": 486,
+      "hf_row_idx": 106
+    },
+    {
+      "task_id": "gpqa_diamond_c9ed693d3f7d",
+      "question_hash": "c9ed693d3f7d",
+      "domain": "Physics",
+      "problem_length": 310,
+      "hf_row_idx": 107
+    },
+    {
+      "task_id": "gpqa_diamond_2c9af2ef64de",
+      "question_hash": "2c9af2ef64de",
+      "domain": "Physics",
+      "problem_length": 695,
+      "hf_row_idx": 108
+    },
+    {
+      "task_id": "gpqa_diamond_03946dc24ec6",
+      "question_hash": "03946dc24ec6",
+      "domain": "Physics",
+      "problem_length": 1554,
+      "hf_row_idx": 109
+    },
+    {
+      "task_id": "gpqa_diamond_5ce997bcaa65",
+      "question_hash": "5ce997bcaa65",
+      "domain": "Chemistry",
+      "problem_length": 261,
+      "hf_row_idx": 110
+    },
+    {
+      "task_id": "gpqa_diamond_cd18749d0354",
+      "question_hash": "cd18749d0354",
+      "domain": "Physics",
+      "problem_length": 457,
+      "hf_row_idx": 111
+    },
+    {
+      "task_id": "gpqa_diamond_16bcf4c7129e",
+      "question_hash": "16bcf4c7129e",
+      "domain": "Chemistry",
+      "problem_length": 564,
+      "hf_row_idx": 112
+    },
+    {
+      "task_id": "gpqa_diamond_049a3a3426b3",
+      "question_hash": "049a3a3426b3",
+      "domain": "Chemistry",
+      "problem_length": 226,
+      "hf_row_idx": 113
+    },
+    {
+      "task_id": "gpqa_diamond_d25187b99e49",
+      "question_hash": "d25187b99e49",
+      "domain": "Physics",
+      "problem_length": 514,
+      "hf_row_idx": 114
+    },
+    {
+      "task_id": "gpqa_diamond_b494f4c17856",
+      "question_hash": "b494f4c17856",
+      "domain": "Chemistry",
+      "problem_length": 335,
+      "hf_row_idx": 115
+    },
+    {
+      "task_id": "gpqa_diamond_019eb0f05f02",
+      "question_hash": "019eb0f05f02",
+      "domain": "Chemistry",
+      "problem_length": 569,
+      "hf_row_idx": 116
+    },
+    {
+      "task_id": "gpqa_diamond_cdb165b285d5",
+      "question_hash": "cdb165b285d5",
+      "domain": "Chemistry",
+      "problem_length": 91,
+      "hf_row_idx": 117
+    },
+    {
+      "task_id": "gpqa_diamond_083aa3572345",
+      "question_hash": "083aa3572345",
+      "domain": "Chemistry",
+      "problem_length": 187,
+      "hf_row_idx": 118
+    },
+    {
+      "task_id": "gpqa_diamond_ec3a07db51d6",
+      "question_hash": "ec3a07db51d6",
+      "domain": "Physics",
+      "problem_length": 150,
+      "hf_row_idx": 119
+    },
+    {
+      "task_id": "gpqa_diamond_c1f013c71ec1",
+      "question_hash": "c1f013c71ec1",
+      "domain": "Chemistry",
+      "problem_length": 362,
+      "hf_row_idx": 120
+    },
+    {
+      "task_id": "gpqa_diamond_9e7260c352d5",
+      "question_hash": "9e7260c352d5",
+      "domain": "Chemistry",
+      "problem_length": 577,
+      "hf_row_idx": 121
+    },
+    {
+      "task_id": "gpqa_diamond_e2c8b6a88dfe",
+      "question_hash": "e2c8b6a88dfe",
+      "domain": "Physics",
+      "problem_length": 534,
+      "hf_row_idx": 122
+    },
+    {
+      "task_id": "gpqa_diamond_b734e134fe45",
+      "question_hash": "b734e134fe45",
+      "domain": "Physics",
+      "problem_length": 447,
+      "hf_row_idx": 123
+    },
+    {
+      "task_id": "gpqa_diamond_6c90e464e06f",
+      "question_hash": "6c90e464e06f",
+      "domain": "Physics",
+      "problem_length": 513,
+      "hf_row_idx": 124
+    },
+    {
+      "task_id": "gpqa_diamond_183797b844f5",
+      "question_hash": "183797b844f5",
+      "domain": "Chemistry",
+      "problem_length": 525,
+      "hf_row_idx": 125
+    },
+    {
+      "task_id": "gpqa_diamond_188c5d277845",
+      "question_hash": "188c5d277845",
+      "domain": "Chemistry",
+      "problem_length": 80,
+      "hf_row_idx": 126
+    },
+    {
+      "task_id": "gpqa_diamond_6d83e7511250",
+      "question_hash": "6d83e7511250",
+      "domain": "Biology",
+      "problem_length": 846,
+      "hf_row_idx": 127
+    },
+    {
+      "task_id": "gpqa_diamond_9211da2d82ad",
+      "question_hash": "9211da2d82ad",
+      "domain": "Chemistry",
+      "problem_length": 582,
+      "hf_row_idx": 128
+    },
+    {
+      "task_id": "gpqa_diamond_1b04aca1c9a8",
+      "question_hash": "1b04aca1c9a8",
+      "domain": "Physics",
+      "problem_length": 255,
+      "hf_row_idx": 129
+    },
+    {
+      "task_id": "gpqa_diamond_e6eba602b3ee",
+      "question_hash": "e6eba602b3ee",
+      "domain": "Chemistry",
+      "problem_length": 715,
+      "hf_row_idx": 130
+    },
+    {
+      "task_id": "gpqa_diamond_4bab53f38320",
+      "question_hash": "4bab53f38320",
+      "domain": "Chemistry",
+      "problem_length": 451,
+      "hf_row_idx": 131
+    },
+    {
+      "task_id": "gpqa_diamond_051eba250138",
+      "question_hash": "051eba250138",
+      "domain": "Chemistry",
+      "problem_length": 317,
+      "hf_row_idx": 132
+    },
+    {
+      "task_id": "gpqa_diamond_8f174dd25b58",
+      "question_hash": "8f174dd25b58",
+      "domain": "Chemistry",
+      "problem_length": 118,
+      "hf_row_idx": 133
+    },
+    {
+      "task_id": "gpqa_diamond_4b45de4106aa",
+      "question_hash": "4b45de4106aa",
+      "domain": "Physics",
+      "problem_length": 345,
+      "hf_row_idx": 134
+    },
+    {
+      "task_id": "gpqa_diamond_656a46f8bac8",
+      "question_hash": "656a46f8bac8",
+      "domain": "Physics",
+      "problem_length": 457,
+      "hf_row_idx": 135
+    },
+    {
+      "task_id": "gpqa_diamond_1fc80dd29a6d",
+      "question_hash": "1fc80dd29a6d",
+      "domain": "Physics",
+      "problem_length": 475,
+      "hf_row_idx": 136
+    },
+    {
+      "task_id": "gpqa_diamond_2437e4848569",
+      "question_hash": "2437e4848569",
+      "domain": "Chemistry",
+      "problem_length": 448,
+      "hf_row_idx": 137
+    },
+    {
+      "task_id": "gpqa_diamond_32bdeb2d6746",
+      "question_hash": "32bdeb2d6746",
+      "domain": "Chemistry",
+      "problem_length": 341,
+      "hf_row_idx": 138
+    },
+    {
+      "task_id": "gpqa_diamond_14a2ed1ddcec",
+      "question_hash": "14a2ed1ddcec",
+      "domain": "Chemistry",
+      "problem_length": 774,
+      "hf_row_idx": 139
+    },
+    {
+      "task_id": "gpqa_diamond_0caf81b8c837",
+      "question_hash": "0caf81b8c837",
+      "domain": "Chemistry",
+      "problem_length": 133,
+      "hf_row_idx": 140
+    },
+    {
+      "task_id": "gpqa_diamond_de0e795a2e16",
+      "question_hash": "de0e795a2e16",
+      "domain": "Physics",
+      "problem_length": 201,
+      "hf_row_idx": 141
+    },
+    {
+      "task_id": "gpqa_diamond_d6e89de54268",
+      "question_hash": "d6e89de54268",
+      "domain": "Chemistry",
+      "problem_length": 591,
+      "hf_row_idx": 142
+    },
+    {
+      "task_id": "gpqa_diamond_60c9747de98d",
+      "question_hash": "60c9747de98d",
+      "domain": "Physics",
+      "problem_length": 168,
+      "hf_row_idx": 143
+    },
+    {
+      "task_id": "gpqa_diamond_1f06efeb2323",
+      "question_hash": "1f06efeb2323",
+      "domain": "Chemistry",
+      "problem_length": 96,
+      "hf_row_idx": 144
+    },
+    {
+      "task_id": "gpqa_diamond_934c12bf2e6d",
+      "question_hash": "934c12bf2e6d",
+      "domain": "Chemistry",
+      "problem_length": 89,
+      "hf_row_idx": 145
+    },
+    {
+      "task_id": "gpqa_diamond_364ddb1397ab",
+      "question_hash": "364ddb1397ab",
+      "domain": "Physics",
+      "problem_length": 166,
+      "hf_row_idx": 146
+    },
+    {
+      "task_id": "gpqa_diamond_d160134fd023",
+      "question_hash": "d160134fd023",
+      "domain": "Chemistry",
+      "problem_length": 515,
+      "hf_row_idx": 147
+    },
+    {
+      "task_id": "gpqa_diamond_4c8dd7600126",
+      "question_hash": "4c8dd7600126",
+      "domain": "Chemistry",
+      "problem_length": 752,
+      "hf_row_idx": 148
+    },
+    {
+      "task_id": "gpqa_diamond_952132525f3a",
+      "question_hash": "952132525f3a",
+      "domain": "Chemistry",
+      "problem_length": 269,
+      "hf_row_idx": 149
+    },
+    {
+      "task_id": "gpqa_diamond_851c6624380d",
+      "question_hash": "851c6624380d",
+      "domain": "Physics",
+      "problem_length": 400,
+      "hf_row_idx": 150
+    },
+    {
+      "task_id": "gpqa_diamond_838fc09fd4e7",
+      "question_hash": "838fc09fd4e7",
+      "domain": "Biology",
+      "problem_length": 534,
+      "hf_row_idx": 151
+    },
+    {
+      "task_id": "gpqa_diamond_e38dd7750710",
+      "question_hash": "e38dd7750710",
+      "domain": "Chemistry",
+      "problem_length": 700,
+      "hf_row_idx": 152
+    },
+    {
+      "task_id": "gpqa_diamond_d7be2d674d49",
+      "question_hash": "d7be2d674d49",
+      "domain": "Chemistry",
+      "problem_length": 450,
+      "hf_row_idx": 153
+    },
+    {
+      "task_id": "gpqa_diamond_eae298168d24",
+      "question_hash": "eae298168d24",
+      "domain": "Physics",
+      "problem_length": 1036,
+      "hf_row_idx": 154
+    },
+    {
+      "task_id": "gpqa_diamond_e82f7c84f310",
+      "question_hash": "e82f7c84f310",
+      "domain": "Chemistry",
+      "problem_length": 581,
+      "hf_row_idx": 155
+    },
+    {
+      "task_id": "gpqa_diamond_a817452b182a",
+      "question_hash": "a817452b182a",
+      "domain": "Biology",
+      "problem_length": 211,
+      "hf_row_idx": 156
+    },
+    {
+      "task_id": "gpqa_diamond_691112dd08ae",
+      "question_hash": "691112dd08ae",
+      "domain": "Biology",
+      "problem_length": 571,
+      "hf_row_idx": 157
+    },
+    {
+      "task_id": "gpqa_diamond_e410f49b6f85",
+      "question_hash": "e410f49b6f85",
+      "domain": "Physics",
+      "problem_length": 571,
+      "hf_row_idx": 158
+    },
+    {
+      "task_id": "gpqa_diamond_5a24c76ed39e",
+      "question_hash": "5a24c76ed39e",
+      "domain": "Physics",
+      "problem_length": 471,
+      "hf_row_idx": 159
+    },
+    {
+      "task_id": "gpqa_diamond_415ea1789217",
+      "question_hash": "415ea1789217",
+      "domain": "Physics",
+      "problem_length": 985,
+      "hf_row_idx": 160
+    },
+    {
+      "task_id": "gpqa_diamond_2c52c770af75",
+      "question_hash": "2c52c770af75",
+      "domain": "Physics",
+      "problem_length": 194,
+      "hf_row_idx": 161
+    },
+    {
+      "task_id": "gpqa_diamond_65db6ef4b562",
+      "question_hash": "65db6ef4b562",
+      "domain": "Chemistry",
+      "problem_length": 225,
+      "hf_row_idx": 162
+    },
+    {
+      "task_id": "gpqa_diamond_916a1ca795d3",
+      "question_hash": "916a1ca795d3",
+      "domain": "Physics",
+      "problem_length": 669,
+      "hf_row_idx": 163
+    },
+    {
+      "task_id": "gpqa_diamond_f0c3d97c5c67",
+      "question_hash": "f0c3d97c5c67",
+      "domain": "Chemistry",
+      "problem_length": 861,
+      "hf_row_idx": 164
+    },
+    {
+      "task_id": "gpqa_diamond_5ea7e9b17f67",
+      "question_hash": "5ea7e9b17f67",
+      "domain": "Physics",
+      "problem_length": 731,
+      "hf_row_idx": 165
+    },
+    {
+      "task_id": "gpqa_diamond_5028b464f9ac",
+      "question_hash": "5028b464f9ac",
+      "domain": "Physics",
+      "problem_length": 570,
+      "hf_row_idx": 166
+    },
+    {
+      "task_id": "gpqa_diamond_bdc1ab103002",
+      "question_hash": "bdc1ab103002",
+      "domain": "Biology",
+      "problem_length": 260,
+      "hf_row_idx": 167
+    },
+    {
+      "task_id": "gpqa_diamond_97732ba422af",
+      "question_hash": "97732ba422af",
+      "domain": "Physics",
+      "problem_length": 507,
+      "hf_row_idx": 168
+    },
+    {
+      "task_id": "gpqa_diamond_b114078343a4",
+      "question_hash": "b114078343a4",
+      "domain": "Physics",
+      "problem_length": 188,
+      "hf_row_idx": 169
+    },
+    {
+      "task_id": "gpqa_diamond_e17051d5c4eb",
+      "question_hash": "e17051d5c4eb",
+      "domain": "Chemistry",
+      "problem_length": 351,
+      "hf_row_idx": 170
+    },
+    {
+      "task_id": "gpqa_diamond_e6fd9b7cea6c",
+      "question_hash": "e6fd9b7cea6c",
+      "domain": "Physics",
+      "problem_length": 453,
+      "hf_row_idx": 171
+    },
+    {
+      "task_id": "gpqa_diamond_43af6d115970",
+      "question_hash": "43af6d115970",
+      "domain": "Physics",
+      "problem_length": 214,
+      "hf_row_idx": 172
+    },
+    {
+      "task_id": "gpqa_diamond_28fc44d6ca68",
+      "question_hash": "28fc44d6ca68",
+      "domain": "Physics",
+      "problem_length": 535,
+      "hf_row_idx": 173
+    },
+    {
+      "task_id": "gpqa_diamond_0dbcc69ff355",
+      "question_hash": "0dbcc69ff355",
+      "domain": "Physics",
+      "problem_length": 492,
+      "hf_row_idx": 174
+    },
+    {
+      "task_id": "gpqa_diamond_4c588d49e166",
+      "question_hash": "4c588d49e166",
+      "domain": "Physics",
+      "problem_length": 697,
+      "hf_row_idx": 175
+    },
+    {
+      "task_id": "gpqa_diamond_5fb04957154b",
+      "question_hash": "5fb04957154b",
+      "domain": "Physics",
+      "problem_length": 604,
+      "hf_row_idx": 176
+    },
+    {
+      "task_id": "gpqa_diamond_6cec89b2019b",
+      "question_hash": "6cec89b2019b",
+      "domain": "Physics",
+      "problem_length": 239,
+      "hf_row_idx": 177
+    },
+    {
+      "task_id": "gpqa_diamond_84b58aec9b33",
+      "question_hash": "84b58aec9b33",
+      "domain": "Physics",
+      "problem_length": 413,
+      "hf_row_idx": 178
+    },
+    {
+      "task_id": "gpqa_diamond_254c10ac4fdc",
+      "question_hash": "254c10ac4fdc",
+      "domain": "Physics",
+      "problem_length": 273,
+      "hf_row_idx": 179
+    },
+    {
+      "task_id": "gpqa_diamond_7cccb7714b35",
+      "question_hash": "7cccb7714b35",
+      "domain": "Physics",
+      "problem_length": 710,
+      "hf_row_idx": 180
+    },
+    {
+      "task_id": "gpqa_diamond_8accf5d31cc4",
+      "question_hash": "8accf5d31cc4",
+      "domain": "Physics",
+      "problem_length": 438,
+      "hf_row_idx": 181
+    },
+    {
+      "task_id": "gpqa_diamond_6e2bd9ec28ef",
+      "question_hash": "6e2bd9ec28ef",
+      "domain": "Chemistry",
+      "problem_length": 164,
+      "hf_row_idx": 182
+    },
+    {
+      "task_id": "gpqa_diamond_f4486aea8f80",
+      "question_hash": "f4486aea8f80",
+      "domain": "Chemistry",
+      "problem_length": 160,
+      "hf_row_idx": 183
+    },
+    {
+      "task_id": "gpqa_diamond_29f96711820e",
+      "question_hash": "29f96711820e",
+      "domain": "Physics",
+      "problem_length": 294,
+      "hf_row_idx": 184
+    },
+    {
+      "task_id": "gpqa_diamond_a40790d78d4f",
+      "question_hash": "a40790d78d4f",
+      "domain": "Chemistry",
+      "problem_length": 110,
+      "hf_row_idx": 185
+    },
+    {
+      "task_id": "gpqa_diamond_5264f3cb98bb",
+      "question_hash": "5264f3cb98bb",
+      "domain": "Physics",
+      "problem_length": 935,
+      "hf_row_idx": 186
+    },
+    {
+      "task_id": "gpqa_diamond_9ab5fff18dfa",
+      "question_hash": "9ab5fff18dfa",
+      "domain": "Physics",
+      "problem_length": 195,
+      "hf_row_idx": 187
+    },
+    {
+      "task_id": "gpqa_diamond_d20446ccbbfc",
+      "question_hash": "d20446ccbbfc",
+      "domain": "Physics",
+      "problem_length": 100,
+      "hf_row_idx": 188
+    },
+    {
+      "task_id": "gpqa_diamond_17f96c74be83",
+      "question_hash": "17f96c74be83",
+      "domain": "Chemistry",
+      "problem_length": 810,
+      "hf_row_idx": 189
+    },
+    {
+      "task_id": "gpqa_diamond_21b950759e4e",
+      "question_hash": "21b950759e4e",
+      "domain": "Chemistry",
+      "problem_length": 464,
+      "hf_row_idx": 190
+    },
+    {
+      "task_id": "gpqa_diamond_2c08be31c31e",
+      "question_hash": "2c08be31c31e",
+      "domain": "Physics",
+      "problem_length": 628,
+      "hf_row_idx": 191
+    },
+    {
+      "task_id": "gpqa_diamond_bb309e44424b",
+      "question_hash": "bb309e44424b",
+      "domain": "Physics",
+      "problem_length": 225,
+      "hf_row_idx": 192
+    },
+    {
+      "task_id": "gpqa_diamond_7c427847fb1a",
+      "question_hash": "7c427847fb1a",
+      "domain": "Physics",
+      "problem_length": 253,
+      "hf_row_idx": 193
+    },
+    {
+      "task_id": "gpqa_diamond_35cf9161cc3c",
+      "question_hash": "35cf9161cc3c",
+      "domain": "Physics",
+      "problem_length": 539,
+      "hf_row_idx": 194
+    },
+    {
+      "task_id": "gpqa_diamond_4dde21b33c78",
+      "question_hash": "4dde21b33c78",
+      "domain": "Physics",
+      "problem_length": 202,
+      "hf_row_idx": 195
+    },
+    {
+      "task_id": "gpqa_diamond_126561d6b58f",
+      "question_hash": "126561d6b58f",
+      "domain": "Chemistry",
+      "problem_length": 296,
+      "hf_row_idx": 196
+    },
+    {
+      "task_id": "gpqa_diamond_888abd3e43c5",
+      "question_hash": "888abd3e43c5",
+      "domain": "Chemistry",
+      "problem_length": 379,
+      "hf_row_idx": 197
+    }
+  ]
+}

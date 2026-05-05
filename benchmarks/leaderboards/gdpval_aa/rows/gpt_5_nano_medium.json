@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_5_nano_medium",
+  "model_id": "8eb02396-f231-4189-ae15-05f7facebd9b",
+  "model_slug": "gpt-5-nano-medium",
+  "name": "GPT-5 nano (medium)",
+  "gdpval_name": null,
+  "short_name": "GPT-5 nano (medium)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-08-07",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 596.3552339148903,
+    "lower_95ci": 567.7613372185918,
+    "upper_95ci": 625.3104302144352,
+    "n_matches": 2175,
+    "avg_turns": 16.53917050691244
+  },
+  "gdpval_breakdown": {
+    "elo": 596.3552339148903,
+    "avg_turns": 16.53917050691244,
+    "n_matches": 2175,
+    "lower_95ci": 567.7613372185918,
+    "upper_95ci": 625.3104302144352,
+    "last_updated": "2026-04-22T02:15:44.918775"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 69074544,
+    "answer_tokens": 2191894,
+    "output_tokens": 6393730,
+    "reasoning_tokens": 4201836
+  },
+  "intelligence_index": 25.88,
+  "agentic_index": 16.78,
+  "price_1m_input_tokens": 0.05,
+  "price_1m_output_tokens": 0.4
+}

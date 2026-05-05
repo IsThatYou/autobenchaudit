@@ -1,0 +1,43 @@
+{
+  "slug": "nemotron_cascade_2_30b_a3b",
+  "model_id": "9815da7d-70f4-44d6-b539-9ffef0faa152",
+  "model_slug": "nemotron-cascade-2-30b-a3b",
+  "name": "Nemotron Cascade 2 30B A3B",
+  "gdpval_name": null,
+  "short_name": "Nemotron Cascade 2 30B A3B",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2026-03-19",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 755.4316158143704,
+    "lower_95ci": 729.5715721967459,
+    "upper_95ci": 779.9293787917393,
+    "n_matches": 2079,
+    "avg_turns": 14.831818181818182
+  },
+  "gdpval_breakdown": {
+    "elo": 755.4316158143704,
+    "avg_turns": 14.831818181818182,
+    "n_matches": 2079,
+    "lower_95ci": 729.5715721967459,
+    "upper_95ci": 779.9293787917393,
+    "last_updated": "2026-04-22T02:15:38.341201"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 34558058,
+    "answer_tokens": 2344847,
+    "output_tokens": 3749321,
+    "reasoning_tokens": 1404474
+  },
+  "intelligence_index": 28.35,
+  "agentic_index": 26.15,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

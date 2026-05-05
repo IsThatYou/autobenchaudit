@@ -1,0 +1,43 @@
+{
+  "slug": "o4_mini",
+  "model_id": "84b49308-6b93-47aa-a4f6-776ee1a1e8cd",
+  "model_slug": "o4-mini",
+  "name": "o4-mini (high)",
+  "gdpval_name": null,
+  "short_name": "o4-mini (high)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-04-16",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1006.7063773227048,
+    "lower_95ci": 980.0546427719559,
+    "upper_95ci": 1032.9865149030243,
+    "n_matches": 2410,
+    "avg_turns": 16.826291079812208
+  },
+  "gdpval_breakdown": {
+    "elo": 1006.7063773227048,
+    "avg_turns": 16.826291079812208,
+    "n_matches": 2410,
+    "lower_95ci": 980.0546427719559,
+    "upper_95ci": 1032.9865149030243,
+    "last_updated": "2026-04-22T02:15:27.837178"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 45067977,
+    "answer_tokens": 1361438,
+    "output_tokens": 8289636,
+    "reasoning_tokens": 6928197
+  },
+  "intelligence_index": 33.06,
+  "agentic_index": 36.09,
+  "price_1m_input_tokens": 1.1,
+  "price_1m_output_tokens": 4.4
+}

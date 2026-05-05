@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue concerns a task-specific definition change for variant classification, while the finding describes a technical code bug (UnboundLocalError) in the grading logic."
+}

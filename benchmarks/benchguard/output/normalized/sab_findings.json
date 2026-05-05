@@ -1,0 +1,444 @@
+{
+  "benchmark": "ScienceAgentBench",
+  "source_dir": "data/bench_audit/benchguard/neurips/science_agent_bench__v4__actual/task_audits_static",
+  "models": [
+    "static_audit"
+  ],
+  "filters_applied": {
+    "exclude_protocols": [],
+    "min_confidence": 0.0
+  },
+  "tasks": {
+    "9": {
+      "task_id": "9",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "9__static_audit__0",
+          "model": "static_audit",
+          "task_id": "9",
+          "title": "The task instruction asks for the 'Pearson correlation coefficient' (r) but the gold program computes Pearson R\u00b2 (r-squared) via dc.metrics.pearson_r2_score. These are mathematically different quantities with different value ranges, and the visual eval would reject the correct implementation of what the instruction describes.",
+          "description": "An agent faithfully implementing the instruction would compute the Pearson correlation coefficient r (via scipy.stats.pearsonr, numpy.corrcoef, or pandas .corr()), producing values in [-1, 1]. The gold solution uses dc.metrics.pearson_r2_score which produces R\u00b2 values in [0, 1]. The resulting histograms have completely different x-axis ranges and distributions. The eval script uses a GPT-4 visual judge (score_figure) with a threshold of 60/100 to compare against the gold histogram (which shows R\u00b2 values in [0, 0.8]). A histogram of r values would look substantially different and would likely score below 60, failing the agent despite correctly following the instruction. The scoring rubric (not shown to the agent) also confirms the intended metric is 'Pearson R2 correlations,' further demonstrating the instruction uses the wrong term.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/009__FACTORS_correlations/instruction.md] Line 10: 'compute the Pearson correlation coefficient between each task and every other task' \u2014 explicitly says 'Pearson correlation coefficient' (r, not r\u00b2)\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/FACTORS_correlations.py] Line 36: r2 = dc.metrics.pearson_r2_score(y_task, y_other) \u2014 computes R\u00b2 (squared Pearson correlation), not the Pearson correlation coefficient itself\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/Factors_correlations_gold.png] Gold histogram x-axis ranges from 0.0 to 0.8 with all non-negative values, confirming R\u00b2 (r-squared) values. Pearson r values would range from -1 to 1.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/FACTORS_correlations_eval.py] Lines 10-12: Uses GPT-4 visual judge (score_figure) to compare agent plot against gold plot, requiring score >= 60. A histogram of r values vs r\u00b2 values would have visually different shape and range, likely scoring below 60.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/scoring_rubrics/FACTORS_correlations_rubric.json] Line 15: rubric says 'Pearson R2 correlations' (not shown to agent) \u2014 confirms the intent is R\u00b2, contradicting the instruction's 'Pearson correlation coefficient'",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "9__static_audit__1",
+          "model": "static_audit",
+          "task_id": "9",
+          "title": "The dataset preview section references a misspelled filename 'FACTORS_training_distinguised_combined_full.csv' (note 'distinguised') while the actual file is 'FACTORS_training_disguised_combined_full.csv' ('disguised'). The folder tree section has the correct spelling.",
+          "description": "An agent that uses the preview path to open the file would get a file-not-found error. While the correct filename appears in the folder tree section of the same instruction, the inconsistency creates a minor obstacle. Most agents would recover by listing the directory, but the conflicting filenames could waste time or cause confusion.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/009__FACTORS_correlations/instruction.md] Lines 30-35: Preview header says 'FACTORS_training_distinguised_combined_full.csv' (typo: 'distinguised' instead of 'disguised')\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/009__FACTORS_correlations/instruction.md] Line 20: Folder tree correctly lists 'FACTORS_training_disguised_combined_full.csv' \u2014 inconsistent with the preview section\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/FACTORS] Actual file on disk is named 'FACTORS_training_disguised_combined_full.csv', matching the folder tree but not the preview",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "12": {
+      "task_id": "12",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "12__static_audit__0",
+          "model": "static_audit",
+          "task_id": "12",
+          "title": "The task instruction says to save 'the ordered list of drugs... with one SMILES per line' but the eval script checks for drug names (not SMILES strings) at specific line positions, and the gold program outputs DeepPurpose's formatted repurposing results containing drug names.",
+          "description": "An agent faithfully following the instruction would extract SMILES strings from the ranking and write those to the output file. The eval script checks `if gold_top5[i] in pred[i]` where gold_top5 contains drug names like 'Foscarnet' and 'Boceprevir'. A file containing only SMILES strings would contain none of these names and would fail. The instruction actively misleads toward an output format the evaluation rejects. Five competent developers reading 'one SMILES per line' would all write SMILES, not the DeepPurpose formatted output.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/012__davis_dti/metadata.json] task_inst field line: 'save the ordered list of drugs to \"pred_results/davis_dti_repurposing.txt\", with one SMILES per line.'\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/davis_dti_eval.py] Line 2: gold_top5 = ['Foscarnet', 'Boceprevir', 'Sofosbuvir', 'Amantadine', 'Glecaprevir']. Line 10: checks `if gold_top5[i] in pred[i]` \u2014 expects drug NAMES in the output, not SMILES strings.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/davis_dti.py] Lines 75-82: The gold program calls models.repurpose() with drug_names=r_name (drug names, not SMILES) and copies the formatted output (which includes names) to the final file. The output is DeepPurpose's repurposing format, not 'one SMILES per line'.",
+          "category": "INST",
+          "subcategory": "misleading_instruction",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "12__static_audit__1",
+          "model": "static_audit",
+          "task_id": "12",
+          "title": "The eval requires an exact positional match of all 5 top-ranked drugs from a deep learning model whose ranking depends on specific hyperparameters and random initialization not specified in the prompt.",
+          "description": "The eval checks `top5_matches == 5` requiring all 5 drugs to appear in exact order. The gold program uses specific hyperparameters (cls_hidden_dims=[1024,1024,512], LR=5e-4, mpnn_depth=3, etc.) and MPNN+CNN encoding that are not specified in the task instruction. The domain knowledge mentions MPNN and CNN as 'typical' encoders but gives no hyperparameters. Different reasonable encoder choices (e.g., ECFP, also mentioned in domain knowledge) or different hyperparameters would likely produce a different ranking. Even with the same architecture, DL models with different random seeds can produce different rankings. A competent developer could build a valid DTI model and still fail the eval by getting a slightly different top-5 ordering.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/davis_dti_eval.py] Lines 8-13: Requires exact positional match for all 5 top drugs: top5_matches must equal 5. No tolerance for partial matches or reordering.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/davis_dti.py] Lines 49-60: Uses specific hyperparameters (cls_hidden_dims=[1024,1024,512], train_epoch=10, LR=5e-4, batch_size=128, hidden_dim_drug=128, mpnn_hidden_size=128, mpnn_depth=3, cnn_target_filters=[32,64,96], cnn_target_kernels=[4,8,12]) none of which are mentioned in the task instruction.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/012__davis_dti/metadata.json] Domain knowledge mentions 'ECFP fingerprint or message-passing neural networks' and '1D convolutional neural networks' as options, but an agent choosing ECFP over MPNN would produce different rankings.",
+          "category": "EVAL",
+          "subcategory": "overly_strict_tolerance",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "21": {
+      "task_id": "21",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "21__static_audit__0",
+          "model": "static_audit",
+          "task_id": "21",
+          "title": "The gold program computes the non-deforested percentage of the buffer zone but labels it as 'percentage_deforestation'. The eval enforces this inverted answer, causing a semantically correct solution to fail.",
+          "description": "The task instruction says 'Calculate the deforestation area percentage... within the buffer zone of 5.5km around road layers.' A competent GIS developer would compute (deforested area within buffer) / (total buffer area), yielding ~0.48. The gold program uses gpd.overlay(roads_buffer_dissolve, deforestedArea, how='difference'), which returns the parts of the buffer NOT overlapping the deforested area, i.e. the non-deforested portion (~0.52). The eval script enforces the gold value within 5% relative tolerance, so a correct answer of ~0.48 would yield a relative error of ~7.95%, failing the eval. Five competent GIS developers reading only the prompt would all compute the deforested intersection, not the non-deforested difference.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/deforestation.py] Line 20: gpd.overlay(roads_buffer_dissolve, deforestedArea, how='difference') returns buffer MINUS deforested area, i.e. the non-deforested portion. Line 24: this is divided by buffer_area and stored as 'percentage_deforestation'.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/deforestation_rate_gold.csv] Gold value is 0.5206889643447971. If the deforestedArea layer represents deforested land (as the filename indicates), then ~52% of the buffer is NOT deforested, meaning the actual deforestation percentage is ~48%.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_deforestation.py] Line 7-8: metric = abs(pred - gold) / gold with threshold 0.05. A correct deforestation percentage of ~0.4793 would yield metric approx 0.0795, exceeding the 0.05 threshold, thus failing.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/021__deforestation/metadata.json] task_inst: 'Calculate the deforestation area percentage... within the buffer zone of 5.5km around road layers.' This asks for the deforested fraction, not the non-deforested fraction.",
+          "category": "EVAL",
+          "subcategory": "wrong_reference_answer",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "21__static_audit__1",
+          "model": "static_audit",
+          "task_id": "21",
+          "title": "The prompt does not specify which coordinate reference system to use. The gold program uses EPSG:32723 (UTM Zone 23S, centered at 45W), which is geographically inappropriate for Rondonia data located at 60-66W. An agent choosing the correct UTM zone may get a numerically different result.",
+          "description": "UTM projections are designed for accuracy within 3 degrees of the central meridian. EPSG:32723 is centered at 45W, while the data lies at 60-66W, some 15-21 degrees away, causing significant metric distortion in buffer distances and area calculations. A GIS developer following best practices would choose EPSG:32720 (UTM 20S) or EPSG:32719 (UTM 19S). The eval enforces the gold answer computed with the wrong CRS. While ratio-based metrics partially cancel CRS distortion, the result may differ enough from a correctly-projected computation to exceed the 5% tolerance, depending on the geometry.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/deforestation.py] Lines 10-13: Both roads and deforestedArea are projected to epsg=32723 (UTM Zone 23S). The data preview shows coordinates at -65 to -66W longitude, which falls in UTM Zone 19S or 20S.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/021__deforestation/instruction.md] Line 10: The task instruction specifies '5.5km' buffer but provides no CRS guidance. A developer must choose one independently.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/scoring_rubrics/deforestation_rubric.json] Lines 15-19: The rubric specifies 'EPSG:32723' but this rubric is not shown to the agent. It encodes the wrong UTM zone as the expected approach.",
+          "category": "INST",
+          "subcategory": "unspecified_parameter",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "26": {
+      "task_id": "26",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "26__static_audit__0",
+          "model": "static_audit",
+          "task_id": "26",
+          "title": "The instruction never specifies that the combined-name column should be called 'names'. The eval script accesses pred['names'] directly, which will raise a KeyError if the agent uses any other column name (e.g., 'name', 'interaction_name').",
+          "description": "The eval is a hard pass/fail gate on the column name. The instruction says 'Combine ... into a name' (singular) and explicitly specifies only the Y column ('under the column Y'). A competent developer could reasonably name the first column 'name' (singular, matching the instruction's wording) and fail the eval. This is asymmetric: one column name is given, the other is not.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/026__ligand_fingerprint/metadata.json] task_inst says 'Combine the ligand, protein, type of interactions, and frame index into a name' \u2014 uses singular 'a name', never mentions column name 'names'.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_fingerprint.py] Line 9: data_correctness = (list(pred['names']) == list(gold['names'])) \u2014 requires exact column name 'names'. Line 11: accuracy_score(gold[['Y']], pred[['Y']]) \u2014 requires exact column name 'Y'. No error handling or fallback for alternative column names.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/ligand_fingerprint_gold.csv] Gold CSV header is 'names,Y' \u2014 the plural 'names' is the expected column name.",
+          "category": "INST",
+          "subcategory": "missing_specification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "26__static_audit__1",
+          "model": "static_audit",
+          "task_id": "26",
+          "title": "The instruction says to 'combine the ligand, protein, type of interactions, and frame index into a name' without specifying the delimiter, component format, or row ordering. The eval checks exact string equality of every name and positional alignment of rows, so any deviation in format or order causes failure.",
+          "description": "The gold output uses names like 'LIG1.G_TYR38.A_Hydrophobic_0' \u2014 an underscore-delimited join of ProLIF's MultiIndex columns plus frame index. The eval (line 9) checks list(pred['names']) == list(gold['names']), requiring exact strings in exact order. A developer who uses a different delimiter (e.g., '-' or '|'), a different component order, or iterates frame-first instead of interaction-first would produce a valid interpretation the eval rejects. However, the gap is discoverable: following ProLIF's to_dataframe() and joining MultiIndex tuples with '_' is the natural workflow, making the expected format the most likely one reached by a domain expert.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/026__ligand_fingerprint/metadata.json] task_inst says 'Combine the ligand, protein, type of interactions, and frame index into a name' with no format specification.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/ligand_fingerprint.py] Line 17: new_names = ['_'.join(column) + f'_{index}' for column in columns for index in range(10)] \u2014 specific format: underscore-joined MultiIndex + underscore + frame index, iterated in column-major (interaction-first) order.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_fingerprint.py] Line 9: data_correctness = (list(pred['names']) == list(gold['names'])) \u2014 exact ordered list equality, no normalization or sorting.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/ligand_fingerprint_gold.csv] Names like 'LIG1.G_TYR38.A_Hydrophobic_0' show the specific format: {residue_with_chain}_{residue_with_chain}_{interaction_type}_{frame_index}, using ProLIF's internal residue naming convention.",
+          "category": "INST",
+          "subcategory": "underspecified_format",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "29": {
+      "task_id": "29",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "29__static_audit__0",
+          "model": "static_audit",
+          "task_id": "29",
+          "title": "The RSP_Rate_Mean check in the eval script uses `==` (equality) instead of `-` (subtraction) inside `abs()`, inverting the check: exact matches FAIL and any wrong value PASSES. The gold program itself fails the eval because of this bug.",
+          "description": "The eval rejects perfectly correct RSP_Rate_Mean values and accepts any incorrect value. Since `success` requires all 16 cells to match and all 4 RSP cells will always fail for a correct solution, no correct agent output can pass the eval. The gold program scores 12/16 and returns success=0.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Lines 15-17: `abs(round(pred.iloc[index]['RSP_Rate_Mean'], 3) == round(row['RSP_Rate_Mean'], 3)) <= 0.5`. The `==` returns True/False (1/0). abs(1) = 1, and 1 <= 0.5 is False, so exact matches fail. abs(0) = 0, and 0 <= 0.5 is True, so mismatches pass. Compare with the correct ECG pattern on line 13 which uses `-` (subtraction).\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Line 12-14 shows the correct pattern for ECG: `abs(round(pred..., 3) - round(row..., 3)) <= 0.5` \u2014 using subtraction. The RSP line is identical except it has `==` where `-` should be.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Simulation confirms: running the eval with pred == gold (ideal case) yields Row 0-3 RSP=0 (all fail), total 12/16, success=0. The gold program cannot pass its own eval.",
+          "category": "EVAL",
+          "subcategory": "wrong_operator_in_eval",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "29__static_audit__1",
+          "model": "static_audit",
+          "task_id": "29",
+          "title": "The EDA_Peak_Amplitude check uses `==` instead of `-` inside `abs()`, making it always pass regardless of the predicted value. No validation of EDA accuracy occurs.",
+          "description": "An agent can output any arbitrary EDA_Peak_Amplitude values (e.g., 999999) and still pass the EDA check. This means 25% of the evaluated cells provide zero signal about correctness. Combined with the RSP bug, only 2 of the 4 evaluated columns (Condition and ECG_Rate_Mean) are actually validated correctly.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Lines 18-20: `abs(round(pred.iloc[index]['EDA_Peak_Amplitude'], 3) == round(row['EDA_Peak_Amplitude'], 3)) <= 1.0`. The `==` returns True (1) or False (0). abs(1) = 1 <= 1.0 is True; abs(0) = 0 <= 1.0 is True. Both branches pass, so the check is vacuous.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Simulation confirms: with pred EDA=999.0 and gold EDA=-0.404, the check still returns 1 (pass). Same result for any value.",
+          "category": "EVAL",
+          "subcategory": "wrong_operator_in_eval",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "29__static_audit__2",
+          "model": "static_audit",
+          "task_id": "29",
+          "title": "The prompt instructs the agent to work with 'ecg_1000hz.csv' but the correct input file is 'bio_eventrelated_100hz.csv'. The ecg_1000hz.csv file only contains a single ECG column, making it impossible to compute the required RSP_Rate_Mean and EDA_Peak_Amplitude outputs.",
+          "description": "The prompt explicitly names the wrong input file. While the dataset preview and output filename ('bio_eventrelated_100hz_analysis_pred.csv') provide clues that bio_eventrelated_100hz.csv is the correct file, the mismatch can misdirect agents. Competent developers would likely recover by examining the data, but the prompt actively misleads.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/029__bio_eventrelated_analyze/instruction.md] Line 10: 'Localize the events from the biosignals of one participant in \"ecg_1000hz.csv\".' \u2014 but ecg_1000hz.csv has only an ECG column (no EDA, RSP, or Photosensor).\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/bio_eventrelated_analyze.py] Line 10: `data = pd.read_csv('./benchmark/datasets/biosignals/bio_eventrelated_100hz.csv')` \u2014 the gold solution reads from a different file than the one named in the prompt.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/029__bio_eventrelated_analyze/instruction.md] The dataset preview (lines 28-34) shows bio_eventrelated_100hz.csv has columns ECG, EDA, Photosensor, RSP \u2014 all needed for the task. The ecg_1000hz.csv preview (lines 42-48) shows only ECG. The gap is discoverable but requires the agent to override the explicit instruction.",
+          "category": "INST",
+          "subcategory": "misleading_instruction",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "29__static_audit__3",
+          "model": "static_audit",
+          "task_id": "29",
+          "title": "The eval requires the 'Condition' column to contain specific labels ('Negative', 'Neutral', 'Neutral', 'Negative') that are neither stated in the prompt nor derivable from the data files. The only discovery path is reading the source notebook in the NeuroKit repo.",
+          "description": "The eval checks `pred.iloc[index]['Condition'] == row['Condition']` for exact string matches. Without knowing the condition labels and their order, the agent cannot produce correct Condition values. The labels represent experimental stimulus categories (emotional valence) that cannot be inferred from the biosignal data itself. While the source repo and notebook path are provided as metadata, interpreting these as actionable implementation guidance requires unusual initiative.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/bio_eventrelated_analyze.py] Lines 17-19: `event_conditions=['Negative', 'Neutral', 'Neutral', 'Negative']` \u2014 these four labels are hard-coded in the gold program.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/029__bio_eventrelated_analyze/instruction.md] The prompt mentions saving a 'Condition' column but never specifies what the condition labels should be. The domain knowledge section also does not mention conditions.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_bio_eventrelated_analyze.py] Line 11: `int(pred.iloc[index]['Condition'] == row['Condition'])` \u2014 exact string match required. Any other labeling (e.g., numeric indices, generic labels) would fail.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "31": {
+      "task_id": "31",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "31__static_audit__0",
+          "model": "static_audit",
+          "task_id": "31",
+          "title": "The prompt omits critical computational parameters required for a correct phonon DOS calculation \u2014 most importantly the VASP-phonopy force constant sign convention, but also the primitive cell structure, supercell matrix, and mesh density.",
+          "description": "The gold solution negates the force constants (-vasp_run.force_constants) due to a sign convention difference between VASP and phonopy. Without this negation, the phonon frequencies are wrong (imaginary modes appear) and the resulting DOS plot will look completely different from the gold, failing the visual judge. The prompt says only 'Calculate and plot the phonon density of states (DOS) using the output from VASP DFPT calculation results' and the domain knowledge hint discusses coordinate systems but never mentions the sign convention. A competent computational chemist may know this from phonopy documentation or experience, but it is a well-known gotcha that trips many practitioners. Similarly, the primitive cell parameters and supercell matrix must be derived from the vasprun file via symmetry analysis \u2014 standard practice, but the prompt gives no indication this step is needed.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/plot_phonon_dos.py] Line 39: phonon.set_force_constants(-vasp_run.force_constants) \u2014 the negation is critical but never mentioned in the prompt or domain knowledge hint. Lines 21-29 hardcode the Si primitive cell with specific lattice vectors and atomic positions not mentioned in the prompt. Line 32: supercell matrix [[2,0,0],[0,2,0],[0,0,2]] not in prompt. Line 42: mesh [31,31,31] not in prompt.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/031__plot_phonon_dos/instruction.md] The task instruction is one sentence: 'Calculate and plot the phonon density of states (DOS) using the output from VASP DFPT calculation results in vasprun.dfpt.phonon.xml.gz.' The domain knowledge hint discusses PhonopyAtoms coordinate systems but omits the force constant sign convention, which is the most critical non-obvious step.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/scoring_rubrics/plot_phonon_dos_rubric.json] The rubric awards 10 points for 'Set Primitive Cell' with exact Si parameters, 5 points for 'Initialize Supercell' with exact matrix, and 5 points for 'Set Force Constants' with 'negated force constants from the vasp_run object' \u2014 all undisclosed in the prompt. While the rubric is not used in automated eval, these steps are physically necessary for a correct plot.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "31__static_audit__1",
+          "model": "static_audit",
+          "task_id": "31",
+          "title": "The evaluation relies on a GPT-4 visual judge that is inherently non-deterministic, meaning the same solution can pass or fail across different evaluation runs.",
+          "description": "The eval function calls GPT-4 (model gpt-4o-2024-05-13) with n=3 completions at temperature=0.2, averages the scores, and passes if the average >= 60. While the n=3 averaging and moderate threshold mitigate variance, the evaluation is still non-reproducible. A borderline solution (e.g., scoring around 55-65) could pass in one run and fail in another. This undermines fair comparison across agent runs and makes it difficult to determine whether an agent truly succeeded or failed.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_pymatgen_plot_phonon_dos.py] Line 10-12: full_response, score = score_figure(pred_fig, gold_fig); return int(score >= 60), full_response \u2014 success is determined by a GPT-4 visual score threshold.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/repo/gpt4_visual_judge.py] score_figure() uses temperature=0.2, n=3, and averages the extracted scores. The regex-based score extraction (line matching '[FINAL SCORE]: \\d{1,3}') defaults to 0 if no match is found, adding another source of variance. The model version is pinned to gpt-4o-2024-05-13, but API behavior can still vary.",
+          "category": "EVAL",
+          "subcategory": "non_deterministic_evaluation",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "32": {
+      "task_id": "32",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "32__static_audit__0",
+          "model": "static_audit",
+          "task_id": "32",
+          "title": "The gold program uses an incorrect coordinate-to-raster-pixel mapping that ignores the raster's CRS (EPSG:3310) and geotransform, constructing an arbitrary mapping from the GeoDataFrame's EPSG:4326 bounds instead. The eval (GPT-4 visual comparison against this gold output) penalizes agents that use the correct geospatial approach.",
+          "description": "The raster is in EPSG:3310 (California Albers Equal Area, coordinates in meters: origin ~108148, -486333). The gold program ignores raster.transform and raster.crs entirely. Instead it takes coral_sponge_gdf.total_bounds (in degrees: ~-118.5 to -118.3 lon, ~33.2 to 33.5 lat) and stretches the 664\u00d7853 pixel grid across those bounds. This maps each species observation to an arbitrary pixel unrelated to its actual geographic location on the raster. A competent GIS developer would reproject coordinates or the raster to match CRS before extracting pixel values, producing fundamentally different slope/aspect values per species and a different bar chart. The GPT-4 visual judge (score_figure, threshold >= 60) compares against the gold output, so the correct approach may be penalized.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/coral_sponge.py] Lines 30-34: transform is built from coral_sponge_gdf.total_bounds (EPSG:4326 degrees) not from raster.transform (EPSG:3310 meters). raster.crs and raster.transform are never used for coordinate conversion.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CoralSponge/CatalinaBathymetry.tif] Raster CRS is EPSG:3310 with transform |88.03, 0.00, 108104.15| (meters). Bounds: left=108104, bottom=-544740, right=183193, top=-486289 \u2014 completely different coordinate space from the lat/lon degrees used by gold program.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CoralSponge/CatalinaBathymetry.tfw] World file confirms projected coordinates: pixel size 88.03m, origin at (108148, -486333) \u2014 not geographic degrees.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/coral_sponge_eval.py] Eval uses GPT-4 visual judge with threshold score >= 60. An agent using correct CRS-aware mapping would get different numerical values and different bar chart heights, potentially scoring below the threshold.",
+          "category": "EVAL",
+          "subcategory": "gold_solution_error",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "32__static_audit__1",
+          "model": "static_audit",
+          "task_id": "32",
+          "title": "The data preview shown in the task instruction drops negative signs from the raster values, showing 877 where the actual data contains -877. This misrepresents the data's nature and could mislead the agent about whether elevation negation is needed.",
+          "description": "The preview is the agent's first (and sometimes only) look at the data before writing code. The actual raster values are mostly negative (min=-1450, max=634, mean=-742.87), but the preview shows only positive values (877, 1250, 25, etc.). The gold program negates elevation (line 19: imarray = elevation * -1), which affects aspect calculation. An agent trusting the preview would believe values are already positive and might skip negation, or might negate thinking it needs to convert to a different sign convention, producing incorrect aspect values. The discrepancy between preview and actual data adds confusion to an already underspecified task.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/032__coral_sponge/metadata.json] Dataset preview shows '[[ 877  877  875 ...   25   24   24]' \u2014 all values are positive.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CoralSponge/CatalinaBathymetry.tif] Actual data read via rasterio: first corner is [[-877 -877 -875]], min=-1450, max=634. The preview values are the absolute values of the actual (negative) data.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/coral_sponge.py] Line 19: imarray = elevation * -1. Negation affects aspect computation (lines 27-28) \u2014 different aspect angles mean different bar chart for 'Mean Aspect per Species'.",
+          "category": "INST",
+          "subcategory": "misleading_context",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "32__static_audit__2",
+          "model": "static_audit",
+          "task_id": "32",
+          "title": "The prompt asks to visualize 'each Coral and Sponge species' without specifying which column to group by. The data contains both 'VernacularNameCategory' (13 broad categories) and 'ScientificName' (96 individual species). The gold program uses VernacularNameCategory, but ScientificName is the more standard interpretation of 'species' in biology.",
+          "description": "Using ScientificName (96 values) produces a bar chart with ~96 bars \u2014 a completely different visualization from the gold output's 13 bars (VernacularNameCategory). The GPT-4 visual judge would likely score a 96-bar chart far below the 60-point threshold when compared to the 13-bar gold figure, even though grouping by scientific name is a more standard biological interpretation of 'species'. A competent developer examining the data columns could go either way.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CoralSponge/CoralandSpongeCatalina.geojson] VernacularNameCategory has 13 unique values (black coral, demosponge, fish, glass sponge, etc.). ScientificName has 96 unique values (Acanthoptilum, Adelogorgia phyllosclera, etc.). Both are plausible groupings for 'species'.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/coral_sponge.py] Line 59: groupby('VernacularNameCategory') \u2014 uses the broader category, not the scientific species name.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/CoralandSponge.png] Gold output figure shows exactly 13 bars per subplot, matching VernacularNameCategory. A ScientificName-based chart would have ~96 bars and look drastically different.",
+          "category": "INST",
+          "subcategory": "underspecified_grouping",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "34": {
+      "task_id": "34",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "34__static_audit__0",
+          "model": "static_audit",
+          "task_id": "34",
+          "title": "The task instruction explicitly says to use both 'bio_eventrelated_100hz.csv' and 'bio_resting_5min_100hz.csv', but the gold program and evaluation only use the resting file. An agent following the prompt would process both files and fail.",
+          "description": "An agent reading 'Use the data in bio_eventrelated_100hz.csv and bio_resting_5min_100hz.csv' is directed to load and process both files. The gold program only reads bio_resting_5min_100hz.csv and produces a single-row HRV output. If an agent computes HRV on both files (producing two rows or combined data), the eval script's per-column comparison against the single-row gold CSV will fail. There is no information in the prompt to indicate that only one file should be used. Even a domain expert familiar with HRV conventions would be misled because the instruction is a direct command to use both files, not a suggestion to pick the appropriate one.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/034__HRV_analyze/metadata.json] task_inst field: 'Use the data in \"bio_eventrelated_100hz.csv\" and \"bio_resting_5min_100hz.csv\" to compute heart rate variability (HRV) indices' \u2014 explicitly names both files as inputs.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/HRV_analyze.py] Gold program line 10: only reads bio_resting_5min_100hz.csv. bio_eventrelated_100hz.csv is never referenced.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/hrv_analysis_gold.csv] Gold CSV has exactly 2 lines (1 header + 1 data row), confirming output from a single HRV analysis on only the resting file.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_HRV_analyze.py] Eval script (line 9-12) iterates over gold columns and does pred[series_name] - series. If pred has 2 rows vs gold's 1 row, the subtraction produces 2 rows and the sum diverges from expected values, causing failure.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/scoring_rubrics/HRV_analyze_rubric.json] Rubric's data_loading criterion (5 pts) only awards points for loading the resting file, contradicting the prompt's instruction to use both files. The discrepancy between prompt and rubric confirms this is a task-level issue.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "35": {
+      "task_id": "35",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "35__static_audit__0",
+          "model": "static_audit",
+          "task_id": "35",
+          "title": "The prompt does not specify which dataset file to use for RRV analysis, yet two of the four files contain RSP data. The eval only accepts results from one specific file.",
+          "description": "An agent choosing bio_resting_5min_100hz.csv (which also has an RSP column and is arguably more appropriate for variability analysis as a 5-minute continuous recording) would produce a valid RRV analysis that the eval rejects. The eval compares numeric values with a tolerance of 1.0 per column; using the wrong file produces completely different values (e.g., RRV_MeanBB=3562 in the gold), guaranteeing failure even for a correct implementation.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/035__RRV_analyze/metadata.json] task_inst says 'Perform RRV analysis on the given data' without specifying which file. Dataset folder tree lists 4 files.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/biosignals/bio_eventrelated_100hz.csv] Has columns ECG, EDA, Photosensor, RSP \u2014 14900 data rows at 100Hz.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/biosignals/bio_resting_5min_100hz.csv] Has columns ECG, PPG, RSP \u2014 29900 data rows at 100Hz. A 5-minute resting-state recording is the conventional signal length for variability analysis.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/RRV_analyze.py] Gold program hard-codes bio_eventrelated_100hz.csv as the input (line 12).\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_RRV_analyze.py] Eval compares per-column values with abs tolerance <= 1.0 and requires 60% of 20 columns to match. Different input data would produce entirely different numeric values.",
+          "category": "INST",
+          "subcategory": "missing_specification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "35__static_audit__1",
+          "model": "static_audit",
+          "task_id": "35",
+          "title": "The scoring rubric says the agent should use neurokit2.hrv_time, neurokit2.hrv_frequency, and neurokit2.hrv_nonlinear, but the gold program uses the high-level nk.rsp_rrv() function instead. These are entirely different API calls.",
+          "description": "The rubric is the human-annotated specification of what a correct solution should do. Describing HRV-specific functions (hrv_time, hrv_frequency, hrv_nonlinear) when the gold program uses the RRV-specific convenience function (rsp_rrv) creates an internal inconsistency. While the rubric is not used in automated evaluation, it undermines manual grading reliability and misrepresents the expected approach.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/scoring_rubrics/RRV_analyze_rubric.json] The 'Analyze RRV' criterion (10 pts) says: 'Correctly uses neurokit2.hrv_time, neurokit2.hrv_frequency, and neurokit2.hrv_nonlinear to analyze RRV with the extracted peaks.'\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/RRV_analyze.py] Line 27: gold program uses nk.rsp_rrv(rsp_rate, info, sampling_rate=100, show=False), not hrv_time/hrv_frequency/hrv_nonlinear.",
+          "category": "EVAL",
+          "subcategory": "rubric_inconsistency",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "67": {
+      "task_id": "67",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "67__static_audit__0",
+          "model": "static_audit",
+          "task_id": "67",
+          "title": "The prompt does not mention the ccobra library or the 576-dimensional vector encoding scheme (64 syllogisms \u00d7 9 responses) required to convert CSV predictions into vectors compatible with the .npy pattern arrays. The specific response ordering from ccobra.syllogistic.RESPONSES (['Aac', 'Aca', 'Iac', 'Ica', 'Eac', 'Eca', 'Oac', 'Oca', 'NVC']) is critical but undisclosed.",
+          "description": "Without knowing the ccobra library, its response ordering, or the vector encoding scheme, a competent developer cannot construct the correct feature vectors. The encoding determines which elements of the high_pattern vector are multiplied by which prediction weights in the cosine similarity calculation. Using alphabetical response ordering instead of ccobra's ordering causes 6 out of 14 rounded values to differ, failing the eval. The prompt says 'calculate similarity scores' but gives no indication of the vector representation needed.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/CogSci_pattern_high_sim.py] Lines 7, 46, 50: The gold program imports ccobra and uses ccobra.syllogistic.SYLLOGISMS (64 items) and ccobra.syllogistic.RESPONSES (9 items in order: Aac, Aca, Iac, Ica, Eac, Eca, Oac, Oca, NVC) to construct 576-dim vectors. This encoding maps each syllogism's predictions to specific positions.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/067__CogSci_pattern_high_sim/instruction.md] The task instruction mentions 'Calculate similarity scores between these models and pre-computed high-conscientiousness and high-openness patterns' but never mentions ccobra, the 576-dimensional encoding, the response ordering, or how to convert semicolon-separated prediction strings into numeric vectors.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CogSci_pattern_high_sim_data/fit_result_conscientiousness_W_high.npy] Shape is (576, 2). The 576 dimensions correspond to 64 syllogisms \u00d7 9 responses in ccobra's specific ordering. Without knowing this encoding, the agent cannot correctly align model prediction vectors with these patterns.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/CogSci_pattern_high_sim_eval.py] Line 4: eval uses .round() to round cosine similarities to integers before comparing. Even with this lenient rounding, alphabetical response ordering (a natural alternative) causes 6/14 mismatches \u2014 the eval still fails.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "67__static_audit__1",
+          "model": "static_audit",
+          "task_id": "67",
+          "title": "The .npy pattern arrays have shape (576, 2) but the prompt does not specify which column contains the relevant 'high' pattern. The gold solution selects column index 1 (W_high[:,1]).",
+          "description": "With two columns to choose from, the agent must guess. Selecting column 0 instead of column 1 produces dramatically different results: for conscientiousness, 5 out of 7 models round to different integers. This is discoverable by trial-and-error (only 2 options), but the prompt should specify which column represents the high-personality-trait pattern since the arrays were produced by JNMF factorization where column semantics are not self-evident.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/CogSci_pattern_high_sim.py] Line 36: high_pattern = W_high[:,1] \u2014 selects the second column. No comment or documentation explains why column 1 is chosen over column 0.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/CogSci_pattern_high_sim_data/fit_result_conscientiousness_W_high.npy] Array shape is (576, 2). Both columns contain valid-looking numerical data. Column choice is consequential: for conscientiousness, col0 gives rounded values [0,1,0,1,0,1,1] while col1 (correct) gives [1,0,1,0,0,0,0] \u2014 completely inverted for most models.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "67__static_audit__2",
+          "model": "static_audit",
+          "task_id": "67",
+          "title": "The eval script rounds cosine similarity values (which range from 0 to 1) to integers before comparing, reducing the check to a binary above/below 0.5 threshold rather than verifying actual similarity scores.",
+          "description": "The prompt asks for 'similarity scores' but the eval only verifies whether each score rounds to 0 or 1. A solution that computes a completely different metric but happens to produce values on the same side of 0.5 for all 14 entries would pass. Conversely, a solution that computes cosine similarity correctly but has a minor numerical difference (e.g., 0.49 vs gold 0.52 for a value near the boundary) would fail despite being practically correct. The eval checks neither the correctness of the similarity computation nor the precision of the results.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/CogSci_pattern_high_sim_eval.py] Lines 3-5: listify_data() calls pd.read_csv(path).round() which rounds all float values to the nearest integer (default 0 decimal places). Line 14: then does exact integer comparison. Gold values range from 0.05 to 0.81, so they all round to either 0 or 1.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/CogSci_pattern_high_sim_data_gold.csv] Gold values include 0.493 (conscientiousness for PHM) and 0.489 (conscientiousness for MMT) which are very close to the 0.5 rounding boundary. A correct implementation with minor floating-point differences could round differently.",
+          "category": "EVAL",
+          "subcategory": "overly_lenient_eval",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "78": {
+      "task_id": "78",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "78__static_audit__0",
+          "model": "static_audit",
+          "task_id": "78",
+          "title": "The task instruction says 'predict the melting temperature (deltaTm)' and requires the output column be named 'deltaTm', but the gold output contains absolute mutant melting temperatures (range 31\u2013102\u00b0C), not delta/change values (which would range roughly -20 to +17). The parenthetical '(deltaTm)' and the column name both suggest a change quantity, while 'melting temperature' and the domain knowledge hint ('predict the melting temperature of mutant proteins') point to an absolute quantity. Without the optional domain knowledge, a developer could reasonably predict \u0394Tm directly, producing predictions ~60 MAE from the gold \u2014 guaranteed eval failure.",
+          "description": "An agent predicting the actual change in melting temperature (\u0394Tm) rather than the absolute mutant melting temperature would produce values centered around -2.5 instead of ~65, vastly exceeding the MAE threshold of 11.0. The mismatch between the column name 'deltaTm' and the actual physical quantity creates a genuine interpretation fork. Domain knowledge resolves this when provided, but it is optional.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/pucci-proteins_test_gold.csv] Gold output values range from 31.0 to 102.5 \u2014 these are absolute melting temperatures, not deltas (which would be small positive/negative values)\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/protein_stability.py] Line 98: target = dict_WT_TM[code]-float(tm), computing Tmwt - \u0394Tmexp. Line 156: output column named 'deltaTm' despite containing absolute temperatures.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/078__protein_stability/metadata.json] task_inst says 'predict the melting temperature (deltaTm)' \u2014 the naming creates ambiguity between absolute temp and change-in-temp.",
+          "category": "INST",
+          "subcategory": "conflicting_naming",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "78__static_audit__1",
+          "model": "static_audit",
+          "task_id": "78",
+          "title": "Even when the developer correctly identifies the target as the mutant melting temperature, computing it from the CSV columns requires knowing the sign convention of \u0394Tmexp. The gold program uses Tmwt - \u0394Tmexp (line 98). If \u0394Tmexp follows the standard protein stability convention (Tmm - Tmwt), then Tmwt - \u0394Tmexp = 2*Tmwt - Tmm, NOT Tmm. Under the reverse convention (Tmwt - Tmm), the formula correctly yields Tmm. Neither the prompt nor the domain knowledge specifies which convention applies. The two interpretations produce training labels differing by mean absolute 8.09\u00b0C \u2014 close to the eval threshold of 11.0.",
+          "description": "A developer following the standard bioinformatics convention (\u0394Tm = Tmm - Tmwt) would compute Tmm = Tmwt + \u0394Tmexp, producing systematically different training labels. The resulting model predictions would differ from the gold by approximately 8.09 MAE on average. While this is below the 11.0 threshold in expectation, model-to-model variance could push some runs over the threshold, making success unreliable even with a scientifically reasonable approach.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/protein_stability.py] Line 98: information[...] = [mutseq, dict_WT_TM[code]-float(tm)], where tm is \u0394Tmexp. This computes Tmwt - \u0394Tmexp.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/pucci/pucci-proteins_train.csv] Column \u0394Tmexp contains values from -19.9 to +16.6 with mean -2.46. The sign convention is not documented in the file header or the prompt.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/tasks/078__protein_stability/metadata.json] domain_knowledge says 'the corresponding change in melting temperature due to the point mutation' without specifying the sign convention (Tmm - Tmwt vs Tmwt - Tmm).",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "78__static_audit__2",
+          "model": "static_audit",
+          "task_id": "78",
+          "title": "The eval script compares agent predictions against gold predictions from a single neural network training run using MAE \u2264 11.0. Due to random weight initialization and training non-determinism, even the exact same gold program can produce different predictions across runs. The eval compares model-vs-model rather than model-vs-ground-truth, and does so positionally with no index alignment \u2014 the test CSV has 163 rows but the gold has only 147 (after undocumented filtering), so any difference in preprocessing that changes row count or ordering causes shape mismatch or spurious MAE inflation.",
+          "description": "Comparing model outputs against another model's outputs (rather than ground truth) introduces noise from both the agent's and the gold program's randomness. The positional comparison (no key/index column) means even a correct pipeline with a slightly different row ordering could produce a misleadingly high MAE or crash the eval entirely. The test CSV intentionally zeroes out \u0394Tmexp and Tmexp[wt], so ground-truth comparison is impossible by design \u2014 the evaluation quality depends entirely on the threshold being generous enough to accommodate both implementation variance and training non-determinism.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_protein_stability.py] Lines 6-12: positional MAE comparison between pred['deltaTm'] and gold['deltaTm'] with threshold 11.0. No index column, no row-key alignment.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/pucci-proteins_test_gold.csv] Gold output has 147 data rows while the test CSV has 163 rows. The 16-row difference comes from filtering PDBid length<5 (11 rows) and Chain=='A' (5 rows) \u2014 filtering logic not in the prompt.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/datasets/pucci/pucci-proteins_test.csv] All \u0394Tmexp and Tmexp[wt] values are zeroed out to 0, making ground-truth comparison impossible. 163 data rows include 11 with extended PDBids (len\u22655) and 5 with non-A chains.",
+          "category": "EVAL",
+          "subcategory": "unreliable_scoring",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "92": {
+      "task_id": "92",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "92__static_audit__0",
+          "model": "static_audit",
+          "task_id": "92",
+          "title": "The prompt says 'distinct error: inner product of second rows of W_high and W_low' but the gold program and eval expect the inner product of the second columns (W_high[:,1] \u00b7 W_low[:,1]). The prompt actively misleads the agent.",
+          "description": "An agent following the prompt literally would compute np.dot(W_high[1,:], W_low[1,:]) \u2248 6.3e-33, while the gold answer expects np.dot(W_high[:,1], W_low[:,1]) \u2248 0.00541. The eval script uses a tolerance of 1e-4, so the literal interpretation fails. The W matrices are (576, 2), making rows 2-element vectors and columns 576-element vectors \u2014 the operations are fundamentally different. All five other factor descriptions in the prompt correctly reference 'columns', making this one incorrect use of 'rows' an outright error rather than mere ambiguity.\n\nEvidence:\n- [inline::instruction_text] Factor 5 description: 'distinct error: inner product of second rows of W_high and W_low'. All other 5 factors correctly reference 'column(s)' \u2014 this is the only one that says 'rows'.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/gold_programs/h_importances.py] Lines 24-25: high_pattern = W_high[:,1], low_pattern = W_low[:,1] \u2014 extracts second columns, not rows. Line 37: np.sum(high_pattern * low_pattern) computes column-based inner product = 0.00541.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/gold_results/jnmf_h_importances_gold.json] Gold value: 'distinct error': 0.00540583742905129. This matches the column-based computation, not the row-based one.\n- [${BENCHMARK_REPOS_DIR}/science_agent_bench_2/data/benchmark/eval_programs/eval_h_importances.py] Line 14: tolerance threshold is 1e-4. |0.00541 - 6.3e-33| \u2248 0.00541 >> 1e-4, so following the prompt literally would fail the eval.\n- [inline::computed_verification] Verified with numpy: W_high shape (576,2), W_low shape (576,2). Inner product of second rows: 6.30e-33. Inner product of second columns: 0.00541. These are entirely different results.",
+          "category": "INST",
+          "subcategory": "misleading_instruction",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    }
+  },
+  "filter_stats": {
+    "total_raw": 27,
+    "filtered_boilerplate": 0,
+    "total_kept": 27,
+    "findings_per_model": {
+      "static_audit": 27
+    }
+  }
+}

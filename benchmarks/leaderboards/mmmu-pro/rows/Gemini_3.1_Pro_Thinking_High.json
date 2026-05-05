@@ -1,0 +1,26 @@
+{
+  "slug": "Gemini_3.1_Pro_Thinking_High",
+  "name": "Gemini 3.1 Pro Thinking (High)",
+  "size": "-",
+  "date": "2026-02-19",
+  "type": "proprietary",
+  "link": "https://deepmind.google/models/gemini/pro/",
+  "pro_overall": 80.5,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": null,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

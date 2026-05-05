@@ -1,0 +1,31 @@
+{
+  "slug": "gemini_advanced_chatbot",
+  "model_id": "89183d1b-7882-4c1e-8a02-56f4b2a31313",
+  "model_slug": "gemini-advanced-chatbot",
+  "name": "Google AI Pro",
+  "gdpval_name": "Google AI Pro - Thinking with 3 Pro",
+  "short_name": "Google AI Pro - Thinking with 3 Pro",
+  "creator": {
+    "name": "",
+    "slug": "",
+    "country": null,
+    "logo": ""
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 971.65,
+    "lower_95ci": 928.19,
+    "upper_95ci": 1014.69,
+    "n_matches": 637,
+    "avg_turns": null
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

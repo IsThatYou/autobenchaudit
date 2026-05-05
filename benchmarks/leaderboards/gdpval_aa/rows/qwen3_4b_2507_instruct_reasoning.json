@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_4b_2507_instruct_reasoning",
+  "model_id": "2aacdc07-5f4e-4ab9-8ea5-5f7ab93f9eeb",
+  "model_slug": "qwen3-4b-2507-instruct-reasoning",
+  "name": "Qwen3 4B 2507 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Qwen3 4B 2507",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-08-06",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 593.3027626280548,
+    "lower_95ci": 566.9597617517959,
+    "upper_95ci": 621.3902233994277,
+    "n_matches": 1831,
+    "avg_turns": 14.401960784313726
+  },
+  "gdpval_breakdown": {
+    "elo": 593.3027626280548,
+    "avg_turns": 14.401960784313726,
+    "n_matches": 1831,
+    "lower_95ci": 566.9597617517959,
+    "upper_95ci": 621.3902233994277,
+    "last_updated": "2026-04-22T02:15:44.358422"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 30143528,
+    "answer_tokens": 890964,
+    "output_tokens": 10761362,
+    "reasoning_tokens": 9870397
+  },
+  "intelligence_index": 18.18,
+  "agentic_index": 14.56,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

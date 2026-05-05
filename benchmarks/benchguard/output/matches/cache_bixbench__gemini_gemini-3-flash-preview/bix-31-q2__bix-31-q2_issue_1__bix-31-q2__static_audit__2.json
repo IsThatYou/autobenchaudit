@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues identify flaws in the question's instructions for the same task, but they point to different specific problems: missing batch correction/software details versus a contradictory baseMean filter."
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "ling_1t",
+  "model_id": "15b56b8e-7b93-4ed9-ac06-75c922e3b86e",
+  "model_slug": "ling-1t",
+  "name": "Ling-1T",
+  "gdpval_name": null,
+  "short_name": "Ling-1T",
+  "creator": {
+    "name": "InclusionAI",
+    "slug": "inclusionai",
+    "country": null,
+    "logo": "/img/logos/inclusionai.jpg"
+  },
+  "release_date": "2025-10-08",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 410.23643722677775,
+    "lower_95ci": 380.7279648034324,
+    "upper_95ci": 441.01605818541304,
+    "n_matches": 1592,
+    "avg_turns": 18.873831775700936
+  },
+  "gdpval_breakdown": {
+    "elo": 410.23643722677775,
+    "avg_turns": 18.873831775700936,
+    "n_matches": 1592,
+    "lower_95ci": 380.7279648034324,
+    "upper_95ci": 441.01605818541304,
+    "last_updated": "2026-04-22T02:15:51.926133"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 77745404,
+    "answer_tokens": 2385107,
+    "output_tokens": 2385107,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 19.04,
+  "agentic_index": 11.84,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue concerns a change in instructions for saving output files, while the finding identifies an ambiguity in which data column to select from an input file."
+}

@@ -1,0 +1,390 @@
+{
+  "slug": "llmstats__aime_2025__DeepSeek-V3.2-Exp",
+  "source": "llmstats",
+  "benchmark": "aime_2025",
+  "model": "DeepSeek-V3.2-Exp",
+  "model_config": null,
+  "organization": "DeepSeek",
+  "accuracy": 0.893,
+  "accuracy_micro": null,
+  "num_tasks": 30,
+  "tasks_with_data": 0,
+  "total_trials": null,
+  "total_successes": null,
+  "total_input_tokens": null,
+  "total_output_tokens": null,
+  "total_cost": null,
+  "self_reported": true,
+  "self_reported_source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+  "announcement_date": "2025-09-29",
+  "is_open_source": true,
+  "param_count": 685000000000,
+  "rank": 45,
+  "verified": false,
+  "input_cost_per_million": null,
+  "output_cost_per_million": null,
+  "context_window": null,
+  "source_url": "https://llm-stats.com/benchmarks/aime-2025",
+  "tasks": [
+    {
+      "task_name": "aime_2024_I_1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_2",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_10",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_11",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_12",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_13",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_14",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_I_15",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_2",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_10",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_11",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_12",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_13",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_14",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2024_II_15",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_2",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_10",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_11",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_12",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_13",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_14",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_I_15",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_2",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_10",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_11",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_12",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_13",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_14",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "aime_2025_II_15",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    }
+  ]
+}

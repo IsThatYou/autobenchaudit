@@ -1,0 +1,43 @@
+{
+  "slug": "glm_5_turbo",
+  "model_id": "149096f3-57b7-4413-80c2-a2c010a2995a",
+  "model_slug": "glm-5-turbo",
+  "name": "GLM-5-Turbo",
+  "gdpval_name": null,
+  "short_name": "GLM-5-Turbo",
+  "creator": {
+    "name": "Z AI",
+    "slug": "zai",
+    "country": null,
+    "logo": "/img/logos/zai_small.svg"
+  },
+  "release_date": "2026-03-15",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1502.2594266580056,
+    "lower_95ci": 1475.79619854124,
+    "upper_95ci": 1527.7842523044274,
+    "n_matches": 3851,
+    "avg_turns": 20.15137614678899
+  },
+  "gdpval_breakdown": {
+    "elo": 1502.2594266580056,
+    "avg_turns": 20.15137614678899,
+    "n_matches": 3851,
+    "lower_95ci": 1475.79619854124,
+    "upper_95ci": 1527.7842523044274,
+    "last_updated": "2026-04-22T02:15:10.025094"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 116900011,
+    "answer_tokens": 4763727,
+    "output_tokens": 6524100,
+    "reasoning_tokens": 1760373
+  },
+  "intelligence_index": 46.76,
+  "agentic_index": 66.13,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

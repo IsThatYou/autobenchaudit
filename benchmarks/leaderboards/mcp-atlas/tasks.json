@@ -1,0 +1,2512 @@
+{
+  "source_url": "https://huggingface.co/datasets/ScaleAI/MCP-Atlas/resolve/main/MCP-Atlas.parquet",
+  "num_tasks": 500,
+  "note": "500 public tasks from the ScaleAI/MCP-Atlas parquet. The full benchmark has 1,000 tasks; the other 500 are held out.",
+  "schema": {
+    "task_id": "24-character opaque task ID from the parquet TASK column",
+    "enabled_tools_count": "Number of MCP tools the agent may call for this task",
+    "prompt_preview": "First 240 characters of the natural-language prompt"
+  },
+  "tasks": [
+    {
+      "task_id": "6863f438a500a4b36aab0f24",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm trying to identify the suspension bridge that was under construction during the 1995 great hanshin earthquake and later became the longest-span suspension bridge in the world at the time it opened. Can you tell me which bridge this is a\u2026"
+    },
+    {
+      "task_id": "6866d4d2eea665b355a8f884",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm conducting a market analysis using the real estate database on places built in the 2010s. What is the average monthly rent and standard deviation, rounded to two decimals, for all furnished four bedroom apartments that have over 2000 sq\u2026"
+    },
+    {
+      "task_id": "6866d4d2eea665b355a8f885",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Hey, my friend told me he dropped a recommendation in a channel of the messaging app we use for business about a game developed by the same company behind Fire Emblem Gaiden. He told me it was a single-player game released in 2004 for the G\u2026"
+    },
+    {
+      "task_id": "6866d4d2eea665b355a8f8ab",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm studying the impact of crypto cycles on the gpu market. In order to do this i need to find if the nvidia released its first gpu, the geforce 256, before or after the very first bitcoin halving. Then to see the percentage change in nvidi\u2026"
+    },
+    {
+      "task_id": "6866d4d2eea665b355a8f8bc",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Hi! I heard someone left a movie recommendation in a channel of the business messaging app directed by the same director of A Little Princess, released in 1995. As far as I know, the recommended movie was released in 2001. Could you check t\u2026"
+    },
+    {
+      "task_id": "686bdf0ca7f3bf48518a172b",
+      "enabled_tools_count": 13,
+      "prompt_preview": "For a analysis on medical research accessibility, I'm collecting titles of selected clinical studies. Using the clinical trials registry, please find the trial related to multiple sclerosis conducted in Pakistan with the earliest official s\u2026"
+    },
+    {
+      "task_id": "686bdf0ca7f3bf48518a1738",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My manager requested a report on the storyteller project with the Irish VAs completed on January 21st. I saved it locally. The project will no longer have any changes, but because a collaborating team believes they are missing some document\u2026"
+    },
+    {
+      "task_id": "686bdf0ca7f3bf48518a1769",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I want to sell all my low valued shitcoins, but coinbase stopped supporting some. Please find from my csv transactions file on my local system the shitcoins I bought or received during the last month of 2022. For each shitcoin, get the avai\u2026"
+    },
+    {
+      "task_id": "686d2c79e1db37ea23ddd9f5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Economic patterns in early-stage infectious disease research fascinate me. Could you find out who sponsored the very first clinical trial for malaria that began in 2021 in Canada? At the same time, I'm looking at crypto trends around then, \u2026"
+    },
+    {
+      "task_id": "686d2c79e1db37ea23ddd9fa",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've got a bunch of local projects, and one of them shares its name with a well-known team chat platform. I remember that in 2024, the last version release for that project had a commit where a test file was deleted. I'm trying to track it \u2026"
+    },
+    {
+      "task_id": "686d2c79e1db37ea23ddda08",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm gathering a list of movies for our new group. I'm compiling a list combining this <https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/> and the one in my own local storage. Can you tell me when I might have 2h of \u2026"
+    },
+    {
+      "task_id": "686d2c79e1db37ea23ddda15",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was reviewing my event records in the knowledge graph, and I wanted to verify crime data in the area. From my local system, I have a file containing crime records. Tell me which family organized the event held at a park, which family memb\u2026"
+    },
+    {
+      "task_id": "686d2c79e1db37ea23ddda26",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have a repository of a classic snake game in my computer files, could you look for it and tell me when was the initial commit done?"
+    },
+    {
+      "task_id": "6876c6678fb597ff004a6afa",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I need to report our revenue to our company's headquarters in canada. Retrieve information from our ads campaigns from our data. Calculate the revenue using the return on investment and the amount spent, and provide the value in the same cu\u2026"
+    },
+    {
+      "task_id": "6876c6678fb597ff004a6b03",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Our advertising campaigns performed really well, so we're planning employee bonuses for the quarter. I need to check our Q1 2023 files to see what we can afford. The company typically allocates around 40% or quarterly profits for employee r\u2026"
+    },
+    {
+      "task_id": "687b3f4e721b0fdbc8d0a79b",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to invest some of my profits in crypto, can you help me compare profits for two investment scenarios? With the total amount of transactions made on the second quarter of 2023, find out my profit if I had invested that amount in btc o\u2026"
+    },
+    {
+      "task_id": "687ebf5ff5a578e0055a455e",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Lately, I've been getting a lot of questions about apartments that include a spot to park your car, at least 3 bedrooms and already equipped with all the furniture a person would need. Can you check how many of those we have in our real est\u2026"
+    },
+    {
+      "task_id": "687ebf5ff5a578e0055a4560",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I've been piecing together philosophical timelines descartes's publishing history and philosophy websites, so I need a couple data points. First, what was descartes' exact age in years, months,days, on christmas eve, when discourse of metho\u2026"
+    },
+    {
+      "task_id": "6880e844943a73a8c5e412c1",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm writing a historical analysis of ethereum's market behavior in relation to bitcoin's key milestones. I need to know if the ethereum domain was registered before or after the second bitcoin halving event. Based on the date of that second\u2026"
+    },
+    {
+      "task_id": "6880e844943a73a8c5e412c3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Can you get me the ceo of the public corporation with the second largest market cap for the fourth quarter of 2024? Does he have any scholarly articles published that year? Tell me their titles. Also, find if there are any scholarly article\u2026"
+    },
+    {
+      "task_id": "68824c643e6ff020bc339906",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I want to know what the percentage of ethereum growth was 7 days after the start of advertising campaign with the lowest local audience reach, whic was only for mobile devices, which was run in the News section in 2017 on the cloud data."
+    },
+    {
+      "task_id": "68824c643e6ff020bc33990b",
+      "enabled_tools_count": 16,
+      "prompt_preview": "My dad told me to get an apartment that was built the same year Spain won its first World Cup. Check the cloud data and tell me if there are any premium one-bedroom units with the best available energy rating built that year. If there are, \u2026"
+    },
+    {
+      "task_id": "68824c643e6ff020bc339914",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm researching medical advances that occurred when technology companies were still small. Was nvidia's closing share price higher when recruitment for the first malaria vaccine trial begin, considering only trials present on national libra\u2026"
+    },
+    {
+      "task_id": "68824c643e6ff020bc339928",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm reviewing past social media ad campaigns targeting users on desktop computers in my database. In the last month of the year following the release of the documentary the rise and rise of bitcoin, how many campaigns were launched the day \u2026"
+    },
+    {
+      "task_id": "68824c643e6ff020bc33994b",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'd like to know the cost of the  most expensive order in our cloud database, ordered in the year of the last fifa world cup that happened while Pel\u00e9 was alive, and how much time in years and days passed between the order and the brazilian \u2026"
+    },
+    {
+      "task_id": "68834223448b8fe04df2a592",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was remembering Hurricane Harvey and started to wonder, how many premium 2-bedroom units with a one-year lease that were built the year the hurricane hit are recorded on my database, and what is their average rent?"
+    },
+    {
+      "task_id": "68834223448b8fe04df2a595",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm thinking of going apartment hunting. I have this idea that the apartments built years before the year Hurricane Katrina happened are a good investment, so check my database for any premium 2-bedroom apartment with a one-year lease built\u2026"
+    },
+    {
+      "task_id": "68834223448b8fe04df2a5b1",
+      "enabled_tools_count": 18,
+      "prompt_preview": "Looking to line up some timelines. The launching date of dead cells on steam, and when was the last presidential election at the end of the 2010-2020 decade in the country where its studio was founded. I'm curious about both dates and how m\u2026"
+    },
+    {
+      "task_id": "6884fb199c7308aa9d1185d8",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm analyzing my earnings from various businesses using records stored on my computer. How much revenue was generated from the pet business during the first half of the incomes week?, and within that same date range, how much income came fr\u2026"
+    },
+    {
+      "task_id": "6884fb199c7308aa9d1185dc",
+      "enabled_tools_count": 13,
+      "prompt_preview": "What was the percentage difference between the opening and closing prices of ether on the new york trading day when sec approved the first bitcoin spot etf?"
+    },
+    {
+      "task_id": "6884fb199c7308aa9d1185e5",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I would like to translate the message of the first commit made on 2025-07-25 in the repo A2A to Spanish."
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c381170",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I\u00b4m a spanish crypto enthusiast and I am interested in how ethereum performed during the 2024 bitcoin halving. What was its closing price on huobi exchange that day, and how was it the day after, and what was the profit or loss percentage b\u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c381175",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm trying to find out which which people had the best ratings, i do haircuts and I have a list about my business where i am known as barber 2, i compete with my partner to see who was better. My other partner, barber 3, is not interested i\u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c38117c",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Do I have any dinner scheduled in 2025 on the birthday of the actor who won best leading actor for my favorite drama movie in my local database? If so, where and what time? And what's the first event on my calendar for the next day?"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c381182",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What is the movie from my local data whose gross has the smallest absolute difference from the 2021 f1 cost cap for teams?"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c381189",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm a university student looking for a furnished two-bedroom apartment to share with my friend. We are looking for something built after the year the NBA bubble happened, with mid-level amenities, top energy efficiency, and a spot to store \u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c38118b",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Thinking back to when el salvador made bitcoin legal tender, I'm curious about how btc performed in its first week under the new law. Could you share the closing price of bitcoin for each of the seven days immediately after the adoption dat\u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c381199",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm concerned that our company's poor performance might be linked to a negative atmosphere. Could you query the staff satisfaction database to find out how many employees have the highest possible ratings for safety and health, peer relatio\u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c3811a0",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am analyzing spotifys metrics around the us releases of gabriel armando mora quinteros albums and is the same year the buccaneers won their second super bowl. For each us release date, take the previous days close and calculate the macd t\u2026"
+    },
+    {
+      "task_id": "6886306b5ed4da6b2c3811aa",
+      "enabled_tools_count": 16,
+      "prompt_preview": "We had a weird payment surge and I need to know, from the data repository, the status of payments and the average amount cross all registers found from transactions made on the day hugh aynesworth, american journalist and author, died."
+    },
+    {
+      "task_id": "688706e2ca6b3308497106ec",
+      "enabled_tools_count": 18,
+      "prompt_preview": "The other day in my messaging channel where we recommend games to each other I noticed a couple people mentioned the gamecube. I know my friend Pablo in argentina likes the gamecube so I think I'll share those messages with him. Can you tel\u2026"
+    },
+    {
+      "task_id": "688706e2ca6b3308497106fc",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Edna Barros, a friend of mine, recomended reading a deep learning paper she was one of the authors for about some improvements for robots in soccer published this july 2025, but I can't recall the title. Could you check what the article was\u2026"
+    },
+    {
+      "task_id": "688706e2ca6b330849710721",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm checking local police station data on an assault that ocurred at a restaurante with a 40 years old victim. what's the date of that report? And for crimes in this category from 2017 and 2020, what's the average age of the suspects?"
+    },
+    {
+      "task_id": "6887c6d4614f06dc73af240c",
+      "enabled_tools_count": 18,
+      "prompt_preview": "Toy Story 4 was released on June 21, 2019. If I were to buy the same amount of bitcoin, on binance, as the movie's metascore on that day and sell it on June 21, 2025, would my profit have been higher or lower than the gross revenue generate\u2026"
+    },
+    {
+      "task_id": "6887c6d4614f06dc73af240d",
+      "enabled_tools_count": 19,
+      "prompt_preview": "I remember buying 0.0593578 bitcoins in coinbase pro 2 days after the date of my oldest withdrawal record of my trading history file that I have on my local data. I need to know the lowest price in usd those bitcoins reached on that date."
+    },
+    {
+      "task_id": "6887c6d4614f06dc73af2411",
+      "enabled_tools_count": 15,
+      "prompt_preview": "the same month koko.com created its domain, a paper co-authored by yilun du in 2024 about robotics was released, but i forgot the title and the publication date. I also want to know how to say the exact title in spanish to explain my friend\u2026"
+    },
+    {
+      "task_id": "6887c6d4614f06dc73af243e",
+      "enabled_tools_count": 14,
+      "prompt_preview": "My girlfriend and I are planning to move in together, and we\u2019re searching for an unfurnished one-bedroom apartment that includes parking and standard amenities. Ideally, we want a place built after the year 2010 and a lease that lasts at le\u2026"
+    },
+    {
+      "task_id": "6887c6d4614f06dc73af245f",
+      "enabled_tools_count": 14,
+      "prompt_preview": "A while back my friend kcpfan recommended a movie in the recs channel, but I honestly can't remember which one it was and I'd like to finally watch it again. I think I watched it after saving it to my collection, and I probably recorded bot\u2026"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda3b",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Hi! I'm working on the statistics of my business in my local files, and I was looking at how clients rate our haircuts and their age. Can you help me know the average rating for the barbers who did the haircut service?  In addition, I would\u2026"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda46",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Using my local crime data, can you give me the average age of suspects who committed robbery between 2016 and 2021, and identify where this type of crime occurred most frequently during that same time frame?"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda6a",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I need help finding all crimes committed in 2014 in my environment. Additionally, I'm working in the area of statistics, so I want to know the average age of the female victims of the crimes of that same year."
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda70",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My boss recommended a movie through the company's private chat, but I can't remember the name of it. Could you tell me which movie he recommended? I don't know his chat name, but he uses the same one for everything, even in the email he use\u2026"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda86",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm working on a case, and I think it might be related to a crime registered in my personal logs. Could you help me find the identification code and type of crimes that occurred in the same year the author who used the pseudonym richard bac\u2026"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda89",
+      "enabled_tools_count": 17,
+      "prompt_preview": "For our spanish newsletter, between July 1 and July 31, 2025, I need the spanish titles of the three most recent papers on video comprehension. Also include books on the topic published in 2023 if they exist."
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda8b",
+      "enabled_tools_count": 16,
+      "prompt_preview": "i am researching the long-term corporate impact of aviation incidents, and i am studying about embraer. for the g oair prefix, i need to find the earliest report written about it, and i need to show the last share price after exactly 30 yea\u2026"
+    },
+    {
+      "task_id": "6888e207a34beb25cfedda95",
+      "enabled_tools_count": 14,
+      "prompt_preview": "i am doing some analysis on our engagement. Could you tell me the cost per impression of our most expensive video and social media campaigns according to our cloud database? Also, I'd like to know how often we tend to invest so much, so I n\u2026"
+    },
+    {
+      "task_id": "688a441c1a0d2e5c93853e4f",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Please consider the information for campaigns that were started in December 2023 of my digital organization system on advertising, and determine the average cpc from mobile devices (round to three decimals)."
+    },
+    {
+      "task_id": "688a441c1a0d2e5c93853e5a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm working on a proposal for a large scale civic project for a french city whose historical motto is avant, avant, lion le melhor! Can you first identify this city and find the population of its metropolitan area according to the 2015 cens\u2026"
+    },
+    {
+      "task_id": "688a441c1a0d2e5c93853e76",
+      "enabled_tools_count": 16,
+      "prompt_preview": "For a report I have to prepare on oncology with machine learning, help me identify the last related study published on november 2024 containing the word cancer in its title and retrieve the abstract of the article. Translate only the title \u2026"
+    },
+    {
+      "task_id": "688a441c1a0d2e5c93853e93",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm auditing how the marketing departments non recurring budget allocations have changed over the years. according to our financial records in the database, how much did the total budget allocated to non recurring marketing transactions var\u2026"
+    },
+    {
+      "task_id": "688a441c1a0d2e5c93853e99",
+      "enabled_tools_count": 24,
+      "prompt_preview": "I'm preparing a brief report on lung cancer treatments for my uncle in mexico. I want to focus on studies that began the  month before the esmo virtual congress 2020 took place, so could you pull out the three studies that started closest t\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e87",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm exploring our cloud delivery logs for the game store I own. Speaking of history, when was apollo 10 launched? Now, looking at the first five deliveries by order id, which couriers handled them, when were those couriers services founded,\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e8a",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm trying to piece together the history of my old local project snapshot about telling stories. I remember a specific commit I made right after I updated the readme file to fix a broken link. I believe the commit message for that subsequen\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e8d",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm creating a presentation of influential modern architects and their roots. I need to identify the lead architect of the guggenheim musuem in bilbao in order to find his name and the city where he was born. Also retrieve the geographic co\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e8e",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm drafting a piece that blends history with sustainable travel. I need to know the oldest hospital in the United States, and since visitors might need eco-friendly options nearby, I also need the full address of the nearest electric vehic\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e92",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have a record in my local files about a criminal phone incident from the past where the person believed to be responsible was a woman, the oldest such individual recorded in the file, who has not been aprehended yet.\n\nTell me the number o\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e9c",
+      "enabled_tools_count": 17,
+      "prompt_preview": "In my cloud hosted business dataset related to selling vehicles, I have some records about tracking online audience behavior. For the year and month when the king of romania michael i passed away, calculate the average number of distinct in\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93e9f",
+      "enabled_tools_count": 16,
+      "prompt_preview": "Check the local data and tell me what was the highest type of expense the date when the uncharted movie was released in the us, also tell me the units sold six months after."
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ea2",
+      "enabled_tools_count": 13,
+      "prompt_preview": "```js\nThis guy was talking bout a publication he did before 2024 about mindfulness and psychedelics when he was working at zurich, can you tell me all the authors and what drugs they used? He told me they threw a shroom party at the place o\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93eaf",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I've got some crime file in my computer, I'm curious about any medical investigation related to dna by xu and eriksson from the year from the first crime I had registered. Can you help me with the title, authors and year?"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ebb",
+      "enabled_tools_count": 19,
+      "prompt_preview": "I'm researching U.S. soccer history and l want to better understand the background of American soccer talent. I'm planning to visit Landon Donovan's city of birth, can you give me the name of the biggest stadium over there? I also want to k\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ecb",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am reviewing my video game store db and want to award a gift card to the customer with the highest total purchases of video games in the year the who declared the covid 19 pandemic. Also, find out which age group that customer belongs to."
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ed3",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm creating a historical documentary about the norman conquest of england, and I need to identify the specific celestial event that occurred in 1066 and was famously depicted in the bayeaux tapestry. Once you identified it, I want to see t\u2026"
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ed9",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I am the sales cashier at a video game store. Based on our database, I need to know the name of the game that was sold for $137.53. I also need to confirm whether the customer agreed to subscribe to our newsletter."
+    },
+    {
+      "task_id": "688ba1b3e95696e72dd93ee0",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I\u2019m looking into whether some less-loved strategy games still manage to perform well. Between 2021 and 2023, which strategy title sold over $200 worth of copies despite being the least liked by buyers? If more than one game fits that descri\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd0d",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In my car dealership database, between the sales and service departments, which one had the worst performance in the third quarter of the year chester bennington died, and what was the lowest individual score in that department?"
+    },
+    {
+      "task_id": "688fb11183792b921381bd10",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I recently joined the marketing team and I am still getting up to speed. My teammates mentioned that I should look at the social media post that got the most views during the month when the third European Political Community Summit took pla\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd14",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm researching the area around gustave eiffel's 1889 exposition universelle project, within a ten kilometer radius, I want to know all the named equestrian statues nearby there."
+    },
+    {
+      "task_id": "688fb11183792b921381bd1e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I remember logging important records in the cloud about how many people started and stopped working in different sections of my auto sales business. Could you tell me how many individuals were added to and removed from each section during t\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd21",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am helping my friend who works in a video game store, we need to confirm whether the client who bought a game on the same day that the fighter tomas villa passed away did join our member program. We also need the name and genre of the gam\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd25",
+      "enabled_tools_count": 15,
+      "prompt_preview": "We made an instagram video post for our company long time ago and it only got 340 likes. On the date of that post, I remember we were speaking in the office about a building that was completed in that same date, but in 1931. It is a very fa\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd27",
+      "enabled_tools_count": 16,
+      "prompt_preview": "For my art history degree work, I'm planning to do a thesis called, Influence of tuscan history on art. I will travel to the capital of this italian region and visit the only bridge there spared from destruction during ww2, and the museum t\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd36",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to know the name of the building located at 11401 nw 12th st, miami, fl. How many medical studies were published on the date this building opened to the public?"
+    },
+    {
+      "task_id": "688fb11183792b921381bd38",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I am manager at a game store, and I need to know the genre and reference number of the game with the highest existing stock among those named game title 142. I also need the genre and reference number of the game with the lowest existing st\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd44",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Could you tell me what is the most liked video game post according to our database, before the bicentenary of the death of the person that translated from french to spanish the declaration of the rights of man and of the citizen for the his\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd52",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm a video game seller, and I need to find out the date a game was sold. I remember that the transaction reference number ended in 0002 in my database. I also need to check whether a price reduction was applied in that sale."
+    },
+    {
+      "task_id": "688fb11183792b921381bd55",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm investigating the relationship between video games of different generations based on our customer data. What was the total number of action video game purchases made in 2023 by customers with active memberships who were at least 5 years\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd59",
+      "enabled_tools_count": 22,
+      "prompt_preview": "I'm planning a visit that links the site where marie antoinette and king louis xvi took their ceremonial wedding which took place in may 1770, and the louvre museum in paris. I need the walking distance between them in kilometers, and I wan\u2026"
+    },
+    {
+      "task_id": "688fb11183792b921381bd66",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm planning a road trip in colombia following key historical places. From plaza de bolivar, bogot\u00e1, the route must go through plaza de la audana, cartagena, and end at the boyac\u00e1 bridge where the battle of boyac\u00e1 took place. Provide me the\u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e27",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm a reviewing the sales reports in car dealership, I need to know the total amount of sales in the month and year that mario cuomo passed away. I also need to know how many workers were available at that time."
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e30",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm working on a project about antoni gaud\u00ed. I found that in 1936, during the spanish civil war, the workshop located in one of his works was looted. I want to know which one it was. I also found that gaud\u00ed renovated a building originally c\u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e32",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I need to know the dimensions of a french piece where the pair of angels, seen moving away form the connecter arches, are painted with exceptional precision, against a background decorated with a fine rinceaux patter, This piece belongs to \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e35",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm analyzing item availability in december 2023 using the cloud nosql data, to identify which type of game had the highest remaining quantity on hand (using the record closest to the end of that month as tiebreaker if necessary), and what \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e3a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am a new employee at a car dealership and I need some help. Can you tell me which area had the best performance average in the second quarter of 2017 between the sales and human resources areas, based on our database? I also need the lowe\u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e3e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "For a feature on how American history has been captured in art, I'm focusing on a well-known painting that shows George Washington crossing an icy river with his soldiers during the Revolutionary War. The piece is housed in the largest art \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e40",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm analalyzing how soccer rivalries affect our customers' spending beahavior. i'd like to compare how much was spent on sports video game during the same month the second la liga clasico between barcelona and real madrid took place in the \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e5d",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the same year that andres manuel lopez obrador was elected in Mexico, how many new clients bought video games? Retrieve the data from the database. "
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e5f",
+      "enabled_tools_count": 19,
+      "prompt_preview": "I'm conducting research for a community festival in hawaii. I'm focusing on a famous tsunami triggered by an earthquake in 2011. Not only did I forget the name they gave to that earthquake, I also forgot how many people died in japan, how m\u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e68",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm studying football in rio, I have a question about engenh\u00e3o which football club calls that venue home? A friend of mine already told me that the name of this team match both a mall and a neighborhood, but I forgot the name of the team.  \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e6f",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I need you to check the cloud database and tell me how many people left and joined the sales department the first quarter of the year that the game store customer having the number ten on their id made their purchase."
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e7c",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been diving into that infamous hand of god moment and want to know who was coaching the side that took the lead with that goal, which ended up winning the tournament that year. I'm also trying to work out how many days elapsed between \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e7e",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm building a dataset of 2024 medical research connecting seizure prediction with specific medications. I'm particularly interested in the anticonvulsant derived from a sugar molecule that's used for partial-onset seizures and is known to \u2026"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e82",
+      "enabled_tools_count": 17,
+      "prompt_preview": "Where was the coronation of the king in the country where 2012 olympic games for the king of that country in the year the author of pride and prejudice original book die?"
+    },
+    {
+      "task_id": "6890e7fd2516f66b0a628e88",
+      "enabled_tools_count": 15,
+      "prompt_preview": "We have data that I have to search for in our cloud database. This database has a table that describes what our clients bought. I need to retrieve the title for a video game, the price, and what kind of purchase method they used on the same\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e70",
+      "enabled_tools_count": 14,
+      "prompt_preview": "on the day of game 7 of the nba eastern finals in may 2023, I was rooting for the celtics but I can't remember who they played. I do remember that my weekly profit from my old pet care job started that same day, and I know I saved that numb\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e77",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm doing a retrospective analysis of team output data stored in my cloud about my auto retailer. I'm particularly interested in evaluating overall staff effectiveness during a significant historical milestone, the 75th anniversary of the i\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e78",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What time was sunset in the city and day where the author of harry potter and the philosopher's stone book was born?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e85",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I was checking the relation between quantity transacted and leading product type in commercial performance data, using the cloud database. From the year 2020, which type of leading product recorded the highest number of quantity transacted \u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e87",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the same year that messi won his first world footbal cup, how many sales amount has the sports game? Retrieve the data from the database. "
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e8a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "what is the address of the tallest building in 2024 of the country where the author of the original release of the book la voragine was born?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e8c",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm doing a school assignment on dutch art throughout history and their depictions of nature and I found this book named le-neo plasticisme which talks about the art style of the author and his pieces. My teacher told me this author is also\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e92",
+      "enabled_tools_count": 15,
+      "prompt_preview": "what was the original price before the discount, if the sale registered in our video games database, with transaction identification finished in 1969, made on January 9 was recorded with a 7% discount already applied. It happened the same y\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e97",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I was exploring product trends using the cloud database. In the same year and month that SpaceX launched the first car into space, which was the leading product type in commercial performance data? Which was the most sold vehicle in the wor\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e9d",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm putting together a research article that draws connections between digital milestones and healthcare progress. I want to start by finding the year the original Bitcoin whitepaper was released. Then, for a related detail, could you get m\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3e9f",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I need to do a presentation about George Orwell and my friend is going to borrow me his book. I will meet him in 1000 5th Avenue, NY 10028 but I am in East Side between 77th and E 78th St NY. I need to take less than 3 hours walking. Is it \u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ea2",
+      "enabled_tools_count": 20,
+      "prompt_preview": "been pondering sci-fi as a lens on human nature. There\u2019s this novel called hand something about gender fluidity, written by a woman whose name I can\u2019t recall... any idea who she is? Get me a picture of her.  Also, when did that book first c\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ea8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the same year that real madrid won their 12th champions league, which month recorded the highest units sold on my car sale database, and which category was it?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3eaf",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I vaguely remember a friend recommended a movie that absolutely swept the 2019 oscars, picking up three awards including best picture. Thing is, I can't remember if I have included it in my movie's file or not. Can you check for it?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3eb1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm reviewing shipping performance stats and I recall the world's top courier by 2020 revenue. From our january 2021 video game orders in the database, what was the average distance their shipments traveled?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3eb5",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the root directory I have a list with movies I have watched and also movies I want to watch. I don't feel like going through all the list today, I want to see the best movie I can in the least time possible. Help me by averaging their ra\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3eb8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I own a video game store and have some data on the cloud. I'm curious about the amount of money spent on fuel to make the first delivery ever made, assuming the vehicle makes 10L/100km, assuming that the price of gas was 1% of the closing p\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ebb",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm heading to rapid city. I want to know the city hall coordinates, and I'd love to stay in a natural reserve in that state that offers astronomy and horse trekking activities. It should also be open 24 hours a day, every day. any campsite\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ebf",
+      "enabled_tools_count": 15,
+      "prompt_preview": "According to my cloud database, are there more games in my store with stock higher or lower than the age at death of the writer who created the series of books featuring detective ebenezer gryce?"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ec1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "For the second quarter of the year when wings gaming won their first the international dota 2 championship, could you check our car dealership database and see which supplier got the top score? Also, in which particular indicator did they r\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ec2",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm collecting info on a vermeer tronie painted in 1665. What's the elevation of the place where the tronie is located up to July 2025? Also, what is the coordinates from the place where the metropolitan museum of art displays his most famo\u2026"
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ec5",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm doing some business intelligence on videogame sales. Can you grab the customers collection for me and aggregate purchases by game genre? I wish to know the three top genres with a link to each one's wiki page."
+    },
+    {
+      "task_id": "68925f01db31fe35560e3ecc",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was eating a chicken noodle soup at my lunch time at my work, and I remeber that there is a song with that name and the release date is the same day as a customer bought a game that I am lookng for in the database I would like to get the \u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b478",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I want to get the total units sold on june in the year 2022 in our car dealership, then use that number as an ID to search the metropolitan museum of art collection for the artwork with that exact id and provide its official title and the d\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b481",
+      "enabled_tools_count": 14,
+      "prompt_preview": "My team visited our california branch to review employee performance at our car dealership during the last quarter of 2023. To examine the results in more detail, they suggested I also visit a protected landmark located just west of sierra \u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b482",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was checking the cloud data repository and I noticed that a customer whose car is a mustang left a claim in august 7 2017, I would like you to retrieve the information of the person who left this claim I want to know the persons id and th\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b485",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I was working on the storyteller repo I have locally, but I don't remember if I pushed all my changes. Can you check if I left any files unstaged?"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b499",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm an analyst at car dealership, and I have to create a report, I need to know how many cars were sold of each model in the second quarter of the year that the book falling awake by alice oswald was for the first time published. "
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4a9",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Who wrote noa noa and what is the credit line of the metropolitan museum woodblock drawing, made by the same author, that includes the book's name in its title?"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4aa",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am in charge of a cloud database and I need to get the information about the third quarter what I am looking for is all the staff headcount of employees from the human relantionship and advertising team who gave up their job that quarter,\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4b2",
+      "enabled_tools_count": 20,
+      "prompt_preview": "Check the data and tell me on which month were sold the most units in the year half-century after James dashner was born. Can you tell me how many units were?."
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4b4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm working on a sales report at car dealership, I need to know the total amount of car sales in july the year that the book the reformatory by tananarive due was for the first time published. I also need the number of workers that were ava\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4b7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I read a book written by j. gordon edwards that talks about a national park, but I forgot the name of it, and I've been meaning to visit the park because of how he describes it in the book. Can you tell me the name of the park and its addre\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4ba",
+      "enabled_tools_count": 16,
+      "prompt_preview": "What was the moon phase the day when the author of the haunting of hill house died but in the book's publication year?"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4bb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "while reviewing data from a california branch of our car dealership network, I notice a department that welcomed a lot of new employees in early 2023. one of them is a friend of mine, who told me about his new position and suggested we meet\u2026"
+    },
+    {
+      "task_id": "68940d8355faa0b720f0b4c2",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm collecting data for a cross-industry research project. Could you tell me which clinical trial related to galactosialidosis was the oldest to officially begin in 2020? Also, for the month when the trial started, I'd like to know the turn\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db36",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My boss uses a weird mnemomic device to remember dates and he asked me to review the cluod database and check the interactions on the same day and month that james joyce, the author of ulysses 1922, was born, but in the year when the author\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db37",
+      "enabled_tools_count": 16,
+      "prompt_preview": "Using the cloud database, check my local files to see the lowest amount of eth sent according to my trading history in the same month and year when the turnover rate for the bronco model was 0.17"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db3a",
+      "enabled_tools_count": 29,
+      "prompt_preview": "Check the database and tell me how many people left the hr department in the first and third quarter of the year sixty years after suzanne collins was born."
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db40",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am visiting a museum of historical events in ny. I intend to go to the modern art section, whose id is the last two digits of the year in the 21st century I'll use for a database search. Then, retrieve the object 487112 and give me its ti\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db51",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the same year that loic djaileb made the first submission of the investigation about the breast cancer, which supplier received the highest innovation customer score in the second quarter from the data in the data repository? "
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db5b",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In which month of all years did the car dealership achieve the highest single-month sales revenue when sedan was the best-selling category, and what was the moon phase in new york on the first day of that month?"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db6e",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I was exploring notable artworks in public collections. From the first month of the year in which 'study of a nude man' by gustave courbet was presented as part of the bequest of nanette b. kelekian, which was the best-selling vehicle accor\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db74",
+      "enabled_tools_count": 17,
+      "prompt_preview": "Look at our data and find out the score zogarth received for the third quarter of 2022? He was on service and we were measuring if he met his sales target. I am worried he is having a bad performance because at that time, he was independent\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db77",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am an employee at car dealership, and I'm making a sales report. I need to know the brand name of the car category that was a bestseller in april of the year that the book afterparties by anthony veasna so was for the first time published\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db79",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm analyzing sales trends alongside recent literary releases. Could you tell me how many units of the fusion model the car dealership sold in september of the same year nita prose published the maid?"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db7d",
+      "enabled_tools_count": 13,
+      "prompt_preview": "please state the start dates of the trials mentioned in the papers: the 2021 study which proposed a dendritic cell vaccine to treat respiratory organ cancer tested in twelve patients after 85 treatments, and the paper that proposed a vaccin\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db84",
+      "enabled_tools_count": 15,
+      "prompt_preview": "A spanish friend told me that new york is a very stressful place, and if i wanted peace, I could go to the park that was initially intended to prevent a british invasion in 1812 and read the book \"el principito\". I want to know which park h\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db8f",
+      "enabled_tools_count": 17,
+      "prompt_preview": "From my cloud dataset, what's the max number of showroom visitors in a day in the month when the author of the novel to kill a mockingbird died?"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db91",
+      "enabled_tools_count": 22,
+      "prompt_preview": "I was analyzing historical literary figures and their correlation with sales trends. from the month and year when the no mans nightingale author passed away, what was the quantity of vehicles delivered in commercial performance data using t\u2026"
+    },
+    {
+      "task_id": "68952adeba1c2ad4e6a5db96",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was reading a book by lee whittlesey about a national park which inspired me to travel there and experience the place myself, can you remind me of the headquarters address of this park?"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8b4",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I've been really into art investigation lately, specifically the rehearsal of the ballet onstage, but I don't know who the author is, could you tell me?, my cousin told me that the art can affect the health, and recommended me to read an ar\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8b9",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the quarter of 2021 when Bitcoin had its highest closing price on the last day of the quarter, what was the ICU bed occupancy according to our internal records during that same quarter?"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8be",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm researching in the metropolitan museum of art's asian art department, find an object whose title contains rooster and is linked to flowers. Tell me its full title and artist. From that object please identify the medium and get a brief e\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8bf",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am studying paintings in the large art museum in manhattan. I need to know the mother's name of the artist who created the musicians artwork. I also need to know the artist's name and year of birth."
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8c2",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am preparing a historical report on objects, and I need to know: In what year did the workshop where the tyg object was created begin producing ceramics? I also want to know the name of the workshop."
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8c6",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm analyzing my local data for the income from my pet care business. In the week 35, I used the income to buy bitcoin. Please check if the profit amount from that week was enough to make the purchase and what was the balance of that transa\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8c7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Lately, I've been interested in volcanoes, especially active ones. I'd like to know from the database the oldest book related to this topic so I can read it, and also the information about the creation date of the domain where the covers ar\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8d6",
+      "enabled_tools_count": 13,
+      "prompt_preview": "There's a film director who was born 68 years before the second football player with the most points scored from the local database is set to retire. He is american, and I want to know his name and when he won his first oscar and what the o\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8dd",
+      "enabled_tools_count": 37,
+      "prompt_preview": "I'm using my local snake game repo to teach version control to my students. I need you to solve one of the questions for the test. Can you find the url for the second commit made by a git actor object in its upstream repo?"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8e0",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm creating a geographical timeline for the artist that painted the artwork named sunrise on the matterhorn in the collection of the biggest new york metropolitan museum. Can you tell me the straight line distance in kilometers between the\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8e2",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I was analyzing historical literary figures. In the first month of the year in which the author of a book with a title similar to the hangings in cater street passed away. what is the name of the study published in that month and year whose\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8e5",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I am planning a visit to new york and I've heard that there are a lot of fictional superheroes from the marvel universe that live there. There is a superhero that was a surgeon and now uses magic. Could you tell me the closest pizzeria from\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8f0",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I wanna surprise my friend li from my local graph and invite her to some place she would enjoy, informing her of the driving distance between the place and the miami international airport which I need to know beforehand. But the thing is, I\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8f3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was thinking of places to visit, and Missouri came to mind, partly because I remember a friend talking about the park with a huge arch that started its construction in 1963. I'd like to know the exact year that the arch was officially com\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8f7",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been trying to juggle assignments from two different classes. For my art appreciation class I'm working on an essay about animals in art, and I remembered that Suzuki Osamu has some works on display at the metropolitan museum of art th\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8f8",
+      "enabled_tools_count": 16,
+      "prompt_preview": "In the year 2025, the day an 8.7 earthquake struck the volcanic archipelago administered by russia but claimed by japan, I was in houston, tx, for a blockchain conference where we discussed how market trends can be influenced by external un\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c8fc",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I want to visit barcelona with my family. I'm looking at the top two attractions on https://[ticketshop.barcelona](http://ticketshop.barcelona) and wondering how far apart they are in km, and if that walk takes over an hour. Also, for medic\u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c901",
+      "enabled_tools_count": 30,
+      "prompt_preview": "I\u00b4m curious if the distance of the two most populous cities in usa as of 2025 is higher than the distance between the two most populous cities in brazil as of 2025. If not, create a repo with the brazilian cities distance in kilometers."
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c902",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am working on a project that compares market prices with academic publications and climate data, and I need help. Could you tell me the closing price in u.s. dollars of apple's stock on the last day of the month following the publication \u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c909",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to visit the department of modern art, but only if it has the painting street story quilt. I love it, and they say the artist's first art with the story quilt technique is named who's afraid of aunt jemima. Is this true? "
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c90a",
+      "enabled_tools_count": 15,
+      "prompt_preview": "my friend is on a trip, and he needs to know some details about the mall that opened in october 1988 in san francisco, united states. he's looking for the full address and the coordinates of this place. Also, he likes to know if there is a \u2026"
+    },
+    {
+      "task_id": "6896416f7b30e5d8ccd7c913",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm currently doing a trip in Paris. I'm at the eiffel tower, and I wanna see the mona lisa and the self-portrait of van gogh, but I don't have a car. Can you tell me if they are reachable by feet (under one hour)? Since I'm hungry, I want \u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2e7",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I heard that in march 2025 there was a full moon in new york, and I'd like to know the exact date it happened. Using that date, I want to find out bitcoin's closing price in coinbase pro for that day and compare it with the closing price on\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2e9",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I heard about the monument in honor of the first Italian settler in new york state, and I became curious about it. There's also the george m. cohan statue in the same city, what is the driving distance in meters between these two monuments?"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2f6",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm going to the premiere of the first phase 6 mcu movie, but I don't have time to search for any place to eat after the movie, are there any restaurants within 100m of the venue? "
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2fa",
+      "enabled_tools_count": 15,
+      "prompt_preview": "i'm trying to pin down the date of a bitcoin purchase i made. my memory is hazy, but i'm sure it was the same day i created the funding file for my old local videogame project. can you explore my files to find that repository, check its his\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2fb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm analyzing fraud crimes recorded in my local data from may 2014 to may 2021. I'd like to know what percentage of these filtered crimes occurred online, and for all fraud crimes in that time frame, what the average age of the suspects and\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa2ff",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Can you tell me the distance in meters by driving from the chapel where the queen elizabeth II is buried to the tallest building in the capital of the same country?"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa301",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm preparing a provenance drill for a collections seminar. First resolve and read the canonical english-language encyclopedia article for cello; use its page title verbatim as a fixed search phrase. In the public collection of the encyclop\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa304",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm trying to pin down the date of a stock purchase I made. My memory is hazy, but I'm pretty sure it was the same day I updated a key dependency in my local project related to generating narratives. Can you explore my files to find that re\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa30c",
+      "enabled_tools_count": 19,
+      "prompt_preview": "My boss asked me to check the local data and find out the stantard deviation of the revenues of movies that are longer than pulp fiction."
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa312",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I heard there was an envelope with an image of a bill was found in a puzzle in my city. I want to know where it shows up according to <https://gravityfalls.fandom.com/wiki/Cipher_Hunt> including its coordinates. And I'm curious how long the\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa314",
+      "enabled_tools_count": 15,
+      "prompt_preview": "By reviewing my local files, I want to focus only on the top movies marked as watched in my list. Among those, which movie has my highest personal rating? Include its imdb rating, runtime, and genres. Also, determine the year this movie was\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa317",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I vaguely remember a crime committed by a suspect, 33 years old, who was arrested for theft from a female 38 years of age in the supermarket on february 11 in some year. Can you tell me how many drug related crimes occurred that year? Relat\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa32f",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I like 60s-themed series and I'm looking for one to watch. A colleague recommended a series that aired o the amc and was released the year of the super bowl XLI. I'd like to know the name of this series, which actor plays the main character\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa335",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My local data reminded me about the Gomez reunion. I know Maria forgot to bring a dish to the potluck, so she had to walk from the NYC park where the reunion was held to pick up a dish at the nearby restaurant Pisticci. Can you tell me what\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa336",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm researching a book about a woman who takes a live-in housekeeping job in a wealthy family's home, only to discover dangerous secrets. Could you find out who wrote it and the year it first came out? Then, in the city where the author was\u2026"
+    },
+    {
+      "task_id": "6897a6002b64a8c831efa338",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm planning a trip to the country that hosted the 2023 rugby world cup, and I would like to visit the oldest hospital in this country, could you tell me the name of it? Also, please let me know the full address of the closest charging stat\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83f88",
+      "enabled_tools_count": 13,
+      "prompt_preview": "My cousin has been reading an august article about git marketplace by sk golam. Could you give me the title and the submission date. Also provide the website url of the marketplace. According to my graph, is there someone that I know who is\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83f8b",
+      "enabled_tools_count": 16,
+      "prompt_preview": "What time did the Sun rise in the city where the 2025 fantastic 4 movie premiered on the first day of the month that saw the greatest amount of money moved in sales and purchases of ether in total based on my local transactions file?"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83f90",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In the same year lionel messi signed with paris saint germain, check our local crime records and tell me how many incidentes were reported. Also, among those, one was considered severe. Let me know when it was reported, what happened, where\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fa0",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I\u2019m exploring my local crime records from 2014 to 2021 to determine the year when female suspects were involved in the most reported incidents. If there\u2019s a tie, decide by the counts of severe cases, then high cases, and then moderate cases\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fa3",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I have a scheduled visit to the museum after my brunch sometime this july 2025 (all I remember is after july 15th); get me the walking time from the restaurant to the museum."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fa4",
+      "enabled_tools_count": 14,
+      "prompt_preview": "my book club is going to read a manga about the scarlet letter from 2020. For the newsletter, I need to find a good photo of the manga cover, from that big non-profitable library data . I remember that the main author is not nathaniel hawth\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fa9",
+      "enabled_tools_count": 16,
+      "prompt_preview": "Lately, I've been reviewing my top movies file. I'm curious about which genres stand out based on the number of them, include them in a ranked list."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83faf",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want the elevation of the southernmost city of the country whose flag resembles the texan one, if hayao miyazaki made a movie between 2020 and 2025. Otherwise, the one of the city in the same country where the national congress is located\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fb0",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was reviewing the relationship between the global conflicts and the crypto prices, and I got curious about my profits. I remember that I made some entries in the ethereum market in the first month of the year before the operation midnight\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fb1",
+      "enabled_tools_count": 14,
+      "prompt_preview": "i need the elevation of jean michel basquiat's birthplace and the closing price for ibm on the first trading day of the year he created his famous skull painting."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fbb",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I saw this amazing alexander the great black basalt ware ceramics piece at the met. It was made around 1779-80 by wedgwood and bentley. It inspired me to borrow a book online about part of his life. I found this book about philip of macedon\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fbc",
+      "enabled_tools_count": 17,
+      "prompt_preview": "In what year was born the guy who wrote the davinci code? How many years apart is this from the year the met acquired the drawing of hercules holding a club from the same guy whose name is in the title of that book?"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fbd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Do I have any appointment to watch a movie with my girlfriend this 13 of july, 2025? I want something new to watch, and I stored my watchlist on my computer for the best movies I get recommendations for. Can you tell me the first result in \u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fc4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My boss at met museum assigned to me a task which consist of investigate about the mother's name of the artist who created the autumn rhythm artwork. I also need the name of the artist and the year of birth."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fca",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I remember recording my earnings of my business focused on animal well-being on the year tina turner died. Could you help me find the net earnings for the seven day period in that year including the day when domingo faustino sarmiento was b\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fcc",
+      "enabled_tools_count": 18,
+      "prompt_preview": "During amazon prime days in july 2025, I have scheduled a dinner at a restaurant, and although it's not written in my schedule, I'll probably head over to brickell city centre. Could you confirm the walking distance in miles between those p\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fcd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm studying art and I read this book named teutsche academia der bau which was really interesting and made me remember something; the fact that the author was featured in the metropolitan museum multiple times. Can you help me find an artw\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Give me the moonrise time in seattle on the latest end date of my local pet care financial data if total profits exceed training services revenue; otherwise, use the earliest start date."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd2",
+      "enabled_tools_count": 16,
+      "prompt_preview": "Which issue was the first created in the official tensorflow repository in the same year that max verstappen became formula one world champion for the first time? "
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I've been working on an api repository related to a museum. I've downloaded it to my computer, and i need to know what files were changed on the second to last commit on it, can you help me?"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "What is the number of cylinders of the model of the car with most sold units in the contry that won the 1978 fifa worldcup two years after la invencion de morel author died?"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd7",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am watching my favorite series breaking bad and checking the weather report, and when I saw one of its characters I wondered something. Could you tell me what the minimum temperature in degrees celsius was, in the city where walter white'\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm doing a school project about the european paintings at met museum. I need to know the father's name of the artist who created the young ladies of the village. I also need to know the artist's name and year of birth."
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fd9",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I keep track of my transactions on my pc, and I was wondering if you would tell me the closing price in us dollars for the top two cryptocurrencies I most frequently use, based on the last day a transaction was recorded. For the top 1 crypt\u2026"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fdb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Give me the area of the capital of the country that coined the name for the sport with the fewest entries in my local sports file in meters rounded to two decimal places"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fdf",
+      "enabled_tools_count": 20,
+      "prompt_preview": "Can you give me the walking distance in meters from the location where tomorrowland was held in 2022 to its closest charging station?"
+    },
+    {
+      "task_id": "68993ef3cf3e953b8ab83fe3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am reviewing a repository I want to contribute to, which contains a snake game. I need to know who made and what was the commit about that took place one the same day the world taekwondo championships began in the same year the movie oppe\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfca",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been checking out some art lately, and I found the page https://artistro.com/blogs/news/30-most-famous-artworks-in-history-the-greatest-art-of-all-time, and I got curious about what artwork is where the artist focuses more on the human\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfcb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What year did the company behind the social network occupying the most rows in my table with posts change its name and when did they port their acquired messaging app with the green icon to ipad?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfcd",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I'm analyzing the company's media campaigns for my shop, and I want to know, based on the company's nosql data, how many times we used instagram and tiktok for campaigns in the same year and month when I closed the week with the most profit\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfce",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was looking at an artwork named head of the old hance trail in the biggest museum in new york, and noticed it looked really familiar to a national park I was considering to vacation with my family to. Can you tell me the address of the he\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfcf",
+      "enabled_tools_count": 15,
+      "prompt_preview": "From our nosql video game store database, what was the average price of games sold in 2022 of the same genre as the movie harry potter and the deathly hallows part 2 according to our local data in /data/Top Movies.csv?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfd3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm reviewing the database of a video game store and I need some help, Can you tell me how much did the video game that was sold on the date of the opening match of the fifa world cup where russia defeated saudi arabia 5-0? I also need to k\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfd6",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to know all the panda attractions in a 5km radius nearby the monument inaugurated by porfirio diaz to commemorate mexico's independence, what is the distance by walking between the monument and the attractions?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfdb",
+      "enabled_tools_count": 14,
+      "prompt_preview": "what is the name of the director of the movie with most value for the index created based in imdb + my rating + metascore/10 for my movie file"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfdc",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Which files were touched in the storyteller project in the last update of 2024, who did it and what they described?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfe4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm visiting a park in rural central kentucky that's known for honoring abraham lincoln's early life. It has hiking trails, guided tours, and opportunities for wildlife watching. Could you tell me its name and location, and then find the ne\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfe6",
+      "enabled_tools_count": 15,
+      "prompt_preview": "On the day that anne perry, a well known british novelist, passed away, what was the highest value recorded in page hit count according to online performance on the nosql data?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfe8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "There is one crime movie in the local database which has an 8.9 imdb rating. A day before it premiered in us theaters, which spacecraft did nasa lose contact with?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfec",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I want to take a road trip through greece in my car, starting in athens, to see some of its monuments that are on the world heritage list. Tell me which were the first three monuments in the country to be added to the list, get the exact co\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dfed",
+      "enabled_tools_count": 14,
+      "prompt_preview": "There was a devastating earthquake on the same day the director of the only film without a genre in the local database was born. Can you tell me its magnitude?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dff0",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm doing a report for a video game store, based on their database. I need to know how much did the video game that was sold on the date when marcia brown passed away cost. I also need to know which category the video game belongs."
+    },
+    {
+      "task_id": "689a373e148a49f91233dff1",
+      "enabled_tools_count": 12,
+      "prompt_preview": "I'm working on a feature exploring unusual overlaps between rare diseases and major global events. I'd like to begin with the year pele passed away, and from that point, I want the title and start date of the oldest clinical trial related t\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233dff7",
+      "enabled_tools_count": 17,
+      "prompt_preview": "Could you tell me how to talk directly with a model from terminal according to a repository written in python of transformers? Could you also tell me the name of the stadium for the oklahoma city thunder?"
+    },
+    {
+      "task_id": "689a373e148a49f91233dffa",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm investigating a crime involving cryptocurrencies. The other day, a 28 year old person hacked a platform and stole a bunch of cryptocurrencies; actually, the currency I trade the most with. According to my personal data, when was that cr\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e000",
+      "enabled_tools_count": 15,
+      "prompt_preview": "while swapping stories with old workmates about that time we caught the shoplifter on camera and posted it on social media, I remembered it was the only crime from september 2021 I saved locally. I think I still have the records from my old\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e001",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Access the database from the game store to find out how many customers purchased a sports game in the same year that Dr. Sarmin Sultana started their clinical study about the effect of magnesium glycinate. I know it was sometime before 2025\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e002",
+      "enabled_tools_count": 13,
+      "prompt_preview": "what are the materials used as medium for the object in the Department of ancient near eastern art in the metropolitan that is related to the animal in the title of the movie on netflix about ray burke sports agent who must pull off a plan \u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e003",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am the owner of a video game seller, and I need to know how much did the video game that was sold on the date when chris reccardi passed away cost. I also need to know if a price reduction was applied."
+    },
+    {
+      "task_id": "689a373e148a49f91233e004",
+      "enabled_tools_count": 13,
+      "prompt_preview": "i\u2019m planning a dawn field recording at stonehenge for the winter solstice in 2010, which was on december 20th. check the local sunrise at its exact coordinates. if it was earlier than ten-to-seven, give me its precise coordinates; otherwise\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e006",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'am a seller in a video game store, I need to know how much did the video game that was sold on the date when vern holtgrave passed away cost. I also need to know if a price reduction was applied, based on our database."
+    },
+    {
+      "task_id": "689a373e148a49f91233e00c",
+      "enabled_tools_count": 20,
+      "prompt_preview": "Using the cloud data from the order placed ten days before the album the car by the arctic monkeys was released, tell me the title of the game sold and the order identifier."
+    },
+    {
+      "task_id": "689a373e148a49f91233e00d",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm preparing a report on historical tech events. I need to anchor it to a meeting in my calendar from july 2025, specifically the first research meeting of the month. Could you find that meeting to get the exact date? On the same calendar \u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e016",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Based on my database inventory, could you calculate the average stock for each game genre for august 2023, rounded to two decimal places? Then, for my research, pick the genre with the highest stock and fin an article about it published on \u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e018",
+      "enabled_tools_count": 19,
+      "prompt_preview": "I'm planning to grab some new video games online, but I want to know the average shipping time for my order. Check the store's cloud data and get me the average shipping time for deliveries of less than the distance from California city to \u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e01a",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm researching the impact of ethereum's transition to proof of stake in the two majors cryptocurrencies bitcoin and ethereum, find the date this transition occurred and compare the percentage change in the two cryptocurrencies between that\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e01d",
+      "enabled_tools_count": 16,
+      "prompt_preview": "i'm analyzing the performance of ethereum for my records. I want to use the dates of my clinical rounds from july 2025 as the timeframe. Could you find the dates for my first and last clinical rounds in that month? Find the reported prices \u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e021",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In my previous job as a delivery driver for a gaming store, I remember making an extremely long trip in 2018 that happened to be on the same day as that year's football world cup final, so I missed watching it. could you tell me how many km\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e023",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I want to analyze the percentage change of the ethereum token from the starts of the liquidity mining program for the comp token the year that joe biden wins the presidential election and the first day of autumn in the us the same year."
+    },
+    {
+      "task_id": "689a373e148a49f91233e024",
+      "enabled_tools_count": 17,
+      "prompt_preview": "When creating my local fantasy sports file, the position data got scrambled across different sports. I want to use this issue to create a riddle for my kids to solve. They must identify the first line with a position that doesn't correspond\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e027",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm working as a data analyst in a game video store, based on our database. I need to know how much did the video game that was sold on the date when margaret dunning died cost? I also need to know which category the video game belongs."
+    },
+    {
+      "task_id": "689a373e148a49f91233e028",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm a checking the database of a video game store. I need to know how much did the video game that was sold on the date when edwin hawkins passed away cost. I also need to know which category the video game belongs."
+    },
+    {
+      "task_id": "689a373e148a49f91233e029",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm on my 2025 summer break and feel like diving into some papers. Earlier this year, my old teacher bernhard mueller at monash did some 3d sims about the formation of a certain type of star. I'm more into the dynamical phase transition for\u2026"
+    },
+    {
+      "task_id": "689a373e148a49f91233e02b",
+      "enabled_tools_count": 17,
+      "prompt_preview": "What is the start day with the highest weekly profits? My partner is convinced that our petcare is being affected by the constellations here in merida, yucatan, but I think is ridiculous, and I want to use the file in my computer to prove i\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2568",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to retrieve the data of the piece 482551 of the museum and translate it for people living in Quebec. Also, include the translation of the department's names. "
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2572",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I am working on a sales report at car dealership. I need to know the name of the car category that was bestseller in the month and year when carol lynley passed away. I also need to know the total amount of expenses in that period."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2576",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I ate at a pizza chain the other day, and later I found out that it's the pizzeria with the most gross sales worldwide. I found that amazing and started investing on them, I was wondering, what was the pizza chain's percental stock value ch\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2578",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Using my dealership data on foot traffic, specifically about service center visits on january 2015, what's the average per week (mon-fri) of visitors? Compare that with the average value for showroom visits in that same period, which is the\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2579",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am reviewing a sports repository on my computer I want to work on, and I need to know who made the commit on the same day the father of actor colin farrell died."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b257a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am looking for a movie to watch on movie night next week, and I prefer to watch a movie that I've already seen. I also want to consider other's opinions, so can you tell me which movies has the greatest combined imdb and personal ranking?\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b257d",
+      "enabled_tools_count": 19,
+      "prompt_preview": "When was the first day of the third week recorded in the computer for the pet business? I saw a man in my husband's pet care, bringing his dog that day. Coincidentally, I saw him scream at my coworker because of problems with his car the sa\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b257f",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am an assistant at a car dealership. I need to know the name of the car category that was best-selling in the month and year when dustin diamond passed away. I also need to know the total amount of expenses in that period."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2581",
+      "enabled_tools_count": 26,
+      "prompt_preview": "using the cloud database, can you tell me the score for efficiency in service of the sales department in the first quarter of the year two years after the date of release of the game Lucas recommended in the gaming suggestions channel?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2582",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I need to retrieve the number of employees joining the company on the hr, sales and tech areas during the first quarter of the year when the article I was reading this afternoon was released. I was reading an article called retraction notic\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2588",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Could you tell me what the moon phase was in the city where the champion of the 2019 tour de france was born, on the day he was crowned champion? I would also like to know the reported price of btc in us dollars on the last day of that same\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b258a",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Using the cloud database, check my local files to identify the smallest average amount of time in the pages, submitted in the first year and month when the f-150 model's attrition rate reached 1.00"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b258b",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm looking for the address of a national park, more specifically, the address of the park depicted in the artwork by edward weston in the biggest museum in new york, which mentions the park's volcano in its title."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b258e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What was the daily high temperature recording in celsius at the nearest location to the southern-most visitor station of the largest national park in terms of acreage in the state of florida on Aug 11, 2025?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2593",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am preparing a geography report and need help. Could you tell me the average elevation, in feet, of the two weather stations closest to acadia national park, located in maine? Also, can you tell me what this park was called before it was \u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b2596",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What is the lowest employee performance rating, according to our car dealership database, for the year and quarter in which super mario bros wonder was released?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b259a",
+      "enabled_tools_count": 18,
+      "prompt_preview": "What's the eth purchase cost on the contract end date of the 2nd player listed as injured and 28 years old, in my computer fantasy sports data?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b259b",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was out in downtown la the other day back in august 2025 and overheard some folks chatting about microstrategy stocks while I was setting up for my street photography session I'd scheduled, which got me thinking if I should've jumped in b\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b259c",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Lately, I've been interested in k-12 education. Do I know anyone with experience in this field according to my graph? Also, I would like to read an article on the matter by christopher d pfledderer. To discuss the matter, what time am I fre\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b259f",
+      "enabled_tools_count": 17,
+      "prompt_preview": "How many visits did the showroom the year that obama finished his period as president? "
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25a0",
+      "enabled_tools_count": 16,
+      "prompt_preview": "What was the opening price in dollars of the cryptocurrency conceived by satoshi nakamoto in 2008, the day the scale.ai domain was created? with that money how many nintendo switch consoles could I have bought in the same year?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25a1",
+      "enabled_tools_count": 17,
+      "prompt_preview": "Using the cloud database, make a comparison of each of the months of the year five years after arthur oschs sulzberger and irene roosevelt aitken gifts purchased the flintlock sporting gun of margarita teresa and tell me which vehicle was t\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25a3",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was looking at this one painting named merced river by bierstat in the biggest museum in new york, which depicts a beautiful landscape in what I think is a state with a national park somewhere in the us. This interested me to try and visi\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25a4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "On Trump's second inauguration day, i remember i was at an event with my friend's family on a farm and we discussed how expensive bitcoin was. Can you use my local data to find the entertainment that was at that event and also what was the \u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25a5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Can you tell me how many visits the car dealership had in their's showroom on the weekday, in the month and year bob saget died?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25b0",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was checking the product records in sales expenses. In the first month of the year when the 21st edition of the fifa world cup took place, which product type led in the commercial performance data, and what was its total product quantity \u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25b6",
+      "enabled_tools_count": 15,
+      "prompt_preview": "How much did 5 eth cost in usd on the date the first commit was made to my local snake game repo, using its opening price?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25b8",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm digging into my 2022\u201323 food & drink log to see how beer orders compare on wednesdays versus saturdays. Round dollar amounts to two decimals and percentages to one decimal. What are the average total prices per entry on each day, and ho\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25b9",
+      "enabled_tools_count": 23,
+      "prompt_preview": "I need to know how many years passed between the release year of the movie jim rat recommended in the channel and the year the innovation in the service department scored 2.49. Check the cloud database for information."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25bd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "We were chatting in the break room about TV shows, and two of my colleagues, nosdle and mcpdumle, mentiones their favorite series. I tend to get hooked on longer shows, so I'm curious which of the two recommendations is longer. Search in th\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25c1",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Which person in my local graph speaks both spanish and mandarin? I want to greet them in both languages with the phrase hello there my friend, so please provide that greeting on those languages. I also remember that this person has the same\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25c2",
+      "enabled_tools_count": 18,
+      "prompt_preview": "Check the cloud database and tell me which supplier had the highest score in delivery timeliness in the first quarter of the year eight years after ac milan won their last champions league."
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25c3",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Using my files, take a look at the top movies csv to identify which drama movie has the highest gross. Since I'm planning to watch it, I'd like to know the director and how many Oscars it won. If it earned that much, I'ts probably worth see\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25c4",
+      "enabled_tools_count": 14,
+      "prompt_preview": "On the date the tesla model 3 was first delivered, how many client feedback records are in my dealership's cloud database from that day?"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25c8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I remember a latino winning the monacogp 2003. Could you tell me the lunar phase in the city of birth of that person the day they won the monaco gp? I believe good things happen under certain moon phases, so I also want to know if on my bir\u2026"
+    },
+    {
+      "task_id": "689af4e653c3905e7b5b25ca",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What year did wonodi and knoll publish their article about a virus? I want to know what the average gpd growth in the same year according to my file about coronavirus. I am pretty sure I was taking records of that on my computer, but due to\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfca5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was talking with my friend about the french revolution military leader who was exiled in the santa helena island, and he remembers that he made a recommendation of a movie with the name of that historic figure in the title on the private \u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfca8",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I was reading about space exploration and came across the milestone when nasa's new horizons spacecraft made its closest approach to pluto. For the second quarter of the same year, check our cloud database records and tell me the average cu\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfca9",
+      "enabled_tools_count": 17,
+      "prompt_preview": "Days ago, while going through an old project on my local repositories, I found a folder full of scripts for a slack integration. One of the files in there is the one that handles bot functionality. I'm collaborating with a team in croatia, \u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcad",
+      "enabled_tools_count": 15,
+      "prompt_preview": "While checking the hiring records of our car dealership network, I doubted the average performance score per department (rounded to two digits) for the last quarter of 2023. Could you get this info, and according to the one with the highest\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcae",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was reviewing the car sales expenses in the records on my cloud. specifically, the year marked by the un as both the international year of moderation and the international year of the periodic table of chemical elements.what is the yearly\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcaf",
+      "enabled_tools_count": 14,
+      "prompt_preview": "From my local movie data, what's the highest-rated movie I haven't watched yet on imdb? I need it for my july 2025 family movie night, so please also remind me of the date and time it is scheduled."
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb0",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I need someone to give me insight on a work at the new york museum that has the van gogh painting shoes. Can you tell me which one of my contacts is the artist who does gallery exhibits and which department at the museum has that painting?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Which department in my cloud dealership database had the fewest leavings in the first quarter of the year tina turner passed away?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb2",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am making a sales report for the car dealership company database. I need to know the name of the car category that was bestseller in the month and year when paul allen died. I also need to know the total amount of expenses in that period."
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb5",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I want to reward the most innovative department, according to their employee performance, with the highest score of the first quarter of 2020, using my PC files, with a trip to the state where the sun rose earliest on april first of that ye\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb6",
+      "enabled_tools_count": 14,
+      "prompt_preview": "What is the average of the dimensions in centimeters of auguste rodin's madame x piece at the met, and in which city is his sculpture the thinker located?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb8",
+      "enabled_tools_count": 16,
+      "prompt_preview": "My colleagues and I are gonna talk about smoking addiction and the effects of nicotine, talking about research trials from a public registry of clinical studies. Which one finished in 2022? From those trials which was the main institution o\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcb9",
+      "enabled_tools_count": 17,
+      "prompt_preview": "While revisiting some classic films, I found this <https://www.npca.org/articles/7109-11-national-park-cameos-in-movies>. It mentions the park where butch cassidy and the sundance kid was filmed, and I'm interested in staying there. I'm cur\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcbb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My boss at the car dealership is asking me to create a sales report based on our database. I need to know the name of the car category that was bestseller in the month and year when the drummer fred white passed away. I also need to know th\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcbc",
+      "enabled_tools_count": 14,
+      "prompt_preview": "A childhood friend, move to michigan, because he got hired from a department that saw a lot of new employees joining in early 2023, in our car dealership company. To catch up on his new projects, he suggested we meet in a park that is a rem\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcbd",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Between the movies suggested by kcpfan46 and quickfits01 in the channel dedicated to it, which one won more oscars?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcbe",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I was watching a uefa champions league final when a question came to mind. Could you tell me the lunar phase in the city where the uefa man of the match of the 2012 uefa champions league final was born, on the exact date that final was play\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm analyzing the performance of Ethereum for my records, using the dates of my clinical rounds from July 2025 as a timeframe. Could you check my calendar to find the dates for my first and last clinical rounds in that month? Then, find the\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc2",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm going to the IMAX opening fan event of the first Phase 6 MCU movie, and the day after, I'm going to Mount Rainier park to do some stargazing. Can you please tell me the sunset at the park on the day I'm arriving there? "
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc4",
+      "enabled_tools_count": 16,
+      "prompt_preview": "My friend steve joined to the movie suggestions channel and recommend a movie, I would like to know if the movie won an oscar for best supporting actor and, if so, what was the bitcoin price on the day the winning actor died."
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm reviewing the barber shop data in my PC files and'd like to know what percentage of clients were female and the average age of those female clients. Round both the percentage and average age to two decimal places"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc6",
+      "enabled_tools_count": 14,
+      "prompt_preview": "How much usd did I withdraw from coinbase on the date makar sankranti was celebrated in 2023, based on my local data?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc7",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I have to review a database in car dealership company, and I need some help. I would like to know which team had the worst performance in terms of total scores among the employees during the first quarter of the year that tom petty passed a\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcc9",
+      "enabled_tools_count": 13,
+      "prompt_preview": "In a set of locally recorded entries tracking meals and drinks, there are entries with dishes containing items from the sea prepared at home. considering the entry that represents the largest total expenditure for such a meal, could you pro\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcca",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm analyzing a specific historical crypto-market snapshot, but I only remember the date by a non-english clue: el d\u00eda de la bastilla First, can you figure out what date that refers to? Then, on that specific day in the year 2021, I need th\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfccb",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Among the movies i've watched according to my records, what would be the average of my score and the average of the ratings from the internet movie database?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcce",
+      "enabled_tools_count": 16,
+      "prompt_preview": "One of my friends recommended a movie to me in the chat our friend group has. In my personal data, I have a list of the greatest movies I've found, and I want to know if that movie is among them. I'm curious to know if I've already watched \u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfccf",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I knew someone in the gaming suggestions channel that is searching for friends, he mentioned that he is always buying the new fifa so, can you search for someone in the local graph that is related with game sessions to introduce him? I don'\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcd0",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I heard that there are some ruins in new mexico that were mistakenly named after a mexican empire and they are a national monument. I'm interest in camping there, so please give me the available campgrounds name and the coordinates of those\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcd4",
+      "enabled_tools_count": 22,
+      "prompt_preview": "I recently watched the movie avengers age of ultron and read the book the botanist\u00b4s daughter, tell me which one was released earlier and using that earlier date, check on the dealership database and find the car model with the lowest turno\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcd5",
+      "enabled_tools_count": 14,
+      "prompt_preview": "My friend is planning to visit a place where, in the 1900s, paleontologists unearthed the age of mammals when they found skeletons of extinct Miocene mammals in the hills of Nebraska. To visit this place, he needs to know the exact address,\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcd7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "There was a day in my trading history in the local database where I made eight transactions of two kinds, out of which only one of them was a deposit. On the two year anniversary of that date, I want to celebrate. Can you tell me which even\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcd9",
+      "enabled_tools_count": 13,
+      "prompt_preview": "What's the square root of the average temperature in celsius in tokyo on the day of the premiere of the film miley cyrus something beautiful?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcda",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Who is the first user that sent a message in my gaming discussion, the 27 June 2025? I want you to give me the total number of messages he sent that day, and multiply that number by the year the messages were sent."
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcdc",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was working on the repo related to slack that I have locally, but I don't remember if I pushed all my changes. Can you check if I left any files unstaged?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcde",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have a florida keys getaway during the first week of july 2025, it's on the calendar. Within those dates, can you tell me looking at my local database, how much I spent on meals or drinks two years before?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfce1",
+      "enabled_tools_count": 14,
+      "prompt_preview": "What's the most affordable rent on the real estate database for an unfurnished apartment of four bedrooms that comes with premium amenities, parking, top-tier energy efficiency, and was built in or after the year spain won their first fifa \u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfce2",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm reviewing my pet care 2023 data to determine which week had the highest combined grooming and training revenue. I also need to review my food and beverage consumption data for the drink with the highest average price that same week. And\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfce4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "The year and month that the oncogenic potencial of salivary in linchen planus clinical study was completed, on which day received the highest visits to the service center in the dealership? "
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfce6",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm planning a camping trip to grand teton park to watch mercury's greatest western elongation, as reference I wnt to know bout the one in december 2025, so I need to know the sunset and moonrise local times at the park on the day of the el\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfce7",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm running a what-if scenario for my crypto portfolio. I'm trying to figure out what a hypothetical investment of 12.5 units of ethereum would have been valued at on the reported price from the specific day the European Central Bank announ\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcec",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was reading news about cryptocurrencies and got curious. Please tell me the usd price of dogecoin on the last calendar day of each month whose name starts with the letter j in the year following its launch. Also, provide the average of th\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcef",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I have some digital statistics on my cloud database, and I was wondering how much money I would have if the total time(in minutes) on the homepage of my car shop in july 2020, considering every visit, and the average visit time were to be c\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcf3",
+      "enabled_tools_count": 13,
+      "prompt_preview": "The year  lamine yamal was born matches with the creation of the first pandas issue?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcf4",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was reading this article https://www.newscientist.com/article/mg23731601-200-no-sweat-are-sports-drinks-worth-the-money/, and remembered that, for the same month and year as its publication date, I have some recorded site statistics for m\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcf7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I've been meaning to read this book named down the great unknown by john wesley powell, but it has been on my to-read list for so long that I forgot what place the book is talking about, I only remember that it was about a place that became\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfcfd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I need to find a repository on my computer, I don't remember the exact name of the folder, but I know it includes something about snake. Can you tell me what it's named and how many commits were made in this folder from June 2022 to July 15\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfd00",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Could you give me the official description of the park whose name was used for the macos version released in 2014, in the original language spoken in the movie called something like the maze of pan?"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfd04",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Earlier today I was chatting with a coworker about videogames and mentioned that I enjoy slightly retro titles. He told me that in out channel for discussing games, both qtwatcher1999 and kwfan2022 have recommended games like that. Can you \u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfd05",
+      "enabled_tools_count": 20,
+      "prompt_preview": "Check the local data and the cloud database and tell me the age and gender of the suspect of the crime reported the year when the average expense for each employee in the car business was 4259.72."
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfd07",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My father was planning to take us to lafayette national park and was trying to research it but we found out that it its not called that anymore, can you help me find how much the annual pass costs at what used to be called lafayette nationa\u2026"
+    },
+    {
+      "task_id": "689bd255c0422b257e7dfd08",
+      "enabled_tools_count": 17,
+      "prompt_preview": "We have scheduled our annual family reunion for the 1st week of aug 2025 in an la neighborhood; there is a lake there. Can you check how many days there are between the end date of the festival held there and our reunion?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fdb",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was looking at an artwork named old faithful geyser in the biggest museum in new york and I got curious about the address of the headquarters of the national park that was depicted in the artwork, can you get it? "
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fdc",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Give me the title translated into spanish of the article about a template matching method for detecting 2d images that was published in the same year as the rio olympic games."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fdd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm looking for an apartment for the family from my graph who hosted the event in riverside park. They are looking for a furniture equipped apartment with one room for each family member plus one extra. Also, the father reminded me that his\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe0",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was thinking of watching a movie, and I remembered that in june 2025, my friend eldson recommended a movie on the movies channel. I don't remember the name, but I'd like to know the genre and the imdb score that I have recorded on my comp\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe1",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I want to know the closing price of bitcoin on a particular date. There is data on my pc about crimes. Among all the records, which suspect sex committed the most crimes? Which ever sex did, take the latest recorded date tell me what the pr\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe2",
+      "enabled_tools_count": 13,
+      "prompt_preview": "What is the credit line of the met's painting aristotle with a bust of homer, and what was the full name of the mother of its artist?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe3",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm attempting to do some detective work regarding a case of arson close by that happened in May of 2017. Can you check the online customer feedback database for service requests and see if any request dates collide with those in the local \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe4",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm researching historical correlation between ai breakthroughs and famous cryptocurrencies, I need to find the date of publish of the original 2014 paper by ian goodfellow, mehdi mirza and bing xu that introduced generative adversarial net\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe5",
+      "enabled_tools_count": 20,
+      "prompt_preview": "An old friend of mine from croatia will come to visit next month. We worked together on some projects back in the day, and I still have an old one on my computer about a calc for smth server-related. I want to surprise him with the very fir\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe6",
+      "enabled_tools_count": 7,
+      "prompt_preview": "I want to know the name of a classical violinist, now deceased, who shares the same nationality as the author of  a ballad released in 1994 under its original title la mia storia tra le dita. This violinist died on the same day the initial \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I was looking to go to california to visit the death valley national park, but then I realized that the state has much more to offer, so I'll also visit the yosemite national park. Can you help me calculate the straight-line distance in km \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fe8",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Which food type in my local food consumption data has the most satisfaction ratings of 5, and which beverage types accompany it when the rating is 5?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1feb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I have some repos on my computer, of is related to sports, I was taking a look at the commit history and wanted to get the url for the commit where the prompt was renamed. Could you provide me with that?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fee",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I was planning to visit the gates of the artic national park, and then visit the glacier bay national park, can you help me calculate the straight-line distance in km of the location of the two national parks?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ff0",
+      "enabled_tools_count": 14,
+      "prompt_preview": "i've been optimizing a react component and need to look up a specific hook, the one used for memoizing functions, and remember seeing an issue in their main repo about its dependency array from jan 22nd, 2019; i want to know the person's us\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ff1",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm trying to understand some ad data in my database. I want to see some details of campaigns that spend less than $800, specifically what was the most common type of ad, and for the least used one, what the average audience reach was."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ff4",
+      "enabled_tools_count": 17,
+      "prompt_preview": "My friend and I are planning a trip to the state where gravity falls was set and we want to visit the national park that is located only there, can you search it for me? and I don't know what can we do there but he has a diploma in engineer\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ff7",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Check my local movie data and tell me if I have already watched the movie suggested by the user qtwatcher1999 in the chat channel dedicated to movie recommendations."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ff9",
+      "enabled_tools_count": 13,
+      "prompt_preview": "What was the maximum temperature, in fahrenheit, in paris 8 years after the day we resolved the first service for apartment 117 from our customer feedback database?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1ffd",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I had a business dinner with some restaurant owners to discuss profit issues in restaurants. I'm considering opening either a barber shop or a restaurant, check difference between the first 5 transactions in the barbershop and the first 5 t\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b1fff",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Based on our local file /data/food and beverage consumption.csv, where did we eat on the day that employee 392 performed his fourth service according to our cloud customer feedback data?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2003",
+      "enabled_tools_count": 15,
+      "prompt_preview": "i am comparing two paintings, garden at sainte-adresse by claude monet and by the seashore by pierre-auguste renoir, and i want to know the year in which the one with the largest area was created. can you help me with that?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2005",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm planning a trip to california and would like the former federal prison that became part of a national recreation area in 1972 in that city. I need its official website address and mailing address according to the nps."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2007",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I know the reyes family hosts soccer events and they're famous for their post game food, but I can't remember what's the menu, I think is allways the same. could you check my local graph to find out? also, my family once attended one of tho\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2008",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was talking about movies with my uncle, qt watcher, in our chat, but I don't understand which movie he mentioned. I would like to explain the movie title in spanish, could you help me? When the movie was released?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b200a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "There was a great recession that affected housing prices in the united states in the first decade of the 21st century. For my historical research, check my database and find apartments that were built in the year after the recession officia\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b200c",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm reviewing my repo about basketball data and player stats. I want to explore the history of recorded changes and identify the oldest update corresponding to the month and year that mark 50 years from the founding of microsoft. could you \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b200d",
+      "enabled_tools_count": 13,
+      "prompt_preview": "My doctor told me that I need to do more exercise and avoid the consequences of sedentarism. I was wondering what studies were made about sedentarism as a condition the year after the release of chat gpt 4, because I feel I spend so much ti\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b200e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was chatting with a friend about Gabo and he mentioned a novel that came out the same year John F Kennedy took office, I\u00b4d love to translate it, so I\u00b4m curios: what\u00b4s the title and who\u00b4s the author, the release date and could you share th\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2012",
+      "enabled_tools_count": 14,
+      "prompt_preview": "A friend from spain is coming to michigan to see it. I'd like to recommend this park that is an island in lake superior. Also, he's reading an article that I recommended about a template matching method used to detect objects in 2d images, \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2013",
+      "enabled_tools_count": 14,
+      "prompt_preview": "What is the name of the anime chapter that my friend jim rat mentioned in the tv suggestions channel he likes to watch, that was released 2 days before the date when juan manuel marquez defended his superfeather weight title for the first t\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2014",
+      "enabled_tools_count": 15,
+      "prompt_preview": "According to my local movie data, have I watched the movie recommended by kcpfan46 in the movie suggestions channel?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2015",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Could you tell me which movie genre is the most frequent in my local movie data, and provide a medical article from 2009 that mentions that same genre followed by the word movies in its title?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2016",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been crunching pet-care revenues for 2023 and cross-referencing clinical studies. Out of all weeks, I\u2019m curious about the one with the biggest haul and which service category dominated that spike. Also, for a clinical study whose brief\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2017",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I'm curious about the doordash article [https://merchants.doordash.com/en-us/blog/profit-margins-restaurant-businesses,](https://merchants.doordash.com/en-us/blog/profit-margins-restaurant-businesses) which mentions a restaurant type with a\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b201e",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I need you to check the local data and tell me the highest salary among the players drafted in the year when the video game steve recommended in the suggestions channel was released, also tell me what sport this player practices."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2020",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In my local data tied to digital assets records, determine whether the market's reported price for a decentralized currency, its ticker starts with b and ends with c, was above or below the spot value I recorded on the day when the largest \u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2024",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm researching papers on advertisement effectiveness and comparing it to our own online database advertising data. There's a 2024 paper by jane castleman that deals with ad control effectiveness, can you get me the abstract? I believe it m\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2026",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was reviewing my sports data on my computer, and I am sure that the average score of the athletes is less than 80, while my father believes it is over 100. Can you help me determine who is correct?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b202a",
+      "enabled_tools_count": 13,
+      "prompt_preview": "My mom is coming to visit me. I currently live in the same state where the composer of stardust in 1927 was born. This state also has some dunes. Can you remind me of the full name of this guy and tell me if there is a national park here sp\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b202c",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to know the bitcoin price on the first date of purchase of the cryptocurrency with the most purchased quantity on my computer data."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b202f",
+      "enabled_tools_count": 15,
+      "prompt_preview": "i am localizing documentation for the pandasai python library. can you find the snippet about the clone of pandasai repository in its official docs and then translate the title and description of that snippet into italian?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2030",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Tell me the movie with the highest imdb rating in the local database for the genres of each movie suggested in the group chat."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2034",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been researching whether tennis has any connection to the economy during lunar phases, and I need some help. Could you tell me the birthplace of the player who won the roland garros tennis tournament in 2016, as well as the lunar phase\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2036",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What's the week when the revenue from grooming services in my local pet care data was at its peak, and what was the reported bitcoin price on the last day of that week?"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2037",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Could you search the company data for an apartment? I have a 10% discount on the rent for being part of the company, and I want to use it. I'm looking for an apartment with one bedroom plus another room to be my studio. I have my own furnit\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b2039",
+      "enabled_tools_count": 16,
+      "prompt_preview": "What is the imdb rating of the movie nosdle recommend in the corporate chat? I think I keep information like that on my computer files."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b203a",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I need doing a school homework about california national park. I need to know the mailing address of the national park that was established in 1980 in that city. I also need its official website address."
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b203c",
+      "enabled_tools_count": 14,
+      "prompt_preview": "A french friend is coming to california on a trip, and i want to recommend a monument that was established in 1911 by presidential proclamation. Afterward, he's going to michigan, and i want to recommend another park, which is a remote isla\u2026"
+    },
+    {
+      "task_id": "689cd6f8522029b7ad7b203e",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I was arguing with a friend about who finished their homework earlier in their respective local time on the day Tommy Hunt died. The problem is that the only remenbers finishing 1 hour and 20 minutes before sunset, while I finished 7 hours \u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f1fe",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm going to Gunnison Park on august 20, 2025, and I need to know the campsites available there. I'm going to do some stargazing, so I'd like to know the phase of the moon on that night. "
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f1ff",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm planning a trip and I would like to know the address of the national preserve that was established on october 11, 1974, in florida city. I also need its official website address"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f200",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm interested in crypto financial analysis during periods of major ai innovation. I want to analyze a timeframe defined by the publication dates of two foundational papers: the one that first introduced residual networks by kaiming he and \u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f201",
+      "enabled_tools_count": 14,
+      "prompt_preview": "There's a mention floating around about the scream by fletcher martin being in the modern art department, and I'm trying to pin down if that's real. medium-wise, I'd also like to see what technique he used on that work on <https://en.wikipe\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f202",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm exploring the repo related to sports on my computer, and I need to know the email of the user who made the fourth commit after the initial commit."
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f204",
+      "enabled_tools_count": 14,
+      "prompt_preview": "i\u2019m putting together a short class handout about a famous american history painting\u2014george washington standing in a small boat during a winter river crossing at night. tell me which museum keeps it and how i can find that record on their si\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f206",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm considering where to take my family on a us vacation and want to explore the three largest national parks to understand what activities they share, what makes each one unique, and since we're brazilian I'll need the complete activity li\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f208",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Using the clinical trials registry, what is the title and sponsor of the oldest clinical trial that officially started in 2020 on Indonesia, related to the parkinson disease, and can you give me that title in French?  "
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f20c",
+      "enabled_tools_count": 15,
+      "prompt_preview": "According to our local data, between the years the FIFA World Cup was held in Brazil and the year the Tokyo Olympic Games were held, which month had the highest number of high-severity incidents? And, for that month, what were the specific \u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f20e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Recently, while reviewing my coinbase trade history file, I became curious about which asset appeared most frequently. I also wondered in what year that coin first appeared, according to  <https://cryptomus.com/blog/how-many-cryptocurrencie\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f20f",
+      "enabled_tools_count": 15,
+      "prompt_preview": "This Sunday I'm planning a fishing trip to the jean lafitte preserve, so I want to know the opening and closing times of the fishing center for that day. Also, the species of fish I'm trying to catch has varying levels of activity depending\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f211",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm creating a report on the growth of ethereum during the modern ia era, I need to analyze the period between the publication dates of two key papers, the one that first introduced the transformer architecture by ashish vaswani and the one\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f214",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm trying to find the first name of employee 1011 from the staff satisfaction database. I believe their last name was gomez? I'd check the organizational graph, they should be still working with buildwell. Get me their first name and surve\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f21b",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My friend Stacey and I are looking at a commit that Mike made in my repo about sports scores. It was his second commit since the repository was created, but Stacey doesn't understand the commit's message since she primarily speaks Bulgarian\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f220",
+      "enabled_tools_count": 16,
+      "prompt_preview": "What was the price of ether rounded to three decimals and the sunset time in the prefecture where the fmc from the your name movie lived the day bitcoin was bought at the highest price in my local records?"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f225",
+      "enabled_tools_count": 17,
+      "prompt_preview": "What movies of the recommended in the channel of the server are already in the list of my computer for the best movies? I want to find the best suggestions. What are the ratings of those matching movies?"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f228",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm planning a visit to hot spring park and am curious about what the park has to offer. I wonder if they provide guided tours and have camping areas with picnic tables. I'd love to discover an interesting, fun fact about the park from <htt\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f229",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm creating a presentation for a spanish-speaking audience about unique museum acquisitions and their connection to modern finance. My focus is on the famous ancient egyptian hippopotamus statuette nicknamed william. What year was this pie\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f237",
+      "enabled_tools_count": 19,
+      "prompt_preview": "I want to visit the federally protected park in my state but need to know how much it will cost. I know that the fee is the same thorough the year and doesn't change. I want to get in at 10am on the same day and month in 2025 of the younges\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f238",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My thesis involves analysis on the efficiency of different languages at compacting the same information. Can you translate the famous pangram the quick brown fox jumps over the lazy dog to italian, spanish (ES), portuguese (BR) and japanese\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f23a",
+      "enabled_tools_count": 18,
+      "prompt_preview": "For a Spanish-language presentation, I'm connecting a famous artwork to cryptocurrency. I'm focusing on a painting by a Dutch post-impressionist master that depicts a vibrant, golden wheat field under a turbulent sky, with prominent cypress\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f23b",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Last time I saw david thompsons he invited me to his family event (I registered in the local graph). We talked about me being a programmer, and he asked me to make an app for one of the activities at the event. I remember starting that proj\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f240",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I want to know the highest temperature in seattle on a particular month and day of 2025. There is local data on my pc, use it to tell me how many crimes of each type were committed by each sex. Whichever sex committed the most, use the olde\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f242",
+      "enabled_tools_count": 15,
+      "prompt_preview": "For a Spanish-language article on historical valuation, I'm analyzing a famous sculpture by a French artist born in 1840, celebrated for his modern approach. My focus is on his iconic piece depicting a solitary, contemplative nude male figu\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f245",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am a big anime fan and live in the same city where the creator of one piece was born. i am curious to know in my city on which of these two days the sunset occurred earlier and how many minutes of difference there were between the day the\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f248",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I was watching a fast and furious movie while reading about cryptocurrencies in acadia national park in maine, and a question came to mind about one of the actors. Could you tell me the value of ethereum in us dollars exactly four years aft\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f249",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I'm researching important events in mexico's history and would like to know the start date and location of mexico's revolution. Using that, review the moonphase, coordenates, sunrise and sunsets hours on that specific day and location but 1\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f24b",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm certain that in the private movies chat, shinsplints7070 mentioned a film starting with good, or something similar. which one was? And if it\u00b4s listed in <https://time.com/6269170/matt-damon-ben-affleck-movies>, could you send me the fir\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f24c",
+      "enabled_tools_count": 14,
+      "prompt_preview": "What was the price of ethereum in the three days after its deprecated browser official repo received its last commit? And what was the price for bitcoin in the day of ethereum's highest value between those three days?"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f24d",
+      "enabled_tools_count": 13,
+      "prompt_preview": "What was the lowest temperature in medellin, antioquia, on the day alien earth premiered internationally? i also want to know how many locations are called medellin."
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f24e",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Among the ad campaigns in my database, which ad placement yielded, on average, the greatest reach among international video ad campaigns launched in the same year that the first individual youtuber surpassed 100  million subscribers?"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f254",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Hi, I'm organizing a trip on August 17, 2025, to Cuyahoga Valley park to do some stargazing, so I'd like to know about all the available visitor centers, as well as the moonrise and sunset times, so I can better plan that evening. "
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f257",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm finishing my work and need to email it to my boss, mike. But first, I need to get some information from a personal file. Could you provide me with the most consumed drinks and food categories for each age demographic? Also, I need my bo\u2026"
+    },
+    {
+      "task_id": "689e0b1d9c8e2ac413c1f25c",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I've been working on a local project for telling stories where I've already built a few react components. I want to check the required dependency version for the component that has the fewest lines of code."
+    },
+    {
+      "task_id": "689f4d693e212e8ef33906e5",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I have some repos on my computer. I was wondering, for the repo that lets you send messages from a programming language, what is the name of the function changed by the 16th commit made by the person with the third most amount of commits in\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef33906f6",
+      "enabled_tools_count": 13,
+      "prompt_preview": "My girlfriend recommended an article about a template matching method for the detection in 2d images. She told me the article was published the same date anita brookner died, which one is it? Also, I want to read it carefully, which monumen\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef33906f7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm researching the behavior of bitcoin during a period of rapid, successive ai model releases from the same research lab. I want to find the average price of this crypto between the publication date of the original palm pathways paper and \u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef33906f8",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm curious that in the same year and month when india launched its space mission to study the sun, I have team chat history updates in my local repo. Can you find all the updates from that month and year with the earliest timestamp?"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390701",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm checking the customer feedback on my database, and I want to know how many services were resolved on the day the domain [binance.com](http://binance.com) was created."
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390707",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm piecing together openai's story, specifically the exact date their website went live. I'd like the bitcoin closing price 7 years after the launch date, and its closing price exactly six years after that. Finally, for each of those two p\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390708",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've planned a picnic with the family of a very dear friend. One of her sisters is a nature photographer, and I recently found out she published a paper on a large scale 3d dataset. What's the title of that paper? I'd like to study it so I \u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339070a",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm researching the origin of the transformer architecture. Find the seminal paper published in 2017 on large language models co-authored by ashish vaswani and noam shazeer. Then, give me the spanish version of it in order to understand it \u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390710",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Could you give me the name of the person associated with chess in the local graph? And based on the same graph, what would their roles be if they were a lawyer? Provide the latter in spanish."
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390716",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm a passionate baseball trading card collector, especially about home runs, and I'm visiting ny now. I'm researching this city's baseball legends before 1950 and want to know who was the home run king before that year, and if any museum o\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339071d",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I\u00b4m reviewing PR from the pandas repository. Please give me the url and diff url for PR #62091, and also list the files that were changed in that diff."
+    },
+    {
+      "task_id": "689f4d693e212e8ef339071f",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm studying some repos I have on my computer. I was wondering, what is the name of the utility introduced in the 30th commit made by the person with the most commits in the project related to museums?"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390720",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm reading a paper about video games titled can large language models capture video game engagement, while camping in channel islands national park, and I had a question about its potential market impact. Could you tell me the price of eth\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390724",
+      "enabled_tools_count": 22,
+      "prompt_preview": "I'm going to remodel my house, and I'm sure I have the name of a construction company in my local graph. Please find the company's name. Using the company's name, please find contact information, such as phone numbers, social media, and ema\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390728",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm doing some research on open source gaming, can you tell me the difference in years between the domain registration of the official site of the bzflag game and the creation date of its game repo?"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339072a",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What is the programming language that lacroix used to build his repo with the same name as the algorithm mentioned in his article about the re-evaluation of g-quadruplex propensity, and in which year did the article was published and when w\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390731",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I've been looking into contributions in open source videogames and I'm curious about the longevity of this one open source project. Can you get me the year difference between the creation of the repository of the shooter game assaultcube an\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390733",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'd like to do some volunteer work. I enjoy walking dogs or helping with administrative tasks. According to [https://www.indeed.com/career-advice/career-development/how-to-volunteer,](https://www.indeed.com/career-advice/career-development/\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390736",
+      "enabled_tools_count": 16,
+      "prompt_preview": "My colleague gabe maldoff published a paper on web scraping ethics. In the same month and year as its publication, what was the lowest salary among the players whose contracts expired in that same month and year, according to my fantasy spo\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390737",
+      "enabled_tools_count": 20,
+      "prompt_preview": "I cloned a repo game locally to my laptop about serpents but haven't looked at the main repo since. Can you check what branch was used in the very first pull request opened there?"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339073a",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am testing out a program and want to know about the creator. The program is on my local pc and can be used to tell stories. Tell me when the first commit was on this repo. Tell me what the creator's username according to the hosting platf\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339073e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "My friend was working at a library and she told me about this teenager who stole a computer and then used it to submit an issue to a scrolling project from a repository from the onion. The issue was submitted four days after the computer wa\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef339073f",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I have some repos on my computer, one of which allows to send messages from a programming language. I was wondering, what function was changed on the first commit made by the person with the 24th most commits in the project?"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390740",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I'm curious about a paper by b k meister about crypto. It dives into a type of crypto coin and I would like to know the total sum of sell transactions after fees in USD of the coin that was the main subject of meister's research that I have\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390744",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm looking for a github project written in c++ whose name contain GN, but I can't remember its full name. I just know that it was made by a user named vivaldi who is located in the same city as the [outlier.ai](http://outlier.ai) domain re\u2026"
+    },
+    {
+      "task_id": "689f4d693e212e8ef3390748",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Yesterday I was reading a paper on racial bias in basketball titled racial bias, colorism, and overcorrection while traveling to the city where the champion of the men's wimbledon 2015 tennis tournament was born. Could you tell me the lunar\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edce",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Check the cloud database and tell me which game title was sold the same month and day when the article about optimal control of fluid dosing by jacob grant was published but two years before."
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edcf",
+      "enabled_tools_count": 15,
+      "prompt_preview": "How many sports games were sold online in the cloud nosql video game store data in the same year that giannis antetokounmpo won their first ring in the nba? "
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edd1",
+      "enabled_tools_count": 15,
+      "prompt_preview": "According to the cloud data, what are the top 10 highest-grossing months for the video game store? I recall that my cousin, mostafa ijavi, published a paper during the same month I had the highest revenue in 2021. what is the title of that \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edd2",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Can you tell me the difference in months between the domain registration of the english freecodecamp website and the creation date of its english repository?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edd3",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I can't remember the date I had the highest number of page views on the video game store website database, but I do know that day brought me great joy, as my friend wayne polyzou published a paper in the same week. What is the title of that\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edd4",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I have been digging into some purchase records stored in a cloud database, and i noticed it has christmas entries for every year except one. can you figure out which christmas date is missing, then fast forward 4 years and 6 months from tha\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edd7",
+      "enabled_tools_count": 13,
+      "prompt_preview": "Last night, I was deeply focused on a fascinating paper titled unique continuation for locally uniformly distributed measures, and I started wondering about the etf market before its publication. Could you tell me the reported opening price\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edda",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want you to give me the number of online repos using javascript that were created on the date with the lowest page views in the video game store, according to my nosql database, and that include anywhere the website page name with the low\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45eddb",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm sorting out some old notes from when I had scheduled that dinner meetup with my colleague at la mar back in july 2025, and we ended up diving into airline investments. Can you tell me the nasdaq ticker for united airlines stock? Plus, t\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45eddc",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I will need to speak with a public health speaker from the zhang family. I'm sure i have his full name on my notes but i can't remember it for sure. I'll need that so i don't embarrass myself. We will be discussing the world health organiza\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edde",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I am checking the database of a video game store. I need to know how much did the video game that was sold on february 24, the year that the book afterparties by anthony veasna so was for the first time published cost. I also need to know w\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45eddf",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have some repos on my computer, and I'm interested in the most recent commit of the repo related to a museum before july, 31, 2025. Could you provide me with the URL to that commit?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ede0",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have some social media data from my games store on my cloud database. On the day that andre braugher passed away, I made a post on tiktok. If the number of shares were bitcoins, how much money would I have, considering the closing price o\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ede2",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm researching the mastodon fediverse and the open source community, so can you tell me the year difference between the domain registration year and the creation year of the repository?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ede3",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm confident that michael thompson's profession, according to the local graph, is connected with an American professional society founded in 1852 in its field. Could you check this <https://www.themechanicalengineeringhandbook.com/useful-r\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ede8",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I am exploring connections between cultural history and medical research timelines. in the first month of the year in which the author of the book the sins of the wolf passed away, what is the name of the study published in that month and y\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edeb",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I need to check my calendar for if I have any flights going anywhere in 2025 in a particular month. Using no sql cloud data, tell me the ranking of the months in the third quarter to find the month with the least views on my webpage for my \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edec",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I want to search in my local register for a returned purchase from a customer who made it the same day tina turner died. I want to know what game they bought and what genre it was. Could you help me?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edee",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I want to know if maybe there is a relationship between the crypto market and the studies that the king saud university produce. So, search for the title of the studies started on the same day and the day after I make five consecutive ether\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edf4",
+      "enabled_tools_count": 26,
+      "prompt_preview": "I am exploring connections between cultural history and clients records using the cloud nosql data. In the fourth day of the first month of the year in which the author of the book the sins of the wolf passed away, what is the favorite devi\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edf6",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I need to know, from the cloud nosql video game store database, how many twitter posts were made in the year kobe bryant passed away."
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edf7",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I have a day trip with a brunch in the middle scheduled with my parents for the 1st half of July 2025. The following day, I'll be kayaking in the bay, and I'd also like to visit a church. Can you find a christian church within 10 km of the \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edfb",
+      "enabled_tools_count": 13,
+      "prompt_preview": "I'm researching the market performance of tech companies during periods of intense ai competition. I want to know the date on which google stock had its lowest closing price, between the publication of the openai paper that first introduces\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edfc",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I'm working on a school project about microsoft and I need some help, could you tell me when the company was founded and who the founders were? Also, let's suppose that on august 2 of the year 2000 my grandmother gave me money to purchase s\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45edfd",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I am the accountant and my client gave me his video game store database. I need to know how much did the video game that was sold on october 19, the year that the fortune men by nadifa mohamed was for the first time published cost. I also n\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee00",
+      "enabled_tools_count": 16,
+      "prompt_preview": "I remember I watched a drama from this list [editorial.rottentomatoes.com/guide/best-movies-2000](http://editorial.rottentomatoes.com/guide/best-movies-2000) that I also noted in my personal local movie data. What struck me is a review I re\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee01",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I have some repos in my local files, one of which is related to sports. I was wondering about the activity of that repo. Can you tell me how many commits that repo has had since its creation until August 6, 2025? If multiple repos exist wit\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee03",
+      "enabled_tools_count": 14,
+      "prompt_preview": "In the year that matthew perry passed away, I made purchases of eth. They were on the same day and month when I had a sushi class on my calendar in july 2025. I remember I recorded these transactions on my computer data, and I want to know \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee05",
+      "enabled_tools_count": 14,
+      "prompt_preview": "I want to analyze the purchases our customers made in relation to sporting events. According to our internal records, for video games in the sport category, what was the total sold in the same month when rihanna performed at a sporting even\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee08",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I am an employee in a video game store, and I need some information from their database. I need to know how much the video game that was sold on march 16, the year that malibu rising by taylor jenkins reid was published for the first time, \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee09",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What's the third closest weather station to the birthplace of the sport mentioned in the second-to-last row of my fantasy sports file and how far is it?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee0c",
+      "enabled_tools_count": 14,
+      "prompt_preview": "Tell me which santiago commune has a better public transportation score between the one where the same country's national stadium is located and the one containing most of the city's version of manhattan."
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee11",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I got curious about the creator of the repository about a museum that appears in my local working data directory. So, give me the name of that repository, the user who created it, and the programming language that it uses. Also, I need to k\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee13",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Could you tell me the closing price of microsoft corp stock united states in nasdaq, as well as its relative strength index in us dollars, on the last day of the month of cristiano ronaldo's birthday in the years 2016 and 2024?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee15",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Using the local data, during the month in which I made my largest withdrawal in usd, using the cloud nosql data, what was the total accumulated revenue for the video game store?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee16",
+      "enabled_tools_count": 15,
+      "prompt_preview": "Two brothers came to my store to buy two different games on the day that tom smothers died. They are making a claim against me and i want to know how much they were charged for each game at that time, could you help me find those two games \u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee19",
+      "enabled_tools_count": 15,
+      "prompt_preview": "While I was watching a wrestling event and reading about finances, I came up with a question about finances. Can you tell me apple's stock closing price in usd and the daily moving average convergence divergence indicator on the day after t\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee1c",
+      "enabled_tools_count": 17,
+      "prompt_preview": "I'm researching the relationship between the prices of the gpu stock market during a period of diverse ai breakthroughs and trying to find a correlation with my video game store. I want to find all game titles of the archived transactions m\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee1f",
+      "enabled_tools_count": 15,
+      "prompt_preview": "A friend came to my store to buy a game the day that olivia newton died. I want to know how much she was charged for the game, and what the name of the game is. This information is in a database, could you help me?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee20",
+      "enabled_tools_count": 15,
+      "prompt_preview": "In what year did apple change its name from apple computer, inc to apple inc? What were the reported opening and closing stock prices in that same year on july 16?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee21",
+      "enabled_tools_count": 15,
+      "prompt_preview": "What was the opening price of bitcoin the date when 1968 summer olympics started but in the year when [open.ai](http://open.ai) domain was created?"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee23",
+      "enabled_tools_count": 15,
+      "prompt_preview": "While watching the 2014 uefa champions league final I had a couple of question related to markets. Can you tell me the opening reported price in us dollars of apple stock and its relative strength index on the day before that final?. And pl\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee26",
+      "enabled_tools_count": 18,
+      "prompt_preview": "I've been reading about the seqwish alg in a repo written in c++ and I'm curious about how many merge requests it had during the year of the publication of the article that is cited in the repo, what's the abstract of the paper and in which\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee28",
+      "enabled_tools_count": 23,
+      "prompt_preview": "I am exploring how literary history aligns with broader timelines. Using the death date of the author of the book the orchard keeper, identify on which day that passing occurred, and using an encyclopedic source, what day number of the year\u2026"
+    },
+    {
+      "task_id": "68a398aa2f58036e8d45ee2e",
+      "enabled_tools_count": 15,
+      "prompt_preview": "I need to find out, according to our database, how many completed deliveries my video games store had for orders placed in a certain month, but I don't really remember which month exactly. All I remember is that it was the next month after \u2026"
+    }
+  ]
+}

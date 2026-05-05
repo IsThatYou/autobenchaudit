@@ -1,0 +1,59 @@
+{
+  "slug": "Simular_Research_agent_s2_w_gemini-2.5-pro_50steps",
+  "model": "agent s2 w/ gemini-2.5-pro",
+  "institution": "Simular Research",
+  "paper_link": "https://github.com/simular-ai/Agent-S",
+  "paper_authors": "Simular Research, '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 45.76,
+  "success_total_raw": "168.84/369",
+  "success_count": 168.84,
+  "total_tasks": 369,
+  "per_category": {
+    "chrome": {
+      "success": 20.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 17.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 21.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 16.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 16.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 29.03,
+      "total": 101
+    },
+    "os": {
+      "success": 15.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 6.89,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 16.0,
+      "total": 23
+    }
+  }
+}

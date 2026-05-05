@@ -1,0 +1,43 @@
+{
+  "slug": "llama_3_1_nemotron_ultra_253b_v1_reasoning",
+  "model_id": "cf095603-72b6-47f8-8ee1-09a42890f92a",
+  "model_slug": "llama-3-1-nemotron-ultra-253b-v1-reasoning",
+  "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Llama Nemotron Ultra",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2025-04-07",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 244.71055117233243,
+    "lower_95ci": 217.78675192896992,
+    "upper_95ci": 268.3263029198766,
+    "n_matches": 2587,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 244.71055117233243,
+    "avg_turns": 100,
+    "n_matches": 2587,
+    "lower_95ci": 217.78675192896992,
+    "upper_95ci": 268.3263029198766,
+    "last_updated": "2026-04-22T02:16:02.761471"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 641903528,
+    "answer_tokens": 13299443,
+    "output_tokens": 15516622,
+    "reasoning_tokens": 2217179
+  },
+  "intelligence_index": 15.02,
+  "agentic_index": 3.8,
+  "price_1m_input_tokens": 0.6,
+  "price_1m_output_tokens": 1.8
+}

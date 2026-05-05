@@ -1,0 +1,26 @@
+{
+  "slug": "Gemma_4_E2B",
+  "name": "Gemma 4 E2B",
+  "size": "2B",
+  "date": "2026-04-02",
+  "type": "open_source",
+  "link": "https://deepmind.google/models/gemma/gemma-4/",
+  "pro_overall": 44.2,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": null,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

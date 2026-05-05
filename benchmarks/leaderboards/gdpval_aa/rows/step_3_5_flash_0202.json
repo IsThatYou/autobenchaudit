@@ -1,0 +1,43 @@
+{
+  "slug": "step_3_5_flash_0202",
+  "model_id": "c8158c23-6fff-4c31-911d-954c32d80c28",
+  "model_slug": "step-3-5-flash-0202",
+  "name": "Step 3.5 Flash",
+  "gdpval_name": null,
+  "short_name": "Step 3.5 Flash",
+  "creator": {
+    "name": "StepFun",
+    "slug": "stepfun",
+    "country": null,
+    "logo": "/img/logos/stepfun.png"
+  },
+  "release_date": "2026-02-02",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1056.7289909045767,
+    "lower_95ci": 1027.477328751323,
+    "upper_95ci": 1083.4536877045462,
+    "n_matches": 1898,
+    "avg_turns": 21.478048780487804
+  },
+  "gdpval_breakdown": {
+    "elo": 1056.7289909045767,
+    "avg_turns": 21.478048780487804,
+    "n_matches": 1898,
+    "lower_95ci": 1027.477328751323,
+    "upper_95ci": 1083.4536877045462,
+    "last_updated": "2026-04-22T02:15:26.013631"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 87735517,
+    "answer_tokens": 4068271,
+    "output_tokens": 6826574,
+    "reasoning_tokens": 2758303
+  },
+  "intelligence_index": 37.8,
+  "agentic_index": 52,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.3
+}

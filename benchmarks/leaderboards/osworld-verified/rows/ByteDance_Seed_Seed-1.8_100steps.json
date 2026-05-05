@@ -1,0 +1,59 @@
+{
+  "slug": "ByteDance_Seed_Seed-1.8_100steps",
+  "model": "Seed-1.8",
+  "institution": "ByteDance Seed",
+  "paper_link": "https://seed.bytedance.com/en/seed1_8",
+  "paper_authors": "ByteDance Seed",
+  "approach_type": "General model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-12-18",
+  "success_rate": 61.87,
+  "success_total_raw": "222.12/359",
+  "success_count": 222.12,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 28.96,
+      "total": 45
+    },
+    "gimp": {
+      "success": 18.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 33.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 28.62,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 18.88,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 38.99,
+      "total": 92
+    },
+    "os": {
+      "success": 16.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 10.67,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 17.0,
+      "total": 23
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ByteDance_Seed_Tsinghua_University_uitars-1.5-7b_50steps_r2",
+  "model": "uitars-1.5-7b",
+  "institution": "ByteDance Seed & Tsinghua University",
+  "paper_link": "https://seed-tars.com/1.5",
+  "paper_authors": "Seed-TARS, '25",
+  "approach_type": "Specialized model",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 29.4,
+  "success_total_raw": "105.60/359",
+  "success_count": 105.6,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 16.92,
+      "total": 46
+    },
+    "gimp": {
+      "success": 15.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 6.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 19.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 10.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 6.91,
+      "total": 93
+    },
+    "os": {
+      "success": 6.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 7.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 4.81,
+      "total": 16
+    },
+    "vs_code": {
+      "success": 13.0,
+      "total": 23
+    }
+  }
+}

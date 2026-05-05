@@ -1,0 +1,43 @@
+{
+  "slug": "jamba_1_7_mini",
+  "model_id": "b4f14013-37dd-4c75-bd8a-378365d9ed77",
+  "model_slug": "jamba-1-7-mini",
+  "name": "Jamba 1.7 Mini",
+  "gdpval_name": null,
+  "short_name": "Jamba 1.7 Mini",
+  "creator": {
+    "name": "AI21 Labs",
+    "slug": "ai21-labs",
+    "country": null,
+    "logo": "/img/logos/ai21.svg"
+  },
+  "release_date": "2025-07-07",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 287.9111337489462,
+    "lower_95ci": 255.03452029860014,
+    "upper_95ci": 319.6559655910585,
+    "n_matches": 1193,
+    "avg_turns": 89.21917808219177
+  },
+  "gdpval_breakdown": {
+    "elo": 287.9111337489462,
+    "avg_turns": 89.21917808219177,
+    "n_matches": 1193,
+    "lower_95ci": 255.03452029860014,
+    "upper_95ci": 319.6559655910585,
+    "last_updated": "2026-04-22T02:15:58.679756"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 247224702,
+    "answer_tokens": 2768215,
+    "output_tokens": 2768215,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 8.07,
+  "agentic_index": 4.19,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

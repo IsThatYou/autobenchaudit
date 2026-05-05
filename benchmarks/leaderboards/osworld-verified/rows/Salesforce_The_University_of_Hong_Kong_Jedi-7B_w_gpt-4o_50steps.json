@@ -1,0 +1,59 @@
+{
+  "slug": "Salesforce_The_University_of_Hong_Kong_Jedi-7B_w_gpt-4o_50steps",
+  "model": "Jedi-7B w/ gpt-4o",
+  "institution": "Salesforce & The University of Hong Kong",
+  "paper_link": "https://osworld-grounding.github.io/",
+  "paper_authors": "Xie et al., '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 27,
+  "success_total_raw": "97.19/361",
+  "success_count": 97.19,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 14.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 16.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 3.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 7.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 7.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 14.69,
+      "total": 93
+    },
+    "os": {
+      "success": 11.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 7.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 4.58,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 11.0,
+      "total": 23
+    }
+  }
+}

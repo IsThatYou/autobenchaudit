@@ -1,0 +1,43 @@
+{
+  "slug": "glm_5",
+  "model_id": "40663ad2-b218-471e-bdd4-a1e0c2360e2b",
+  "model_slug": "glm-5",
+  "name": "GLM-5 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "GLM-5",
+  "creator": {
+    "name": "Z AI",
+    "slug": "zai",
+    "country": null,
+    "logo": "/img/logos/zai_small.svg"
+  },
+  "release_date": "2026-02-11",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1401.228477170337,
+    "lower_95ci": 1376.9124024187051,
+    "upper_95ci": 1425.6113457599072,
+    "n_matches": 4610,
+    "avg_turns": 24.368181818181817
+  },
+  "gdpval_breakdown": {
+    "elo": 1401.228477170337,
+    "avg_turns": 24.368181818181817,
+    "n_matches": 4610,
+    "lower_95ci": 1376.9124024187051,
+    "upper_95ci": 1425.6113457599072,
+    "last_updated": "2026-04-22T02:15:12.267301"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 136562485,
+    "answer_tokens": 5106980,
+    "output_tokens": 6287600,
+    "reasoning_tokens": 1180620
+  },
+  "intelligence_index": 49.77,
+  "agentic_index": 63.14,
+  "price_1m_input_tokens": 1,
+  "price_1m_output_tokens": 3.2
+}

@@ -1,0 +1,237 @@
+{
+  "slug": "supai__mistral-magistral-medium",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "mistral/magistral-medium",
+  "vendor": "mistral",
+  "model": "magistral-medium",
+  "provider": null,
+  "num_questions": 37,
+  "num_correct": 5,
+  "accuracy": 0.13513513513513514,
+  "avg_confidence": 91.62162162162163,
+  "tasks": [
+    {
+      "task_id": "668828540a642802bdfeadfc",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "ntfa"
+    },
+    {
+      "task_id": "66b727d367968fa27f2dddda",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "(-1)^k (d - 2k)"
+    },
+    {
+      "task_id": "66b827b9b64deaedfbb997a2",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "5"
+    },
+    {
+      "task_id": "66c5c3eae30bdd4f1da62cfc",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "\\mathbb{Z}"
+    },
+    {
+      "task_id": "66e8a1833aa94517d4573b0d",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "The account is both descriptive and normative."
+    },
+    {
+      "task_id": "66e8b0a9e5eaa390aa9fdde5",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "6"
+    },
+    {
+      "task_id": "66e8ccc4089d1e34c84c76c0",
+      "correct": 0,
+      "confidence": 80,
+      "model_answer": "(1,4), (1,4)"
+    },
+    {
+      "task_id": "66e8d3ed713a83e8aeddc2f5",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e8d4d65699cf35c9a1527c",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1/1"
+    },
+    {
+      "task_id": "66e8db4fe1e483c59165a247",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "I"
+    },
+    {
+      "task_id": "66e8e6c8f59e5564daf565bd",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66e8f69b1440516dd6ab54da",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "48.00 inches"
+    },
+    {
+      "task_id": "66e9173256ec303aa22ccd37",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "5429503679002"
+    },
+    {
+      "task_id": "66e932f00bd16d40d4bc4d81",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e93b7099d9d12b2b824c44",
+      "correct": 0,
+      "confidence": 60,
+      "model_answer": "whiseth"
+    },
+    {
+      "task_id": "66e942c180435ab1cb1ef049",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "TC0"
+    },
+    {
+      "task_id": "66e946fbb78e263c565b17e3",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e94a88b78e263c565b17ee",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "\\mathbb{Z}_2"
+    },
+    {
+      "task_id": "66e996260930c00374ceaa0b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66e9a39f2dad0e536fb92efa",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e9a436876fbf9ff158c137",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66e9c038d2d1c2dec1f6978e",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "444114"
+    },
+    {
+      "task_id": "66e9ce9d29eb7c1a0721fdf1",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "12"
+    },
+    {
+      "task_id": "66e9e6b3c27ad6bc46adbc20",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "\\left( \\frac{n}{2N_1} \\right) \\left( \\frac{n}{2N_2} \\right)"
+    },
+    {
+      "task_id": "66ea216e142383cfe2f74fde",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "14"
+    },
+    {
+      "task_id": "66ea29ab7131229007ccbd9d",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "I"
+    },
+    {
+      "task_id": "66ea355dd1767539f1308fc3",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "6"
+    },
+    {
+      "task_id": "66ea36e7aa2256fb4c995faf",
+      "correct": 0,
+      "confidence": 80,
+      "model_answer": "/ka\u02d0\u0272s\u0259/"
+    },
+    {
+      "task_id": "66ea40e5b44d5e443ba2eac5",
+      "correct": 0,
+      "confidence": 0,
+      "model_answer": "Not enough information is available to determine the scale type."
+    },
+    {
+      "task_id": "66ea6b423082708f0c7163ca",
+      "correct": 0,
+      "confidence": 70,
+      "model_answer": "Wilhelm Conrad R\u00f6ntgen"
+    },
+    {
+      "task_id": "66ea70cd3d800a43340dd4d0",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "the stars"
+    },
+    {
+      "task_id": "66ea814c5544860edb5aa9fa",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1.2 \u00d7 10^-3 mol L^-1"
+    },
+    {
+      "task_id": "66eadaf22b7de7dec0a046bd",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66eae565b2e7406d498f8cc9",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "I"
+    },
+    {
+      "task_id": "66eafb96b082c5e6a76a49c0",
+      "correct": 0,
+      "confidence": 70,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66eb1d84ca5fb5434978190f",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "334"
+    },
+    {
+      "task_id": "66eb36fbb38dbcd7910ceafc",
+      "correct": 0,
+      "confidence": 70,
+      "model_answer": "B-yellow"
+    }
+  ]
+}

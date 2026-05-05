@@ -1,0 +1,59 @@
+{
+  "slug": "Alibaba_Cloud_Qwen_Team_qwen2.5-vl-72b-instruct_15steps",
+  "model": "qwen2.5-vl-72b-instruct",
+  "institution": "Alibaba Cloud, Qwen Team",
+  "paper_link": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+  "paper_authors": "Qwen Team, '25",
+  "approach_type": "General model",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 4.43,
+  "success_total_raw": "16.00/361",
+  "success_count": 16.0,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 5.0,
+      "total": 46
+    },
+    "gimp": {
+      "success": 0.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 2.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 0.0,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 1.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 5.0,
+      "total": 93
+    },
+    "os": {
+      "success": 2.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 0.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 1.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 0.0,
+      "total": 23
+    }
+  }
+}

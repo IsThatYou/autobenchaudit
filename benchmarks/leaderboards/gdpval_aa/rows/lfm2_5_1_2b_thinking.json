@@ -1,0 +1,43 @@
+{
+  "slug": "lfm2_5_1_2b_thinking",
+  "model_id": "5a088cde-18e2-4dfa-98dd-d283e1c19654",
+  "model_slug": "lfm2-5-1-2b-thinking",
+  "name": "LFM2.5-1.2B-Thinking",
+  "gdpval_name": null,
+  "short_name": "LFM2.5-1.2B-Thinking",
+  "creator": {
+    "name": "Liquid AI",
+    "slug": "liquidai",
+    "country": null,
+    "logo": "/img/logos/liquidai.svg"
+  },
+  "release_date": "2026-01-20",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 262.53088731234607,
+    "lower_95ci": 229.25657970900969,
+    "upper_95ci": 289.22815830175244,
+    "n_matches": 1093,
+    "avg_turns": 96.8348623853211
+  },
+  "gdpval_breakdown": {
+    "elo": 262.53088731234607,
+    "avg_turns": 96.8348623853211,
+    "n_matches": 1093,
+    "lower_95ci": 229.25657970900969,
+    "upper_95ci": 289.22815830175244,
+    "last_updated": "2026-04-22T02:15:59.806805"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 148533650,
+    "answer_tokens": 1365314,
+    "output_tokens": 10457795,
+    "reasoning_tokens": 9092481
+  },
+  "intelligence_index": 8.08,
+  "agentic_index": 6.53,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

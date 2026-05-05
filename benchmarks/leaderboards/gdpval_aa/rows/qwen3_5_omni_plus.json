@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_5_omni_plus",
+  "model_id": "0179b427-93dc-415c-bb4c-f980ddf8d088",
+  "model_slug": "qwen3-5-omni-plus",
+  "name": "Qwen3.5 Omni Plus",
+  "gdpval_name": null,
+  "short_name": "Qwen3.5 Omni Plus",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2026-03-30",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1191.9194582521995,
+    "lower_95ci": 1167.9065725676535,
+    "upper_95ci": 1215.1770411412533,
+    "n_matches": 2814,
+    "avg_turns": 29.113636363636363
+  },
+  "gdpval_breakdown": {
+    "elo": 1191.9194582521995,
+    "avg_turns": 29.113636363636363,
+    "n_matches": 2814,
+    "lower_95ci": 1167.9065725676535,
+    "upper_95ci": 1215.1770411412533,
+    "last_updated": "2026-04-22T02:15:19.419822"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 134541366,
+    "answer_tokens": 4202408,
+    "output_tokens": 4202408,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 38.63,
+  "agentic_index": 52.83,
+  "price_1m_input_tokens": 0.4,
+  "price_1m_output_tokens": 4.8
+}

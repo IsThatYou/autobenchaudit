@@ -1,0 +1,43 @@
+{
+  "slug": "nova_premier",
+  "model_id": "e58bbffd-fdc2-412a-b6d7-ca0e3f5d611a",
+  "model_slug": "nova-premier",
+  "name": "Nova Premier",
+  "gdpval_name": null,
+  "short_name": "Nova Premier",
+  "creator": {
+    "name": "Amazon",
+    "slug": "aws",
+    "country": null,
+    "logo": "/img/logos/aws.webp"
+  },
+  "release_date": "2025-04-30",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 510.46958566667627,
+    "lower_95ci": 480.24774451930585,
+    "upper_95ci": 538.2811532321812,
+    "n_matches": 1685,
+    "avg_turns": 26.005
+  },
+  "gdpval_breakdown": {
+    "elo": 510.46958566667627,
+    "avg_turns": 26.005,
+    "n_matches": 1685,
+    "lower_95ci": 480.24774451930585,
+    "upper_95ci": 538.2811532321812,
+    "last_updated": "2026-04-22T02:15:46.319574"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 76190371,
+    "answer_tokens": 1554841,
+    "output_tokens": 1554841,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 19.01,
+  "agentic_index": 16.43,
+  "price_1m_input_tokens": 2.5,
+  "price_1m_output_tokens": 12.5
+}

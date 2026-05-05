@@ -1,0 +1,43 @@
+{
+  "slug": "claude_opus_4_7_non_reasoning",
+  "model_id": "2fa8e143-77a8-4d05-bfa8-d3b54634c00f",
+  "model_slug": "claude-opus-4-7-non-reasoning",
+  "name": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+  "gdpval_name": null,
+  "short_name": "Claude Opus 4.7 (high)",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2026-04-16",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1695.6971310013075,
+    "lower_95ci": 1665.2628781043275,
+    "upper_95ci": 1726.8950754482726,
+    "n_matches": 2263,
+    "avg_turns": 21.798165137614678
+  },
+  "gdpval_breakdown": {
+    "elo": 1695.6971310013075,
+    "avg_turns": 21.798165137614678,
+    "n_matches": 2263,
+    "lower_95ci": 1665.2628781043275,
+    "upper_95ci": 1726.8950754482726,
+    "last_updated": "2026-04-22T02:15:07.281602"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 82367103,
+    "answer_tokens": 2693225,
+    "output_tokens": 2693225,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 51.82,
+  "agentic_index": 64.64,
+  "price_1m_input_tokens": 5,
+  "price_1m_output_tokens": 25
+}

@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue concerns a change to the output filename and description, while the finding identifies a missing technical specification regarding vector ordering and the ccobra library required for correct calculations."
+}

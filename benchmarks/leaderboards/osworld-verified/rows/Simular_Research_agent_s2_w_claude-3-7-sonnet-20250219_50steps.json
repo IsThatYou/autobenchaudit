@@ -1,0 +1,59 @@
+{
+  "slug": "Simular_Research_agent_s2_w_claude-3-7-sonnet-20250219_50steps",
+  "model": "agent s2 w/ claude-3-7-sonnet-20250219",
+  "institution": "Simular Research",
+  "paper_link": "https://github.com/simular-ai/Agent-S",
+  "paper_authors": "Simular Research, '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": null,
+  "success_rate": null,
+  "success_total_raw": null,
+  "success_count": null,
+  "total_tasks": null,
+  "per_category": {
+    "chrome": {
+      "success": null,
+      "total": null
+    },
+    "gimp": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_calc": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_impress": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_writer": {
+      "success": null,
+      "total": null
+    },
+    "multi_apps": {
+      "success": null,
+      "total": null
+    },
+    "os": {
+      "success": null,
+      "total": null
+    },
+    "thunderbird": {
+      "success": null,
+      "total": null
+    },
+    "vlc": {
+      "success": null,
+      "total": null
+    },
+    "vs_code": {
+      "success": null,
+      "total": null
+    }
+  }
+}

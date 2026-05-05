@@ -1,0 +1,43 @@
+{
+  "slug": "grok_3_mini_reasoning",
+  "model_id": "ff9bc5e5-a02f-4270-983e-4b3f834f3363",
+  "model_slug": "grok-3-mini-reasoning",
+  "name": "Grok 3 mini Reasoning (high)",
+  "gdpval_name": null,
+  "short_name": "Grok 3 mini Reasoning (high)",
+  "creator": {
+    "name": "xAI",
+    "slug": "xai",
+    "country": null,
+    "logo": "/img/logos/xai.svg"
+  },
+  "release_date": "2025-02-19",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 425.31054753415174,
+    "lower_95ci": 387.32436411762336,
+    "upper_95ci": 461.8095638013733,
+    "n_matches": 565,
+    "avg_turns": 29.29310344827586
+  },
+  "gdpval_breakdown": {
+    "elo": 425.31054753415174,
+    "avg_turns": 29.29310344827586,
+    "n_matches": 565,
+    "lower_95ci": 387.32436411762336,
+    "upper_95ci": 461.8095638013733,
+    "last_updated": "2026-04-22T02:15:50.382855"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 127322549,
+    "answer_tokens": 2916181,
+    "output_tokens": 32083042,
+    "reasoning_tokens": 29166861
+  },
+  "intelligence_index": 32.08,
+  "agentic_index": 31.15,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 0.5
+}

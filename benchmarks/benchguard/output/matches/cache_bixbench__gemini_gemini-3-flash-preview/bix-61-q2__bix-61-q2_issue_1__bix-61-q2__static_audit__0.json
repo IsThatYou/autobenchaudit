@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The Gold Issue concerns the mathematical definition of the average depth calculation, while the BenchGuard Finding concerns ambiguity in selecting the correct input files for the mapping step."
+}

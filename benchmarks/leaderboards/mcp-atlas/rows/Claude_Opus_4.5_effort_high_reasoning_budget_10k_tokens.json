@@ -1,0 +1,18 @@
+{
+  "slug": "Claude_Opus_4.5_effort_high_reasoning_budget_10k_tokens",
+  "model": "Claude Opus 4.5 (effort = high, reasoning_budget = 10k tokens)",
+  "company": "anthropic",
+  "rank": 4,
+  "created_at": "2025-09-10T15:38:12.000Z",
+  "pass_at_1_all_1000": 68.1,
+  "pass_at_1_public_500": 71.4,
+  "ci_upper_all_1000": 2.2,
+  "max_score": 83.12100000000001,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

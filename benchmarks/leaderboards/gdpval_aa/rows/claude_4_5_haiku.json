@@ -1,0 +1,43 @@
+{
+  "slug": "claude_4_5_haiku",
+  "model_id": "c2b1e769-7aee-4669-8076-73918bdebf6c",
+  "model_slug": "claude-4-5-haiku",
+  "name": "Claude 4.5 Haiku (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Claude 4.5 Haiku",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2025-10-15",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1138.952172815154,
+    "lower_95ci": 1111.8976361257637,
+    "upper_95ci": 1164.9946686917383,
+    "n_matches": 1662,
+    "avg_turns": 22.102941176470587
+  },
+  "gdpval_breakdown": {
+    "elo": 1138.952172815154,
+    "avg_turns": 22.102941176470587,
+    "n_matches": 1662,
+    "lower_95ci": 1111.8976361257637,
+    "upper_95ci": 1164.9946686917383,
+    "last_updated": "2026-04-22T02:15:22.506635"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 103645222,
+    "answer_tokens": 4514284,
+    "output_tokens": 4514284,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 31.05,
+  "agentic_index": 32.59,
+  "price_1m_input_tokens": 1,
+  "price_1m_output_tokens": 5
+}

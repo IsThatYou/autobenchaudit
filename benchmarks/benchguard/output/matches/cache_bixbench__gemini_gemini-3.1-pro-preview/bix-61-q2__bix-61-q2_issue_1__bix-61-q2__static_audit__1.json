@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses an ambiguity in the question's calculation instructions, whereas the finding points out a lack of numerical tolerance in the LLM-based grading prompt."
+}

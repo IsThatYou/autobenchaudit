@@ -1,0 +1,43 @@
+{
+  "slug": "muse_spark",
+  "model_id": "ebf3b39f-0be6-43a1-a37a-f9b2978c9916",
+  "model_slug": "muse-spark",
+  "name": "Muse Spark",
+  "gdpval_name": null,
+  "short_name": "Muse Spark",
+  "creator": {
+    "name": "Meta",
+    "slug": "meta",
+    "country": null,
+    "logo": "/img/logos/meta.svg"
+  },
+  "release_date": "2026-04-08",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1425.051383389894,
+    "lower_95ci": 1401.551731039388,
+    "upper_95ci": 1448.0475491532063,
+    "n_matches": 3140,
+    "avg_turns": 23.078341013824886
+  },
+  "gdpval_breakdown": {
+    "elo": 1425.051383389894,
+    "avg_turns": 23.078341013824886,
+    "n_matches": 3140,
+    "lower_95ci": 1401.551731039388,
+    "upper_95ci": 1448.0475491532063,
+    "last_updated": "2026-04-22T02:15:12.407559"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 79819111,
+    "answer_tokens": 2662949,
+    "output_tokens": 3456123,
+    "reasoning_tokens": 793173
+  },
+  "intelligence_index": 52.15,
+  "agentic_index": 61.99,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,184 @@
+{
+  "benchmark": "ScienceAgentBench",
+  "judge_model": "gemini/gemini-3-flash-preview",
+  "summary": {
+    "total_gold_issues": 12,
+    "total_revised_tasks": 12,
+    "total_findings_on_revised": 27,
+    "models": [
+      "static_audit"
+    ]
+  },
+  "recall": {
+    "aligned": {
+      "count": 10,
+      "total": 12,
+      "rate": 0.833
+    },
+    "partial_plus": {
+      "count": 11,
+      "total": 12,
+      "rate": 0.917
+    }
+  },
+  "precision": {
+    "aligned": {
+      "count": 11,
+      "total": 27,
+      "rate": 0.407
+    },
+    "partial_plus": {
+      "count": 14,
+      "total": 27,
+      "rate": 0.519
+    }
+  },
+  "per_model_recall": {
+    "static_audit": {
+      "aligned": 10,
+      "partial_plus": 11,
+      "total": 12,
+      "recall_aligned": 0.833,
+      "recall_partial_plus": 0.917
+    }
+  },
+  "per_model_precision": {
+    "static_audit": {
+      "aligned": 11,
+      "partial_plus": 14,
+      "total": 27,
+      "precision_aligned": 0.407,
+      "precision_partial_plus": 0.519
+    }
+  },
+  "ensemble": {
+    "Any model": {
+      "recall_aligned": 0.833,
+      "recall_partial_plus": 0.917,
+      "count_aligned": 10,
+      "count_partial_plus": 11
+    },
+    ">=2 models": {
+      "recall_aligned": 0.0,
+      "recall_partial_plus": 0.0,
+      "count_aligned": 0,
+      "count_partial_plus": 0
+    },
+    ">=3 models": {
+      "recall_aligned": 0.0,
+      "recall_partial_plus": 0.0,
+      "count_aligned": 0,
+      "count_partial_plus": 0
+    }
+  },
+  "per_issue_detail": [
+    {
+      "issue_id": "9_issue_1",
+      "task_id": "9",
+      "description": "The instruction was updated to require the square of the Pearson correlation coefficient instead of the Pearson correlation coefficient.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "12_issue_1",
+      "task_id": "12",
+      "description": "The required output format for the ranked list of antiviral drugs was changed from SMILES strings to drug names.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "21_issue_1",
+      "task_id": "21",
+      "description": "The ground truth deforestation rate and its corresponding calculation script were updated to ensure the accuracy of the expected result.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "26_issue_1",
+      "task_id": "26",
+      "description": "Corrected the instruction to use the plural 'names' instead of 'a name' when referring to the combined identifiers for multiple trajectory frames.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "29_issue_1",
+      "task_id": "29",
+      "description": "The instruction incorrectly referenced 'ecg_1000hz.csv' as the input file instead of 'bio_eventrelated_100hz.csv'.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "31_issue_1",
+      "task_id": "31",
+      "description": "The instruction was updated to specify the use of Phonopy and the requirement to define the Si primitive cell for the phonon DOS calculation.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "32_issue_1",
+      "task_id": "32",
+      "description": "The analysis and visualization were updated to group coral and sponge data by vernacular names instead of species names.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "34_issue_1",
+      "task_id": "34",
+      "description": "The instruction was updated to remove the requirement to use the 'bio_eventrelated_100hz.csv' file for HRV analysis, focusing only on 'bio_resting_5min_100hz.csv'.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "35_issue_1",
+      "task_id": "35",
+      "description": "The instruction was updated to specify the exact filename 'bio_eventrelated_100hz.csv' for the input data instead of using a generic reference.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "67_issue_1",
+      "task_id": "67",
+      "description": "Changed '...Save the results to 'pred_results/CogSci_pattern_high_sim_data_pred.csv'....' to '...Save the similarity scores for every model...'",
+      "best_verdict": "UNRELATED",
+      "verdicts_by_model": {
+        "static_audit": "UNRELATED"
+      }
+    },
+    {
+      "issue_id": "78_issue_1",
+      "task_id": "78",
+      "description": "The test dataset `pucci-proteins_test.csv` contained invalid test examples that needed to be removed.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "92_issue_1",
+      "task_id": "92",
+      "description": "Changed '...entries in second column of H_high divided...' to '...entries in the second column of H_high...'",
+      "best_verdict": "PARTIAL",
+      "verdicts_by_model": {
+        "static_audit": "PARTIAL"
+      }
+    }
+  ]
+}

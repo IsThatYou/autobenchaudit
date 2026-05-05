@@ -1,0 +1,18 @@
+{
+  "slug": "DeepSeek-V3.2",
+  "model": "DeepSeek-V3.2",
+  "organization": "DeepSeek",
+  "rank": 11,
+  "score": 0.783,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf",
+  "announcement_date": "2025-12-01",
+  "param_count": 685000000000,
+  "is_open_source": true,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

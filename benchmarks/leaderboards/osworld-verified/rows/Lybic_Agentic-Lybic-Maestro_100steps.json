@@ -1,0 +1,59 @@
+{
+  "slug": "Lybic_Agentic-Lybic-Maestro_100steps",
+  "model": "Agentic-Lybic-Maestro",
+  "institution": "Lybic",
+  "paper_link": "https://arxiv.org/abs/2509.11067",
+  "paper_authors": "Guo, Zhu et al.",
+  "approach_type": "Agentic framework",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2025-10-17",
+  "success_rate": 61.93,
+  "success_total_raw": "222.96/360",
+  "success_count": 222.96,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 28.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 19.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 28.0,
+      "total": 46
+    },
+    "libreoffice_impress": {
+      "success": 32.63,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 15.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 38.66,
+      "total": 93
+    },
+    "os": {
+      "success": 18.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 13.72,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

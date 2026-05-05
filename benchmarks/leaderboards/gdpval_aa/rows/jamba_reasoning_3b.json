@@ -1,0 +1,43 @@
+{
+  "slug": "jamba_reasoning_3b",
+  "model_id": "f78138d6-2e04-4a84-919a-20d177cb6ff1",
+  "model_slug": "jamba-reasoning-3b",
+  "name": "Jamba Reasoning 3B",
+  "gdpval_name": null,
+  "short_name": "Jamba Reasoning 3B",
+  "creator": {
+    "name": "AI21 Labs",
+    "slug": "ai21-labs",
+    "country": null,
+    "logo": "/img/logos/ai21.svg"
+  },
+  "release_date": "2025-10-08",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 263.7684801230405,
+    "lower_95ci": 228.96546771596542,
+    "upper_95ci": 294.0201285898907,
+    "n_matches": 1096,
+    "avg_turns": 56.36986301369863
+  },
+  "gdpval_breakdown": {
+    "elo": 263.7684801230405,
+    "avg_turns": 56.36986301369863,
+    "n_matches": 1096,
+    "lower_95ci": 228.96546771596542,
+    "upper_95ci": 294.0201285898907,
+    "last_updated": "2026-04-22T02:16:00.370033"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 109770631,
+    "answer_tokens": 1401185,
+    "output_tokens": 8309057,
+    "reasoning_tokens": 6907872
+  },
+  "intelligence_index": 9.6,
+  "agentic_index": 5.26,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

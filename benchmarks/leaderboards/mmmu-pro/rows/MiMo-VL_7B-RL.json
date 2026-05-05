@@ -1,0 +1,26 @@
+{
+  "slug": "MiMo-VL_7B-RL",
+  "name": "MiMo-VL 7B-RL",
+  "size": "7B",
+  "date": "2025-06-04",
+  "type": "open_source",
+  "link": "https://github.com/XiaomiMiMo/MiMo-VL",
+  "pro_overall": 43.3,
+  "pro_vision": 40.3,
+  "pro_standard": 46.2,
+  "pro_source": "author",
+  "mmmu_val_overall": 66.7,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

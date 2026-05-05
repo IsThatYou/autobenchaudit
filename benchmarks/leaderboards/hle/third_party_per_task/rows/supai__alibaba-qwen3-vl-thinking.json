@@ -1,0 +1,33 @@
+{
+  "slug": "supai__alibaba-qwen3-vl-thinking",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "alibaba/qwen3-vl-thinking",
+  "vendor": "alibaba",
+  "model": "qwen3-vl-thinking",
+  "provider": null,
+  "num_questions": 3,
+  "num_correct": 1,
+  "accuracy": 0.3333333333333333,
+  "avg_confidence": 97.0,
+  "tasks": [
+    {
+      "task_id": "66e98ce28056cd9dd9b1d9f6",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "t^4 - t^3 + t^2 - t + 1 - t^{-1} + t^{-2} - t^{-3} + t^{-4}"
+    },
+    {
+      "task_id": "66e9ae5ba60f4072c0bf5106",
+      "correct": 0,
+      "confidence": 98,
+      "model_answer": "Muzio Clementi's Sonatina in G Major, Op. 36 No. 2 (first movement, Allegretto)"
+    },
+    {
+      "task_id": "66eac1d4124e580e615a27dc",
+      "correct": 1,
+      "confidence": 98,
+      "model_answer": "C"
+    }
+  ]
+}

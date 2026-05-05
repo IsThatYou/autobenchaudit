@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_0_6b_instruct",
+  "model_id": "0e5f6140-1154-4583-a3e0-8c032a338892",
+  "model_slug": "qwen3-0.6b-instruct",
+  "name": "Qwen3 0.6B (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Qwen3 0.6B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-04-28",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 285.1307918733331,
+    "lower_95ci": 254.27462909918765,
+    "upper_95ci": 316.19663462494873,
+    "n_matches": 1050,
+    "avg_turns": 95.55329949238579
+  },
+  "gdpval_breakdown": {
+    "elo": 285.1307918733331,
+    "avg_turns": 95.55329949238579,
+    "n_matches": 1050,
+    "lower_95ci": 254.27462909918765,
+    "upper_95ci": 316.19663462494873,
+    "last_updated": "2026-04-22T02:15:59.384248"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 164772800,
+    "answer_tokens": 1541592,
+    "output_tokens": 1541592,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 5.68,
+  "agentic_index": 4.87,
+  "price_1m_input_tokens": 0.11,
+  "price_1m_output_tokens": 0.42
+}

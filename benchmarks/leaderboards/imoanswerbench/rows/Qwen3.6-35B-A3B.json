@@ -1,0 +1,18 @@
+{
+  "slug": "Qwen3.6-35B-A3B",
+  "model": "Qwen3.6-35B-A3B",
+  "organization": "Alibaba Cloud / Qwen Team",
+  "rank": 8,
+  "score": 0.789,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+  "announcement_date": "2026-04-16",
+  "param_count": 35000000000,
+  "is_open_source": true,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

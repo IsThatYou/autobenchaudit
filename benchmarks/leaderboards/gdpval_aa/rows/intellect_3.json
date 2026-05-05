@@ -1,0 +1,43 @@
+{
+  "slug": "intellect_3",
+  "model_id": "369329e4-629f-425d-975a-e8980aec2965",
+  "model_slug": "intellect-3",
+  "name": "INTELLECT-3",
+  "gdpval_name": null,
+  "short_name": "INTELLECT-3",
+  "creator": {
+    "name": "Prime Intellect",
+    "slug": "prime-intellect",
+    "country": null,
+    "logo": "/img/logos/prime_intellect.svg"
+  },
+  "release_date": "2025-11-27",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 752.060789451133,
+    "lower_95ci": 724.7682871040855,
+    "upper_95ci": 781.2488331288952,
+    "n_matches": 2435,
+    "avg_turns": 11.972350230414747
+  },
+  "gdpval_breakdown": {
+    "elo": 752.060789451133,
+    "avg_turns": 11.972350230414747,
+    "n_matches": 2435,
+    "lower_95ci": 724.7682871040855,
+    "upper_95ci": 781.2488331288952,
+    "last_updated": "2026-04-22T02:15:38.201342"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 20703792,
+    "answer_tokens": 1129814,
+    "output_tokens": 3595367,
+    "reasoning_tokens": 2465553
+  },
+  "intelligence_index": 22.17,
+  "agentic_index": 19.81,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

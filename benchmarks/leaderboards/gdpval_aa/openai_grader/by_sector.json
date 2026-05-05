@@ -1,0 +1,925 @@
+{
+  "source_url": "https://evals.openai.com/gdpval/leaderboard",
+  "source_bundle": "https://evals.openai.com/assets/index-Dn260R3L.js",
+  "num_rows": 153,
+  "entries": [
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.43111111111111106,
+      "win_or_tie_rate": 0.5511111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "win_rate": 0.511111111111111,
+      "win_or_tie_rate": 0.64
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.3422222222222222,
+      "win_or_tie_rate": 0.5288888888888889
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "win_rate": 0.37333333333333335,
+      "win_or_tie_rate": 0.5244444444444444
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "win_rate": 0.5466666666666665,
+      "win_or_tie_rate": 0.64
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.5022222222222222,
+      "win_or_tie_rate": 0.7022222222222223
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.5466666666666666
+    },
+    {
+      "model": "claude-45",
+      "sector": "Retail Trade",
+      "win_rate": 0.3944444444444445,
+      "win_or_tie_rate": 0.5333333333333334
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.56,
+      "win_or_tie_rate": 0.6844444444444443
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.48444444444444446,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "win_rate": 0.4711111111111111,
+      "win_or_tie_rate": 0.6177777777777778
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.3377777777777778,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "win_rate": 0.3511111111111111,
+      "win_or_tie_rate": 0.39555555555555555
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "win_rate": 0.39555555555555555,
+      "win_or_tie_rate": 0.49777777777777776
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.3644444444444444,
+      "win_or_tie_rate": 0.4711111111111111
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.4177777777777778,
+      "win_or_tie_rate": 0.4355555555555556
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Retail Trade",
+      "win_rate": 0.4722222222222222,
+      "win_or_tie_rate": 0.5166666666666666
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.5422222222222222,
+      "win_or_tie_rate": 0.6133333333333333
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.45333,
+      "win_or_tie_rate": 0.48
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "win_rate": 0.45778,
+      "win_or_tie_rate": 0.52
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.42222,
+      "win_or_tie_rate": 0.46222
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.34667
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "win_rate": 0.44889,
+      "win_or_tie_rate": 0.48444
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.37333,
+      "win_or_tie_rate": 0.44889
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.44,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "claude",
+      "sector": "Retail Trade",
+      "win_rate": 0.51667,
+      "win_or_tie_rate": 0.54444
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.49333,
+      "win_or_tie_rate": 0.54222
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.4355555555555556,
+      "win_or_tie_rate": 0.528888888888889
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "win_rate": 0.43555555555555564,
+      "win_or_tie_rate": 0.588888888888889
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.3422222222222222,
+      "win_or_tie_rate": 0.49999999999999994
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "win_rate": 0.391111111111111,
+      "win_or_tie_rate": 0.5222222222222223
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "win_rate": 0.4266666666666667,
+      "win_or_tie_rate": 0.5266666666666667
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.36,
+      "win_or_tie_rate": 0.4822222222222222
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.4355555555555556,
+      "win_or_tie_rate": 0.551111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Retail Trade",
+      "win_rate": 0.4000000000000001,
+      "win_or_tie_rate": 0.5833333333333334
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.3955555555555555,
+      "win_or_tie_rate": 0.5444444444444444
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.2577777777777778,
+      "win_or_tie_rate": 0.2577777777777778
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "win_rate": 0.29333333333333333,
+      "win_or_tie_rate": 0.3244444444444444
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.2177777777777778,
+      "win_or_tie_rate": 0.2533333333333333
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "win_rate": 0.23555555555555555,
+      "win_or_tie_rate": 0.24
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.18666666666666665
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.19111111111111112,
+      "win_or_tie_rate": 0.21333333333333332
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.2711111111111111,
+      "win_or_tie_rate": 0.2888888888888889
+    },
+    {
+      "model": "gemini",
+      "sector": "Retail Trade",
+      "win_rate": 0.27222222222222225,
+      "win_or_tie_rate": 0.3055555555555555
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.21333333333333332,
+      "win_or_tie_rate": 0.2311111111111111
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.08225,
+      "win_or_tie_rate": 0.09957
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "win_rate": 0.15226,
+      "win_or_tie_rate": 0.16872
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.09091,
+      "win_or_tie_rate": 0.11255
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.07111
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "win_rate": 0.06061,
+      "win_or_tie_rate": 0.09957
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.08861,
+      "win_or_tie_rate": 0.13502
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.10127,
+      "win_or_tie_rate": 0.11814
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Retail Trade",
+      "win_rate": 0.11111,
+      "win_or_tie_rate": 0.13757
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.13253,
+      "win_or_tie_rate": 0.16466
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.27684,
+      "win_or_tie_rate": 0.29379
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "win_rate": 0.38858,
+      "win_or_tie_rate": 0.4291
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.3597,
+      "win_or_tie_rate": 0.39548
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "win_rate": 0.33524,
+      "win_or_tie_rate": 0.34857
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "win_rate": 0.29567,
+      "win_or_tie_rate": 0.35217
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.35196,
+      "win_or_tie_rate": 0.40037
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.32961,
+      "win_or_tie_rate": 0.34078
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Retail Trade",
+      "win_rate": 0.34965,
+      "win_or_tie_rate": 0.37762
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.44241,
+      "win_or_tie_rate": 0.47715
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.09777777777777777,
+      "win_or_tie_rate": 0.10666666666666666
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "win_rate": 0.1733333333333333,
+      "win_or_tie_rate": 0.2088888888888889
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.1288888888888889
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "win_rate": 0.11555555555555555,
+      "win_or_tie_rate": 0.12
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.14222222222222222
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.1511111111111111,
+      "win_or_tie_rate": 0.17777777777777778
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.14222222222222222,
+      "win_or_tie_rate": 0.14222222222222222
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Retail Trade",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.16666666666666666
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.1688888888888889,
+      "win_or_tie_rate": 0.17777777777777778
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "win_rate": 0.16,
+      "win_or_tie_rate": 0.19555555555555554
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.1822222222222222,
+      "win_or_tie_rate": 0.1822222222222222
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "win_rate": 0.09777777777777777,
+      "win_or_tie_rate": 0.10222222222222221
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "win_rate": 0.14666666666666667,
+      "win_or_tie_rate": 0.1511111111111111
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.18666666666666665
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.14222222222222222,
+      "win_or_tie_rate": 0.14666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Retail Trade",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.16444444444444442
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.49333333333333335,
+      "win_or_tie_rate": 0.6488888888888888
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "win_rate": 0.6088888888888889,
+      "win_or_tie_rate": 0.8444444444444446
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.471111111111111,
+      "win_or_tie_rate": 0.7111111111111111
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "win_rate": 0.38222222222222224,
+      "win_or_tie_rate": 0.5955555555555556
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "win_rate": 0.4622222222222223,
+      "win_or_tie_rate": 0.7022222222222223
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.49333333333333335,
+      "win_or_tie_rate": 0.7111111111111111
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.44,
+      "win_or_tie_rate": 0.6044444444444445
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Retail Trade",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.8277777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.5822222222222222,
+      "win_or_tie_rate": 0.7555555555555558
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.29333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "win_rate": 0.44,
+      "win_or_tie_rate": 0.49333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.34667,
+      "win_or_tie_rate": 0.38667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.36
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "win_rate": 0.24,
+      "win_or_tie_rate": 0.30667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.44
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.42667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Retail Trade",
+      "win_rate": 0.38333,
+      "win_or_tie_rate": 0.41667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.16438,
+      "win_or_tie_rate": 0.16438
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.22666666666666666,
+      "win_or_tie_rate": 0.23555555555555555
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "win_rate": 0.2622222222222222,
+      "win_or_tie_rate": 0.3244444444444444
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.1688888888888889,
+      "win_or_tie_rate": 0.2177777777777778
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "win_rate": 0.18666666666666665,
+      "win_or_tie_rate": 0.18666666666666665
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "win_rate": 0.14222222222222222,
+      "win_or_tie_rate": 0.17777777777777778
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.19555555555555554,
+      "win_or_tie_rate": 0.24
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.20444444444444443,
+      "win_or_tie_rate": 0.22666666666666666
+    },
+    {
+      "model": "grok",
+      "sector": "Retail Trade",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.32222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.23555555555555555,
+      "win_or_tie_rate": 0.2711111111111111
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Retail Trade",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.26407,
+      "win_or_tie_rate": 0.28571
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "win_rate": 0.31276,
+      "win_or_tie_rate": 0.34979
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.29437,
+      "win_or_tie_rate": 0.32035
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "win_rate": 0.28,
+      "win_or_tie_rate": 0.29778
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "win_rate": 0.2684,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.2616,
+      "win_or_tie_rate": 0.32068
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.31224,
+      "win_or_tie_rate": 0.31646
+    },
+    {
+      "model": "o3-high",
+      "sector": "Retail Trade",
+      "win_rate": 0.34392,
+      "win_or_tie_rate": 0.36508
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.42972,
+      "win_or_tie_rate": 0.46988
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "win_rate": 0.12444444444444443,
+      "win_or_tie_rate": 0.16444444444444442
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.1111111111111111,
+      "win_or_tie_rate": 0.12444444444444443
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "win_rate": 0.07111111111111111,
+      "win_or_tie_rate": 0.07555555555555556
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "win_rate": 0.1111111111111111,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.10222222222222221,
+      "win_or_tie_rate": 0.1288888888888889
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.12,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Retail Trade",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.18888888888888888
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.13777777777777778,
+      "win_or_tie_rate": 0.15555555555555556
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "win_rate": 0.1511111111111111,
+      "win_or_tie_rate": 0.18666666666666665
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.12,
+      "win_or_tie_rate": 0.1288888888888889
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "win_rate": 0.10666666666666666,
+      "win_or_tie_rate": 0.1111111111111111
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "win_rate": 0.1111111111111111,
+      "win_or_tie_rate": 0.12
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.1288888888888889,
+      "win_or_tie_rate": 0.1733333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.10222222222222221,
+      "win_or_tie_rate": 0.10222222222222221
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Retail Trade",
+      "win_rate": 0.12777777777777777,
+      "win_or_tie_rate": 0.1388888888888889
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.1511111111111111,
+      "win_or_tie_rate": 0.16
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "win_rate": 0.21645,
+      "win_or_tie_rate": 0.22078
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "win_rate": 0.25514,
+      "win_or_tie_rate": 0.2963
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "win_rate": 0.23377,
+      "win_or_tie_rate": 0.27273
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "win_rate": 0.19556,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "win_rate": 0.27706,
+      "win_or_tie_rate": 0.32468
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "win_rate": 0.22785,
+      "win_or_tie_rate": 0.26582
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "win_rate": 0.22785,
+      "win_or_tie_rate": 0.22785
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Retail Trade",
+      "win_rate": 0.24868,
+      "win_or_tie_rate": 0.2963
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "win_rate": 0.38153,
+      "win_or_tie_rate": 0.39357
+    }
+  ]
+}

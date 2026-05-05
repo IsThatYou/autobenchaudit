@@ -1,0 +1,27 @@
+{
+  "slug": "supai__google-gemini-2.5-flash",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "google/gemini-2.5-flash",
+  "vendor": "google",
+  "model": "gemini-2.5-flash",
+  "provider": null,
+  "num_questions": 2,
+  "num_correct": 0,
+  "accuracy": 0.0,
+  "avg_confidence": 100.0,
+  "tasks": [
+    {
+      "task_id": "66e939c176b5b4f3e8a369b8",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1/13"
+    },
+    {
+      "task_id": "66e9580bc845662f61f3664b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "236(2),236(3)"
+    }
+  ]
+}

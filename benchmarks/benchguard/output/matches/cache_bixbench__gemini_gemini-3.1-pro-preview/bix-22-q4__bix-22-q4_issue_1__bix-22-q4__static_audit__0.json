@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues identify ambiguity in the same question, but they point out different missing pipeline details (gene expression filtering vs. normalization, log-transformation, and length metrics) that require separate fixes."
+}

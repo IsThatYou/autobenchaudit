@@ -1,0 +1,26 @@
+{
+  "slug": "InternVL2.5-8B",
+  "name": "InternVL2.5-8B",
+  "size": "8B",
+  "date": "2024-12-05",
+  "type": "open_source",
+  "link": "https://huggingface.co/OpenGVLab/InternVL2_5-8B",
+  "pro_overall": 34.3,
+  "pro_vision": 30.4,
+  "pro_standard": 38.2,
+  "pro_source": "author",
+  "mmmu_val_overall": 56.0,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": 48.9,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

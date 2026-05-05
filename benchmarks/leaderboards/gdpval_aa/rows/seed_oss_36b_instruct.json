@@ -1,0 +1,43 @@
+{
+  "slug": "seed_oss_36b_instruct",
+  "model_id": "5c6533f3-75a2-4109-b9a9-3623afc6b86a",
+  "model_slug": "seed-oss-36b-instruct",
+  "name": "Seed-OSS-36B-Instruct",
+  "gdpval_name": null,
+  "short_name": "Seed-OSS-36B-Instruct",
+  "creator": {
+    "name": "ByteDance Seed",
+    "slug": "bytedance_seed",
+    "country": null,
+    "logo": "/img/logos/bytedance.svg"
+  },
+  "release_date": "2025-08-20",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 761.7518850021016,
+    "lower_95ci": 735.0689472965689,
+    "upper_95ci": 789.4772369940082,
+    "n_matches": 1936,
+    "avg_turns": 23.019138755980862
+  },
+  "gdpval_breakdown": {
+    "elo": 761.7518850021016,
+    "avg_turns": 23.019138755980862,
+    "n_matches": 1936,
+    "lower_95ci": 735.0689472965689,
+    "upper_95ci": 789.4772369940082,
+    "last_updated": "2026-04-22T02:15:37.360943"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 62280352,
+    "answer_tokens": 2201835,
+    "output_tokens": 3369951,
+    "reasoning_tokens": 1168116
+  },
+  "intelligence_index": 25.16,
+  "agentic_index": 27.73,
+  "price_1m_input_tokens": 0.21,
+  "price_1m_output_tokens": 0.57
+}

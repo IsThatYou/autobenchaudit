@@ -1,0 +1,26 @@
+{
+  "slug": "Qwen3-VL_235B-A22B",
+  "name": "Qwen3-VL 235B-A22B",
+  "size": "22B",
+  "date": "2025-09-22",
+  "type": "open_source",
+  "link": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list",
+  "pro_overall": 68.1,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 78.7,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

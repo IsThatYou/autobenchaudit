@@ -1,0 +1,43 @@
+{
+  "slug": "deepseek_v3_2_reasoning_0925",
+  "model_id": "af134350-8ba3-4629-b56b-00bd6dcf60c4",
+  "model_slug": "deepseek-v3-2-reasoning-0925",
+  "name": "DeepSeek V3.2 Exp (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "DeepSeek V3.2 Exp",
+  "creator": {
+    "name": "DeepSeek",
+    "slug": "deepseek",
+    "country": null,
+    "logo": "/img/logos/deepseek.png"
+  },
+  "release_date": "2025-09-29",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1005.731125385073,
+    "lower_95ci": 981.1757525777002,
+    "upper_95ci": 1031.946741655925,
+    "n_matches": 2131,
+    "avg_turns": 14.214611872146119
+  },
+  "gdpval_breakdown": {
+    "elo": 1005.731125385073,
+    "avg_turns": 14.214611872146119,
+    "n_matches": 2131,
+    "lower_95ci": 981.1757525777002,
+    "upper_95ci": 1031.946741655925,
+    "last_updated": "2026-04-22T02:15:26.433630"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 31707967,
+    "answer_tokens": 2066494,
+    "output_tokens": 2066494,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 32.94,
+  "agentic_index": 28.73,
+  "price_1m_input_tokens": 0.28,
+  "price_1m_output_tokens": 0.42
+}

@@ -1,0 +1,330 @@
+{
+  "source": "data/benchmark_repos/finance_agent/data/public.csv",
+  "note": "Maps each of the 50 public questions to one of the 9 Vals Finance Agent category slugs via the CSV's 'Question Type' column. Use this to aggregate per-task audit severities up to the category level without manual assignment. Covers only the public split; Vals's full benchmark is 537 questions.",
+  "num_questions": 50,
+  "num_total_questions": 537,
+  "num_by_category_slug": {
+    "adjustments": 4,
+    "beat_or_miss": 7,
+    "complex_retrieval": 3,
+    "financial_modeling": 4,
+    "market_analysis": 3,
+    "numerical_reasoning": 8,
+    "simple_retrieval_qualitative": 9,
+    "simple_retrieval_quantitative": 9,
+    "trends": 3
+  },
+  "category_label_to_slug": {
+    "Adjustments": "adjustments",
+    "Beat or Miss": "beat_or_miss",
+    "Complex Retrieval": "complex_retrieval",
+    "Financial Modeling  Projections": "financial_modeling",
+    "Market Analysis": "market_analysis",
+    "Numerical Reasoning": "numerical_reasoning",
+    "Simple retrieval - Qualitative": "simple_retrieval_qualitative",
+    "Simple retrieval - Quantitative": "simple_retrieval_quantitative",
+    "Trends": "trends"
+  },
+  "questions": [
+    {
+      "csv_row": 0,
+      "category_slug": "market_analysis",
+      "question_type_label": "Market Analysis",
+      "question": "How has US Steel addressed its planned merger with Nippon Steel and its effect on its business operations?"
+    },
+    {
+      "csv_row": 1,
+      "category_slug": "trends",
+      "question_type_label": "Trends",
+      "question": "How has Netflix's (NASDAQ: NFLX) Average Revenue Per Paying User Changed from 2019 to 2024?"
+    },
+    {
+      "csv_row": 2,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "Did TJX beat or miss its Q4 FY 2025 pre-tax margin guidance? Express result as BPS difference"
+    },
+    {
+      "csv_row": 3,
+      "category_slug": "complex_retrieval",
+      "question_type_label": "Complex Retrieval",
+      "question": "How large was the range (in % terms) for AMD's revenue guidance for Q2 2024, Q3 2024, Q4 2024, and Q1 2025?  Format answer as: \"Q[X] [YEAR]: $[X.X] billion (low) to $[X.X] billion (high), [X.X]% of midpoint\". Add line break for each period."
+    },
+    {
+      "csv_row": 4,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "In 2024, who was Nominated to Serve on BBSI's (NASDAQ: BBSI) Board of Directors?"
+    },
+    {
+      "csv_row": 5,
+      "category_slug": "complex_retrieval",
+      "question_type_label": "Complex Retrieval",
+      "question": "Of AMZN, META, or GOOG, who plans to spend the most in capex in 2025?"
+    },
+    {
+      "csv_row": 6,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "Who is the CFO of Airbnb (NASDAQ: ABNB) as of April 07, 2025?"
+    },
+    {
+      "csv_row": 7,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "What was the total consideration cost TKO paid to acquired Endeavor assets measured at transaction close?"
+    },
+    {
+      "csv_row": 8,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "How many basis points did MU beat or miss its Q3 2024 GAAP gross margin guidance?"
+    },
+    {
+      "csv_row": 9,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "Calculate the 2 year revenue CAGR for Palantir Technologies from 2022 to 2024."
+    },
+    {
+      "csv_row": 10,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "How many common stock shares are outstanding for ABNB? Format \"Class X: X shares\" add line break."
+    },
+    {
+      "csv_row": 11,
+      "category_slug": "financial_modeling",
+      "question_type_label": "Financial Modeling  Projections",
+      "question": "It is currently March 11th, 2025. February financials for TSM have been released as of March 10, 2025. Assuming revenue in March 2025 grows at a rate equal to the average growth rate in March over the past 3 years, will TSM beat or miss Q1 2025 guidance and by how much? Show your work, including Q1 guidance, historical March growth rates, average growth, and projected implied Q1 revenue."
+    },
+    {
+      "csv_row": 12,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "What is the total amount of director compensation (in dollars) that was paid to the directors of 3D Systems in 2023?"
+    },
+    {
+      "csv_row": 13,
+      "category_slug": "trends",
+      "question_type_label": "Trends",
+      "question": "Approximate Zillow's Free Cash Flow as CFO - Capex. What was the trend of FCF margin from FY2022 to FY2024?"
+    },
+    {
+      "csv_row": 14,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "Calculate the inventory turnover for US Steel in FY2024."
+    },
+    {
+      "csv_row": 15,
+      "category_slug": "complex_retrieval",
+      "question_type_label": "Complex Retrieval",
+      "question": "Summarize the key terms of the Series D mandatory convertible preferred stock (size of offering, closing date, price, liquidation preference, dividend rights, conversion terms, voting rights, purpose) that KKR & Co. (NYSE:KKR) offered in March 2025."
+    },
+    {
+      "csv_row": 16,
+      "category_slug": "trends",
+      "question_type_label": "Trends",
+      "question": "How has Airbnb's Annual Take Rate (Revenue/Gross Booking Value) Trended from FY 2022 - 2024?  List the take rate for each fiscal year on a separate line and provide a brief one sentence comment on the trend."
+    },
+    {
+      "csv_row": 17,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "Does Workday (NASDAQ: WDAY) report a gross or net retention metric in its annual or quarterly reporting? If so, provide the definition"
+    },
+    {
+      "csv_row": 18,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "As of April 07, 2025, what is the total value of MSCI's operating leases (in $'s, thousands) that are maturing in the next three years? What percentage?"
+    },
+    {
+      "csv_row": 19,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "What was ORCL's effective tax rate for the fiscal year ended 5/31/2024 and how did it change vs. the prior year? Each section represents a KPI. Format the change as: \"Delta: XXXbps\""
+    },
+    {
+      "csv_row": 20,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "What is Shift4's vendor concentration risk as of Dec 31, 2024?"
+    },
+    {
+      "csv_row": 21,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "What was ABNB's gross booking per room night (gross booking value divided by number of nights and experiences booked) in $ over the last 3 years (FY 2022-2024)? Format response as \"FY 202[X]: $[X.XX]\", with a separate line for each year."
+    },
+    {
+      "csv_row": 22,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "When is production expected to begin in J M Smucker's (NYSE: SJ) new distribution center in McCalla, Alabama?"
+    },
+    {
+      "csv_row": 23,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "As of March 10, 2025, what is the face value of Salesforce's debt excluding their sustainability notes?"
+    },
+    {
+      "csv_row": 24,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "Summarize the regulatory risks Paylocity's (NASDAQ: PCTY) lists in its FY 2024 10-K."
+    },
+    {
+      "csv_row": 25,
+      "category_slug": "numerical_reasoning",
+      "question_type_label": "Numerical Reasoning",
+      "question": "As of June 30, 2024, what % of Microsoft's (NASDAQ: MSFT) full-time employees are located outside of the United State? (give the numbers that led to the percentage calculation)"
+    },
+    {
+      "csv_row": 26,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "As of FY 2024, what are the terms of the Junior Subordinated Debentures in the Allstate Corporation's (NYSE: ALL) capital structure?"
+    },
+    {
+      "csv_row": 27,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "What are Netflix's (NASDAQ: NFLX) Total Projected Material Cash Requirements for 2025?"
+    },
+    {
+      "csv_row": 28,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "List the Operating KPIs Spirit Airlines (NYSE: SAVE) tracked in FY 2024. Provide the KPI and FY 2024 Total."
+    },
+    {
+      "csv_row": 29,
+      "category_slug": "financial_modeling",
+      "question_type_label": "Financial Modeling  Projections",
+      "question": "What is the maximum dilutive impact in number of shares of Snapchat's outstanding convertible notes as of 12/31/2024?"
+    },
+    {
+      "csv_row": 30,
+      "category_slug": "financial_modeling",
+      "question_type_label": "Financial Modeling  Projections",
+      "question": "Assume BROS grows revenue by 30% CAGR and gross margins compress by 500bps from YE 2024. What is BROS gross profit in 2026? Round answer to nearest million."
+    },
+    {
+      "csv_row": 31,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "For loanDepot (NYSE: LDI) what is the breakdown of loan originations between purchases and refinancings for the last 9 months as of 11/12/2024?"
+    },
+    {
+      "csv_row": 32,
+      "category_slug": "adjustments",
+      "question_type_label": "Adjustments",
+      "question": "What would be the impact to net income in dollars and percent if all debt for Boeing in 2024 were refinanced at 3% higher interest rates than current?"
+    },
+    {
+      "csv_row": 33,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "In fiscal 2024, what percentage of Cloudflare's (NYSE: NET) revenue was derived from channel partners?"
+    },
+    {
+      "csv_row": 34,
+      "category_slug": "adjustments",
+      "question_type_label": "Adjustments",
+      "question": "For the fiscal year ended 12/31/2023, what was Uber's (NYSE: UBER) largest adjustment to EBITDA. Provide the line item and amount in billions of dollars."
+    },
+    {
+      "csv_row": 35,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "What price was RDFN acquired at? (include price per share, equity value and enterprise value)"
+    },
+    {
+      "csv_row": 36,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "As of Dec 31, 2024, what was Warner Discovery's (NASDQ: WBD) Total Restructuring Costs incurred as a result of its 2022 Merger?"
+    },
+    {
+      "csv_row": 37,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "How did Lyft's Q4'24 Adjusted EBITDA margin (adjusted EBITDA / Gross Bookings) compare to management guidance at midpoint in Q3'24? Express answer as beat or miss and the bps difference"
+    },
+    {
+      "csv_row": 38,
+      "category_slug": "simple_retrieval_qualitative",
+      "question_type_label": "Simple retrieval - Qualitative",
+      "question": "What financial metrics does Delta Airlines (NYSE: DAL) guide on in its quarterly earnings reports?"
+    },
+    {
+      "csv_row": 39,
+      "category_slug": "adjustments",
+      "question_type_label": "Adjustments",
+      "question": "What adjustments does Airbnb (NASDAQ: ABNB) make to its Net Income to Derive Adjusted EBITDA?"
+    },
+    {
+      "csv_row": 40,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "What was FND same-store sales growth in Q4 2024?"
+    },
+    {
+      "csv_row": 41,
+      "category_slug": "market_analysis",
+      "question_type_label": "Market Analysis",
+      "question": "Compare the FY24 dividend payout ratio of Coca-Cola (KO) to that of its competitors and rank in order from highest to lowest."
+    },
+    {
+      "csv_row": 42,
+      "category_slug": "financial_modeling",
+      "question_type_label": "Financial Modeling  Projections",
+      "question": "What portion of Uber\u2019s 2024 revenue growth was driven by take-rate expansion versus volume growth?"
+    },
+    {
+      "csv_row": 43,
+      "category_slug": "simple_retrieval_quantitative",
+      "question_type_label": "Simple retrieval - Quantitative",
+      "question": "In 2024, what was the Average Nights per Booking for Airbnb (NASDAQ: ABNB) in the Asia Pacific region?"
+    },
+    {
+      "csv_row": 44,
+      "category_slug": "adjustments",
+      "question_type_label": "Adjustments",
+      "question": "In 2024, what was Airbnb's (NASDAQ: ABNB) adjustment for Stock-based Compensation Expense?"
+    },
+    {
+      "csv_row": 45,
+      "category_slug": "market_analysis",
+      "question_type_label": "Market Analysis",
+      "question": "As of December 2024, what has been Zillow's (NASDAQ:Z) acquisition strategy over the past 2 years and how does it align with the company's evolving revenue mix?"
+    },
+    {
+      "csv_row": 46,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "Did FOUR beat or miss its end to end payment volume guidance at midpoint for Q3 2024 provided in Q1 2024? Express as % BEAT or MISS"
+    },
+    {
+      "csv_row": 47,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "How did Lemonade Insurance FY2024 results compare to the prior quarter's full year guidance?"
+    },
+    {
+      "csv_row": 48,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "How many times has General Mills beaten Adjusted Diluted EPS guidance in the last two years (FY2023 and FY2024) and what is the guidance for 2025?"
+    },
+    {
+      "csv_row": 49,
+      "category_slug": "beat_or_miss",
+      "question_type_label": "Beat or Miss",
+      "question": "By how much did AMD beat/miss its non-GAAP gross profit guide (implied by its non-GAAP gross margin guidance and the midpoint of revenue guidance) in each of the last 4 quarters, and what was the average beat or miss (in % terms)? For each quarter, format your response as \"QX - $XXX million (X.X % BEAT or MISS)\" with each quarter on a separate line."
+    }
+  ]
+}

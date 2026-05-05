@@ -1,0 +1,43 @@
+{
+  "slug": "gemma_3_12b",
+  "model_id": "2e6400f5-85ca-4ebc-ba8f-c2811a631138",
+  "model_slug": "gemma-3-12b",
+  "name": "Gemma 3 12B Instruct",
+  "gdpval_name": null,
+  "short_name": "Gemma 3 12B",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2025-03-12",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 293.6321888539644,
+    "lower_95ci": 260.1488434815676,
+    "upper_95ci": 322.74015816861817,
+    "n_matches": 1237,
+    "avg_turns": 99.58064516129032
+  },
+  "gdpval_breakdown": {
+    "elo": 293.6321888539644,
+    "avg_turns": 99.58064516129032,
+    "n_matches": 1237,
+    "lower_95ci": 260.1488434815676,
+    "upper_95ci": 322.74015816861817,
+    "last_updated": "2026-04-22T02:16:01.215091"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 171834316,
+    "answer_tokens": 2348337,
+    "output_tokens": 2348337,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 8.79,
+  "agentic_index": 3.61,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

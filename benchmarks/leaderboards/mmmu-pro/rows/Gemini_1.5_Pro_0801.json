@@ -1,0 +1,26 @@
+{
+  "slug": "Gemini_1.5_Pro_0801",
+  "name": "Gemini 1.5 Pro (0801)",
+  "size": "-",
+  "date": "2024-08-01",
+  "type": "proprietary",
+  "link": "https://deepmind.google/technologies/gemini/pro/",
+  "pro_overall": 46.9,
+  "pro_vision": 44.4,
+  "pro_standard": 49.4,
+  "pro_source": null,
+  "mmmu_val_overall": 65.8,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

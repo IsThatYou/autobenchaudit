@@ -1,0 +1,3174 @@
+{
+  "slug": "ds-test-qr_nef10_acc16_16_old",
+  "submission_id": "ds-test-qr_nef10_acc16_16_old",
+  "submissions_filename": "v1__ds-test-qr_nef10_acc16_16_old__27-09-2025.jsonl",
+  "submissions_url": "https://huggingface.co/datasets/adyen/DABstep/resolve/main/data/submissions/v1__ds-test-qr_nef10_acc16_16_old__27-09-2025.jsonl",
+  "task_scores_url": "https://huggingface.co/datasets/adyen/DABstep/resolve/main/data/task_scores/v1__ds-test-qr_nef10_acc16_16_old__27-09-2025.jsonl",
+  "agent_name": "qr_nef10_acc16_16_old",
+  "model_family": "qwen2.5-7b",
+  "organisation": "ds-test | user FanNie1208",
+  "repo_url": "",
+  "date": "27-09-2025",
+  "validated": false,
+  "num_tasks": 450,
+  "total_trials": 450,
+  "total_successes": 47,
+  "pass_rate": 0.10444444444444445,
+  "easy_pass_rate": 0.6111111111111112,
+  "hard_pass_rate": 0.007936507936507936,
+  "num_easy": 72,
+  "num_hard": 378,
+  "missing_task_ids": [],
+  "tasks": [
+    {
+      "task_name": "1712",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1810",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1741",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1480",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1234",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2761",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2644",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1738",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2564",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2536",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1696",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2691",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "30",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2550",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2769",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1274",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1763",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "973",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1748",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1507",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1427",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2746",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "64",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1861",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1511",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2529",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2520",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1502",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "6",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2566",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1829",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2524",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "24",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2530",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2480",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "42",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2397",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2729",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1716",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1348",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1450",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1700",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2565",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2485",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1460",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2562",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2484",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1749",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "23",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2575",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1287",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1455",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1789",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2767",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2554",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "617",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2674",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1470",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1729",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2712",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "178",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2509",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1722",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2528",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "38",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2496",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2558",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "59",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1452",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1570",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1753",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "25",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1497",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1435",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2555",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1305",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1732",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1509",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2573",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2552",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1853",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1520",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2583",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2571",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1674",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "10",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1846",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "50",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1745",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "70",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1486",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1281",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2539",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2419",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "19",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1705",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1366",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "44",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1694",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1771",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1636",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2494",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2758",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "402",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1457",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1444",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1441",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1734",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2766",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2628",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1462",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "27",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "36",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1756",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "13",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1709",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "382",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1461",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2553",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1744",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2547",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2728",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1467",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2412",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2581",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2768",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1698",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "623",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2771",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "5",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2522",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "60",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1508",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1295",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2623",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1217",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "67",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2264",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1704",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2463",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1730",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1301",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1711",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2366",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1750",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "22",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1817",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2770",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "20",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "29",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "69",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1728",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "883",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1731",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "45",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1453",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1477",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "47",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "471",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1715",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1808",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1446",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1688",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "28",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2521",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1299",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1676",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1420",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1447",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1365",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "32",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1434",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2526",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2719",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2229",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2407",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1459",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "40",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1505",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2132",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2751",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1297",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "46",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1686",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "3",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1385",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2740",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "8",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1465",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2489",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1646",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1277",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1685",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1445",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1818",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2523",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "26",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1473",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "17",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1475",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1347",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1442",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2316",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1740",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1474",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1837",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "341",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2762",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1683",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "916",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1857",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "43",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2481",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1775",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2568",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "72",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1341",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2574",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1518",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2741",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1012",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1724",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1799",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2385",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1742",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2439",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "68",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2708",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1513",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1746",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "54",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1439",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1641",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1458",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1840",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "61",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "37",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2543",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2477",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1723",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2493",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1437",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2559",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1784",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "793",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2619",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1689",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "57",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1681",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2759",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2641",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2535",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "34",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "55",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "31",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1417",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2478",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2760",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2527",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1801",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1312",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1684",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1577",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "63",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "56",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "62",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1504",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1279",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "11",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1292",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2556",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1752",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "842",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1294",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "58",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1826",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1484",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "682",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1519",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1538",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1862",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1765",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2441",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2563",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2652",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1966",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2569",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1531",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "52",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "12",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1574",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1593",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1451",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2544",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2491",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2678",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1289",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2713",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1720",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1449",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1584",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1514",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "16",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2589",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2727",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1875",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2731",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1448",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1769",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1868",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "625",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2587",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "14",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1819",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "7",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1835",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1931",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1290",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2538",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1489",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2507",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1739",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "15",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "18",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1438",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2699",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2121",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1300",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1822",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2634",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1454",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1456",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1358",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2537",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1331",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1516",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1701",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "347",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "9",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1841",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1717",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "41",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2703",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1431",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "51",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1834",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1308",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2765",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "71",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1760",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2506",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1275",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2551",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2606",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1892",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2546",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1433",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "35",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1604",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2764",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1440",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "4",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2561",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1443",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1823",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1791",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2057",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2584",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1517",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1757",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2725",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2549",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2710",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1706",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2763",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2748",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1463",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1805",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1500",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2675",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1302",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1280",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2490",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1343",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1615",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "65",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1721",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2757",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2533",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1702",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1286",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1687",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "48",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2545",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1472",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1780",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1436",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2578",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1631",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2518",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "66",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "889",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2576",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2404",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "53",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1679",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1643",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1344",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "21",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2534",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1336",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "375",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2525",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1485",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1394",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1510",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1401",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1512",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2499",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2511",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1866",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "39",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2482",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1773",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2711",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2532",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1645",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2664",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1594",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1278",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1743",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1506",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1682",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2715",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1515",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1713",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1851",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1699",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1747",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2755",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "49",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "2608",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1494",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "33",
+      "level": "easy",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "1675",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "2557",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1493",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "1296",
+      "level": "hard",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "Gemini_2.5_Pro_Experimental_March_2025",
+  "model": "Gemini 2.5 Pro Experimental (March 2025)",
+  "company": "google",
+  "rank": 14,
+  "created_at": "2025-04-10T19:24:50.000Z",
+  "accuracy": 18.16,
+  "ci_upper": 1.51,
+  "calibration_error": 71,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions. Sampled at temperature = 1.0, top_p = 0.95.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

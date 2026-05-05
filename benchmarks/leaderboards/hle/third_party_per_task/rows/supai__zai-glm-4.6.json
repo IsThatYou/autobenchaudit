@@ -1,0 +1,327 @@
+{
+  "slug": "supai__zai-glm-4.6",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "zai/glm-4.6",
+  "vendor": "zai",
+  "model": "glm-4.6",
+  "provider": null,
+  "num_questions": 52,
+  "num_correct": 12,
+  "accuracy": 0.23076923076923078,
+  "avg_confidence": 89.32692307692308,
+  "tasks": [
+    {
+      "task_id": "668825f80a642802bdfeadfa",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "669402b41dcb3d5a1ef9e951",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "The computation is not available in the current mathematical literature - this appears to be an open problem requiring specialized research in bordism theory."
+    },
+    {
+      "task_id": "6696c3734c196f1af6a16fcb",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "18"
+    },
+    {
+      "task_id": "66b727d367968fa27f2dddda",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "2(d-2-k)(k-2)"
+    },
+    {
+      "task_id": "66b827b9b64deaedfbb997a2",
+      "correct": 0,
+      "confidence": 40,
+      "model_answer": "6"
+    },
+    {
+      "task_id": "66c5c3eae30bdd4f1da62cfc",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "\u2124"
+    },
+    {
+      "task_id": "66e4cdec11c64a7e4051b2d9",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e8784d70625d8c7700315a",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66e883265ab37f0a7da089be",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e884515ab37f0a7da089bf",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "Shuriken"
+    },
+    {
+      "task_id": "66e88728ba7d8bc0d5806f3a",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e8a1833aa94517d4573b0d",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "No"
+    },
+    {
+      "task_id": "66e8a23d15c60c2c32f2ba55",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Yes, the Wasserstein regular subgradient of $J$ at its minimum is the trivial tangent vector."
+    },
+    {
+      "task_id": "66e8add1650a03361a14c6f8",
+      "correct": 1,
+      "confidence": 85,
+      "model_answer": "False"
+    },
+    {
+      "task_id": "66e8ae603aa94517d4573b32",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Case-dependent: 0 if min{a,b}=1; 2 if min{a,b}\u22652."
+    },
+    {
+      "task_id": "66e8b0a9e5eaa390aa9fdde5",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "8"
+    },
+    {
+      "task_id": "66e8b578d0c1f7390bad120c",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "F"
+    },
+    {
+      "task_id": "66e8d3ed713a83e8aeddc2f5",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e8e6c8f59e5564daf565bd",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66e9100b48468f864f861b90",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "-1"
+    },
+    {
+      "task_id": "66e91bc08dd8f00467e3d5d8",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e9249c953867e04c273db7",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "(6, 14, 16, 8)"
+    },
+    {
+      "task_id": "66e932f00bd16d40d4bc4d81",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e93893a3326adf2da92ef0",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e94a88b78e263c565b17ee",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "\u2124\u2082"
+    },
+    {
+      "task_id": "66e94bf0d61a79cca258c675",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "P(y_{ij} = 1) = \\int_0^1 \\int_0^1 W(u_i, u_j) \\, du_j \\, du_i"
+    },
+    {
+      "task_id": "66e9560659cb31393efa7046",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Machine 2 halts after the most number of steps, approximately 25 steps."
+    },
+    {
+      "task_id": "66e95faf8451a9b41f307932",
+      "correct": 0,
+      "confidence": 65,
+      "model_answer": "Caius"
+    },
+    {
+      "task_id": "66e97fd756455f341c7849c3",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e996260930c00374ceaa0b",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "4"
+    },
+    {
+      "task_id": "66e9ae5ba60f4072c0bf5106",
+      "correct": 0,
+      "confidence": 75,
+      "model_answer": "an intermediate classical piano piece in D major, likely from the Classical period (a teaching piece)"
+    },
+    {
+      "task_id": "66e9b92578e89514d9ab6093",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Sierra Leone, Gabon, Ivory Coast"
+    },
+    {
+      "task_id": "66e9ce9d29eb7c1a0721fdf1",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "10"
+    },
+    {
+      "task_id": "66e9fc11c19c8c61add294f0",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "1"
+    },
+    {
+      "task_id": "66ea12bd86227f91af18b88b",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "No"
+    },
+    {
+      "task_id": "66ea12d21684c1846037a28d",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66ea1dd348eb93c2aef1c735",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "G"
+    },
+    {
+      "task_id": "66ea29ab7131229007ccbd9d",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66ea355dd1767539f1308fc3",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "5"
+    },
+    {
+      "task_id": "66ea40e5b44d5e443ba2eac5",
+      "correct": 0,
+      "confidence": 70,
+      "model_answer": "Blues scale"
+    },
+    {
+      "task_id": "66ea7d2cc321286a5288ef06",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "1440"
+    },
+    {
+      "task_id": "66eaa5ddc7a3252f0f3fe53f",
+      "correct": 1,
+      "confidence": 85,
+      "model_answer": "10"
+    },
+    {
+      "task_id": "66eadaf22b7de7dec0a046bd",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66eaed13c47c4325f612ff48",
+      "correct": 0,
+      "confidence": 80,
+      "model_answer": "172.20.96.0 0.0.31.255"
+    },
+    {
+      "task_id": "66eaf0ba5e31c19691fe73b1",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66eafb96b082c5e6a76a49c0",
+      "correct": 0,
+      "confidence": 55,
+      "model_answer": "E. Countour"
+    },
+    {
+      "task_id": "66eb0883f3acd11c70662aff",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "sqrt{2}"
+    },
+    {
+      "task_id": "66eb1706d3b17bc68156e3e3",
+      "correct": 0,
+      "confidence": 20,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66eb1ad641ef9e7d6011c3be",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "!dlrow olleh"
+    },
+    {
+      "task_id": "66eb206f99363a31f68414bc",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Nf3+ Kh4 Rh3#"
+    },
+    {
+      "task_id": "66eb3aab27b19dd593af7ebe",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "A Gathering of Heroes"
+    },
+    {
+      "task_id": "66ff0a666dc4b2ab76a19db9",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "\u27e8\u03c6_{1s} | 1/r | \u03c6_{1s} \u27e9 = \u03b6"
+    }
+  ]
+}

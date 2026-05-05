@@ -1,0 +1,26 @@
+{
+  "slug": "LlaVA-NEXT-72B",
+  "name": "LlaVA-NEXT-72B",
+  "size": "72B",
+  "date": "2024-01-30",
+  "type": "open_source",
+  "link": "https://huggingface.co/llava-hf/llava-next-72b-hf",
+  "pro_overall": 25.1,
+  "pro_vision": 19.2,
+  "pro_standard": 31.0,
+  "pro_source": null,
+  "mmmu_val_overall": 49.9,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

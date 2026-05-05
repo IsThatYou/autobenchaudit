@@ -1,0 +1,43 @@
+{
+  "slug": "glm_5v_turbo",
+  "model_id": "248deb0d-426c-4fa9-86fa-bc60aa9c3719",
+  "model_slug": "glm-5v-turbo",
+  "name": "GLM 5V Turbo (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "GLM 5V Turbo",
+  "creator": {
+    "name": "Z AI",
+    "slug": "zai",
+    "country": null,
+    "logo": "/img/logos/zai_small.svg"
+  },
+  "release_date": "2026-04-01",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1335.8025210386336,
+    "lower_95ci": 1310.6293758763404,
+    "upper_95ci": 1360.4580464848157,
+    "n_matches": 2605,
+    "avg_turns": 20.101382488479263
+  },
+  "gdpval_breakdown": {
+    "elo": 1335.8025210386336,
+    "avg_turns": 20.101382488479263,
+    "n_matches": 2605,
+    "lower_95ci": 1310.6293758763404,
+    "upper_95ci": 1360.4580464848157,
+    "last_updated": "2026-04-22T02:15:13.668552"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 108170027,
+    "answer_tokens": 5561005,
+    "output_tokens": 5856456,
+    "reasoning_tokens": 295450
+  },
+  "intelligence_index": 42.85,
+  "agentic_index": 61.07,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

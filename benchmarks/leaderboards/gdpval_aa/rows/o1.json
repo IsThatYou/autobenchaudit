@@ -1,0 +1,43 @@
+{
+  "slug": "o1",
+  "model_id": "5ad2f60f-ee05-49fd-85a0-cef69aa7cb7b",
+  "model_slug": "o1",
+  "name": "o1",
+  "gdpval_name": null,
+  "short_name": "o1",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2024-12-05",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 738.6088354471968,
+    "lower_95ci": 710.6788581614239,
+    "upper_95ci": 767.4690122752796,
+    "n_matches": 1917,
+    "avg_turns": 14.637254901960784
+  },
+  "gdpval_breakdown": {
+    "elo": 738.6088354471968,
+    "avg_turns": 14.637254901960784,
+    "n_matches": 1917,
+    "lower_95ci": 710.6788581614239,
+    "upper_95ci": 767.4690122752796,
+    "last_updated": "2026-04-22T02:15:37.920552"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 25620744,
+    "answer_tokens": 1300703,
+    "output_tokens": 3376698,
+    "reasoning_tokens": 2075995
+  },
+  "intelligence_index": 30.75,
+  "agentic_index": 31.08,
+  "price_1m_input_tokens": 15,
+  "price_1m_output_tokens": 60
+}

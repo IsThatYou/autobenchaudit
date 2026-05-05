@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_4o_2024_08_06",
+  "model_id": "8c1be908-67b6-4cf4-ba08-83ddbe44fde3",
+  "model_slug": "gpt-4o-2024-08-06",
+  "name": "GPT-4o (Aug '24)",
+  "gdpval_name": null,
+  "short_name": "GPT-4o (Aug)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2024-08-06",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 385.80241771816554,
+    "lower_95ci": 354.3375513669817,
+    "upper_95ci": 413.9165937639876,
+    "n_matches": 1436,
+    "avg_turns": 15.147465437788018
+  },
+  "gdpval_breakdown": {
+    "elo": 385.80241771816554,
+    "avg_turns": 15.147465437788018,
+    "n_matches": 1436,
+    "lower_95ci": 354.3375513669817,
+    "upper_95ci": 413.9165937639876,
+    "last_updated": "2026-04-22T02:15:51.785279"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 24744469,
+    "answer_tokens": 732562,
+    "output_tokens": 732562,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 18.64,
+  "agentic_index": 9.69,
+  "price_1m_input_tokens": 2.5,
+  "price_1m_output_tokens": 10
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "granite_4_0_350m",
+  "model_id": "54c7f3fc-7078-442a-b472-e8691257a88c",
+  "model_slug": "granite-4-0-350m",
+  "name": "Granite 4.0 350M",
+  "gdpval_name": null,
+  "short_name": "Granite 4.0 350M",
+  "creator": {
+    "name": "IBM",
+    "slug": "ibm",
+    "country": null,
+    "logo": "/img/logos/ibm.svg"
+  },
+  "release_date": "2025-10-28",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 286.24640356904615,
+    "lower_95ci": 253.30765039405915,
+    "upper_95ci": 315.8439206731629,
+    "n_matches": 1187,
+    "avg_turns": 57.529680365296805
+  },
+  "gdpval_breakdown": {
+    "elo": 286.24640356904615,
+    "avg_turns": 57.529680365296805,
+    "n_matches": 1187,
+    "lower_95ci": 253.30765039405915,
+    "upper_95ci": 315.8439206731629,
+    "last_updated": "2026-04-22T02:15:57.834793"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 73201852,
+    "answer_tokens": 730880,
+    "output_tokens": 730880,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 6.1,
+  "agentic_index": 4.39,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

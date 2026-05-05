@@ -1,0 +1,26 @@
+{
+  "slug": "Claude_3.5_Sonnet",
+  "name": "Claude 3.5 Sonnet",
+  "size": "-",
+  "date": "2024-06-20",
+  "type": "proprietary",
+  "link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+  "pro_overall": 51.5,
+  "pro_vision": 48.0,
+  "pro_standard": 55.0,
+  "pro_source": null,
+  "mmmu_val_overall": 68.3,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "Lenovo_TianXi-Action-7B_50steps_r2",
+  "model": "TianXi-Action-7B",
+  "institution": "Lenovo",
+  "paper_link": "http://arxiv.org/abs/2508.04037",
+  "paper_authors": "Tang et al., '25",
+  "approach_type": "Specialized model",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-08-11",
+  "success_rate": 30.38,
+  "success_total_raw": "109.37/360",
+  "success_count": 109.37,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 18.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 15.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 3.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 17.99,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 13.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 5.58,
+      "total": 93
+    },
+    "os": {
+      "success": 8.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 6.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 5.83,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 16.0,
+      "total": 23
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "Salesforce_The_Australian_National_University_The_University_of_Hong_Kong_GTA1_w_GPT-5_100steps",
+  "model": "GTA1 w/ GPT-5",
+  "institution": "Salesforce & The Australian National University & The University of Hong Kong",
+  "paper_link": "https://arxiv.org/pdf/2507.05791",
+  "paper_authors": "Yang et al., '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2025-10-03",
+  "success_rate": 63.41,
+  "success_total_raw": "228.92/361",
+  "success_count": 228.92,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 26.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 20.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 30.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 30.8,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 13.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 47.35,
+      "total": 93
+    },
+    "os": {
+      "success": 19.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 9.84,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

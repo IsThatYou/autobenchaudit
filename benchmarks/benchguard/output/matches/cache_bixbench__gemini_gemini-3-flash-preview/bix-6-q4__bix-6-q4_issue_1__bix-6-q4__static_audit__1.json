@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both identify different sources of ambiguity (metric type vs. gene subset) within the same question text."
+}

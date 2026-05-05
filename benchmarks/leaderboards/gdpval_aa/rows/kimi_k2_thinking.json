@@ -1,0 +1,43 @@
+{
+  "slug": "kimi_k2_thinking",
+  "model_id": "bddebfd3-0a8d-47f5-b722-bc4c2ca5a5dc",
+  "model_slug": "kimi-k2-thinking",
+  "name": "Kimi K2 Thinking",
+  "gdpval_name": null,
+  "short_name": "Kimi K2 Thinking",
+  "creator": {
+    "name": "Kimi",
+    "slug": "kimi",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-11-06",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 996.0922703210726,
+    "lower_95ci": 970.4018670328933,
+    "upper_95ci": 1022.3992832496508,
+    "n_matches": 2703,
+    "avg_turns": 15.123287671232877
+  },
+  "gdpval_breakdown": {
+    "elo": 996.0922703210726,
+    "avg_turns": 15.123287671232877,
+    "n_matches": 2703,
+    "lower_95ci": 970.4018670328933,
+    "upper_95ci": 1022.3992832496508,
+    "last_updated": "2026-04-22T02:15:28.676828"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 40202408,
+    "answer_tokens": 2542424,
+    "output_tokens": 3096801,
+    "reasoning_tokens": 554377
+  },
+  "intelligence_index": 40.89,
+  "agentic_index": 47.9,
+  "price_1m_input_tokens": 0.6,
+  "price_1m_output_tokens": 2.5
+}

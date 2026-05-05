@@ -1,0 +1,91 @@
+{
+  "slug": "kimi_kimi-k2.5-thinking",
+  "model_key": "kimi/kimi-k2.5-thinking",
+  "provider": "Moonshot AI",
+  "overall_accuracy": 50.6225,
+  "overall_stderr": 2.8453,
+  "overall_latency": 268.7523,
+  "overall_cost_per_test": 0.178983,
+  "temperature": null,
+  "top_p": 0.95,
+  "max_output_tokens": null,
+  "reasoning": null,
+  "reasoning_effort": null,
+  "verbosity": null,
+  "compute_effort": null,
+  "num_categories": 9,
+  "tasks": [
+    {
+      "task_name": "simple_retrieval_quantitative",
+      "task_label": "Simple retrieval - Quantitative",
+      "accuracy": 82.8125,
+      "stderr": 4.7532,
+      "latency": 216.258,
+      "cost_per_test": 0.153689
+    },
+    {
+      "task_name": "simple_retrieval_qualitative",
+      "task_label": "Simple retrieval - Qualitative",
+      "accuracy": 55.7377,
+      "stderr": 6.4123,
+      "latency": 160.7112,
+      "cost_per_test": 0.100733
+    },
+    {
+      "task_name": "complex_retrieval",
+      "task_label": "Complex Retrieval",
+      "accuracy": 38.8889,
+      "stderr": 11.8236,
+      "latency": 276.6845,
+      "cost_per_test": 0.212545
+    },
+    {
+      "task_name": "numerical_reasoning",
+      "task_label": "Numerical Reasoning",
+      "accuracy": 61.5385,
+      "stderr": 6.8124,
+      "latency": 245.6252,
+      "cost_per_test": 0.189084
+    },
+    {
+      "task_name": "financial_modeling",
+      "task_label": "Financial Modeling  Projections",
+      "accuracy": 63.3333,
+      "stderr": 8.9486,
+      "latency": 248.9568,
+      "cost_per_test": 0.140131
+    },
+    {
+      "task_name": "market_analysis",
+      "task_label": "Market Analysis",
+      "accuracy": 19.0476,
+      "stderr": 8.7805,
+      "latency": 426.0063,
+      "cost_per_test": 0.31913
+    },
+    {
+      "task_name": "beat_or_miss",
+      "task_label": "Beat or Miss",
+      "accuracy": 39.5349,
+      "stderr": 7.5443,
+      "latency": 279.7612,
+      "cost_per_test": 0.143743
+    },
+    {
+      "task_name": "trends",
+      "task_label": "Trends",
+      "accuracy": 42.8571,
+      "stderr": 11.0657,
+      "latency": 614.9881,
+      "cost_per_test": 0.410589
+    },
+    {
+      "task_name": "adjustments",
+      "task_label": "Adjustments",
+      "accuracy": 51.8519,
+      "stderr": 9.7991,
+      "latency": 289.3885,
+      "cost_per_test": 0.184042
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses an ambiguity in the dataset's question text regarding filtering criteria, while the finding identifies a Python bug in the grading script that causes crashes on incorrect answers."
+}

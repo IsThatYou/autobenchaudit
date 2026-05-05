@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_oss_20b_low",
+  "model_id": "16149b9c-a1e9-4669-a5cb-ff3c00d78f89",
+  "model_slug": "gpt-oss-20b-low",
+  "name": "gpt-oss-20B (low)",
+  "gdpval_name": null,
+  "short_name": "gpt-oss-20B (low)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-08-05",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 553.8216759538793,
+    "lower_95ci": 524.8174905004156,
+    "upper_95ci": 581.4263741755649,
+    "n_matches": 2083,
+    "avg_turns": 23.754545454545454
+  },
+  "gdpval_breakdown": {
+    "elo": 553.8216759538793,
+    "avg_turns": 23.754545454545454,
+    "n_matches": 2083,
+    "lower_95ci": 524.8174905004156,
+    "upper_95ci": 581.4263741755649,
+    "last_updated": "2026-04-22T02:15:45.479260"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 48715347,
+    "answer_tokens": 1090123,
+    "output_tokens": 1487107,
+    "reasoning_tokens": 396984
+  },
+  "intelligence_index": 20.79,
+  "agentic_index": 21.86,
+  "price_1m_input_tokens": 0.07,
+  "price_1m_output_tokens": 0.2
+}

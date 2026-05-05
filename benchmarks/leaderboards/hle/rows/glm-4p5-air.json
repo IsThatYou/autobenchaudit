@@ -1,0 +1,18 @@
+{
+  "slug": "glm-4p5-air",
+  "model": "glm-4p5-air",
+  "company": "zai",
+  "rank": 28,
+  "created_at": "2025-08-13T20:52:59.000Z",
+  "accuracy": 8.12,
+  "ci_upper": 1.07,
+  "calibration_error": 77,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions. Sampled at 32K Tokens, temp = null (default temp)",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

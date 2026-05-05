@@ -1,0 +1,43 @@
+{
+  "slug": "nvidia_nemotron_nano_12b_v2_vl",
+  "model_id": "ab7f016c-a29b-4710-bdf6-6a5cd96aacca",
+  "model_slug": "nvidia-nemotron-nano-12b-v2-vl",
+  "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "NVIDIA Nemotron Nano 12B v2 VL",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2025-10-28",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 287.5672679825899,
+    "lower_95ci": 256.3005073214181,
+    "upper_95ci": 317.61969433585733,
+    "n_matches": 1184,
+    "avg_turns": 69.47945205479452
+  },
+  "gdpval_breakdown": {
+    "elo": 287.5672679825899,
+    "avg_turns": 69.47945205479452,
+    "n_matches": 1184,
+    "lower_95ci": 256.3005073214181,
+    "upper_95ci": 317.61969433585733,
+    "last_updated": "2026-04-22T02:15:58.397913"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 297895476,
+    "answer_tokens": 4736163,
+    "output_tokens": 4736163,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 10.09,
+  "agentic_index": 6.43,
+  "price_1m_input_tokens": 0.2,
+  "price_1m_output_tokens": 0.6
+}

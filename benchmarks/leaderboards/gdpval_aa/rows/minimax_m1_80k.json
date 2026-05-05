@@ -1,0 +1,43 @@
+{
+  "slug": "minimax_m1_80k",
+  "model_id": "9ca246a7-cf13-42c9-9182-5b5ad6b79026",
+  "model_slug": "minimax-m1-80k",
+  "name": "MiniMax M1 80k",
+  "gdpval_name": null,
+  "short_name": "MiniMax M1 80k",
+  "creator": {
+    "name": "MiniMax",
+    "slug": "minimax",
+    "country": null,
+    "logo": "/img/logos/minimax.webp"
+  },
+  "release_date": "2025-06-17",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 997.7888568578614,
+    "lower_95ci": 970.0356652813335,
+    "upper_95ci": 1026.0191347304014,
+    "n_matches": 2398,
+    "avg_turns": 24.260663507109005
+  },
+  "gdpval_breakdown": {
+    "elo": 997.7888568578614,
+    "avg_turns": 24.260663507109005,
+    "n_matches": 2398,
+    "lower_95ci": 970.0356652813335,
+    "upper_95ci": 1026.0191347304014,
+    "last_updated": "2026-04-22T02:15:28.397110"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 74701087,
+    "answer_tokens": 3634219,
+    "output_tokens": 4093006,
+    "reasoning_tokens": 458786
+  },
+  "intelligence_index": 24.43,
+  "agentic_index": 29.1,
+  "price_1m_input_tokens": 0.55,
+  "price_1m_output_tokens": 2.2
+}

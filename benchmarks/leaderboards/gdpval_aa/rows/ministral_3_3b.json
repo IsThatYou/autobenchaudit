@@ -1,0 +1,43 @@
+{
+  "slug": "ministral_3_3b",
+  "model_id": "66f4ce73-9a9b-4b49-9c6e-bedb9bfdc720",
+  "model_slug": "ministral-3-3b",
+  "name": "Ministral 3 3B",
+  "gdpval_name": null,
+  "short_name": "Ministral 3 3B",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2025-12-02",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 488.50810230468846,
+    "lower_95ci": 457.36685855616713,
+    "upper_95ci": 516.5364600720102,
+    "n_matches": 1649,
+    "avg_turns": 30.3
+  },
+  "gdpval_breakdown": {
+    "elo": 488.50810230468846,
+    "avg_turns": 30.3,
+    "n_matches": 1649,
+    "lower_95ci": 457.36685855616713,
+    "upper_95ci": 516.5364600720102,
+    "last_updated": "2026-04-22T02:15:47.578919"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 109969263,
+    "answer_tokens": 2948279,
+    "output_tokens": 2948279,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 11.24,
+  "agentic_index": 11.44,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.1
+}

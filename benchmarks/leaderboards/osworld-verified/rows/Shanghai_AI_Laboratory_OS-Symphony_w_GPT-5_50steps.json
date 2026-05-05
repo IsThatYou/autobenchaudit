@@ -1,0 +1,59 @@
+{
+  "slug": "Shanghai_AI_Laboratory_OS-Symphony_w_GPT-5_50steps",
+  "model": "OS-Symphony w/ GPT-5",
+  "institution": "Shanghai AI Laboratory",
+  "paper_link": "https://github.com/xlang-ai/OSWorld/tree/main/mm_agents/os_symphony",
+  "paper_authors": "Shanghai AI Lab OS-Copilot Team",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2026-01-04",
+  "success_rate": 65.77,
+  "success_total_raw": "236.76/360",
+  "success_count": 236.76,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 28.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 21.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 36.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 22.94,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 17.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 51.43,
+      "total": 93
+    },
+    "os": {
+      "success": 18.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 10.46,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 18.0,
+      "total": 23
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "ernie_5_0_thinking_preview",
+  "model_id": "a518a64b-e337-48f3-85a1-ba7dc0e8f961",
+  "model_slug": "ernie-5-0-thinking-preview",
+  "name": "ERNIE 5.0 Thinking Preview",
+  "gdpval_name": null,
+  "short_name": "ERNIE 5.0 Thinking Preview",
+  "creator": {
+    "name": "Baidu",
+    "slug": "baidu",
+    "country": null,
+    "logo": "/img/logos/baidu.png"
+  },
+  "release_date": "2025-11-13",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 791.5307266073521,
+    "lower_95ci": 765.5114400667779,
+    "upper_95ci": 818.1576079652211,
+    "n_matches": 1948,
+    "avg_turns": 20.4585635359116
+  },
+  "gdpval_breakdown": {
+    "elo": 791.5307266073521,
+    "avg_turns": 20.4585635359116,
+    "n_matches": 1948,
+    "lower_95ci": 765.5114400667779,
+    "upper_95ci": 818.1576079652211,
+    "last_updated": "2026-04-22T02:15:35.821249"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 63321091,
+    "answer_tokens": 1512563,
+    "output_tokens": 2040603,
+    "reasoning_tokens": 528039
+  },
+  "intelligence_index": 29.09,
+  "agentic_index": 39.74,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

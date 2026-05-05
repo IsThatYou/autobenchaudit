@@ -1,0 +1,26 @@
+{
+  "slug": "GLM-4.5V_w_Thinking",
+  "name": "GLM-4.5V w/ Thinking",
+  "size": "12B",
+  "date": "2025-08-11",
+  "type": "open_source",
+  "link": "https://docs.z.ai/guides/vlm/glm-4.5v",
+  "pro_overall": 65.2,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 75.4,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

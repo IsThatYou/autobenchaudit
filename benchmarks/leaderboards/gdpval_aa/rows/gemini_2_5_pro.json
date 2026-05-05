@@ -1,0 +1,43 @@
+{
+  "slug": "gemini_2_5_pro",
+  "model_id": "27202e5f-c82d-4710-92e9-4317877d4883",
+  "model_slug": "gemini-2-5-pro",
+  "name": "Gemini 2.5 Pro",
+  "gdpval_name": null,
+  "short_name": "Gemini 2.5 Pro",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2025-06-05",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 911.9422129004483,
+    "lower_95ci": 886.6627905793082,
+    "upper_95ci": 937.7056227066763,
+    "n_matches": 2737,
+    "avg_turns": 14.949771689497718
+  },
+  "gdpval_breakdown": {
+    "elo": 911.9422129004483,
+    "avg_turns": 14.949771689497718,
+    "n_matches": 2737,
+    "lower_95ci": 886.6627905793082,
+    "upper_95ci": 937.7056227066763,
+    "last_updated": "2026-04-22T02:15:31.478033"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 34985674,
+    "answer_tokens": 1049093,
+    "output_tokens": 3563478,
+    "reasoning_tokens": 2514384
+  },
+  "intelligence_index": 34.63,
+  "agentic_index": 32.68,
+  "price_1m_input_tokens": 1.25,
+  "price_1m_output_tokens": 10
+}

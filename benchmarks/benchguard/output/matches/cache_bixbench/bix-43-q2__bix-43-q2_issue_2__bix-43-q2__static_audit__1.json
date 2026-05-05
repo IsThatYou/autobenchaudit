@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue concerns a logic error in the task's statistical thresholds and ground truth value, while the finding concerns a flaw in the string-based evaluation metric for numeric answers."
+}

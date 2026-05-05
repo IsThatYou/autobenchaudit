@@ -1,0 +1,43 @@
+{
+  "slug": "k2_v2",
+  "model_id": "a38d719a-709c-4983-b3e7-7090389ae9a6",
+  "model_slug": "k2-v2",
+  "name": "K2-V2 (high)",
+  "gdpval_name": null,
+  "short_name": "K2-V2 (high)",
+  "creator": {
+    "name": "MBZUAI Institute of Foundation Models",
+    "slug": "mbzuai",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-12-05",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 562.2513151907306,
+    "lower_95ci": 534.0859234616437,
+    "upper_95ci": 590.1929957856602,
+    "n_matches": 2048,
+    "avg_turns": 30.511415525114156
+  },
+  "gdpval_breakdown": {
+    "elo": 562.2513151907306,
+    "avg_turns": 30.511415525114156,
+    "n_matches": 2048,
+    "lower_95ci": 534.0859234616437,
+    "upper_95ci": 590.1929957856602,
+    "last_updated": "2026-04-22T02:15:45.618816"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 100124943,
+    "answer_tokens": 2658420,
+    "output_tokens": 6594195,
+    "reasoning_tokens": 3935774
+  },
+  "intelligence_index": 20.61,
+  "agentic_index": 14.43,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "Moonshot_AI_kimi-vl-a3b_15steps",
+  "model": "kimi-vl-a3b",
+  "institution": "Moonshot AI",
+  "paper_link": "https://arxiv.org/abs/2504.07491",
+  "paper_authors": "Kimi Team, '25",
+  "approach_type": "General model",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 9.7,
+  "success_total_raw": "35.00/360",
+  "success_count": 35.0,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 11.0,
+      "total": 45
+    },
+    "gimp": {
+      "success": 4.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 2.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 5.0,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 3.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 1.0,
+      "total": 93
+    },
+    "os": {
+      "success": 0.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 3.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 3.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 3.0,
+      "total": 23
+    }
+  }
+}

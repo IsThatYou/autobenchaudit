@@ -1,0 +1,31 @@
+{
+  "slug": "molmo2_8b",
+  "model_id": "3ef6db79-1dfa-4780-8c4b-affe2740d9ac",
+  "model_slug": "molmo2-8b",
+  "name": "Molmo2-8B",
+  "gdpval_name": null,
+  "short_name": "Molmo2-8B",
+  "creator": {
+    "name": "Allen Institute for AI",
+    "slug": "ai2",
+    "country": null,
+    "logo": "/img/logos/ai2.svg"
+  },
+  "release_date": "2025-12-11",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 500,
+    "lower_95ci": 500,
+    "upper_95ci": 500,
+    "n_matches": 0,
+    "avg_turns": 0
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": 7.3,
+  "agentic_index": 0,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

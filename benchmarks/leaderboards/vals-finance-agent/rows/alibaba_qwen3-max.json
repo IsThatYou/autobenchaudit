@@ -1,0 +1,91 @@
+{
+  "slug": "alibaba_qwen3-max",
+  "model_key": "alibaba/qwen3-max",
+  "provider": "Alibaba",
+  "overall_accuracy": 44.2947,
+  "overall_stderr": 2.8055,
+  "overall_latency": 315.3617,
+  "overall_cost_per_test": 0.801603,
+  "temperature": 0.7,
+  "top_p": null,
+  "max_output_tokens": null,
+  "reasoning": null,
+  "reasoning_effort": null,
+  "verbosity": null,
+  "compute_effort": null,
+  "num_categories": 9,
+  "tasks": [
+    {
+      "task_name": "simple_retrieval_quantitative",
+      "task_label": "Simple retrieval - Quantitative",
+      "accuracy": 73.4375,
+      "stderr": 5.5645,
+      "latency": 244.65,
+      "cost_per_test": 0.6787
+    },
+    {
+      "task_name": "simple_retrieval_qualitative",
+      "task_label": "Simple retrieval - Qualitative",
+      "accuracy": 52.459,
+      "stderr": 6.4472,
+      "latency": 222.1628,
+      "cost_per_test": 0.438528
+    },
+    {
+      "task_name": "complex_retrieval",
+      "task_label": "Complex Retrieval",
+      "accuracy": 27.7778,
+      "stderr": 10.8632,
+      "latency": 383.2441,
+      "cost_per_test": 1.26127
+    },
+    {
+      "task_name": "numerical_reasoning",
+      "task_label": "Numerical Reasoning",
+      "accuracy": 53.8462,
+      "stderr": 6.9807,
+      "latency": 304.4734,
+      "cost_per_test": 0.868295
+    },
+    {
+      "task_name": "financial_modeling",
+      "task_label": "Financial Modeling  Projections",
+      "accuracy": 56.6667,
+      "stderr": 9.2019,
+      "latency": 245.8902,
+      "cost_per_test": 0.567798
+    },
+    {
+      "task_name": "market_analysis",
+      "task_label": "Market Analysis",
+      "accuracy": 23.8095,
+      "stderr": 9.5238,
+      "latency": 405.833,
+      "cost_per_test": 1.243792
+    },
+    {
+      "task_name": "beat_or_miss",
+      "task_label": "Beat or Miss",
+      "accuracy": 30.2326,
+      "stderr": 7.0866,
+      "latency": 364.3963,
+      "cost_per_test": 0.503056
+    },
+    {
+      "task_name": "trends",
+      "task_label": "Trends",
+      "accuracy": 28.5714,
+      "stderr": 10.1015,
+      "latency": 744.4214,
+      "cost_per_test": 2.273385
+    },
+    {
+      "task_name": "adjustments",
+      "task_label": "Adjustments",
+      "accuracy": 51.8519,
+      "stderr": 9.7991,
+      "latency": 264.2694,
+      "cost_per_test": 0.724925
+    }
+  ]
+}

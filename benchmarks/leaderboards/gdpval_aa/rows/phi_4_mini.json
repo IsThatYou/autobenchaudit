@@ -1,0 +1,43 @@
+{
+  "slug": "phi_4_mini",
+  "model_id": "9f873c2f-2c2d-4ccb-9e1b-71bf61b052be",
+  "model_slug": "phi-4-mini",
+  "name": "Phi-4 Mini Instruct",
+  "gdpval_name": null,
+  "short_name": "Phi-4 Mini",
+  "creator": {
+    "name": "Microsoft Azure",
+    "slug": "azure",
+    "country": null,
+    "logo": "/img/logos/microsoft.webp"
+  },
+  "release_date": "2024-02-26",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 237.17443672762397,
+    "lower_95ci": 207.38502032731566,
+    "upper_95ci": 264.72088654572,
+    "n_matches": 1424,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 237.17443672762397,
+    "avg_turns": 100,
+    "n_matches": 1424,
+    "lower_95ci": 207.38502032731566,
+    "upper_95ci": 264.72088654572,
+    "last_updated": "2026-04-22T02:16:01.073809"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 1232066208,
+    "answer_tokens": 21523946,
+    "output_tokens": 21523946,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 8.39,
+  "agentic_index": 2.73,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

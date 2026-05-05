@@ -1,0 +1,292 @@
+{
+  "benchmark": "BIXBench-V50",
+  "judge_model": "gemini/gemini-3-flash-preview",
+  "summary": {
+    "total_gold_issues": 24,
+    "total_revised_tasks": 17,
+    "total_findings_on_revised": 28,
+    "models": [
+      "static_audit"
+    ]
+  },
+  "recall": {
+    "aligned": {
+      "count": 15,
+      "total": 24,
+      "rate": 0.625
+    },
+    "partial_plus": {
+      "count": 19,
+      "total": 24,
+      "rate": 0.792
+    }
+  },
+  "precision": {
+    "aligned": {
+      "count": 14,
+      "total": 28,
+      "rate": 0.5
+    },
+    "partial_plus": {
+      "count": 20,
+      "total": 28,
+      "rate": 0.714
+    }
+  },
+  "per_model_recall": {
+    "static_audit": {
+      "aligned": 15,
+      "partial_plus": 19,
+      "total": 24,
+      "recall_aligned": 0.625,
+      "recall_partial_plus": 0.792
+    }
+  },
+  "per_model_precision": {
+    "static_audit": {
+      "aligned": 14,
+      "partial_plus": 20,
+      "total": 28,
+      "precision_aligned": 0.5,
+      "precision_partial_plus": 0.714
+    }
+  },
+  "ensemble": {
+    "Any model": {
+      "recall_aligned": 0.625,
+      "recall_partial_plus": 0.792,
+      "count_aligned": 15,
+      "count_partial_plus": 19
+    },
+    ">=2 models": {
+      "recall_aligned": 0.0,
+      "recall_partial_plus": 0.0,
+      "count_aligned": 0,
+      "count_partial_plus": 0
+    },
+    ">=3 models": {
+      "recall_aligned": 0.0,
+      "recall_partial_plus": 0.0,
+      "count_aligned": 0,
+      "count_partial_plus": 0
+    }
+  },
+  "per_issue_detail": [
+    {
+      "issue_id": "bix-11-q1_issue_1",
+      "task_id": "bix-11-q1",
+      "description": "The original question did not specify the required numerical format for the difference, leading to potential ambiguity between decimal and percentage representations.",
+      "best_verdict": "MISSED",
+      "verdicts_by_model": {
+        "static_audit": "MISSED"
+      }
+    },
+    {
+      "issue_id": "bix-14-q1_issue_1",
+      "task_id": "bix-14-q1",
+      "description": "The original question was underspecified regarding the variant types to include, failing to restrict the scope to coding variants.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-20-q3_issue_1",
+      "task_id": "bix-20-q3",
+      "description": "The original question did not specify the source for variant classification, which could lead to inconsistent results.",
+      "best_verdict": "UNRELATED",
+      "verdicts_by_model": {
+        "static_audit": "UNRELATED"
+      }
+    },
+    {
+      "issue_id": "bix-20-q3_issue_2",
+      "task_id": "bix-20-q3",
+      "description": "The definition of 'benign' was ambiguous regarding whether it included 'Likely Benign' variants.",
+      "best_verdict": "UNRELATED",
+      "verdicts_by_model": {
+        "static_audit": "UNRELATED"
+      }
+    },
+    {
+      "issue_id": "bix-22-q4_issue_1",
+      "task_id": "bix-22-q4",
+      "description": "The original question was ambiguous regarding whether to include all protein-coding genes or only those with sufficient expression levels for the correlation calculation.",
+      "best_verdict": "UNRELATED",
+      "verdicts_by_model": {
+        "static_audit": "UNRELATED"
+      }
+    },
+    {
+      "issue_id": "bix-26-q5_issue_1",
+      "task_id": "bix-26-q5",
+      "description": "The original question conflated gene-level differential expression thresholds with pathway-level enrichment significance, leading to ambiguity in the analysis steps.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-27-q5_issue_1",
+      "task_id": "bix-27-q5",
+      "description": "The original question failed to specify the number of components to use for PCA, leading to a discrepancy in the calculated variance explained by the first component.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-28-q3_issue_1",
+      "task_id": "bix-28-q3",
+      "description": "The original question lacked a specific tool or methodology for calculating the long branch score, which could lead to inconsistent results depending on the software used.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-31-q2_issue_1",
+      "task_id": "bix-31-q2",
+      "description": "The original question lacked necessary instructions regarding batch correction and the specific software implementation (pydeseq2) required to reach the ground truth.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-31-q2_issue_2",
+      "task_id": "bix-31-q2",
+      "description": "The original question incorrectly categorized FAM138A as a protein-coding gene when it is actually a lncRNA.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-31-q2_issue_3",
+      "task_id": "bix-31-q2",
+      "description": "The ideal answer range was incorrect because it did not account for the batch covariate and specific shrinkage method.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-32-q2_issue_1",
+      "task_id": "bix-32-q2",
+      "description": "The original question used the vague term 'KEGG enrichment', which could refer to multiple methods like GSEA or ORA, and was clarified to 'over-representation analysis (ORA)'.",
+      "best_verdict": "PARTIAL",
+      "verdicts_by_model": {
+        "static_audit": "PARTIAL"
+      }
+    },
+    {
+      "issue_id": "bix-43-q2_issue_1",
+      "task_id": "bix-43-q2",
+      "description": "The original question lacked specific DESeq2 configuration details regarding the inclusion of all treatment groups for dispersion estimation and the specific pre-filtering criteria (counts > 10 in at least one sample).",
+      "best_verdict": "PARTIAL",
+      "verdicts_by_model": {
+        "static_audit": "PARTIAL"
+      }
+    },
+    {
+      "issue_id": "bix-43-q2_issue_2",
+      "task_id": "bix-43-q2",
+      "description": "The statistical threshold operators were inconsistent between the question text and the ground truth calculation (p vs padj and strict vs non-strict inequalities).",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-43-q4_issue_1",
+      "task_id": "bix-43-q4",
+      "description": "The original question used the ambiguous phrase 'proportion of differentially expressed genes that contribute to', which could be interpreted as (DEGs in pathway / total DEGs), whereas the intended metric was the overlap ratio (DEGs in pathway / total pathway genes).",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-49-q4_issue_1",
+      "task_id": "bix-49-q4",
+      "description": "The original question was missing the requirement to control for sex as a covariate, which is necessary for a reproducible and correct bioinformatics analysis.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-52-q2_issue_1",
+      "task_id": "bix-52-q2",
+      "description": "The original question was ambiguous regarding whether the 'average' referred to a global genome-wide density or a mean of individual chromosomal densities.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-52-q2_issue_2",
+      "task_id": "bix-52-q2",
+      "description": "The original question did not specify the filtering criteria for chromosomes, specifically whether to exclude those with zero filtered CpGs when calculating the mean.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-52-q7_issue_1",
+      "task_id": "bix-52-q7",
+      "description": "The term 'sites' was ambiguous and could be interpreted as unique genomic locations rather than individual data rows.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-54-q7_issue_1",
+      "task_id": "bix-54-q7",
+      "description": "The original question lacked the specific degrees of freedom (df=4) required for the natural spline model, making the model fitting ambiguous.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    },
+    {
+      "issue_id": "bix-54-q7_issue_2",
+      "task_id": "bix-54-q7",
+      "description": "The term 'frequency ratio' was ambiguous and was clarified to mean the 'proportion of strain 287 in the mixtures'.",
+      "best_verdict": "UNRELATED",
+      "verdicts_by_model": {
+        "static_audit": "UNRELATED"
+      }
+    },
+    {
+      "issue_id": "bix-54-q7_issue_3",
+      "task_id": "bix-54-q7",
+      "description": "The question did not specify the required software environment (R) for model fitting, which can lead to slight variations in spline implementation.",
+      "best_verdict": "PARTIAL",
+      "verdicts_by_model": {
+        "static_audit": "PARTIAL"
+      }
+    },
+    {
+      "issue_id": "bix-6-q4_issue_1",
+      "task_id": "bix-6-q4",
+      "description": "The original question was ambiguous regarding which specific metric (expression, fold change, or P-values) should be used to calculate the Spearman correlation between replicates.",
+      "best_verdict": "PARTIAL",
+      "verdicts_by_model": {
+        "static_audit": "PARTIAL"
+      }
+    },
+    {
+      "issue_id": "bix-61-q2_issue_1",
+      "task_id": "bix-61-q2",
+      "description": "The original question was ambiguous regarding whether the average coverage depth should be calculated over the entire reference genome or only over regions with coverage.",
+      "best_verdict": "ALIGNED",
+      "verdicts_by_model": {
+        "static_audit": "ALIGNED"
+      }
+    }
+  ]
+}

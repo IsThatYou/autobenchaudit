@@ -1,0 +1,59 @@
+{
+  "slug": "The_University_of_Hong_Kong_Moonshot_AI_opencua-32b_15steps_r3",
+  "model": "opencua-32b",
+  "institution": "The University of Hong Kong & Moonshot AI",
+  "paper_link": "https://opencua.xlang.ai/",
+  "paper_authors": "Wang et al., '25",
+  "approach_type": "Specialized model",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 30.4,
+  "success_total_raw": "109.34/360",
+  "success_count": 109.34,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 17.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 14.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 7.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 14.04,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 11.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 8.35,
+      "total": 93
+    },
+    "os": {
+      "success": 13.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 6.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 4.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 14.0,
+      "total": 23
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "UiPath_UiPath_Screen_Agent_w_GPT-5_50steps",
+  "model": "UiPath Screen Agent w/ GPT-5",
+  "institution": "UiPath",
+  "paper_link": "#",
+  "paper_authors": "UiPath",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-09-14",
+  "success_rate": 53.63,
+  "success_total_raw": "193.06/360",
+  "success_count": 193.06,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 26.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 16.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 19.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 24.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 13.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 34.69,
+      "total": 93
+    },
+    "os": {
+      "success": 17.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 9.49,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

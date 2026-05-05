@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_next_80b_a3b_reasoning",
+  "model_id": "c8a79180-7d16-4474-8701-9a77c0baa56a",
+  "model_slug": "qwen3-next-80b-a3b-reasoning",
+  "name": "Qwen3 Next 80B A3B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Next 80B A3B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-09-11",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 727.3944349423602,
+    "lower_95ci": 701.4308778310585,
+    "upper_95ci": 755.5280102611011,
+    "n_matches": 2583,
+    "avg_turns": 18.977168949771688
+  },
+  "gdpval_breakdown": {
+    "elo": 727.3944349423602,
+    "avg_turns": 18.977168949771688,
+    "n_matches": 2583,
+    "lower_95ci": 701.4308778310585,
+    "upper_95ci": 755.5280102611011,
+    "last_updated": "2026-04-22T02:15:38.900487"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 59700929,
+    "answer_tokens": 1360939,
+    "output_tokens": 1360939,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 26.72,
+  "agentic_index": 23.56,
+  "price_1m_input_tokens": 0.5,
+  "price_1m_output_tokens": 6
+}

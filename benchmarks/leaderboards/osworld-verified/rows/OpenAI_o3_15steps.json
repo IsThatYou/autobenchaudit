@@ -1,0 +1,59 @@
+{
+  "slug": "OpenAI_o3_15steps",
+  "model": "o3",
+  "institution": "OpenAI",
+  "paper_link": "https://openai.com/index/introducing-o3-and-o4-mini/",
+  "paper_authors": "OpenAI, '25",
+  "approach_type": "General model",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 9.1,
+  "success_total_raw": "32.85/361",
+  "success_count": 32.85,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 3.0,
+      "total": 46
+    },
+    "gimp": {
+      "success": 3.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 0.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 0.0,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 1.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 11.0,
+      "total": 93
+    },
+    "os": {
+      "success": 9.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 1.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 1.85,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 3.0,
+      "total": 23
+    }
+  }
+}

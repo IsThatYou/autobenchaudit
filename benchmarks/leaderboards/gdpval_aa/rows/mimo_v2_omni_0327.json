@@ -1,0 +1,43 @@
+{
+  "slug": "mimo_v2_omni_0327",
+  "model_id": "296ace9b-0815-43b2-bafa-fd6cec5cce36",
+  "model_slug": "mimo-v2-omni-0327",
+  "name": "MiMo-V2-Omni-0327",
+  "gdpval_name": null,
+  "short_name": "MiMo-V2-Omni-0327",
+  "creator": {
+    "name": "Xiaomi",
+    "slug": "xiaomi",
+    "country": null,
+    "logo": "/img/logos/xiaomi.png"
+  },
+  "release_date": "2026-03-27",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1350.2377635989765,
+    "lower_95ci": 1325.4744486126922,
+    "upper_95ci": 1376.4277241472435,
+    "n_matches": 2697,
+    "avg_turns": 13.095454545454546
+  },
+  "gdpval_breakdown": {
+    "elo": 1350.2377635989765,
+    "avg_turns": 13.095454545454546,
+    "n_matches": 2697,
+    "lower_95ci": 1325.4744486126922,
+    "upper_95ci": 1376.4277241472435,
+    "last_updated": "2026-04-22T02:15:13.388587"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 47939648,
+    "answer_tokens": 4182668,
+    "output_tokens": 5052952,
+    "reasoning_tokens": 870284
+  },
+  "intelligence_index": 44.93,
+  "agentic_index": 58.63,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

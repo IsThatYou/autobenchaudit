@@ -1,0 +1,2767 @@
+{
+  "tasks": [
+    {
+      "task_id": "overall",
+      "label": "Overall"
+    },
+    {
+      "task_id": "simple_retrieval_quantitative",
+      "label": "Simple retrieval - Quantitative"
+    },
+    {
+      "task_id": "simple_retrieval_qualitative",
+      "label": "Simple retrieval - Qualitative"
+    },
+    {
+      "task_id": "complex_retrieval",
+      "label": "Complex Retrieval"
+    },
+    {
+      "task_id": "numerical_reasoning",
+      "label": "Numerical Reasoning"
+    },
+    {
+      "task_id": "financial_modeling",
+      "label": "Financial Modeling  Projections"
+    },
+    {
+      "task_id": "market_analysis",
+      "label": "Market Analysis"
+    },
+    {
+      "task_id": "beat_or_miss",
+      "label": "Beat or Miss"
+    },
+    {
+      "task_id": "trends",
+      "label": "Trends"
+    },
+    {
+      "task_id": "adjustments",
+      "label": "Adjustments"
+    }
+  ],
+  "note": "Vals AI does not publish per-question results. The finest grain is aggregate accuracy per model per category (9 categories + overall). Each matrix cell is an aggregate, not per-instance pass/fail.",
+  "matrix": {
+    "overall": {
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 64.3725,
+        "stderr": 2.7931,
+        "cost_per_test": 1.33672,
+        "latency": 271.0545
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 63.3308,
+        "stderr": 2.8413,
+        "cost_per_test": 1.436698,
+        "latency": 348.9946
+      },
+      "meta_muse_spark": {
+        "accuracy": 60.5954,
+        "stderr": 2.8394,
+        "cost_per_test": 0.063451,
+        "latency": 418.139
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 60.046,
+        "stderr": 2.7751,
+        "cost_per_test": 1.108198,
+        "latency": 289.7321
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 59.7167,
+        "stderr": 2.804,
+        "cost_per_test": 0.872622,
+        "latency": 265.7218
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 58.8105,
+        "stderr": 2.8117,
+        "cost_per_test": 1.501497,
+        "latency": 181.87
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 58.5349,
+        "stderr": 2.8697,
+        "cost_per_test": 0.977848,
+        "latency": 585.4139
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 57.6554,
+        "stderr": 2.7968,
+        "cost_per_test": 0.291851,
+        "latency": 501.8077
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 57.152,
+        "stderr": 2.8534,
+        "cost_per_test": 1.412332,
+        "latency": 656.6736
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 55.309,
+        "stderr": 2.8015,
+        "cost_per_test": 0.473742,
+        "latency": 578.0639
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 55.1539,
+        "stderr": 2.7983,
+        "cost_per_test": 0.558567,
+        "latency": 183.6236
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 54.6268,
+        "stderr": 2.8887,
+        "cost_per_test": 0.151866,
+        "latency": 327.7619
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 54.4998,
+        "stderr": 2.8598,
+        "cost_per_test": 1.102422,
+        "latency": 202.0676
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 54.4745,
+        "stderr": 2.8944,
+        "cost_per_test": 0.236035,
+        "latency": 360.4776
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 53.5062,
+        "stderr": 2.8545,
+        "cost_per_test": 1.074806,
+        "latency": 321.0353
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 53.4052,
+        "stderr": 2.8371,
+        "cost_per_test": 0.491653,
+        "latency": 876.2536
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 53.1823,
+        "stderr": 2.7985,
+        "cost_per_test": 0.501332,
+        "latency": 564.0929
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 52.448,
+        "stderr": 2.805,
+        "cost_per_test": 0.058346,
+        "latency": 90.5816
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 52.2945,
+        "stderr": 0,
+        "cost_per_test": 0.362389,
+        "latency": 127.0276
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 52.1508,
+        "stderr": 2.8786,
+        "cost_per_test": 0.586458,
+        "latency": 926.6106
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 51.9277,
+        "stderr": 2.8971,
+        "cost_per_test": 0.142449,
+        "latency": 643.508
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 50.7884,
+        "stderr": 2.8561,
+        "cost_per_test": 0,
+        "latency": 5360.3333
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 50.6225,
+        "stderr": 2.8453,
+        "cost_per_test": 0.178983,
+        "latency": 268.7523
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 48.4019,
+        "stderr": 2.7908,
+        "cost_per_test": 0.160333,
+        "latency": 1292.7546
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 47.8015,
+        "stderr": 2.8276,
+        "cost_per_test": 0.012919,
+        "latency": 283.8018
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 47.5979,
+        "stderr": 2.7837,
+        "cost_per_test": 0.369606,
+        "latency": 876.0892
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 46.9314,
+        "stderr": 2.849,
+        "cost_per_test": 0.377285,
+        "latency": 117.937
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 46.1228,
+        "stderr": 2.81,
+        "cost_per_test": 0.071759,
+        "latency": 102.4425
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 46.0842,
+        "stderr": 2.8407,
+        "cost_per_test": 0.046595,
+        "latency": 58.7986
+      },
+      "zai_glm-4.7": {
+        "accuracy": 45.9775,
+        "stderr": 2.8184,
+        "cost_per_test": 0.244376,
+        "latency": 605.0034
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 45.6395,
+        "stderr": 2.7748,
+        "cost_per_test": 0.054887,
+        "latency": 248.8884
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 44.3616,
+        "stderr": 2.7376,
+        "cost_per_test": 0.089182,
+        "latency": 93.2106
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 44.2947,
+        "stderr": 2.8055,
+        "cost_per_test": 0.801603,
+        "latency": 315.3617
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 41.5888,
+        "stderr": 2.7833,
+        "cost_per_test": 0.34118,
+        "latency": 1839.5581
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 38.5795,
+        "stderr": 2.6461,
+        "cost_per_test": 0.164656,
+        "latency": 1355.194
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 36.6473,
+        "stderr": 2.6091,
+        "cost_per_test": 0.249634,
+        "latency": 666.5314
+      },
+      "zai_glm-4.6": {
+        "accuracy": 36.4802,
+        "stderr": 2.7917,
+        "cost_per_test": 0.187068,
+        "latency": 736.029
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 33.3503,
+        "stderr": 2.58,
+        "cost_per_test": 0.114177,
+        "latency": 1301.2887
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 21.5412,
+        "stderr": 2.2383,
+        "cost_per_test": 0.064574,
+        "latency": 185.0738
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 18.0486,
+        "stderr": 2.1762,
+        "cost_per_test": 0.086052,
+        "latency": 91.1524
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 8.064,
+        "stderr": 1.4963,
+        "cost_per_test": 0.158124,
+        "latency": 31.1412
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 4.2255,
+        "stderr": 0.9658,
+        "cost_per_test": 2.339409,
+        "latency": 573.2155
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 2.3453,
+        "stderr": 0.7715,
+        "cost_per_test": 0.208831,
+        "latency": 1721.463
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0.3704,
+        "stderr": 0.3641,
+        "cost_per_test": 5.040786,
+        "latency": 2330.85
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.03968,
+        "latency": 100.6167
+      }
+    },
+    "simple_retrieval_quantitative": {
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 84.375,
+        "stderr": 4.5745,
+        "cost_per_test": 1.2877,
+        "latency": 129.6689
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 82.8125,
+        "stderr": 4.7532,
+        "cost_per_test": 1.093441,
+        "latency": 153.519
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 82.8125,
+        "stderr": 4.7532,
+        "cost_per_test": 0.153689,
+        "latency": 216.258
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 82.8125,
+        "stderr": 4.7532,
+        "cost_per_test": 1.065722,
+        "latency": 250.8284
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 81.25,
+        "stderr": 4.9175,
+        "cost_per_test": 0.954565,
+        "latency": 179.6637
+      },
+      "meta_muse_spark": {
+        "accuracy": 81.25,
+        "stderr": 4.9175,
+        "cost_per_test": 0.04243,
+        "latency": 252.719
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 81.25,
+        "stderr": 4.9175,
+        "cost_per_test": 0.166958,
+        "latency": 252.837
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 79.6875,
+        "stderr": 5.0688,
+        "cost_per_test": 0.101333,
+        "latency": 207.1007
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 79.6875,
+        "stderr": 5.0688,
+        "cost_per_test": 0.709311,
+        "latency": 215.7859
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 79.6875,
+        "stderr": 5.0688,
+        "cost_per_test": 0.370901,
+        "latency": 397.9585
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 79.6875,
+        "stderr": 5.0688,
+        "cost_per_test": 0.983137,
+        "latency": 478.4009
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 78.125,
+        "stderr": 5.2083,
+        "cost_per_test": 0.081731,
+        "latency": 77.7083
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 78.125,
+        "stderr": 5.2083,
+        "cost_per_test": 0.805399,
+        "latency": 146.4465
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 78.125,
+        "stderr": 5.2083,
+        "cost_per_test": 0.195437,
+        "latency": 236.3807
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 78.125,
+        "stderr": 5.2083,
+        "cost_per_test": 0.791379,
+        "latency": 456.9731
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0.04102,
+        "latency": 67.2875
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0.544308,
+        "latency": 136.2968
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0.044851,
+        "latency": 228.9466
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0.957088,
+        "latency": 330.7741
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0.38756,
+        "latency": 734.5685
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 76.5625,
+        "stderr": 5.337,
+        "cost_per_test": 0,
+        "latency": 4830.2388
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 75,
+        "stderr": 5.4554,
+        "cost_per_test": 0.33239,
+        "latency": 83.3723
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 75,
+        "stderr": 5.4554,
+        "cost_per_test": 0.340643,
+        "latency": 195.1866
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 75,
+        "stderr": 5.4554,
+        "cost_per_test": 0.049297,
+        "latency": 294.455
+      },
+      "zai_glm-4.7": {
+        "accuracy": 75,
+        "stderr": 5.4554,
+        "cost_per_test": 0.208039,
+        "latency": 443.5375
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 75,
+        "stderr": 5.4554,
+        "cost_per_test": 0.122708,
+        "latency": 982.0164
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 73.4375,
+        "stderr": 5.5645,
+        "cost_per_test": 0.6787,
+        "latency": 244.65
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 73.4375,
+        "stderr": 5.5645,
+        "cost_per_test": 0.380354,
+        "latency": 302.0255
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 73.4375,
+        "stderr": 5.5645,
+        "cost_per_test": 0.109191,
+        "latency": 488.0875
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 71.875,
+        "stderr": 5.6645,
+        "cost_per_test": 0.042327,
+        "latency": 49.2768
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 70.3125,
+        "stderr": 5.7562,
+        "cost_per_test": 0.437138,
+        "latency": 1060.4793
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 68.75,
+        "stderr": 5.8397,
+        "cost_per_test": 0.061291,
+        "latency": 44.4639
+      },
+      "zai_glm-4.6": {
+        "accuracy": 68.75,
+        "stderr": 5.8397,
+        "cost_per_test": 0.120604,
+        "latency": 519.0681
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 68.75,
+        "stderr": 5.8397,
+        "cost_per_test": 0.237098,
+        "latency": 639.8993
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 67.1875,
+        "stderr": 5.9155,
+        "cost_per_test": 0.289161,
+        "latency": 71.0024
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 65.625,
+        "stderr": 5.9839,
+        "cost_per_test": 0.271475,
+        "latency": 69.1505
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 64.0625,
+        "stderr": 6.0451,
+        "cost_per_test": 0.146045,
+        "latency": 1561.7798
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 57.8125,
+        "stderr": 6.222,
+        "cost_per_test": 0.084633,
+        "latency": 940.0838
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 48.4375,
+        "stderr": 6.2963,
+        "cost_per_test": 0.04326,
+        "latency": 128.2558
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 26.5625,
+        "stderr": 5.5645,
+        "cost_per_test": 0.084149,
+        "latency": 69.9145
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 17.1875,
+        "stderr": 4.7532,
+        "cost_per_test": 0.172287,
+        "latency": 24.5351
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 9.375,
+        "stderr": 3.6723,
+        "cost_per_test": 1.216857,
+        "latency": 278.9521
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 7.8125,
+        "stderr": 3.3811,
+        "cost_per_test": 0.271341,
+        "latency": 1627.847
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.026806,
+        "latency": 81.6185
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 4.636133,
+        "latency": 2129.5221
+      }
+    },
+    "simple_retrieval_qualitative": {
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 77.0492,
+        "stderr": 5.4288,
+        "cost_per_test": 0.973579,
+        "latency": 254.9056
+      },
+      "meta_muse_spark": {
+        "accuracy": 73.7705,
+        "stderr": 5.6789,
+        "cost_per_test": 0.047441,
+        "latency": 424.4888
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 72.1311,
+        "stderr": 5.7882,
+        "cost_per_test": 0.950788,
+        "latency": 139.162
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 72.1311,
+        "stderr": 5.7882,
+        "cost_per_test": 1.042422,
+        "latency": 264.4849
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 70.4918,
+        "stderr": 5.888,
+        "cost_per_test": 0.502268,
+        "latency": 176.4047
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 70.4918,
+        "stderr": 5.888,
+        "cost_per_test": 0.657803,
+        "latency": 402.8174
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 68.8525,
+        "stderr": 5.9786,
+        "cost_per_test": 0.738057,
+        "latency": 175.2988
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 67.2131,
+        "stderr": 6.0604,
+        "cost_per_test": 0.679758,
+        "latency": 157.453
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 67.2131,
+        "stderr": 6.0604,
+        "cost_per_test": 0.3342,
+        "latency": 487.6284
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 67.2131,
+        "stderr": 6.0604,
+        "cost_per_test": 0.649727,
+        "latency": 1419.6261
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 65.5738,
+        "stderr": 6.1339,
+        "cost_per_test": 0.183406,
+        "latency": 447.3702
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 62.2951,
+        "stderr": 6.2568,
+        "cost_per_test": 0.171434,
+        "latency": 285.8826
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 62.2951,
+        "stderr": 6.2568,
+        "cost_per_test": 0.392072,
+        "latency": 476.8171
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 62.2951,
+        "stderr": 6.2568,
+        "cost_per_test": 1.103721,
+        "latency": 614.6947
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 60.6557,
+        "stderr": 6.3067,
+        "cost_per_test": 0.114641,
+        "latency": 386.2027
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 60.6557,
+        "stderr": 6.3067,
+        "cost_per_test": 0.112713,
+        "latency": 566.7106
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 59.0164,
+        "stderr": 6.3492,
+        "cost_per_test": 0.364638,
+        "latency": 75.0783
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 59.0164,
+        "stderr": 6.3492,
+        "cost_per_test": 0.217292,
+        "latency": 509.0149
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 57.377,
+        "stderr": 6.3843,
+        "cost_per_test": 0.234283,
+        "latency": 100.6791
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 57.377,
+        "stderr": 6.3843,
+        "cost_per_test": 0.107036,
+        "latency": 1458.6704
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 55.7377,
+        "stderr": 6.4123,
+        "cost_per_test": 0.043066,
+        "latency": 71.7727
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 55.7377,
+        "stderr": 6.4123,
+        "cost_per_test": 0.585651,
+        "latency": 158.5586
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 55.7377,
+        "stderr": 6.4123,
+        "cost_per_test": 0.100733,
+        "latency": 160.7112
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 55.7377,
+        "stderr": 6.4123,
+        "cost_per_test": 0.35451,
+        "latency": 636.6993
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 55.7377,
+        "stderr": 6.4123,
+        "cost_per_test": 0,
+        "latency": 4538.1197
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 54.0984,
+        "stderr": 6.4333,
+        "cost_per_test": 0.028495,
+        "latency": 40.8528
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 54.0984,
+        "stderr": 6.4333,
+        "cost_per_test": 0.241203,
+        "latency": 81.8166
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 54.0984,
+        "stderr": 6.4333,
+        "cost_per_test": 0.049297,
+        "latency": 265.4612
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 52.459,
+        "stderr": 6.4472,
+        "cost_per_test": 0.063411,
+        "latency": 72.4619
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 52.459,
+        "stderr": 6.4472,
+        "cost_per_test": 0.03707,
+        "latency": 161.7643
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 52.459,
+        "stderr": 6.4472,
+        "cost_per_test": 0.438528,
+        "latency": 222.1628
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 50.8197,
+        "stderr": 6.4541,
+        "cost_per_test": 0.091211,
+        "latency": 662.339
+      },
+      "zai_glm-4.7": {
+        "accuracy": 45.9016,
+        "stderr": 6.4333,
+        "cost_per_test": 0.17263,
+        "latency": 486.0864
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 42.623,
+        "stderr": 6.3843,
+        "cost_per_test": 0.043699,
+        "latency": 130.9816
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 40.9836,
+        "stderr": 6.3492,
+        "cost_per_test": 0.206071,
+        "latency": 1353.9709
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 39.3443,
+        "stderr": 6.3067,
+        "cost_per_test": 0.071424,
+        "latency": 577.1609
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 37.7049,
+        "stderr": 6.2568,
+        "cost_per_test": 0.219743,
+        "latency": 589.7574
+      },
+      "zai_glm-4.6": {
+        "accuracy": 34.4262,
+        "stderr": 6.1339,
+        "cost_per_test": 0.120052,
+        "latency": 506.0195
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 26.2295,
+        "stderr": 5.6789,
+        "cost_per_test": 0.041772,
+        "latency": 148.4045
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 24.5902,
+        "stderr": 5.5593,
+        "cost_per_test": 0.049884,
+        "latency": 67.2744
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 14.7541,
+        "stderr": 4.5784,
+        "cost_per_test": 0.098134,
+        "latency": 21.9351
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 11.4754,
+        "stderr": 4.1147,
+        "cost_per_test": 1.929011,
+        "latency": 506.4786
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 1.6393,
+        "stderr": 1.6393,
+        "cost_per_test": 0.167332,
+        "latency": 1079.7095
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.029892,
+        "latency": 85.6442
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 4.247687,
+        "latency": 1906.0314
+      }
+    },
+    "complex_retrieval": {
+      "meta_muse_spark": {
+        "accuracy": 61.1111,
+        "stderr": 11.8236,
+        "cost_per_test": 0.076937,
+        "latency": 794.3325
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 61.1111,
+        "stderr": 11.8236,
+        "cost_per_test": 1.528404,
+        "latency": 798.2771
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 55.5556,
+        "stderr": 12.0517,
+        "cost_per_test": 1.886095,
+        "latency": 186.3263
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 55.5556,
+        "stderr": 12.0517,
+        "cost_per_test": 1.56232,
+        "latency": 342.8437
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 55.5556,
+        "stderr": 12.0517,
+        "cost_per_test": 0.186076,
+        "latency": 707.8842
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 0.516798,
+        "latency": 74.3622
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 1.23424,
+        "latency": 299.2098
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 1.198148,
+        "latency": 320.345
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 0.223263,
+        "latency": 356.3396
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 0.290746,
+        "latency": 417.3962
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 50,
+        "stderr": 12.1268,
+        "cost_per_test": 0.399531,
+        "latency": 774.9932
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 44.4444,
+        "stderr": 12.0517,
+        "cost_per_test": 0.067252,
+        "latency": 72.3866
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 44.4444,
+        "stderr": 12.0517,
+        "cost_per_test": 0.862279,
+        "latency": 131.9227
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 44.4444,
+        "stderr": 12.0517,
+        "cost_per_test": 0.770135,
+        "latency": 369.4539
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 44.4444,
+        "stderr": 12.0517,
+        "cost_per_test": 1.636396,
+        "latency": 747.497
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 44.4444,
+        "stderr": 12.0517,
+        "cost_per_test": 0.276719,
+        "latency": 1737.2168
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.108504,
+        "latency": 47.1082
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.419958,
+        "latency": 115.4058
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 1.508435,
+        "latency": 241.0131
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.049297,
+        "latency": 264.521
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.212545,
+        "latency": 276.6845
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.828715,
+        "latency": 1096.3121
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.790685,
+        "latency": 1097.0723
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 1.13938,
+        "latency": 1137.8984
+      },
+      "zai_glm-4.6": {
+        "accuracy": 38.8889,
+        "stderr": 11.8236,
+        "cost_per_test": 0.393365,
+        "latency": 2040.8496
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 0.104927,
+        "latency": 84.9091
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 1.969786,
+        "latency": 208.2781
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 0.068515,
+        "latency": 308.5744
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 1.871865,
+        "latency": 399.865
+      },
+      "zai_glm-4.7": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 0.425376,
+        "latency": 1091.0947
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 33.3333,
+        "stderr": 11.4332,
+        "cost_per_test": 0.267115,
+        "latency": 1282.5361
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 27.7778,
+        "stderr": 10.8632,
+        "cost_per_test": 0.095085,
+        "latency": 103.1075
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 27.7778,
+        "stderr": 10.8632,
+        "cost_per_test": 1.26127,
+        "latency": 383.2441
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 27.7778,
+        "stderr": 10.8632,
+        "cost_per_test": 0,
+        "latency": 6789.1003
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 22.2222,
+        "stderr": 10.0832,
+        "cost_per_test": 0.444738,
+        "latency": 90.4968
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 22.2222,
+        "stderr": 10.0832,
+        "cost_per_test": 0.086433,
+        "latency": 252.8389
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 22.2222,
+        "stderr": 10.0832,
+        "cost_per_test": 0.537775,
+        "latency": 805.8494
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 22.2222,
+        "stderr": 10.0832,
+        "cost_per_test": 0.140671,
+        "latency": 1601.7645
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 16.6667,
+        "stderr": 9.0388,
+        "cost_per_test": 0.354127,
+        "latency": 741.9551
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 11.1111,
+        "stderr": 7.6222,
+        "cost_per_test": 0.172964,
+        "latency": 30.5317
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 11.1111,
+        "stderr": 7.6222,
+        "cost_per_test": 0.063092,
+        "latency": 78.7167
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.088637,
+        "latency": 183.8659
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 3.26366,
+        "latency": 621.5267
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.192951,
+        "latency": 1131.1
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.59086,
+        "latency": 2547.2364
+      }
+    },
+    "numerical_reasoning": {
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 75,
+        "stderr": 6.0634,
+        "cost_per_test": 1.2368,
+        "latency": 137.1665
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 75,
+        "stderr": 6.0634,
+        "cost_per_test": 0.953255,
+        "latency": 279.5297
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 73.0769,
+        "stderr": 6.2111,
+        "cost_per_test": 1.444306,
+        "latency": 362.4379
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 73.0769,
+        "stderr": 6.2111,
+        "cost_per_test": 1.083191,
+        "latency": 505.3465
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 71.1538,
+        "stderr": 6.3439,
+        "cost_per_test": 1.087519,
+        "latency": 261.5503
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 71.1538,
+        "stderr": 6.3439,
+        "cost_per_test": 1.092803,
+        "latency": 275.4183
+      },
+      "meta_muse_spark": {
+        "accuracy": 71.1538,
+        "stderr": 6.3439,
+        "cost_per_test": 0.059055,
+        "latency": 333.3241
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 71.1538,
+        "stderr": 6.3439,
+        "cost_per_test": 0.789753,
+        "latency": 585.3692
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 69.2308,
+        "stderr": 6.4628,
+        "cost_per_test": 0.481592,
+        "latency": 382.7191
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 67.3077,
+        "stderr": 6.5686,
+        "cost_per_test": 0.370981,
+        "latency": 79.7627
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 67.3077,
+        "stderr": 6.5686,
+        "cost_per_test": 0.620674,
+        "latency": 236.5099
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 67.3077,
+        "stderr": 6.5686,
+        "cost_per_test": 0.282513,
+        "latency": 401.3023
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 67.3077,
+        "stderr": 6.5686,
+        "cost_per_test": 0.369333,
+        "latency": 856.0838
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.0652,
+        "latency": 88.7788
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 1.467632,
+        "latency": 171.1926
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.049297,
+        "latency": 256.7599
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.225417,
+        "latency": 400.2447
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.415083,
+        "latency": 438.0009
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.383004,
+        "latency": 600.3021
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 65.3846,
+        "stderr": 6.6617,
+        "cost_per_test": 0.417218,
+        "latency": 606.8485
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.078406,
+        "latency": 108.4852
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.934477,
+        "latency": 186.1886
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.112421,
+        "latency": 286.07
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.066926,
+        "latency": 302.0974
+      },
+      "zai_glm-4.7": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.22697,
+        "latency": 555.1497
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0.12539,
+        "latency": 616.3519
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 63.4615,
+        "stderr": 6.7429,
+        "cost_per_test": 0,
+        "latency": 5438.4075
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 61.5385,
+        "stderr": 6.8124,
+        "cost_per_test": 0.189084,
+        "latency": 245.6252
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 61.5385,
+        "stderr": 6.8124,
+        "cost_per_test": 0.15207,
+        "latency": 1484.45
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 59.6154,
+        "stderr": 6.8707,
+        "cost_per_test": 0.048871,
+        "latency": 55.388
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 59.6154,
+        "stderr": 6.8707,
+        "cost_per_test": 0.344628,
+        "latency": 4626.506
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 57.6923,
+        "stderr": 6.918,
+        "cost_per_test": 0.09138,
+        "latency": 91.1381
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 57.6923,
+        "stderr": 6.918,
+        "cost_per_test": 0.370984,
+        "latency": 125.3478
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 55.7692,
+        "stderr": 6.9546,
+        "cost_per_test": 0.205628,
+        "latency": 522.5504
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 53.8462,
+        "stderr": 6.9807,
+        "cost_per_test": 0.868295,
+        "latency": 304.4734
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 48.0769,
+        "stderr": 6.9962,
+        "cost_per_test": 0.128606,
+        "latency": 512.4846
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 40.3846,
+        "stderr": 6.8707,
+        "cost_per_test": 0.140418,
+        "latency": 1615.5283
+      },
+      "zai_glm-4.6": {
+        "accuracy": 36.5385,
+        "stderr": 6.7429,
+        "cost_per_test": 0.196863,
+        "latency": 780.014
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 28.8462,
+        "stderr": 6.3439,
+        "cost_per_test": 0.058849,
+        "latency": 164.4619
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 19.2308,
+        "stderr": 5.5187,
+        "cost_per_test": 0.106025,
+        "latency": 82.4129
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 5.7692,
+        "stderr": 3.2649,
+        "cost_per_test": 0.156592,
+        "latency": 32.1147
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 3.8462,
+        "stderr": 2.6928,
+        "cost_per_test": 2.610665,
+        "latency": 619.7399
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 1.9231,
+        "stderr": 1.9231,
+        "cost_per_test": 0.177082,
+        "latency": 2097.0664
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.030347,
+        "latency": 82.4576
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.212055,
+        "latency": 2423.5305
+      }
+    },
+    "financial_modeling": {
+      "google_gemini-3-pro-preview": {
+        "accuracy": 80,
+        "stderr": 7.4278,
+        "cost_per_test": 0.460674,
+        "latency": 124.4163
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 76.6667,
+        "stderr": 7.854,
+        "cost_per_test": 0.043822,
+        "latency": 90.361
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 76.6667,
+        "stderr": 7.854,
+        "cost_per_test": 1.290291,
+        "latency": 174.4222
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 76.6667,
+        "stderr": 7.854,
+        "cost_per_test": 1.160954,
+        "latency": 410.3783
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 73.3333,
+        "stderr": 8.2118,
+        "cost_per_test": 1.150993,
+        "latency": 334.7914
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 73.3333,
+        "stderr": 8.2118,
+        "cost_per_test": 1.436833,
+        "latency": 389.2227
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 73.3333,
+        "stderr": 8.2118,
+        "cost_per_test": 1.096073,
+        "latency": 435.5309
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 73.3333,
+        "stderr": 8.2118,
+        "cost_per_test": 1.20004,
+        "latency": 552.9824
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 73.3333,
+        "stderr": 8.2118,
+        "cost_per_test": 0.499296,
+        "latency": 1202.4904
+      },
+      "meta_muse_spark": {
+        "accuracy": 72.4138,
+        "stderr": 8.4465,
+        "cost_per_test": 0.057961,
+        "latency": 378.881
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 70,
+        "stderr": 8.5096,
+        "cost_per_test": 0.961966,
+        "latency": 183.532
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 70,
+        "stderr": 8.5096,
+        "cost_per_test": 0.317882,
+        "latency": 250.0588
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 70,
+        "stderr": 8.5096,
+        "cost_per_test": 0.399324,
+        "latency": 253.1071
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 70,
+        "stderr": 8.5096,
+        "cost_per_test": 0.75367,
+        "latency": 482.7406
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 70,
+        "stderr": 8.5096,
+        "cost_per_test": 0.250298,
+        "latency": 514.4605
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 66.6667,
+        "stderr": 8.7538,
+        "cost_per_test": 0.247035,
+        "latency": 99.0268
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 66.6667,
+        "stderr": 8.7538,
+        "cost_per_test": 0.03387,
+        "latency": 250.7505
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 66.6667,
+        "stderr": 8.7538,
+        "cost_per_test": 0.107404,
+        "latency": 313.0447
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 66.6667,
+        "stderr": 8.7538,
+        "cost_per_test": 0.365974,
+        "latency": 457.7234
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0.140131,
+        "latency": 248.9568
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0.1964,
+        "latency": 342.0149
+      },
+      "zai_glm-4.7": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0.185798,
+        "latency": 450.5084
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0.451966,
+        "latency": 750.3263
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0.105375,
+        "latency": 922.3063
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 63.3333,
+        "stderr": 8.9486,
+        "cost_per_test": 0,
+        "latency": 4797.7414
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 60,
+        "stderr": 9.0972,
+        "cost_per_test": 0.090536,
+        "latency": 89.7394
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 60,
+        "stderr": 9.0972,
+        "cost_per_test": 0.119282,
+        "latency": 566.0284
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 60,
+        "stderr": 9.0972,
+        "cost_per_test": 0.342165,
+        "latency": 1260.4231
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 56.6667,
+        "stderr": 9.2019,
+        "cost_per_test": 0.065274,
+        "latency": 75.2436
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 56.6667,
+        "stderr": 9.2019,
+        "cost_per_test": 0.283662,
+        "latency": 80.9758
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 56.6667,
+        "stderr": 9.2019,
+        "cost_per_test": 0.567798,
+        "latency": 245.8902
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 56.6667,
+        "stderr": 9.2019,
+        "cost_per_test": 0.049297,
+        "latency": 285.8229
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 56.6667,
+        "stderr": 9.2019,
+        "cost_per_test": 1.2388,
+        "latency": 616.4117
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 53.3333,
+        "stderr": 9.2641,
+        "cost_per_test": 0.071182,
+        "latency": 1769.3755
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 50,
+        "stderr": 9.2848,
+        "cost_per_test": 0.190709,
+        "latency": 651.3248
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 50,
+        "stderr": 9.2848,
+        "cost_per_test": 0.132792,
+        "latency": 1890.9077
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 46.6667,
+        "stderr": 9.2641,
+        "cost_per_test": 0.042317,
+        "latency": 59.2464
+      },
+      "zai_glm-4.6": {
+        "accuracy": 46.6667,
+        "stderr": 9.2641,
+        "cost_per_test": 0.090662,
+        "latency": 341.8114
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 26.6667,
+        "stderr": 8.2118,
+        "cost_per_test": 0.045147,
+        "latency": 59.6005
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 20,
+        "stderr": 7.4278,
+        "cost_per_test": 0.031929,
+        "latency": 118.776
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 16.6667,
+        "stderr": 6.9205,
+        "cost_per_test": 0.102426,
+        "latency": 29.6829
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 13.3333,
+        "stderr": 6.3124,
+        "cost_per_test": 1.389055,
+        "latency": 310.9639
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 3.3333,
+        "stderr": 3.3333,
+        "cost_per_test": 4.678224,
+        "latency": 2125.152
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.03119,
+        "latency": 94.5249
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.242527,
+        "latency": 1953.0443
+      }
+    },
+    "market_analysis": {
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 33.3333,
+        "stderr": 10.5409,
+        "cost_per_test": 2.83606,
+        "latency": 660.2167
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 0.718221,
+        "latency": 162.9168
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 2.878149,
+        "latency": 292.1322
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 3.144157,
+        "latency": 315.7459
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 0.430327,
+        "latency": 527.0166
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 1.929355,
+        "latency": 1084.4405
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 0,
+        "latency": 6662.0983
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 0.100889,
+        "latency": 134.7618
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 2.348871,
+        "latency": 347.7852
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 1.410206,
+        "latency": 351.3779
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 1.243792,
+        "latency": 405.833
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 0.296305,
+        "latency": 484.9987
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 1.004585,
+        "latency": 668.3129
+      },
+      "zai_glm-4.6": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 0.259727,
+        "latency": 968.7145
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 0.289282,
+        "latency": 1147.7735
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 23.8095,
+        "stderr": 9.5238,
+        "cost_per_test": 3.410783,
+        "latency": 1287.6524
+      },
+      "meta_muse_spark": {
+        "accuracy": 20,
+        "stderr": 9.1766,
+        "cost_per_test": 0.105514,
+        "latency": 489.2426
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.079972,
+        "latency": 85.0422
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.682368,
+        "latency": 184.3758
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.56879,
+        "latency": 195.3966
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 1.335837,
+        "latency": 279.6063
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.073541,
+        "latency": 329.2245
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.31913,
+        "latency": 426.0063
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.83318,
+        "latency": 462.6068
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 2.049798,
+        "latency": 486.5178
+      },
+      "zai_glm-4.7": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.358054,
+        "latency": 851.132
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.906104,
+        "latency": 1324.5022
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.620063,
+        "latency": 1692.593
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.45325,
+        "latency": 2267.801
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 14.2857,
+        "stderr": 7.8246,
+        "cost_per_test": 0.049297,
+        "latency": 323.539
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 14.2857,
+        "stderr": 7.8246,
+        "cost_per_test": 0.943409,
+        "latency": 512.5534
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 14.2857,
+        "stderr": 7.8246,
+        "cost_per_test": 0.768093,
+        "latency": 878.3158
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.086276,
+        "latency": 42.3683
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.150176,
+        "latency": 115.2521
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.167282,
+        "latency": 242.1923
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.325672,
+        "latency": 840.8872
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.251806,
+        "latency": 919.9963
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.201614,
+        "latency": 2076.4565
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 4.7619,
+        "stderr": 4.7619,
+        "cost_per_test": 0.218676,
+        "latency": 39.1445
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.035936,
+        "latency": 100.1759
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.113881,
+        "latency": 322.3017
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 3.657835,
+        "latency": 828.1768
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.191698,
+        "latency": 1806.9777
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.254214,
+        "latency": 2384.5284
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.292046,
+        "latency": 2385.8534
+      }
+    },
+    "beat_or_miss": {
+      "meta_muse_spark": {
+        "accuracy": 58.1395,
+        "stderr": 7.6123,
+        "cost_per_test": 0.085132,
+        "latency": 481.8124
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 55.814,
+        "stderr": 7.6628,
+        "cost_per_test": 0.599903,
+        "latency": 374.1069
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 53.4884,
+        "stderr": 7.6964,
+        "cost_per_test": 0.806863,
+        "latency": 227.5921
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 53.4884,
+        "stderr": 7.6964,
+        "cost_per_test": 0.476863,
+        "latency": 313.298
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 53.4884,
+        "stderr": 7.6964,
+        "cost_per_test": 0.932321,
+        "latency": 694.3427
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 51.1628,
+        "stderr": 7.7131,
+        "cost_per_test": 1.08652,
+        "latency": 408.8188
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 51.1628,
+        "stderr": 7.7131,
+        "cost_per_test": 0.441112,
+        "latency": 1030.7213
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 46.5116,
+        "stderr": 7.6964,
+        "cost_per_test": 0.830493,
+        "latency": 315.296
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 46.5116,
+        "stderr": 7.6964,
+        "cost_per_test": 0.264102,
+        "latency": 432.1666
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.053675,
+        "latency": 52.7203
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.541133,
+        "latency": 237.4921
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.759328,
+        "latency": 302.8391
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.330609,
+        "latency": 313.9583
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.373814,
+        "latency": 318.029
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.289319,
+        "latency": 372.4454
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.710299,
+        "latency": 550.3669
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 44.186,
+        "stderr": 7.6628,
+        "cost_per_test": 0.14744,
+        "latency": 694.419
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 41.8605,
+        "stderr": 7.6123,
+        "cost_per_test": 0.031817,
+        "latency": 109.9753
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 41.8605,
+        "stderr": 7.6123,
+        "cost_per_test": 0.22337,
+        "latency": 392.2304
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 41.8605,
+        "stderr": 7.6123,
+        "cost_per_test": 0.427528,
+        "latency": 794.7063
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 41.8605,
+        "stderr": 7.6123,
+        "cost_per_test": 0.213493,
+        "latency": 1154.0222
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 39.5349,
+        "stderr": 7.5443,
+        "cost_per_test": 0.143743,
+        "latency": 279.7612
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 39.5349,
+        "stderr": 7.5443,
+        "cost_per_test": 0,
+        "latency": 5122.7947
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 37.2093,
+        "stderr": 7.4585,
+        "cost_per_test": 0.219043,
+        "latency": 193.2107
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 37.2093,
+        "stderr": 7.4585,
+        "cost_per_test": 0.318247,
+        "latency": 1550.7137
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 34.8837,
+        "stderr": 7.3541,
+        "cost_per_test": 0.037087,
+        "latency": 62.3058
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 34.8837,
+        "stderr": 7.3541,
+        "cost_per_test": 0.049297,
+        "latency": 289.0903
+      },
+      "zai_glm-4.7": {
+        "accuracy": 34.8837,
+        "stderr": 7.3541,
+        "cost_per_test": 0.194707,
+        "latency": 615.6616
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 32.5581,
+        "stderr": 7.2305,
+        "cost_per_test": 0.481883,
+        "latency": 140.8806
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 32.5581,
+        "stderr": 7.2305,
+        "cost_per_test": 0.073309,
+        "latency": 255.6479
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 32.5581,
+        "stderr": 7.2305,
+        "cost_per_test": 0.318701,
+        "latency": 448.1876
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 32.5581,
+        "stderr": 7.2305,
+        "cost_per_test": 0.135531,
+        "latency": 1367.9685
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 30.2326,
+        "stderr": 7.0866,
+        "cost_per_test": 0.503056,
+        "latency": 364.3963
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 27.907,
+        "stderr": 6.9212,
+        "cost_per_test": 0.185154,
+        "latency": 1978.0349
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 25.5814,
+        "stderr": 6.7325,
+        "cost_per_test": 0.043571,
+        "latency": 125.4184
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 18.6047,
+        "stderr": 6.0046,
+        "cost_per_test": 0.243167,
+        "latency": 112.4752
+      },
+      "zai_glm-4.6": {
+        "accuracy": 16.2791,
+        "stderr": 5.6965,
+        "cost_per_test": 0.0895,
+        "latency": 309.9162
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 16.2791,
+        "stderr": 5.6965,
+        "cost_per_test": 0.26498,
+        "latency": 811.9253
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 11.6279,
+        "stderr": 4.9463,
+        "cost_per_test": 0.09845,
+        "latency": 219.9867
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 9.3023,
+        "stderr": 4.482,
+        "cost_per_test": 0.056897,
+        "latency": 76.8315
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 2.3256,
+        "stderr": 2.3256,
+        "cost_per_test": 0.144942,
+        "latency": 33.093
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 2.3256,
+        "stderr": 2.3256,
+        "cost_per_test": 0.164577,
+        "latency": 1723.6094
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.053694,
+        "latency": 121.6754
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 2.662162,
+        "latency": 645.8673
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.704158,
+        "latency": 2568.0845
+      }
+    },
+    "trends": {
+      "zai_glm-5.1-thinking": {
+        "accuracy": 71.4286,
+        "stderr": 10.1015,
+        "cost_per_test": 0.626575,
+        "latency": 551.1233
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 61.9048,
+        "stderr": 10.8588,
+        "cost_per_test": 2.24563,
+        "latency": 375.2673
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 61.9048,
+        "stderr": 10.8588,
+        "cost_per_test": 2.572976,
+        "latency": 469.6021
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 61.9048,
+        "stderr": 10.8588,
+        "cost_per_test": 0.888307,
+        "latency": 828.3792
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 57.1429,
+        "stderr": 11.0657,
+        "cost_per_test": 1.355841,
+        "latency": 375.8854
+      },
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 57.1429,
+        "stderr": 11.0657,
+        "cost_per_test": 3.225803,
+        "latency": 407.4911
+      },
+      "meta_muse_spark": {
+        "accuracy": 57.1429,
+        "stderr": 11.0657,
+        "cost_per_test": 0.094787,
+        "latency": 452.771
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 57.1429,
+        "stderr": 11.0657,
+        "cost_per_test": 2.147365,
+        "latency": 455.6845
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 0.134948,
+        "latency": 123.9893
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 3.499236,
+        "latency": 285.4751
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 3.760124,
+        "latency": 860.7808
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 0.804416,
+        "latency": 1103.0634
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 1.104933,
+        "latency": 2861.2477
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 52.381,
+        "stderr": 11.1677,
+        "cost_per_test": 0.834324,
+        "latency": 13244.6661
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 47.619,
+        "stderr": 11.1677,
+        "cost_per_test": 3.018569,
+        "latency": 287.2851
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 47.619,
+        "stderr": 11.1677,
+        "cost_per_test": 0.121103,
+        "latency": 366.2603
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 47.619,
+        "stderr": 11.1677,
+        "cost_per_test": 0.360102,
+        "latency": 457.4887
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 47.619,
+        "stderr": 11.1677,
+        "cost_per_test": 0.499387,
+        "latency": 1039.0081
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 47.619,
+        "stderr": 11.1677,
+        "cost_per_test": 2.47147,
+        "latency": 1063.0455
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 1.068203,
+        "latency": 161.9535
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 0.685992,
+        "latency": 229.413
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 0.049297,
+        "latency": 358.2744
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 0.175189,
+        "latency": 496.9763
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 1.048848,
+        "latency": 521.6639
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 0.410589,
+        "latency": 614.9881
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 42.8571,
+        "stderr": 11.0657,
+        "cost_per_test": 0,
+        "latency": 7514.1666
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.209225,
+        "latency": 101.4575
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.835799,
+        "latency": 255.1544
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.316354,
+        "latency": 563.3026
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.228751,
+        "latency": 915.8308
+      },
+      "zai_glm-4.7": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.465608,
+        "latency": 1011.6283
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 38.0952,
+        "stderr": 10.8588,
+        "cost_per_test": 0.212656,
+        "latency": 2035.9519
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 33.3333,
+        "stderr": 10.5409,
+        "cost_per_test": 0.073875,
+        "latency": 287.679
+      },
+      "zai_glm-4.6": {
+        "accuracy": 33.3333,
+        "stderr": 10.5409,
+        "cost_per_test": 0.662894,
+        "latency": 2294.7765
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 0.078802,
+        "latency": 94.8805
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 2.273385,
+        "latency": 744.4214
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 28.5714,
+        "stderr": 10.1015,
+        "cost_per_test": 0.276367,
+        "latency": 1558.0123
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 19.0476,
+        "stderr": 8.7805,
+        "cost_per_test": 0.153919,
+        "latency": 887.5583
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 14.2857,
+        "stderr": 7.8246,
+        "cost_per_test": 0.123503,
+        "latency": 332.1368
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 9.5238,
+        "stderr": 6.5638,
+        "cost_per_test": 0.220094,
+        "latency": 186.3023
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.334875,
+        "latency": 51.3739
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.090419,
+        "latency": 148.8638
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.107123,
+        "latency": 923.1658
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.766424,
+        "latency": 1737.2321
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 6.223644,
+        "latency": 3386.6125
+      }
+    },
+    "adjustments": {
+      "anthropic_claude-opus-4-7": {
+        "accuracy": 74.0741,
+        "stderr": 8.5944,
+        "cost_per_test": 1.191471,
+        "latency": 182.077
+      },
+      "anthropic_claude-opus-4-6-thinking": {
+        "accuracy": 66.6667,
+        "stderr": 9.245,
+        "cost_per_test": 1.186809,
+        "latency": 489.0078
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "accuracy": 66.6667,
+        "stderr": 9.245,
+        "cost_per_test": 1.628087,
+        "latency": 505.6428
+      },
+      "google_gemini-3-pro-preview": {
+        "accuracy": 62.963,
+        "stderr": 9.4705,
+        "cost_per_test": 0.570259,
+        "latency": 131.7333
+      },
+      "anthropic_claude-opus-4-5-20251101-thinking": {
+        "accuracy": 62.963,
+        "stderr": 9.4705,
+        "cost_per_test": 1.721915,
+        "latency": 174.1699
+      },
+      "grok_grok-4-0709": {
+        "accuracy": 62.963,
+        "stderr": 9.4705,
+        "cost_per_test": 1.118074,
+        "latency": 272.7853
+      },
+      "openai_gpt-5.1-2025-11-13": {
+        "accuracy": 62.963,
+        "stderr": 9.4705,
+        "cost_per_test": 0.493588,
+        "latency": 343.905
+      },
+      "meta_muse_spark": {
+        "accuracy": 62.963,
+        "stderr": 9.4705,
+        "cost_per_test": 0.064759,
+        "latency": 569.6064
+      },
+      "google_gemini-3.1-pro-preview": {
+        "accuracy": 59.2593,
+        "stderr": 9.6362,
+        "cost_per_test": 1.284942,
+        "latency": 287.9652
+      },
+      "alibaba_qwen3.5-plus-thinking": {
+        "accuracy": 59.2593,
+        "stderr": 9.6362,
+        "cost_per_test": 0.194466,
+        "latency": 345.4656
+      },
+      "google_gemma-4-31b-it": {
+        "accuracy": 59.2593,
+        "stderr": 9.6362,
+        "cost_per_test": 0,
+        "latency": 5687.2879
+      },
+      "grok_grok-4-fast-reasoning": {
+        "accuracy": 55.5556,
+        "stderr": 9.7451,
+        "cost_per_test": 0.048333,
+        "latency": 64.8642
+      },
+      "anthropic_claude-sonnet-4-5-20250929-thinking": {
+        "accuracy": 55.5556,
+        "stderr": 9.7451,
+        "cost_per_test": 1.272621,
+        "latency": 183.5679
+      },
+      "alibaba_qwen3.6-plus": {
+        "accuracy": 55.5556,
+        "stderr": 9.7451,
+        "cost_per_test": 0.122567,
+        "latency": 334.9215
+      },
+      "zai_glm-5.1-thinking": {
+        "accuracy": 55.5556,
+        "stderr": 9.7451,
+        "cost_per_test": 0.335755,
+        "latency": 431.4468
+      },
+      "openai_gpt-5.2-2025-12-11": {
+        "accuracy": 55.5556,
+        "stderr": 9.7451,
+        "cost_per_test": 0.94679,
+        "latency": 611.0141
+      },
+      "grok_grok-4.20-0309-reasoning": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 0.380617,
+        "latency": 49.8319
+      },
+      "grok_grok-4-1-fast-reasoning": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 0.061964,
+        "latency": 92.4252
+      },
+      "alibaba_qwen3-max": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 0.724925,
+        "latency": 264.2694
+      },
+      "kimi_kimi-k2.5-thinking": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 0.184042,
+        "latency": 289.3885
+      },
+      "openai_gpt-5.4-2026-03-05": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 1.231364,
+        "latency": 810.6926
+      },
+      "openai_gpt-5-2025-08-07": {
+        "accuracy": 51.8519,
+        "stderr": 9.7991,
+        "cost_per_test": 0.555615,
+        "latency": 1351.6003
+      },
+      "google_gemini-3.1-flash-lite-preview": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.066932,
+        "latency": 49.9204
+      },
+      "anthropic_claude-haiku-4-5-20251001-thinking": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.349876,
+        "latency": 115.7107
+      },
+      "openai_gpt-5.4-nano-2026-03-17": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.049297,
+        "latency": 265.423
+      },
+      "openai_gpt-5-mini-2025-08-07": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.128702,
+        "latency": 595.7949
+      },
+      "zai_glm-5-thinking": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.817842,
+        "latency": 893.7203
+      },
+      "openai_gpt-5.4-mini-2026-03-17": {
+        "accuracy": 48.1481,
+        "stderr": 9.7991,
+        "cost_per_test": 0.564512,
+        "latency": 1004.0295
+      },
+      "grok_grok-4-1-fast-non-reasoning": {
+        "accuracy": 44.4444,
+        "stderr": 9.7451,
+        "cost_per_test": 0.08066,
+        "latency": 115.3639
+      },
+      "google_gemini-3-flash-preview": {
+        "accuracy": 44.4444,
+        "stderr": 9.7451,
+        "cost_per_test": 0.430723,
+        "latency": 920.9158
+      },
+      "minimax_MiniMax-M2.7": {
+        "accuracy": 44.4444,
+        "stderr": 9.7451,
+        "cost_per_test": 0.171421,
+        "latency": 1321.8989
+      },
+      "minimax_MiniMax-M2.5-Lightning": {
+        "accuracy": 44.4444,
+        "stderr": 9.7451,
+        "cost_per_test": 0.192613,
+        "latency": 1555.7418
+      },
+      "zai_glm-4.7": {
+        "accuracy": 40.7407,
+        "stderr": 9.6362,
+        "cost_per_test": 0.289165,
+        "latency": 675.3448
+      },
+      "kimi_kimi-k2-thinking": {
+        "accuracy": 37.037,
+        "stderr": 9.4705,
+        "cost_per_test": 0.291967,
+        "latency": 860.1481
+      },
+      "alibaba_qwen3.5-flash": {
+        "accuracy": 33.3333,
+        "stderr": 9.245,
+        "cost_per_test": 0.052102,
+        "latency": 246.675
+      },
+      "google_gemini-2.5-pro": {
+        "accuracy": 29.6296,
+        "stderr": 8.9551,
+        "cost_per_test": 0.279162,
+        "latency": 69.6671
+      },
+      "zai_glm-4.6": {
+        "accuracy": 29.6296,
+        "stderr": 8.9551,
+        "cost_per_test": 0.17553,
+        "latency": 538.672
+      },
+      "mistralai_mistral-large-2512": {
+        "accuracy": 25.9259,
+        "stderr": 8.5944,
+        "cost_per_test": 0.07357,
+        "latency": 86.9464
+      },
+      "minimax_MiniMax-M2.1": {
+        "accuracy": 25.9259,
+        "stderr": 8.5944,
+        "cost_per_test": 0.127447,
+        "latency": 2080.5431
+      },
+      "fireworks_gpt-oss-120b": {
+        "accuracy": 22.2222,
+        "stderr": 8.1533,
+        "cost_per_test": 0.061203,
+        "latency": 194.0662
+      },
+      "fireworks_deepseek-v3p2-thinking": {
+        "accuracy": 7.4074,
+        "stderr": 5.1361,
+        "cost_per_test": 0.350087,
+        "latency": 3357.102
+      },
+      "openai_gpt-4o-2024-08-06": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.151455,
+        "latency": 42.6805
+      },
+      "fireworks_deepseek-v3p2": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 0.028208,
+        "latency": 94.9981
+      },
+      "cohere_command-a-03-2025": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 1.776897,
+        "latency": 371.7309
+      },
+      "ai21labs_jamba-large-1.7": {
+        "accuracy": 0,
+        "stderr": 0,
+        "cost_per_test": 5.355582,
+        "latency": 2432.9307
+      }
+    }
+  }
+}

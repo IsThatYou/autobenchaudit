@@ -1,0 +1,43 @@
+{
+  "slug": "nova_micro",
+  "model_id": "344c6718-c573-41d4-9556-10287a3fa1fc",
+  "model_slug": "nova-micro",
+  "name": "Nova Micro",
+  "gdpval_name": null,
+  "short_name": "Nova Micro",
+  "creator": {
+    "name": "Amazon",
+    "slug": "aws",
+    "country": null,
+    "logo": "/img/logos/aws.webp"
+  },
+  "release_date": "2024-12-03",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 345.836229452264,
+    "lower_95ci": 314.6059125286351,
+    "upper_95ci": 375.66692847501525,
+    "n_matches": 1199,
+    "avg_turns": 26.28421052631579
+  },
+  "gdpval_breakdown": {
+    "elo": 345.836229452264,
+    "avg_turns": 26.28421052631579,
+    "n_matches": 1199,
+    "lower_95ci": 314.6059125286351,
+    "upper_95ci": 375.66692847501525,
+    "last_updated": "2026-04-22T02:15:54.455764"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 93481176,
+    "answer_tokens": 4751772,
+    "output_tokens": 4751772,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 10.27,
+  "agentic_index": 4.68,
+  "price_1m_input_tokens": 0.035,
+  "price_1m_output_tokens": 0.14
+}

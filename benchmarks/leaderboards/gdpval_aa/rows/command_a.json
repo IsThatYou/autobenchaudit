@@ -1,0 +1,43 @@
+{
+  "slug": "command_a",
+  "model_id": "3bc32f13-5afa-4e28-bce1-10e57376686b",
+  "model_slug": "command-a",
+  "name": "Command A",
+  "gdpval_name": null,
+  "short_name": "Command A",
+  "creator": {
+    "name": "Cohere",
+    "slug": "cohere",
+    "country": null,
+    "logo": "/img/logos/cohere.svg"
+  },
+  "release_date": "2025-03-13",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 285.4866131519235,
+    "lower_95ci": 253.81925007707284,
+    "upper_95ci": 314.1648668814979,
+    "n_matches": 1103,
+    "avg_turns": 14.963470319634704
+  },
+  "gdpval_breakdown": {
+    "elo": 285.4866131519235,
+    "avg_turns": 14.963470319634704,
+    "n_matches": 1103,
+    "lower_95ci": 253.81925007707284,
+    "upper_95ci": 314.1648668814979,
+    "last_updated": "2026-04-22T02:15:58.961510"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 51384950,
+    "answer_tokens": 772453,
+    "output_tokens": 772453,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 13.48,
+  "agentic_index": 5.07,
+  "price_1m_input_tokens": 2.5,
+  "price_1m_output_tokens": 10
+}

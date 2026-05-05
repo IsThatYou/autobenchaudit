@@ -1,0 +1,43 @@
+{
+  "slug": "falcon_h1r_7b",
+  "model_id": "c76e0ae8-0fd2-45c0-a39d-d398fce9b128",
+  "model_slug": "falcon-h1r-7b",
+  "name": "Falcon-H1R-7B",
+  "gdpval_name": null,
+  "short_name": "Falcon-H1R-7B",
+  "creator": {
+    "name": "TII UAE",
+    "slug": "tii-uae",
+    "country": null,
+    "logo": "/img/logos/tii.svg"
+  },
+  "release_date": "2026-01-04",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 378.60346434390976,
+    "lower_95ci": 347.4478378195684,
+    "upper_95ci": 409.28717712633323,
+    "n_matches": 1314,
+    "avg_turns": 69.52682926829269
+  },
+  "gdpval_breakdown": {
+    "elo": 378.60346434390976,
+    "avg_turns": 69.52682926829269,
+    "n_matches": 1314,
+    "lower_95ci": 347.4478378195684,
+    "upper_95ci": 409.28717712633323,
+    "last_updated": "2026-04-22T02:15:51.504195"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 339408767,
+    "answer_tokens": 5258782,
+    "output_tokens": 15682101,
+    "reasoning_tokens": 10423318
+  },
+  "intelligence_index": 15.8,
+  "agentic_index": 9.26,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

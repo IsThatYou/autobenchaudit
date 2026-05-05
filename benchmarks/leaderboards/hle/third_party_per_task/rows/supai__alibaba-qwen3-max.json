@@ -1,0 +1,327 @@
+{
+  "slug": "supai__alibaba-qwen3-max",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "alibaba/qwen3-max",
+  "vendor": "alibaba",
+  "model": "qwen3-max",
+  "provider": null,
+  "num_questions": 52,
+  "num_correct": 9,
+  "accuracy": 0.17307692307692307,
+  "avg_confidence": 91.21153846153847,
+  "tasks": [
+    {
+      "task_id": "668825f80a642802bdfeadfa",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66b2c7c9795022550abb176b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1 + 3x + 5x^2 + 6x^3 + 5x^4 + 3x^5 + x^6"
+    },
+    {
+      "task_id": "66b727d367968fa27f2dddda",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "4k(d - k) - d(d - 1)"
+    },
+    {
+      "task_id": "66ba5510db07a3a9151be0d2",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "\\mathcal{A}^{4+\\alpha}(X)"
+    },
+    {
+      "task_id": "66e884515ab37f0a7da089bf",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "Hog Glider"
+    },
+    {
+      "task_id": "66e89811ca68059533a83566",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "False"
+    },
+    {
+      "task_id": "66e8c151efbbc8b5a54da02b",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "1430"
+    },
+    {
+      "task_id": "66e8d4d65699cf35c9a1527c",
+      "correct": 1,
+      "confidence": 99,
+      "model_answer": "1/1451520"
+    },
+    {
+      "task_id": "66e8db4fe1e483c59165a247",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "F"
+    },
+    {
+      "task_id": "66e8e05c8bc4119df2ce4395",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "J2s"
+    },
+    {
+      "task_id": "66e8e473f59e5564daf565b6",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "9"
+    },
+    {
+      "task_id": "66e90adfa5b0e84a801c7660",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "F"
+    },
+    {
+      "task_id": "66e91bc08dd8f00467e3d5d8",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e942c180435ab1cb1ef049",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66e949664ea2c791558f8620",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "F"
+    },
+    {
+      "task_id": "66e94bf0d61a79cca258c675",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "\ud835\ude4b(y_{ij} = 1 \u2223 F, U_i, U_j) = W_F(U_i, U_j)"
+    },
+    {
+      "task_id": "66e9580bc845662f61f3664b",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "236(1),236(3),43F(1),43FA(3)"
+    },
+    {
+      "task_id": "66e95faf8451a9b41f307932",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Maragogype"
+    },
+    {
+      "task_id": "66e962f814e5657e81349bfa",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Kilgore Trout"
+    },
+    {
+      "task_id": "66e97fd756455f341c7849c3",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66e98ce28056cd9dd9b1d9f6",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Not defined (no valid knot diagram provided)"
+    },
+    {
+      "task_id": "66e9a39f2dad0e536fb92efa",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66e9b2899cf8fcf41599246f",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "I"
+    },
+    {
+      "task_id": "66e9b92578e89514d9ab6093",
+      "correct": 0,
+      "confidence": 98,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66e9c038d2d1c2dec1f6978e",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "432214"
+    },
+    {
+      "task_id": "66e9ce9d29eb7c1a0721fdf1",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "12"
+    },
+    {
+      "task_id": "66e9fc11c19c8c61add294f0",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66ea031360fbbf249dec70e1",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66ea12bd86227f91af18b88b",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Yes"
+    },
+    {
+      "task_id": "66ea216e142383cfe2f74fde",
+      "correct": 1,
+      "confidence": 90,
+      "model_answer": "8"
+    },
+    {
+      "task_id": "66ea260280667dae8de4a8ec",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66ea2cc3c602e2b991ae8aba",
+      "correct": 0,
+      "confidence": 98,
+      "model_answer": "655"
+    },
+    {
+      "task_id": "66ea36e7aa2256fb4c995faf",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "/ka\u0272\u0255a/"
+    },
+    {
+      "task_id": "66ea387a7cb8e0fce662592b",
+      "correct": 0,
+      "confidence": 70,
+      "model_answer": "4(N+1)"
+    },
+    {
+      "task_id": "66ea3ba5444b8f31ef575799",
+      "correct": 0,
+      "confidence": 97,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66ea3fb6e2dc97dd61195fe6",
+      "correct": 0,
+      "confidence": 98,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66ea4076d1767539f1308fde",
+      "correct": 0,
+      "confidence": 0,
+      "model_answer": "I cannot determine the specific notes."
+    },
+    {
+      "task_id": "66ea63837c49faf4e570535e",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "-\u03bc_2/e"
+    },
+    {
+      "task_id": "66ea70cd3d800a43340dd4d0",
+      "correct": 0,
+      "confidence": 92,
+      "model_answer": "stars"
+    },
+    {
+      "task_id": "66ea99e17094e6aa0bc758e7",
+      "correct": 0,
+      "confidence": 75,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66eaa5ddc7a3252f0f3fe53f",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "0"
+    },
+    {
+      "task_id": "66eae565b2e7406d498f8cc9",
+      "correct": 1,
+      "confidence": 98,
+      "model_answer": "H"
+    },
+    {
+      "task_id": "66eaf0ba5e31c19691fe73b1",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66eaf9bbb082c5e6a76a49b5",
+      "correct": 1,
+      "confidence": 98,
+      "model_answer": "10"
+    },
+    {
+      "task_id": "66eb105d5f6e64fbae56b0fe",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "$d^{\\max(0, 1/2 - 1/p)}$, i.e.\n\\[\nc = \\begin{cases}\n1 & \\text{if } 0 < p \\leq 2,\\\\\nd^{1/2-1/p} & \\text{if } p \\geq 2\n\\end{cases}\n\\]"
+    },
+    {
+      "task_id": "66eb1706d3b17bc68156e3e3",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "66eb1ad641ef9e7d6011c3be",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "!ih"
+    },
+    {
+      "task_id": "66eb36fbb38dbcd7910ceafc",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "B-yellow"
+    },
+    {
+      "task_id": "66eb3aab27b19dd593af7ebe",
+      "correct": 0,
+      "confidence": 30,
+      "model_answer": "Unknown"
+    },
+    {
+      "task_id": "66eb533fcd1fb71d6d1127e4",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Ace of Spades"
+    },
+    {
+      "task_id": "66ff0a666dc4b2ab76a19db9",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "\u03b6"
+    },
+    {
+      "task_id": "6720a7b54f57949fff72b9f3",
+      "correct": 0,
+      "confidence": 85,
+      "model_answer": "C"
+    }
+  ]
+}

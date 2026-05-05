@@ -1,0 +1,2814 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google-deepmind/superhuman/main/imobench/answerbench_v2.csv",
+  "num_tasks": 400,
+  "note": "400 problems from answerbench_v2.csv (supersedes the original answerbench.csv as of 2026-02-12). Categories: Algebra, Combinatorics, Geometry, Number Theory, plus one legacy 'Functional Equation' row that survived the v2 relabel. Four difficulty tiers (pre-IMO, IMO-Easy, IMO-Medium, IMO-Hard) are *not* encoded in the CSV \u2014 the paper reports them as a separate per-problem tag.",
+  "schema": {
+    "task_id": "Canonical problem ID (e.g. imo-bench-algebra-001)",
+    "category": "Top-level category (Algebra / Combinatorics / Geometry / Number theory)",
+    "subcategory": "Finer-grained topic tag (e.g. Inequality, Graph Theory)",
+    "source": "Original competition attribution",
+    "short_answer_preview": "First 120 chars of the ground-truth answer"
+  },
+  "tasks": [
+    {
+      "task_id": "imo-bench-algebra-001",
+      "category": "Algebra",
+      "subcategory": "Operation",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-algebra-002",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "$\\left\\lfloor \\log_{2}a\\right\\rfloor +1$."
+    },
+    {
+      "task_id": "imo-bench-algebra-003",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "$g(x)=2x^{3}+c, g(x)=-2x^{3}+c$"
+    },
+    {
+      "task_id": "imo-bench-algebra-004",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "$2^{u-2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-005",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-algebra-006",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "$P(x)=-1, P(x)=x+1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-007",
+      "category": "Algebra",
+      "subcategory": "Equation",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "1012"
+    },
+    {
+      "task_id": "imo-bench-algebra-008",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2019",
+      "short_answer_preview": "$-\\frac{2023}{2024^2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-009",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2018",
+      "short_answer_preview": "$2\\sqrt[3]{\\frac{196}{13}}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-010",
+      "category": "Algebra",
+      "subcategory": "Operation",
+      "source": "IMO Shortlist 2018",
+      "short_answer_preview": "$-\\frac{2}{3},0,\\frac{2}{3}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-011",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "$2-2m$"
+    },
+    {
+      "task_id": "imo-bench-algebra-012",
+      "category": "Algebra",
+      "subcategory": "Other",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "$\\frac{1}{2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-013",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "$Q(x)=-2, Q(x)=2x-2$"
+    },
+    {
+      "task_id": "imo-bench-algebra-014",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "$2025^2 a(a-1)$"
+    },
+    {
+      "task_id": "imo-bench-algebra-015",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "8109"
+    },
+    {
+      "task_id": "imo-bench-algebra-016",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "$\\frac{1}{2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-017",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "$(-\\infty,0)\\cup\\{\\frac{1}{2}\\}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-018",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "2026, 2030"
+    },
+    {
+      "task_id": "imo-bench-algebra-019",
+      "category": "Algebra",
+      "subcategory": "Equation",
+      "source": "IMO Shortlist 2013",
+      "short_answer_preview": "4151879777"
+    },
+    {
+      "task_id": "imo-bench-algebra-020",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "$P(x)=2x^{2}+c$"
+    },
+    {
+      "task_id": "imo-bench-algebra-021",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "-768"
+    },
+    {
+      "task_id": "imo-bench-algebra-022",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "1012"
+    },
+    {
+      "task_id": "imo-bench-algebra-023",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "2024"
+    },
+    {
+      "task_id": "imo-bench-algebra-024",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2009",
+      "short_answer_preview": "$1,2,\\ldots, 1235$"
+    },
+    {
+      "task_id": "imo-bench-algebra-025",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2007",
+      "short_answer_preview": "$A(x)=1-x, A(x)=1+2x, A(x)=1-x^{2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-026",
+      "category": "Algebra",
+      "subcategory": "Other",
+      "source": "IMO Shortlist 2005",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-algebra-027",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "$(-\\infty,-4)\\cup (-4,-\\frac{8}{3})$"
+    },
+    {
+      "task_id": "imo-bench-algebra-028",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "$(-\\infty , 0]$"
+    },
+    {
+      "task_id": "imo-bench-algebra-029",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "$g(x)=\\frac{1}{3} ((2x)^a +(2x)^{-a})$ for some $a>0$"
+    },
+    {
+      "task_id": "imo-bench-algebra-030",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "603729"
+    },
+    {
+      "task_id": "imo-bench-algebra-031",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "$T(p,q,r)=0 if (p,q,r)=(0,0,0), p+q+r+\\frac{9pqr}{4(p+q+r)} otherwise$"
+    },
+    {
+      "task_id": "imo-bench-algebra-032",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2001",
+      "short_answer_preview": "16"
+    },
+    {
+      "task_id": "imo-bench-algebra-033",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2001",
+      "short_answer_preview": "$(4, 1, 2, 5, 134, 718240)$"
+    },
+    {
+      "task_id": "imo-bench-algebra-034",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2001",
+      "short_answer_preview": "$P(x)=(cx+c^{2})/(1+c), Q(x)=cx+c^{2}$, where $c\\ne -1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-035",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Iran 2002",
+      "short_answer_preview": "$f(x)=-1, f(x)=2x^{2}+b x, f(x)=0$"
+    },
+    {
+      "task_id": "imo-bench-algebra-036",
+      "category": "Functional Equation",
+      "subcategory": "Iran 2002",
+      "source": "",
+      "short_answer_preview": "Algebra"
+    },
+    {
+      "task_id": "imo-bench-algebra-037",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "Iran 2024",
+      "short_answer_preview": "$X(y)=1+(u-1) \\bar{y}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-038",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Iran 2024",
+      "short_answer_preview": "all $(c,v)$ for which $c,v>1$ and $\\frac{\\log c}{\\log v}\\in\\mathbb{Q}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-039",
+      "category": "Algebra",
+      "subcategory": "Equation",
+      "source": "Ukraine 1997",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-algebra-040",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "Korea 2018",
+      "short_answer_preview": "f(x)=x+1"
+    },
+    {
+      "task_id": "imo-bench-algebra-041",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Iran 2009",
+      "short_answer_preview": "$f(x,y)= g(x+y, xy(x-y)^{2})$ for some polynomial $g$"
+    },
+    {
+      "task_id": "imo-bench-algebra-042",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Iran 2010",
+      "short_answer_preview": "$\\frac{685}{176302}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-043",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "IMO Shortlist 1986",
+      "short_answer_preview": "$\\sqrt{2}-1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-044",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "APMO 2004",
+      "short_answer_preview": "$\\frac{9}{2}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-045",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Vietnam 2004",
+      "short_answer_preview": "$\\frac{17458+2970\\sqrt{5}}{23769}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-046",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Vietnam 2002",
+      "short_answer_preview": "$-\\frac{10}{3}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-047",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Vietnam 1997",
+      "short_answer_preview": "$A(x)=\\frac{1}{2}(x^2-x-4)$"
+    },
+    {
+      "task_id": "imo-bench-algebra-048",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Czech-Slovakia 1995",
+      "short_answer_preview": "$[-6,5]$"
+    },
+    {
+      "task_id": "imo-bench-algebra-049",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Moldova 2008",
+      "short_answer_preview": "$\\frac{16}{27}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-050",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Vietnam 2015",
+      "short_answer_preview": "44"
+    },
+    {
+      "task_id": "imo-bench-algebra-051",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Czech-Polish-Slovak Match 2005",
+      "short_answer_preview": "odd $n$"
+    },
+    {
+      "task_id": "imo-bench-algebra-052",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Argentina 2017",
+      "short_answer_preview": "48"
+    },
+    {
+      "task_id": "imo-bench-algebra-053",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Czech and Slovak 2018",
+      "short_answer_preview": "$(-\\infty, -3) \\cup (-3, \\infty)$"
+    },
+    {
+      "task_id": "imo-bench-algebra-054",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Italia 2018",
+      "short_answer_preview": "2026"
+    },
+    {
+      "task_id": "imo-bench-algebra-055",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Japan 2018",
+      "short_answer_preview": "2079"
+    },
+    {
+      "task_id": "imo-bench-algebra-056",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Korea 2018",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-algebra-057",
+      "category": "Algebra",
+      "subcategory": "Operation",
+      "source": "Balkan 2018",
+      "short_answer_preview": "1/2,1,2"
+    },
+    {
+      "task_id": "imo-bench-algebra-058",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Romania 2018",
+      "short_answer_preview": "$\\frac{16}{3}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-059",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Romania 2018",
+      "short_answer_preview": "0"
+    },
+    {
+      "task_id": "imo-bench-algebra-060",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Singapore 2018",
+      "short_answer_preview": "$\\frac{2617}{2618}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-061",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Singapore 2018",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-algebra-062",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Turkey 2018",
+      "short_answer_preview": "506"
+    },
+    {
+      "task_id": "imo-bench-algebra-063",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Austria 2017",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-algebra-064",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Belarus 2017",
+      "short_answer_preview": "-3"
+    },
+    {
+      "task_id": "imo-bench-algebra-065",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Belarus 2017",
+      "short_answer_preview": "$0<c<1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-066",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Korea 2017",
+      "short_answer_preview": "997008, 995026, 995018"
+    },
+    {
+      "task_id": "imo-bench-algebra-067",
+      "category": "Algebra",
+      "subcategory": "Equation",
+      "source": "Romania 2017",
+      "short_answer_preview": "$(2, \\frac{1}{2}, \\frac{9}{4})$"
+    },
+    {
+      "task_id": "imo-bench-algebra-068",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "RMM 2017",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-algebra-069",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Serbia 2017",
+      "short_answer_preview": "even $n$"
+    },
+    {
+      "task_id": "imo-bench-algebra-070",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Ukraine 2017",
+      "short_answer_preview": "$\\frac{1}{4}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-071",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "USAMO 2017",
+      "short_answer_preview": "$\\frac{2}{3}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-072",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Vietnam 2017 (modified)",
+      "short_answer_preview": "$x\\geq-\\frac{6}{5}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-073",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Austria 2016 (modified)",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-algebra-074",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Dutch 2015",
+      "short_answer_preview": "3, 4"
+    },
+    {
+      "task_id": "imo-bench-algebra-075",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Hong Kong TST 2015",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-algebra-076",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Hong Kong 2015",
+      "short_answer_preview": "2026"
+    },
+    {
+      "task_id": "imo-bench-algebra-077",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Korea 2016",
+      "short_answer_preview": "$-\\frac{27}{8}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-078",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Romania 2016 (modified)",
+      "short_answer_preview": "1012"
+    },
+    {
+      "task_id": "imo-bench-algebra-079",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "Vietnam TST 2014",
+      "short_answer_preview": "$g(n)=n - 1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-080",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Vietnam TST 2014",
+      "short_answer_preview": "3988"
+    },
+    {
+      "task_id": "imo-bench-algebra-081",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Bulgaria 2014",
+      "short_answer_preview": "$n=4k+3$"
+    },
+    {
+      "task_id": "imo-bench-algebra-082",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "China TST 2014",
+      "short_answer_preview": "$\\frac{1}{n}4\\cos^{2}\\frac{\\pi}{2n}$."
+    },
+    {
+      "task_id": "imo-bench-algebra-083",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "China MO 2014",
+      "short_answer_preview": "2048"
+    },
+    {
+      "task_id": "imo-bench-algebra-084",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Greece 2014",
+      "short_answer_preview": "$Q(x)=c(x-1)^2(x-4)(x+2)$"
+    },
+    {
+      "task_id": "imo-bench-algebra-085",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Japan MO 2014",
+      "short_answer_preview": "496503"
+    },
+    {
+      "task_id": "imo-bench-algebra-086",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Japan TST 2014",
+      "short_answer_preview": "$0 < k \\le \\frac{4}{9}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-087",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Bulgaria 1998",
+      "short_answer_preview": "$n=2k, n=3k$"
+    },
+    {
+      "task_id": "imo-bench-algebra-088",
+      "category": "Algebra",
+      "subcategory": "Equation",
+      "source": "Czech and Slovak 1998",
+      "short_answer_preview": "$\\frac{1}{7}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-089",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Turkey 1998",
+      "short_answer_preview": "$2^{2024}+1$"
+    },
+    {
+      "task_id": "imo-bench-algebra-090",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "Czech-Slovak Match 1998",
+      "short_answer_preview": "60750, 854130, 854970"
+    },
+    {
+      "task_id": "imo-bench-algebra-091",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Iran 2011",
+      "short_answer_preview": "odd $n$"
+    },
+    {
+      "task_id": "imo-bench-algebra-092",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Iran 2012",
+      "short_answer_preview": "21"
+    },
+    {
+      "task_id": "imo-bench-algebra-093",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Iran 2018",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-algebra-094",
+      "category": "Algebra",
+      "subcategory": "Polynomial",
+      "source": "Iran 2014",
+      "short_answer_preview": "33614"
+    },
+    {
+      "task_id": "imo-bench-algebra-095",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Taiwan 2000",
+      "short_answer_preview": "11059"
+    },
+    {
+      "task_id": "imo-bench-algebra-096",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Iran 2000",
+      "short_answer_preview": "$4\\cdot3^{2023}$"
+    },
+    {
+      "task_id": "imo-bench-algebra-097",
+      "category": "Algebra",
+      "subcategory": "Sequence",
+      "source": "Iran 2000",
+      "short_answer_preview": "$\\lfloor\\varphi n\\rfloor$, where $\\varphi = \\frac{\\sqrt{5}+1}{2}"
+    },
+    {
+      "task_id": "imo-bench-algebra-098",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Iran 2000",
+      "short_answer_preview": "$(a,b,c)=p(-2,1,0)+q(1,-2,1)$ for nonnegative $p, q$"
+    },
+    {
+      "task_id": "imo-bench-algebra-099",
+      "category": "Algebra",
+      "subcategory": "Functional Equation",
+      "source": "Iran 2019",
+      "short_answer_preview": "$P(n)=(n+2a)^{2}-2a^{2}$ for some nonnegative integer $a$"
+    },
+    {
+      "task_id": "imo-bench-algebra-100",
+      "category": "Algebra",
+      "subcategory": "Inequality",
+      "source": "Variation of Vasc's inequality",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-001",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "HKMO 2002",
+      "short_answer_preview": "624"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-002",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "Germany 2006",
+      "short_answer_preview": "305"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-003",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "Tournament of Towns 2019",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-004",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Vietnam Mathematical Olympiad 1990",
+      "short_answer_preview": "9216"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-005",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Vietnam Mathematical Olympiad 2015",
+      "short_answer_preview": "1431655764"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-006",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "Vietnam TST 2019",
+      "short_answer_preview": "28"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-007",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "USA TST 2001",
+      "short_answer_preview": "19"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-008",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "USA TST 2005",
+      "short_answer_preview": "49"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-009",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "APMO 2010",
+      "short_answer_preview": "103285"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-010",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "USAJMO 2023",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-011",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "EGMO 2023",
+      "short_answer_preview": "0.5"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-012",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "EGMO 2015",
+      "short_answer_preview": "$\\binom{2k}{k}^2$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-013",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Vietnam Mathematical Olympiad 2009",
+      "short_answer_preview": "120526555"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-014",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Vietnam TST 2021",
+      "short_answer_preview": "5292"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-015",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Putnam 2017",
+      "short_answer_preview": "$12^{10}$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-016",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "China 2006",
+      "short_answer_preview": "41"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-017",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "China 2009",
+      "short_answer_preview": "48500200"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-018",
+      "category": "Combinatorics",
+      "subcategory": "Additive Combinatorics",
+      "source": "China 2012",
+      "short_answer_preview": "1014"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-019",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "China 2012",
+      "short_answer_preview": "50803200"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-020",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "Vietnam TST 2020",
+      "short_answer_preview": "21"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-021",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Vietnam TST 2016",
+      "short_answer_preview": "3016944"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-022",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Balkan MO 2014",
+      "short_answer_preview": "25502500"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-023",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "USA TST 2017",
+      "short_answer_preview": "127009"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-024",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Putnam 2005",
+      "short_answer_preview": "$-\\frac{2024}{2025}$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-025",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "Putnam 2022",
+      "short_answer_preview": "290"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-026",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "USA 2015",
+      "short_answer_preview": "847288609444"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-027",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "USA 2019",
+      "short_answer_preview": "2048"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-028",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "Vietnam Mathematical Olympiad 2013",
+      "short_answer_preview": "1198"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-029",
+      "category": "Combinatorics",
+      "subcategory": "Tiling",
+      "source": "Vietnam TST 2010",
+      "short_answer_preview": "506"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-030",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Vietnam TST 2013",
+      "short_answer_preview": "486"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-031",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "USA TST 2020",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-032",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "USAMO 2010",
+      "short_answer_preview": "43"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-033",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "USAMO 2021",
+      "short_answer_preview": "498"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-034",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "China TST 2022",
+      "short_answer_preview": "$2^a 3^b 5^c$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-035",
+      "category": "Combinatorics",
+      "subcategory": "Combinatorial Geometry",
+      "source": "Iran TST 2012",
+      "short_answer_preview": "2027091"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-036",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "China MO 2024",
+      "short_answer_preview": "9801"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-037",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2000",
+      "short_answer_preview": "2731365"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-038",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2001",
+      "short_answer_preview": "307546875"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-039",
+      "category": "Combinatorics",
+      "subcategory": "Tiling",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "1026169"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-040",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "1307674368000"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-041",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-042",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "4769280"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-043",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "289"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-044",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "115"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-045",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "512"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-046",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "13"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-047",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "$\\frac{3}{32}$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-048",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "IMO Shortlist 2007",
+      "short_answer_preview": "69"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-049",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "China TST 2023",
+      "short_answer_preview": "1057"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-050",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "65"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-051",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Korean Final 2022",
+      "short_answer_preview": "27648"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-052",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "$(2k-1)!!$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-053",
+      "category": "Combinatorics",
+      "subcategory": "Combinatorial Geometry",
+      "source": "China TST 2007",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-054",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "56"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-055",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "3986729"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-056",
+      "category": "Combinatorics",
+      "subcategory": "Set Combinatorics",
+      "source": "IMO Shortlist 2013",
+      "short_answer_preview": "117"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-057",
+      "category": "Combinatorics",
+      "subcategory": "Combinatorial Geometry",
+      "source": "IMO Shortlist 2013",
+      "short_answer_preview": "2025"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-058",
+      "category": "Combinatorics",
+      "subcategory": "Tiling",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "$\\lfloor\\sqrt{n-1}\\rfloor$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-059",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "taking the empty card"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-060",
+      "category": "Combinatorics",
+      "subcategory": "Additive Combinatorics",
+      "source": "China TST 2011",
+      "short_answer_preview": "258"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-061",
+      "category": "Combinatorics",
+      "subcategory": "Set Combinatorics",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "3024"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-062",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "6"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-063",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-064",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "No positive integers"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-065",
+      "category": "Combinatorics",
+      "subcategory": "Existence Combinatorics",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "1989"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-066",
+      "category": "Combinatorics",
+      "subcategory": "Combinatorial Geometry",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "106"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-067",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "194"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-068",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "200293447"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-069",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "31395"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-070",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2018",
+      "short_answer_preview": "600"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-071",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2018",
+      "short_answer_preview": "4202432"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-072",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2019",
+      "short_answer_preview": "1040"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-073",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "China TST 2023",
+      "short_answer_preview": "96"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-074",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2019",
+      "short_answer_preview": "2600"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-075",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "7311"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-076",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "64"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-077",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-078",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "9701"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-079",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "81729648000"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-080",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "506"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-081",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "97665"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-082",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "2278125"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-083",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-084",
+      "category": "Combinatorics",
+      "subcategory": "Operations",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-085",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "12013"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-086",
+      "category": "Combinatorics",
+      "subcategory": "Other",
+      "source": "IMO Shortlist 2022",
+      "short_answer_preview": "18750000"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-087",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "Komal",
+      "short_answer_preview": "13"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-088",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "Komal",
+      "short_answer_preview": "168"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-089",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Komal",
+      "short_answer_preview": "5099"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-090",
+      "category": "Combinatorics",
+      "subcategory": "Tiling",
+      "source": "Komal",
+      "short_answer_preview": "2450"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-091",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "Komal",
+      "short_answer_preview": "$a=s+t$, $b = (2\\lambda)^{st}$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-092",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "Komal",
+      "short_answer_preview": "197"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-093",
+      "category": "Combinatorics",
+      "subcategory": "Extremal Combinatorics",
+      "source": "Komal",
+      "short_answer_preview": "4181"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-094",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "Komal",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-095",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Alibaba Math Competition 2021",
+      "short_answer_preview": "$\\frac{24}{25}$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-096",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "China TST 2011",
+      "short_answer_preview": "2150"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-097",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Korean Final 2014",
+      "short_answer_preview": "85383238549"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-098",
+      "category": "Combinatorics",
+      "subcategory": "Enumerative Combinatorics",
+      "source": "Statistical Mechanics method for Combinatorics",
+      "short_answer_preview": "$\\lambda^8 + 36\\lambda^7 + 210\\lambda^6 + 462\\lambda^5 + 495\\lambda^4 + 286\\lambda^3 + 91\\lambda^2 + 15\\lambda + 1$"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-099",
+      "category": "Combinatorics",
+      "subcategory": "Graph Theory",
+      "source": "USAMTS 2022",
+      "short_answer_preview": "5"
+    },
+    {
+      "task_id": "imo-bench-combinatorics-100",
+      "category": "Combinatorics",
+      "subcategory": "Game Theory",
+      "source": "USAMTS 2022",
+      "short_answer_preview": "75"
+    },
+    {
+      "task_id": "imo-bench-geometry-001",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "Sharygin 2008",
+      "short_answer_preview": "$\\frac{3}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-002",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2008",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-geometry-003",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2009",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-geometry-004",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2009",
+      "short_answer_preview": "45752"
+    },
+    {
+      "task_id": "imo-bench-geometry-005",
+      "category": "Geometry",
+      "subcategory": "proof_based_geometry",
+      "source": "Sharygin 2009",
+      "short_answer_preview": "$\\sqrt{2}+1$"
+    },
+    {
+      "task_id": "imo-bench-geometry-006",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "Sharygin 2009",
+      "short_answer_preview": "$6\\rho$"
+    },
+    {
+      "task_id": "imo-bench-geometry-007",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2009",
+      "short_answer_preview": "$\\frac{R^2+Rr}{\\sqrt{R^2-2Rr}}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-008",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2010",
+      "short_answer_preview": "$R-2r$"
+    },
+    {
+      "task_id": "imo-bench-geometry-009",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2011",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-010",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2012",
+      "short_answer_preview": "$\\frac{pq}{p+q}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-011",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "Sharygin 2013",
+      "short_answer_preview": "$\\frac{5+\\sqrt{21}}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-012",
+      "category": "Geometry",
+      "subcategory": "proof_based_geometry",
+      "source": "Sharygin 2014",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-013",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2015",
+      "short_answer_preview": "100"
+    },
+    {
+      "task_id": "imo-bench-geometry-014",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2015",
+      "short_answer_preview": "45"
+    },
+    {
+      "task_id": "imo-bench-geometry-015",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2016",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-geometry-016",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2016",
+      "short_answer_preview": "18"
+    },
+    {
+      "task_id": "imo-bench-geometry-017",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2016",
+      "short_answer_preview": "0.5"
+    },
+    {
+      "task_id": "imo-bench-geometry-018",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2017",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-019",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2017",
+      "short_answer_preview": "$\\frac{4}{3}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-020",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2017",
+      "short_answer_preview": "333300"
+    },
+    {
+      "task_id": "imo-bench-geometry-021",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2019",
+      "short_answer_preview": "499000"
+    },
+    {
+      "task_id": "imo-bench-geometry-022",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2019",
+      "short_answer_preview": "$\\sqrt{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-023",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "Sharygin 2021 (correspondence)",
+      "short_answer_preview": "$r_1r_2 h^2$"
+    },
+    {
+      "task_id": "imo-bench-geometry-024",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2021",
+      "short_answer_preview": "72"
+    },
+    {
+      "task_id": "imo-bench-geometry-025",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2021",
+      "short_answer_preview": "30"
+    },
+    {
+      "task_id": "imo-bench-geometry-026",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2022",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-027",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2023",
+      "short_answer_preview": "$2x+y$"
+    },
+    {
+      "task_id": "imo-bench-geometry-028",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2023",
+      "short_answer_preview": "$180 - 2\\alpha$"
+    },
+    {
+      "task_id": "imo-bench-geometry-029",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2023",
+      "short_answer_preview": "90"
+    },
+    {
+      "task_id": "imo-bench-geometry-030",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Sharygin 2024",
+      "short_answer_preview": "10"
+    },
+    {
+      "task_id": "imo-bench-geometry-031",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Sharygin 2024",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-032",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2012",
+      "short_answer_preview": "1.75"
+    },
+    {
+      "task_id": "imo-bench-geometry-033",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2013",
+      "short_answer_preview": "$\\frac{9\\sqrt{3}}{16}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-034",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2014",
+      "short_answer_preview": "$\\frac{50}{39}A$"
+    },
+    {
+      "task_id": "imo-bench-geometry-035",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2018",
+      "short_answer_preview": "$\\frac{7}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-036",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2018",
+      "short_answer_preview": "$\\frac{a\\sqrt{19}}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-037",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Hanoi Open Mathematical Olympiad 2018",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-038",
+      "category": "Geometry",
+      "subcategory": "locus_geometry",
+      "source": "Vietnam Mathematical Olympiad 2007",
+      "short_answer_preview": "$3a^2 - b^2 = 3$"
+    },
+    {
+      "task_id": "imo-bench-geometry-039",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Vietnam Mathematical Olympiad 2015",
+      "short_answer_preview": "$\\sqrt{\\frac{y}{z}}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-040",
+      "category": "Geometry",
+      "subcategory": "proof_based_geometry",
+      "source": "Vietnam TST 2008",
+      "short_answer_preview": "1/2, 1"
+    },
+    {
+      "task_id": "imo-bench-geometry-041",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2015",
+      "short_answer_preview": "75"
+    },
+    {
+      "task_id": "imo-bench-geometry-042",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2016",
+      "short_answer_preview": "90"
+    },
+    {
+      "task_id": "imo-bench-geometry-043",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2017",
+      "short_answer_preview": "$\\frac{3}{2}(XZ-XY)$"
+    },
+    {
+      "task_id": "imo-bench-geometry-044",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2018",
+      "short_answer_preview": "75"
+    },
+    {
+      "task_id": "imo-bench-geometry-045",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Iran Geometry Olympiad 2018",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-geometry-046",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2020",
+      "short_answer_preview": "$\\frac{a}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-047",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Iran Geometry Olympiad 2022",
+      "short_answer_preview": "12"
+    },
+    {
+      "task_id": "imo-bench-geometry-048",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "USA TST 2024",
+      "short_answer_preview": "15"
+    },
+    {
+      "task_id": "imo-bench-geometry-049",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "Iran Geometry Olympiad 2023",
+      "short_answer_preview": "$\\pi(l+2)$"
+    },
+    {
+      "task_id": "imo-bench-geometry-050",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2019",
+      "short_answer_preview": "120"
+    },
+    {
+      "task_id": "imo-bench-geometry-051",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2019",
+      "short_answer_preview": "29"
+    },
+    {
+      "task_id": "imo-bench-geometry-052",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2019",
+      "short_answer_preview": "32"
+    },
+    {
+      "task_id": "imo-bench-geometry-053",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2020",
+      "short_answer_preview": "547"
+    },
+    {
+      "task_id": "imo-bench-geometry-054",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2020",
+      "short_answer_preview": "26"
+    },
+    {
+      "task_id": "imo-bench-geometry-055",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2020",
+      "short_answer_preview": "58"
+    },
+    {
+      "task_id": "imo-bench-geometry-056",
+      "category": "Geometry",
+      "subcategory": "locus_geometry",
+      "source": "Komal",
+      "short_answer_preview": "$\\frac{\\sqrt{510}}{3} \\pi$"
+    },
+    {
+      "task_id": "imo-bench-geometry-057",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2021",
+      "short_answer_preview": "567"
+    },
+    {
+      "task_id": "imo-bench-geometry-058",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2021",
+      "short_answer_preview": "301"
+    },
+    {
+      "task_id": "imo-bench-geometry-059",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2021",
+      "short_answer_preview": "76"
+    },
+    {
+      "task_id": "imo-bench-geometry-060",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2022",
+      "short_answer_preview": "150"
+    },
+    {
+      "task_id": "imo-bench-geometry-061",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "AIME 2022",
+      "short_answer_preview": "756"
+    },
+    {
+      "task_id": "imo-bench-geometry-062",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2022",
+      "short_answer_preview": "180"
+    },
+    {
+      "task_id": "imo-bench-geometry-063",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2022",
+      "short_answer_preview": "140"
+    },
+    {
+      "task_id": "imo-bench-geometry-064",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2022",
+      "short_answer_preview": "459"
+    },
+    {
+      "task_id": "imo-bench-geometry-065",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2023",
+      "short_answer_preview": "106"
+    },
+    {
+      "task_id": "imo-bench-geometry-066",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2023",
+      "short_answer_preview": "125"
+    },
+    {
+      "task_id": "imo-bench-geometry-067",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2023",
+      "short_answer_preview": "490"
+    },
+    {
+      "task_id": "imo-bench-geometry-068",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2023",
+      "short_answer_preview": "247"
+    },
+    {
+      "task_id": "imo-bench-geometry-069",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2023",
+      "short_answer_preview": "87"
+    },
+    {
+      "task_id": "imo-bench-geometry-070",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "AIME 2024",
+      "short_answer_preview": "104"
+    },
+    {
+      "task_id": "imo-bench-geometry-071",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "AIME 2024",
+      "short_answer_preview": "960"
+    },
+    {
+      "task_id": "imo-bench-geometry-072",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Mathley 2011-2012",
+      "short_answer_preview": "180"
+    },
+    {
+      "task_id": "imo-bench-geometry-073",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Mathley 2011-2012",
+      "short_answer_preview": "$\\frac{\\rho}{R}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-074",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "China 1992",
+      "short_answer_preview": "30"
+    },
+    {
+      "task_id": "imo-bench-geometry-075",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "China 1996",
+      "short_answer_preview": "$\\sqrt{\\frac{3}{7}}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-076",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "China 2001",
+      "short_answer_preview": "$\\frac{4}{x\\sqrt{4-x^2}}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-077",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "USA 1999",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-geometry-078",
+      "category": "Geometry",
+      "subcategory": "proof_based_geometry",
+      "source": "USA 2013",
+      "short_answer_preview": "1 if triangle is isoceles, otherwise 2"
+    },
+    {
+      "task_id": "imo-bench-geometry-079",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "Romania 2010",
+      "short_answer_preview": "$\\frac{4}{3}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-080",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Romania 2012",
+      "short_answer_preview": "105"
+    },
+    {
+      "task_id": "imo-bench-geometry-081",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Romania 2017",
+      "short_answer_preview": "150"
+    },
+    {
+      "task_id": "imo-bench-geometry-082",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Baltic Way 2015",
+      "short_answer_preview": "$\\frac{\\sqrt{10}}{2}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-083",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Baltic Way 2015",
+      "short_answer_preview": "75"
+    },
+    {
+      "task_id": "imo-bench-geometry-084",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Baltic Way 2016",
+      "short_answer_preview": "75"
+    },
+    {
+      "task_id": "imo-bench-geometry-085",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "HMIC 2014",
+      "short_answer_preview": "2020"
+    },
+    {
+      "task_id": "imo-bench-geometry-086",
+      "category": "Geometry",
+      "subcategory": "3d_geometry",
+      "source": "HMIC 2020",
+      "short_answer_preview": "$\\frac{1}{3}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-087",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "HMMT 2008",
+      "short_answer_preview": "$\\frac{3\\sqrt{3}}{2\\sqrt{5}}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-088",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "HMMT 2010",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-geometry-089",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "HMMT 2020",
+      "short_answer_preview": "$\\frac{96\\sqrt{10}}{13}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-090",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "HMMT 2021",
+      "short_answer_preview": "44"
+    },
+    {
+      "task_id": "imo-bench-geometry-091",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "HMMT 2023",
+      "short_answer_preview": "$\\frac{11}{12}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-092",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "USAMTS 2002",
+      "short_answer_preview": "4550"
+    },
+    {
+      "task_id": "imo-bench-geometry-093",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "USAMTS 2004",
+      "short_answer_preview": "80"
+    },
+    {
+      "task_id": "imo-bench-geometry-094",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "USAMTS 2005",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-geometry-095",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "USAMTS 2012",
+      "short_answer_preview": "40"
+    },
+    {
+      "task_id": "imo-bench-geometry-096",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "USAMTS 2016",
+      "short_answer_preview": "$\\frac{7}{18}"
+    },
+    {
+      "task_id": "imo-bench-geometry-097",
+      "category": "Geometry",
+      "subcategory": "combinatorial_geometry",
+      "source": "USAMTS 2016",
+      "short_answer_preview": "$\\frac{45}{14}$"
+    },
+    {
+      "task_id": "imo-bench-geometry-098",
+      "category": "Geometry",
+      "subcategory": "extremal_geometry",
+      "source": "USAMTS 2018",
+      "short_answer_preview": "9"
+    },
+    {
+      "task_id": "imo-bench-geometry-099",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "USAMTS 2019",
+      "short_answer_preview": "12"
+    },
+    {
+      "task_id": "imo-bench-geometry-100",
+      "category": "Geometry",
+      "subcategory": "computation",
+      "source": "Novosibirsk Geometry Olympiad 2023",
+      "short_answer_preview": "10"
+    },
+    {
+      "task_id": "imo-bench-number_theory-001",
+      "category": "Number theory",
+      "subcategory": "Perfect power",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-number_theory-002",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2021",
+      "short_answer_preview": "1009"
+    },
+    {
+      "task_id": "imo-bench-number_theory-003",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2020",
+      "short_answer_preview": "31"
+    },
+    {
+      "task_id": "imo-bench-number_theory-004",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2019",
+      "short_answer_preview": "$(1, 2, 3)$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-005",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "IMO Shortlist 2019",
+      "short_answer_preview": "$\\mathbb{Z}$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-006",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "IMO Shortlist 2018",
+      "short_answer_preview": "$a^2 - a + 1$ ( $a \\ge 2$)\n0 ($a=1$)"
+    },
+    {
+      "task_id": "imo-bench-number_theory-007",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "n is prime"
+    },
+    {
+      "task_id": "imo-bench-number_theory-008",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2017",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-number_theory-009",
+      "category": "Number theory",
+      "subcategory": "Number Theoretic Functions",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "1 and odd prime numbers"
+    },
+    {
+      "task_id": "imo-bench-number_theory-010",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "IMO Shortlist 2016",
+      "short_answer_preview": "$7^d p$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-011",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "$n=1, n \\ge 3$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-012",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2015",
+      "short_answer_preview": "$n \\ge 2$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-013",
+      "category": "Number theory",
+      "subcategory": "Representation",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "$(n-2)2^n +1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-014",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "$(n^2 +3n+2, n^3 + 4n^2 + 3n -1)$\nfor $n \\ge 1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-015",
+      "category": "Number theory",
+      "subcategory": "Perfect power",
+      "source": "IMO Shortlist 2014",
+      "short_answer_preview": "(3,2,5)"
+    },
+    {
+      "task_id": "imo-bench-number_theory-016",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2013",
+      "short_answer_preview": "$g(x)=c, g(x)=\\lceil x \\rceil, g(x)=\\lfloor x \\rfloor$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-017",
+      "category": "Number theory",
+      "subcategory": "Other",
+      "source": "IMO Shortlist 2013",
+      "short_answer_preview": "6912"
+    },
+    {
+      "task_id": "imo-bench-number_theory-018",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "IMO Shortlist 2012",
+      "short_answer_preview": "208"
+    },
+    {
+      "task_id": "imo-bench-number_theory-019",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2012",
+      "short_answer_preview": "(2,251,252)"
+    },
+    {
+      "task_id": "imo-bench-number_theory-020",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2012",
+      "short_answer_preview": "44"
+    },
+    {
+      "task_id": "imo-bench-number_theory-021",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "69169"
+    },
+    {
+      "task_id": "imo-bench-number_theory-022",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2011",
+      "short_answer_preview": "$1,3,5$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-023",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "48"
+    },
+    {
+      "task_id": "imo-bench-number_theory-024",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "94"
+    },
+    {
+      "task_id": "imo-bench-number_theory-025",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "5"
+    },
+    {
+      "task_id": "imo-bench-number_theory-026",
+      "category": "Number theory",
+      "subcategory": "Other",
+      "source": "IMO Shortlist 2010",
+      "short_answer_preview": "$2^n$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-027",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2009",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-number_theory-028",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2009",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-029",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "IMO Shortlist 2008",
+      "short_answer_preview": "$p_1^{p_1^{e_1}-1} \\cdots p_k^{p_k^{e_k}-1}$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-030",
+      "category": "Number theory",
+      "subcategory": "Binomial",
+      "source": "IMO Shortlist 2007",
+      "short_answer_preview": "$3n$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-031",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2006",
+      "short_answer_preview": "$5(l-1)^2$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-032",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2005",
+      "short_answer_preview": "1"
+    },
+    {
+      "task_id": "imo-bench-number_theory-033",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2005",
+      "short_answer_preview": "m is prime or 1"
+    },
+    {
+      "task_id": "imo-bench-number_theory-034",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "IMO Shortlist 2004",
+      "short_answer_preview": "All powers of 2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-035",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "$n-1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-036",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "$2,3, \\underbrace{2\\cdots2}_{n}1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-037",
+      "category": "Number theory",
+      "subcategory": "Representation",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "All numbers of the form $4k+3$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-038",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "IMO Shortlist 2003",
+      "short_answer_preview": "$(p-1)^2$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-039",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2002",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-number_theory-040",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2001",
+      "short_answer_preview": "6"
+    },
+    {
+      "task_id": "imo-bench-number_theory-041",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "IMO Shortlist 2000",
+      "short_answer_preview": "2, 3, 4, 6, 8, 12, 24"
+    },
+    {
+      "task_id": "imo-bench-number_theory-042",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "IMO Shortlist 2000",
+      "short_answer_preview": "1, 4, 10"
+    },
+    {
+      "task_id": "imo-bench-number_theory-043",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "IMO Shortlist 2000",
+      "short_answer_preview": "19601"
+    },
+    {
+      "task_id": "imo-bench-number_theory-044",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "Iran 2001",
+      "short_answer_preview": "64"
+    },
+    {
+      "task_id": "imo-bench-number_theory-045",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Iran 2002",
+      "short_answer_preview": "2030"
+    },
+    {
+      "task_id": "imo-bench-number_theory-046",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "Ukraine 1997",
+      "short_answer_preview": "$2k-1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-047",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "United Kingdom 1997",
+      "short_answer_preview": "$k=7m+2$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-048",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Vietnam 1997",
+      "short_answer_preview": "$\\left\\{ (a,b):ab\\leq e^{3}\\right\\}$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-049",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "Belarus 2000",
+      "short_answer_preview": "3"
+    },
+    {
+      "task_id": "imo-bench-number_theory-050",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Belarus 2018",
+      "short_answer_preview": "1, 2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-051",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "Belarus 2018",
+      "short_answer_preview": "6.5"
+    },
+    {
+      "task_id": "imo-bench-number_theory-052",
+      "category": "Number theory",
+      "subcategory": "Number Theoretic Functions",
+      "source": "Belarus 2018",
+      "short_answer_preview": "$2^{16} + 1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-053",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Britain 2018",
+      "short_answer_preview": "All powers of 2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-054",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "Dutch 2017",
+      "short_answer_preview": "All prime numbers, 1, 4, and 6."
+    },
+    {
+      "task_id": "imo-bench-number_theory-055",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "Estonia TST 2018",
+      "short_answer_preview": "$14625$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-056",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "Estonia TST 2018",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-057",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "Japan 2018",
+      "short_answer_preview": "42"
+    },
+    {
+      "task_id": "imo-bench-number_theory-058",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Japan TST 2018",
+      "short_answer_preview": "$a_{ij} = i + j - 1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-059",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Belarus 2017",
+      "short_answer_preview": "8, 9"
+    },
+    {
+      "task_id": "imo-bench-number_theory-060",
+      "category": "Number theory",
+      "subcategory": "Operation",
+      "source": "Bulgaria 2017",
+      "short_answer_preview": "$\\frac{2025^{101} + 2025^2 + 2025 + 1}{2026}$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-061",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Czech and Slovak 2017 (modified)",
+      "short_answer_preview": "all multiples of 14, excluding 0"
+    },
+    {
+      "task_id": "imo-bench-number_theory-062",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "Dutch 2017",
+      "short_answer_preview": "4, 27, 3125"
+    },
+    {
+      "task_id": "imo-bench-number_theory-063",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "Dutch 2017",
+      "short_answer_preview": "0, 1, 2, 4, 12"
+    },
+    {
+      "task_id": "imo-bench-number_theory-064",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "Estonian Math Competition 16/17",
+      "short_answer_preview": "2"
+    },
+    {
+      "task_id": "imo-bench-number_theory-065",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Romania 2017",
+      "short_answer_preview": "2, 5"
+    },
+    {
+      "task_id": "imo-bench-number_theory-066",
+      "category": "Number theory",
+      "subcategory": "Functional Equation",
+      "source": "Balkan MO 2017",
+      "short_answer_preview": "$f(x) = x^2 - x$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-067",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Belarus 2016",
+      "short_answer_preview": "19"
+    },
+    {
+      "task_id": "imo-bench-number_theory-068",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Belarus 2016",
+      "short_answer_preview": "3,7"
+    },
+    {
+      "task_id": "imo-bench-number_theory-069",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "Dutch 2015",
+      "short_answer_preview": "60, 100, 8p (for all odd primes p)"
+    },
+    {
+      "task_id": "imo-bench-number_theory-070",
+      "category": "Number theory",
+      "subcategory": "Other",
+      "source": "Estonia 2015/2016",
+      "short_answer_preview": "18771"
+    },
+    {
+      "task_id": "imo-bench-number_theory-071",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "Hong Kong 2015",
+      "short_answer_preview": "14"
+    },
+    {
+      "task_id": "imo-bench-number_theory-072",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Olimpiadi Italiane della Matematica 2016",
+      "short_answer_preview": "$(5, 3, 7)$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-073",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "Japan 2016",
+      "short_answer_preview": "$q-1$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-074",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Korea 2026 (modified)",
+      "short_answer_preview": "(0, 0)"
+    },
+    {
+      "task_id": "imo-bench-number_theory-075",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "Balkan MO 2016",
+      "short_answer_preview": "$P(x) = x - 4$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-076",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "RMM 2016",
+      "short_answer_preview": "0"
+    },
+    {
+      "task_id": "imo-bench-number_theory-077",
+      "category": "Number theory",
+      "subcategory": "Operation",
+      "source": "Japan 2015",
+      "short_answer_preview": "8"
+    },
+    {
+      "task_id": "imo-bench-number_theory-078",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "Japan 2015",
+      "short_answer_preview": "0,2,6"
+    },
+    {
+      "task_id": "imo-bench-number_theory-079",
+      "category": "Number theory",
+      "subcategory": "Sequence",
+      "source": "Korea 2015 (modified)",
+      "short_answer_preview": "All positive integers"
+    },
+    {
+      "task_id": "imo-bench-number_theory-080",
+      "category": "Number theory",
+      "subcategory": "Number Theoretic Functions",
+      "source": "RMM 2015",
+      "short_answer_preview": "$\\lfloor \\frac{p}{9} \\rfloor$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-081",
+      "category": "Number theory",
+      "subcategory": "Binomial",
+      "source": "China TST 2014 ( modified)",
+      "short_answer_preview": "no solutions"
+    },
+    {
+      "task_id": "imo-bench-number_theory-082",
+      "category": "Number theory",
+      "subcategory": "Polynomial",
+      "source": "China Girl's MO 2014",
+      "short_answer_preview": "7200"
+    },
+    {
+      "task_id": "imo-bench-number_theory-083",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "China Girl's MO 2014",
+      "short_answer_preview": "43,47,2021"
+    },
+    {
+      "task_id": "imo-bench-number_theory-084",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Greece 2014",
+      "short_answer_preview": "5,-3"
+    },
+    {
+      "task_id": "imo-bench-number_theory-085",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Hong Kong 2014",
+      "short_answer_preview": "1680"
+    },
+    {
+      "task_id": "imo-bench-number_theory-086",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "Japan 2014",
+      "short_answer_preview": "939"
+    },
+    {
+      "task_id": "imo-bench-number_theory-087",
+      "category": "Number theory",
+      "subcategory": "Representation",
+      "source": "Japan TST 2014",
+      "short_answer_preview": "162"
+    },
+    {
+      "task_id": "imo-bench-number_theory-088",
+      "category": "Number theory",
+      "subcategory": "Divisor",
+      "source": "Hungary 1998",
+      "short_answer_preview": "820"
+    },
+    {
+      "task_id": "imo-bench-number_theory-089",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Russia 1998",
+      "short_answer_preview": "12"
+    },
+    {
+      "task_id": "imo-bench-number_theory-090",
+      "category": "Number theory",
+      "subcategory": "Other",
+      "source": "Iran 2004",
+      "short_answer_preview": "$(n-2)!$"
+    },
+    {
+      "task_id": "imo-bench-number_theory-091",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "Iran 2011",
+      "short_answer_preview": "1600"
+    },
+    {
+      "task_id": "imo-bench-number_theory-092",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "China 2001",
+      "short_answer_preview": "797"
+    },
+    {
+      "task_id": "imo-bench-number_theory-093",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "China 2003",
+      "short_answer_preview": "3000"
+    },
+    {
+      "task_id": "imo-bench-number_theory-094",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Ireland 1999",
+      "short_answer_preview": "1, 13, 25, 325"
+    },
+    {
+      "task_id": "imo-bench-number_theory-095",
+      "category": "Number theory",
+      "subcategory": "Base and Digit",
+      "source": "Romania 1999",
+      "short_answer_preview": "999981"
+    },
+    {
+      "task_id": "imo-bench-number_theory-096",
+      "category": "Number theory",
+      "subcategory": "Set",
+      "source": "China 2004",
+      "short_answer_preview": "$\\lfloor \\frac{a+2}{2}\\rfloor +\\lfloor \\frac{a+2}{3}\\rfloor -\\lfloor \\frac{a+2}{6}\\rfloor $"
+    },
+    {
+      "task_id": "imo-bench-number_theory-097",
+      "category": "Number theory",
+      "subcategory": "Divisibility",
+      "source": "Turkey 2000",
+      "short_answer_preview": "234301"
+    },
+    {
+      "task_id": "imo-bench-number_theory-098",
+      "category": "Number theory",
+      "subcategory": "Other",
+      "source": "Italy 2000",
+      "short_answer_preview": "93"
+    },
+    {
+      "task_id": "imo-bench-number_theory-099",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "Austrian-Polish Mathematics Competition 2000",
+      "short_answer_preview": "4"
+    },
+    {
+      "task_id": "imo-bench-number_theory-100",
+      "category": "Number theory",
+      "subcategory": "Diophantine Equation",
+      "source": "St. Petersburg City MO (Russia) 2000",
+      "short_answer_preview": "20"
+    }
+  ]
+}

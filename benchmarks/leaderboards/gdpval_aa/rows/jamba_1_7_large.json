@@ -1,0 +1,43 @@
+{
+  "slug": "jamba_1_7_large",
+  "model_id": "78452c64-7303-4192-bca5-2d9ec5c623d4",
+  "model_slug": "jamba-1-7-large",
+  "name": "Jamba 1.7 Large",
+  "gdpval_name": null,
+  "short_name": "Jamba 1.7 Large",
+  "creator": {
+    "name": "AI21 Labs",
+    "slug": "ai21-labs",
+    "country": null,
+    "logo": "/img/logos/ai21.svg"
+  },
+  "release_date": "2025-07-07",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 290.9390875800159,
+    "lower_95ci": 261.84320431720516,
+    "upper_95ci": 319.45042832925685,
+    "n_matches": 1179,
+    "avg_turns": 80.50234741784037
+  },
+  "gdpval_breakdown": {
+    "elo": 290.9390875800159,
+    "avg_turns": 80.50234741784037,
+    "n_matches": 1179,
+    "lower_95ci": 261.84320431720516,
+    "upper_95ci": 319.45042832925685,
+    "last_updated": "2026-04-22T02:15:58.256745"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 367469266,
+    "answer_tokens": 6152500,
+    "output_tokens": 6152500,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 10.88,
+  "agentic_index": 4.48,
+  "price_1m_input_tokens": 2,
+  "price_1m_output_tokens": 8
+}

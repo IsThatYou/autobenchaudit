@@ -1,0 +1,59 @@
+{
+  "slug": "Meituan_LongCat_Team_EvoCUA-20260105_50steps",
+  "model": "EvoCUA-20260105",
+  "institution": "Meituan LongCat Team",
+  "paper_link": "https://arxiv.org/abs/2601.15876",
+  "paper_authors": "Meituan LongCat Team",
+  "approach_type": "General model",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2026-01-06",
+  "success_rate": 56.73,
+  "success_total_raw": "204.23/360",
+  "success_count": 204.23,
+  "total_tasks": 360,
+  "per_category": {
+    "chrome": {
+      "success": 29.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 20.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 26.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 27.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 16.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 25.94,
+      "total": 93
+    },
+    "os": {
+      "success": 18.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 8.39,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 20.0,
+      "total": 23
+    }
+  }
+}

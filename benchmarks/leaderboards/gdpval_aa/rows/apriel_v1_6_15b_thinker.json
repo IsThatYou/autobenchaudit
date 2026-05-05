@@ -1,0 +1,43 @@
+{
+  "slug": "apriel_v1_6_15b_thinker",
+  "model_id": "a71c1a35-ccc8-43f0-a5a2-070a690b9a00",
+  "model_slug": "apriel-v1-6-15b-thinker",
+  "name": "Apriel-v1.6-15B-Thinker",
+  "gdpval_name": null,
+  "short_name": "Apriel-v1.6-15B-Thinker",
+  "creator": {
+    "name": "ServiceNow",
+    "slug": "servicenow",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-11-25",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 575.4845808500359,
+    "lower_95ci": 547.0086432157253,
+    "upper_95ci": 602.1973252343046,
+    "n_matches": 2102,
+    "avg_turns": 52.60476190476191
+  },
+  "gdpval_breakdown": {
+    "elo": 575.4845808500359,
+    "avg_turns": 52.60476190476191,
+    "n_matches": 2102,
+    "lower_95ci": 547.0086432157253,
+    "upper_95ci": 602.1973252343046,
+    "last_updated": "2026-04-22T02:15:45.058789"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 138319606,
+    "answer_tokens": 1954493,
+    "output_tokens": 10807863,
+    "reasoning_tokens": 8853369
+  },
+  "intelligence_index": 27.58,
+  "agentic_index": 28.62,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

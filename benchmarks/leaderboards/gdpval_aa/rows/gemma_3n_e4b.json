@@ -1,0 +1,43 @@
+{
+  "slug": "gemma_3n_e4b",
+  "model_id": "a797eaf3-6d75-4f29-86a8-e1243ce52d43",
+  "model_slug": "gemma-3n-e4b",
+  "name": "Gemma 3n E4B Instruct",
+  "gdpval_name": null,
+  "short_name": "Gemma 3n E4B",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2025-06-26",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 251.03262411293747,
+    "lower_95ci": 217.89739116710814,
+    "upper_95ci": 283.36741556892616,
+    "n_matches": 920,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 251.03262411293747,
+    "avg_turns": 100,
+    "n_matches": 920,
+    "lower_95ci": 217.89739116710814,
+    "upper_95ci": 283.36741556892616,
+    "last_updated": "2026-04-22T02:16:00.792137"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 232196137,
+    "answer_tokens": 6572801,
+    "output_tokens": 6572801,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 6.38,
+  "agentic_index": 1.66,
+  "price_1m_input_tokens": 0.02,
+  "price_1m_output_tokens": 0.04
+}

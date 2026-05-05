@@ -1,0 +1,18 @@
+{
+  "slug": "GLM-5.1",
+  "model": "GLM-5.1",
+  "organization": "Zhipu AI",
+  "rank": 3,
+  "score": 0.838,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://z.ai/blog/glm-5.1",
+  "announcement_date": "2026-04-07",
+  "param_count": 754000000000,
+  "is_open_source": true,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

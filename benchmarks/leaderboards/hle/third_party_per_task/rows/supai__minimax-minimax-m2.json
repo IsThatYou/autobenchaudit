@@ -1,0 +1,51 @@
+{
+  "slug": "supai__minimax-minimax-m2",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "minimax/minimax-m2",
+  "vendor": "minimax",
+  "model": "minimax-m2",
+  "provider": null,
+  "num_questions": 6,
+  "num_correct": 1,
+  "accuracy": 0.16666666666666666,
+  "avg_confidence": 99.16666666666667,
+  "tasks": [
+    {
+      "task_id": "668828540a642802bdfeadfc",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "eeyo"
+    },
+    {
+      "task_id": "66e9032060abc895aedcf460",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "54%"
+    },
+    {
+      "task_id": "66ea2cc3c602e2b991ae8aba",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "463"
+    },
+    {
+      "task_id": "66ea99e17094e6aa0bc758e7",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "4"
+    },
+    {
+      "task_id": "66eac1d4124e580e615a27dc",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66eadaf22b7de7dec0a046bd",
+      "correct": 1,
+      "confidence": 95,
+      "model_answer": "B"
+    }
+  ]
+}

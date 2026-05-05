@@ -1,0 +1,43 @@
+{
+  "slug": "tri_21b_think_preview",
+  "model_id": "60cff809-05fb-4439-afe7-8b1476439f49",
+  "model_slug": "tri-21b-think-preview",
+  "name": "Tri-21B-think Preview",
+  "gdpval_name": null,
+  "short_name": "Tri-21B-think Preview",
+  "creator": {
+    "name": "Trillion Labs",
+    "slug": "trillionlabs",
+    "country": null,
+    "logo": "/img/logos/placeholder.png"
+  },
+  "release_date": "2026-02-10",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 337.0179335195246,
+    "lower_95ci": 303.73726388670434,
+    "upper_95ci": 367.21365063341466,
+    "n_matches": 2225,
+    "avg_turns": 94.32835820895522
+  },
+  "gdpval_breakdown": {
+    "elo": 337.0179335195246,
+    "avg_turns": 94.32835820895522,
+    "n_matches": 2225,
+    "lower_95ci": 303.73726388670434,
+    "upper_95ci": 367.21365063341466,
+    "last_updated": "2026-02-16T21:48:18.959807"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 290763515,
+    "answer_tokens": 5255096,
+    "output_tokens": 8884408,
+    "reasoning_tokens": 3629311
+  },
+  "intelligence_index": 19.99,
+  "agentic_index": 31.09,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Seed_1.5-VL",
+  "name": "Seed 1.5-VL",
+  "size": "20B",
+  "date": "2025-05-13",
+  "type": "proprietary",
+  "link": "https://seed.bytedance.com/en/tech/seed1_5_vl",
+  "pro_overall": 59.9,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 73.6,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

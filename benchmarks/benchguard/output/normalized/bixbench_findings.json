@@ -1,0 +1,486 @@
+{
+  "benchmark": "BIXBench-V50",
+  "source_dir": "data/bench_audit/benchguard/neurips/bixbench__v3__actual/task_audits_static",
+  "models": [
+    "static_audit"
+  ],
+  "filters_applied": {
+    "exclude_protocols": [],
+    "min_confidence": 0.0
+  },
+  "tasks": {
+    "bix-11-q1": {
+      "task_id": "bix-11-q1",
+      "is_revised": true,
+      "findings": []
+    },
+    "bix-14-q1": {
+      "task_id": "bix-14-q1",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-14-q1__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-14-q1",
+          "title": "The question asks about 'variants with a VAF below 0.3' but the reference answer requires pre-filtering out intronic, intergenic, and UTR variants \u2014 a step not mentioned in the question.",
+          "description": "The reference notebook (cell 21) explicitly removes intronic_variant, intergenic_variant, 3_prime_UTR_variant, and 5_prime_UTR_variant entries, reducing the dataset from 11,896 to 4,550 non-reference variants (~62% removed). Without this filtering, the denominator of the fraction increases substantially and the computed fraction of synonymous variants among BLM carriers with VAF<0.3 would fall well below the accepted range of (0.6, 0.7). A competent bioinformatician might recognize this as standard exome analysis practice, but the question says 'variants' without qualification, not 'exonic variants' or 'coding variants'. Some agents would include all variants in the denominator and get a wrong answer.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-7718a922-ce2c-4e59-900b-84fe06050ce6/CapsuleNotebook-7718a922-ce2c-4e59-900b-84fe06050ce6/CapsuleNotebook-7718a922-ce2c-4e59-900b-84fe06050ce6_executed.ipynb] Cell 21 filters: nonref_exome_CHIP_dataset removes intron_variant, intergenic_variant, 3_prime_UTR_variant, 5_prime_UTR_variant. Comment: 'we are looking at exome sequencing data'. Reduces 11,896 to 4,550 variants. Cell 23 then computes synonymous fraction as 0.6383 for BLM Carriers.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'In the BLM mutation carrier cohort, what fraction of variants with a variant allele frequency (VAF) below 0.3 are annotated as synonymous?' \u2014 no mention of exonic-only or coding-only filtering.",
+          "category": "INST",
+          "subcategory": "implicit_data_filtering_requirement",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-14-q1__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-14-q1",
+          "title": "The _grade_range_verifier method raises UnboundLocalError when the predicted answer is outside the target range, because grade_type is only assigned inside an 'if correct' block with no else clause.",
+          "description": "When an agent gives an incorrect answer (outside the 0.6-0.7 range), the grading code crashes at line 166 instead of returning GradeType.INCORRECT. This is a systemic bug affecting all range_verifier tasks. Depending on upstream error handling, incorrect answers may be treated as errors rather than graded, potentially distorting benchmark results.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 155-170: _grade_range_verifier sets grade_type = GradeType.CORRECT only when correct is True (line 162-163). No else branch. Line 166 references grade_type unconditionally, causing UnboundLocalError when correct is False. Compare with _grade_str_verifier (lines 95-100) which properly handles all three outcomes.",
+          "category": "EVAL",
+          "subcategory": "grading_code_bug",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-20-q3": {
+      "task_id": "bix-20-q3",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-20-q3__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-20-q3",
+          "title": "The _grade_range_verifier method in graders.py has an UnboundLocalError when the predicted value falls outside the accepted range, because grade_type is only assigned inside the if-correct branch with no else clause.",
+          "description": "When an agent submits an out-of-range answer via the MCQ evaluation path, the grader crashes instead of returning grade=0. This could cause per-question or per-run failures in MCQ evaluation mode. The agentic (open-ended) path uses a different method (_grade_range_llm_verifier) and is unaffected.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 155-170: _grade_range_verifier only assigns grade_type = GradeType.CORRECT inside 'if correct:' with no else clause. Compare to _grade_str_verifier (lines 96-101) which properly handles correct, refusal, and incorrect with explicit else branches.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 201-204: MCQGrader.grade() dispatches range_verifier evaluation to the buggy _grade_range_verifier method with no exception handling.",
+          "category": "EVAL",
+          "subcategory": "grader_bug",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-22-q4": {
+      "task_id": "bix-22-q4",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-22-q4__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-22-q4",
+          "title": "The _grade_range_verifier method in graders.py has an UnboundLocalError: if the predicted value is outside the target range, grade_type is never assigned, causing a crash instead of returning INCORRECT.",
+          "description": "In the MCQ evaluation path, any incorrect answer will crash the grader rather than being scored as wrong. This could affect score reporting and error handling in the MCQ evaluation pipeline. However, the primary agentic eval path uses _grade_range_llm_verifier (LLM-based), which is unaffected.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 155-170: _grade_range_verifier only assigns grade_type inside 'if correct:' block (line 163). There is no else branch, so grade_type is unbound when correct=False, causing UnboundLocalError at line 166.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 201-204: MCQGrader.grade() calls _grade_range_verifier directly for range_verifier eval_mode. Lines 260-267: OpenEndedGrader.grade() uses _grade_range_llm_verifier instead, so the primary agentic path is unaffected.",
+          "category": "EVAL",
+          "subcategory": "grading_code_bug",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-26-q5": {
+      "task_id": "bix-26-q5",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-26-q5__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-26-q5",
+          "title": "The term 'innate media conditions' is not defined in the data files, reference notebook, or paper description, and is not standard microbiology terminology for the succinate medium it refers to.",
+          "description": "The agent sees only two data files: res_GluFevsGluFePlus.rds and res_SuccvsGluFePlus.rds. The question identifies one condition as 'iron-depleted' (mapping to GluFe) and the other as 'innate media' \u2014 a term that appears nowhere in the data, notebook code, notebook comments, or the result statement (which says 'Succinate media'). While deducible by elimination since only two conditions exist, an agent could waste time searching for a third condition or misidentify which condition 'innate' refers to. Compare with bix-26-q3 which helpfully parenthesizes the label: 'iron-depleted glucose condition (FeMinus)'.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584_executed.ipynb] Cell 13 comment: 'Import data for DESeq object of P. aeruginosa from two different media types, minimal glucose media without iron (GluFe) and succinate (Succ).' Cell 18 labels conditions as 'FeMinus' and 'Succ'. The word 'innate' never appears.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] The 'result' field for bix-26-q5 describes conditions as 'Glucose without Fe' and 'Succinate' media \u2014 not 'innate media'. The question text introduces 'innate media' without any prior definition.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleData-0923d260-fe1b-4fb4-4398-79edf546e584/res_SuccvsGluFePlus.rds] Only two data files exist. By elimination the 'other' condition must be Succ, but this requires the agent to infer that 'innate media' = Succinate, which is non-obvious.",
+          "category": "INST",
+          "subcategory": "undefined_terminology",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-26-q5__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-26-q5",
+          "title": "The question defines 'significantly enriched pathways' using criteria that conflate gene-level (log fold change) and pathway-level (adjusted p-value) metrics, and the gene-level filtering described differs from what the reference notebook actually does.",
+          "description": "The question states: 'Significantly enriched pathways are defined as have an absolute log fold change greater than 1.5 and an adjusted p-values less than 0.05.' Log fold change is a gene-level metric \u2014 pathways in enrichKEGG output don't have log fold changes. A reasonable interpretation is to filter genes by BOTH |LFC| > 1.5 AND padj < 0.05, then run enrichment. However, the reference notebook only filters genes by |LFC| > 1.5 (cell 16) without any padj filter, then lets enrichKEGG apply pvalueCutoff=0.05 and qvalueCutoff=0.05 at the pathway level. Applying the padj < 0.05 gene filter as the question suggests would reduce the input gene set (excluding genes with high LFC but high/NA padj), potentially changing enrichment results and yielding a different count than 3.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584_executed.ipynb] Cell 16: genes are filtered by `filter(log2FoldChange > 1.5)` and `filter(log2FoldChange < -1.5)` only. The padj column is selected via dplyr::select but never used as a filter condition. Cell 17: enrichKEGG applies pvalueCutoff=0.05, qvalueCutoff=0.05 at the pathway level.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] bix-26-q5 question text says 'absolute log fold change greater than 1.5 and an adjusted p-values less than 0.05' as a combined definition. Compare with bix-26-q3 which uses similar language: 'absolute log2 fold change cut off 1.5 and an adjusted p-value threshold of 0.05' \u2014 both present gene-level LFC and padj as a combined criterion, but the notebook only applies the LFC filter.",
+          "category": "INST",
+          "subcategory": "misleading_criteria_definition",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-26-q5__static_audit__2",
+          "model": "static_audit",
+          "task_id": "bix-26-q5",
+          "title": "The enrichKEGG function queries the live KEGG REST API (rest.kegg.jp), making enrichment results dependent on the KEGG database version at execution time. The expected answer of 3 may not be reproducible.",
+          "description": "The reference notebook's enrichKEGG calls download pathway annotations from 'https://rest.kegg.jp/link/pau/pathway' and 'https://rest.kegg.jp/list/pathway/pau'. KEGG regularly updates its pathway databases. If pathway-gene mappings for P. aeruginosa UCBPP-PA14 (organism code 'pau') have changed since the notebook was executed, the same gene lists could yield different enrichment results. Since the expected answer is a precise count (3), even minor KEGG updates could change it. No frozen/cached KEGG annotations are provided with the capsule data.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleNotebook-0923d260-fe1b-4fb4-4398-79edf546e584_executed.ipynb] Cell 17 output shows 'Reading KEGG annotation online: https://rest.kegg.jp/link/pau/pathway'. The enrichKEGG function fetches live data from KEGG API.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0923d260-fe1b-4fb4-4398-79edf546e584/CapsuleData-0923d260-fe1b-4fb4-4398-79edf546e584/res_GluFevsGluFePlus.rds] The capsule data provides only DESeq2 result objects. No pre-computed KEGG enrichment results or frozen KEGG annotations are included \u2014 the agent must query the live API.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] bix-26-q4 explicitly says 'using the latest KEGG db', acknowledging the database changes over time, yet its expected answer (5) is also pinned to the version at notebook execution time.",
+          "category": "ENV",
+          "subcategory": "external_api_dependency",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-27-q5": {
+      "task_id": "bix-27-q5",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-27-q5__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-27-q5",
+          "title": "The reference answer range (88, 89) does not match the correct answer to the question. The question asks for the variance explained by the first principal component (PC1), which is ~55.97% (cleaned data) or ~56.47% (raw data). The value 88.98% corresponds to the cumulative variance explained by the first 9 PCs, not PC1 alone.",
+          "description": "Any agent that correctly computes what the question asks \u2014 the variance explained by PC1 \u2014 will get ~56%, which falls outside the accepted range (88, 89), and will be graded as incorrect. The task penalizes correct answers and rewards incorrect ones. No amount of domain expertise or careful reading of the prompt can lead an agent to produce the 'correct' answer without making the same error the question author made (confusing PC1 variance with cumulative variance of multiple PCs).\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Task bix-27-q5: question asks 'what percentage of the total variance in the dataset is explained by the first principal component', ideal answer is (88,89).\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0f14ffa7-f02a-4d20-8142-dfc404195e56/CapsuleNotebook-0f14ffa7-f02a-4d20-8142-dfc404195e56/CapsuleNotebook-0f14ffa7-f02a-4d20-8142-dfc404195e56_executed.ipynb] Reference notebook Cell 45 computes PCA on the cleaned log10-transformed data. Cell 46 markdown says '10 PCs explain more than 90% of the variance' \u2014 consistent with cumulative PC variance, not PC1 alone. The notebook never prints PC1 variance individually.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-0f14ffa7-f02a-4d20-8142-dfc404195e56/CapsuleData-0f14ffa7-f02a-4d20-8142-dfc404195e56/ROSMAP_genexp_ad.csv] Independent reproduction: PCA on log10(data+1).T yields PC1=55.97% (cleaned) or 56.47% (raw). Cumulative variance for first 9 PCs = 88.98% (cleaned) or 88.74% (raw), matching the reference range (88,89). The MCQ distractors (50,51), (36,37), (91,92) also don't include the true PC1 value of ~56%.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 155-170: _grade_range_verifier checks lower <= float(predicted) <= upper. A correct PC1 answer of ~56 would fail the (88,89) check.",
+          "category": "EVAL",
+          "subcategory": "wrong_reference_answer",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-28-q3": {
+      "task_id": "bix-28-q3",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-28-q3__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-28-q3",
+          "title": "The question asks for 'median long branch score' without specifying that PhyKIT is the required computation tool. 'Long branch score' is a PhyKIT-specific metric, not a universally standardized phylogenetics term, and different tools or manual approaches to branch-length analysis would yield different numerical results.",
+          "description": "Without knowing to use PhyKIT, an agent analyzing the provided tree files might compute branch-length statistics using alternative methods (e.g., raw branch length ratios, ETE3, custom scripts), all producing valid but different numbers that would be graded incorrect. The benchmark authors themselves recognized this gap and revised the question in BixBench-Verified-50 to explicitly include 'Using PhyKIT to calculate long branch scores.'\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Original question text: 'What is the median long branch score for the fungal gene 996662at2759?' \u2014 no mention of PhyKIT or any specific tool/method.\n- [/home/anon/Documents/Research/bench-audit/bench_audit/benchmarks/benchguard/bix_verified50/BixBench-Verified-50.jsonl] Revised question in BixBench-Verified-50: 'Using PhyKIT to calculate long branch scores, what is the median long branch score for the fungal gene 996662at2759?' \u2014 confirming the benchmark authors identified this ambiguity and added the tool specification.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-c66d3ed9-0a95-46be-a237-ed68498ea7f6/CapsuleData-c66d3ed9-0a95-46be-a237-ed68498ea7f6/scogs_fungi.zip] Capsule data contains IQ-TREE phylogenetic outputs (treefiles, logs) but no code, README, or documentation hinting at PhyKIT. The tree for gene 996662at2759 has 4 fungal taxa with branch lengths that could be analyzed with multiple methods.",
+          "category": "INST",
+          "subcategory": "missing_method_specification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-28-q3__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-28-q3",
+          "title": "The LLM-based grading for this precise numerical answer (-30.4551) provides no explicit numerical tolerance guidance. The OPEN_ENDED_GRADING_PROMPT asks the LLM judge to compare target and predicted answers without any instruction about acceptable rounding or precision, making grading of close but not exact numerical answers nondeterministic.",
+          "description": "If an agent correctly uses PhyKIT but reports -30.455, -30.46, or -30.5 due to rounding conventions, the grading outcome depends entirely on the LLM judge's interpretation of closeness. For eval_mode='llm_verifier', the code bypasses exact/partial string matching and goes directly to the LLM judge (OpenEndedGrader lines 269-276), so there is no deterministic numerical comparison. Different LLM judge instances may grade the same borderline answer differently.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/prompts.py] OPEN_ENDED_GRADING_PROMPT (lines 25-32) contains no guidance about numerical tolerance: 'Your task is to compare the target answer with the predicted and assess if the predicted answer is correct, incorrect or it refused to answer.'\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 269-276: When evaluation_mode='llm_verifier', OpenEndedGrader.grade() calls _grade_llm_verifier directly, bypassing the exact-match and partial-match checks. The partial_match and llm_match parameters passed to grade() are ignored for this eval mode.",
+          "category": "EVAL",
+          "subcategory": "grading_nondeterminism",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-31-q2": {
+      "task_id": "bix-31-q2",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-31-q2__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-31-q2",
+          "title": "FAM138A is classified as lncRNA (long non-coding RNA) in the provided GeneMetaInfo_Zenodo.csv, but the question instructs the agent to perform differential expression analysis 'of protein-coding genes.' A competent developer following this instruction would filter to gene_biotype=='protein_coding', which excludes FAM138A entirely \u2014 making it impossible to report its LFC.",
+          "description": "The question is self-contradictory: it asks for analysis restricted to protein-coding genes, then asks for the LFC of a non-protein-coding gene. An agent that correctly filters to protein-coding genes cannot answer the question. An agent that includes all genes ignores the explicit instruction. Either way, the task penalizes correct behavior.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleData-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/GeneMetaInfo_Zenodo.csv] Row for FAM138A: 'FAM138A,FAM138A,1,1219,lncRNA' \u2014 gene_biotype is lncRNA, not protein_coding.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'By performing a sex-specific (M vs F) differential expression analysis (abs lfc>0.5, basemean>10 and using lfc shrinkage) of protein-coding genes, what is the log2 fold change of FAM138A?'\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27_executed.ipynb] Cell 79: The reference notebook only filters to protein-coding genes AFTER DESeq2 for statistical comparison, never running a protein-coding-only DE analysis. The FAM138A LFC comes from the all-genes analysis.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-31-q2__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-31-q2",
+          "title": "The reference answer range (-0.45, -0.35) corresponds to the pre-shrinkage LFC of FAM138A (-0.383938), but the question explicitly instructs 'using lfc shrinkage.' After MAP LFC shrinkage in the reference notebook, FAM138A's LFC becomes -0.060666 \u2014 far outside the accepted range. The grader rejects the correct shrunk answer.",
+          "description": "An agent that correctly applies LFC shrinkage as instructed will compute a value near -0.06, which the range_verifier grader will mark as incorrect. The reference answer rewards ignoring the 'using lfc shrinkage' instruction. This is the opposite of what the question asks for.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27_executed.ipynb] Cell 32 (pre-shrinkage): FAM138A baseMean=0.483698, log2FoldChange=-0.383938. Cell 36 (post-MAP-shrinkage): FAM138A log2FoldChange=-0.060666. The reference answer range (-0.45, -0.35) contains the pre-shrinkage value but not the post-shrinkage value.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] ideal field: '(-0.45, -0.35)'. Question explicitly states 'using lfc shrinkage'. The expected range matches only the unshrunk LFC.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] _grade_range_verifier uses 'lower <= float(predicted) <= upper' \u2014 the shrunk value of -0.061 would be evaluated as -0.45 <= -0.061 <= -0.35, which is False. Correct shrinkage-applied answer is rejected.",
+          "category": "EVAL",
+          "subcategory": "wrong_reference_answer",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-31-q2__static_audit__2",
+          "model": "static_audit",
+          "task_id": "bix-31-q2",
+          "title": "The question specifies 'basemean>10' as a criterion, but FAM138A has a baseMean of 0.48 \u2014 far below this threshold. If an agent applies the baseMean>10 filter (as a reasonable interpretation of the instruction), FAM138A would be excluded from the results entirely.",
+          "description": "The 'basemean>10' criterion in the question is ambiguous: it could be a pre-filter for the DE analysis, a threshold for identifying significant DE genes, or just contextual. A competent bioinformatician could reasonably interpret it as a filter that would exclude FAM138A, making the question unanswerable. Combined with the other issues, this adds another layer of contradiction.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27/CapsuleNotebook-b1dbace7-f6e9-42ec-81e1-bcc24161cc27_executed.ipynb] Cell 32 and Cell 44: FAM138A baseMean=0.483698. Cell 44 explicitly shows res_shrunk[res_shrunk.baseMean<=10] and FAM138A appears in this subset, confirming it falls below the 10 threshold.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question mentions 'basemean>10' as part of the analysis specification in parentheses alongside 'abs lfc>0.5' and 'using lfc shrinkage'.",
+          "category": "INST",
+          "subcategory": "contradictory_requirements",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-32-q2": {
+      "task_id": "bix-32-q2",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-32-q2__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-32-q2",
+          "title": "The question phrasing 'significantly enriched (absolute value of lfc > 1.5)' is ambiguous about what the |lfc| > 1.5 threshold applies to and whether additional statistical filtering is expected.",
+          "description": "In the reference notebook, |lfc| > 1.5 is used as a gene-level filter (selecting DE genes for input to enrichKEGG), NOT as a pathway-level criterion. The parenthetical '(absolute value of lfc > 1.5)' grammatically appears to qualify what makes a pathway 'significantly enriched,' but KEGG enrichment results have no lfc value. Additionally, the word 'significantly' implies statistical significance, yet the reference notebook does NOT filter genes by padj \u2014 only by fold change. A bioinformatician who adds the standard padj < 0.05 gene-level filter would get a different input gene set, potentially yielding a different count of overlapping enriched pathways.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/CapsuleNotebook-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/CapsuleNotebook-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5_executed.ipynb] Cell 17 filters genes only by log2FoldChange > 1.5 (or < -1.5) without any padj filtering: 'filter(log2FoldChange > 1.5)'. The padj column is selected but never used in filtering. Many bioinformaticians would also require padj < 0.05 when the question says 'significantly enriched.'\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'How many enriched pathways using KEGG enrichment are significantly enriched (absolute value of lfc > 1.5) in the same direction for all three mutant strains (97, 98, and 99), relative to wildtype?' The parenthetical '(absolute value of lfc > 1.5)' appears to define the enrichment significance criterion at the pathway level, but it actually refers to gene-level filtering in the reference solution.",
+          "category": "INST",
+          "subcategory": "unclear_filtering_criterion",
+          "severity": "MEDIUM",
+          "confidence": 0.7,
+          "confidence_level": "LIKELY",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-32-q2__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-32-q2",
+          "title": "The KEGG enrichment analysis depends on the online KEGG REST API with no frozen database snapshot provided, making the reference answer potentially sensitive to KEGG database updates.",
+          "description": "The reference notebook's enrichKEGG function queries the live KEGG REST API ('Reading KEGG annotation online: https://rest.kegg.jp/link/pau/pathway'). Gene-to-pathway mappings and pathway definitions can change between KEGG database releases. If the agent runs the analysis at a different time and the KEGG database has been updated, the set of enriched pathways may differ, potentially changing the count from 2 to a different number. No frozen KEGG annotation file is included in the capsule.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/CapsuleNotebook-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/CapsuleNotebook-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5_executed.ipynb] Cell 18 output shows 'Reading KEGG annotation online: https://rest.kegg.jp/link/pau/pathway' \u2014 confirming the analysis fetches current KEGG data from the internet rather than using a local frozen copy.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/CapsuleData-a94b7008-bb9a-4a46-ebfb-4afdfdd299d5/] The capsule data directory contains only three .rds files (res_1vs97.rds, res_1vs98.rds, res_1vs99.rds). No KEGG annotation files or organism-specific pathway databases are provided.",
+          "category": "ENV",
+          "subcategory": "external_resource_dependency",
+          "severity": "MEDIUM",
+          "confidence": 0.7,
+          "confidence_level": "LIKELY",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-43-q2": {
+      "task_id": "bix-43-q2",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-43-q2__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-43-q2",
+          "title": "The prompt says 'p<0.05' without specifying raw p-value vs adjusted p-value (padj/FDR), but the reference solution filters on padj < 0.05. Using raw p-value would yield a different gene set and different enrichment odds ratio.",
+          "description": "In DESeq2 output, pvalue and padj are distinct columns. Using raw p-value includes substantially more genes (raw p-values are always <= adjusted p-values), which changes the enrichment input and the resulting odds ratio. A competent developer unfamiliar with the convention of 'statistically significant = FDR-corrected' could reasonably use raw p-value and get a wrong answer.\n\nEvidence:\n- [task instruction_text] Prompt states: 'statistically differentially expressed genes (p<0.05, absolute lfc>0.5, baseMean>10)' \u2014 uses 'p' without qualifier (raw vs adjusted)\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821_executed.ipynb] Cell 38 filtering code: treatment_results_df.padj < pval_threshold \u2014 explicitly uses the adjusted p-value column 'padj', not raw 'pvalue'",
+          "category": "INST",
+          "subcategory": "unclear_filtering_criterion",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-43-q2__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-43-q2",
+          "title": "The exact odds ratio is 6.023533, but the expected answer is '6.02' (rounded to 2 decimal places). The grading uses exact string matching after stripping non-alphanumerics, so any other precision (e.g., '6.024', '6.0235', '6.023533') is rejected. The question does not specify rounding precision.",
+          "description": "Without specifying precision, an agent producing the correct numeric value at a different decimal precision will be marked wrong. After stripping, '6.02' becomes '602', '6.023' becomes '6023', and '6.0235' becomes '60235' \u2014 all are valid representations of the same odds ratio but only one passes.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821_executed.ipynb] Cell 60 HTML output shows the exact odds ratio: 6.023533 for 'TP53 Regulates Transcription Of Cell Cycle Genes R-HSA-6791312'\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 78-81: cleaned_target = re.sub(r'[^a-zA-Z0-9]', '', target).lower(); correct = cleaned_predicted == cleaned_target \u2014 strict equality after stripping all non-alphanumeric chars, no numeric tolerance\n- [task reference_answer] Ideal answer is '6.02' \u2014 a 2-decimal rounding of 6.023533, but question never requests this specific precision",
+          "category": "EVAL",
+          "subcategory": "strict_grading_without_tolerance",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-43-q2__static_audit__2",
+          "model": "static_audit",
+          "task_id": "bix-43-q2",
+          "title": "The prompt specifies 'absolute lfc>0.5' and 'baseMean>10' (strictly greater than), but the reference solution uses '>= 0.5' and '>= 10' (greater-than-or-equal). Genes exactly at the boundary would be included in the reference but excluded per the prompt's literal wording.",
+          "description": "In practice, with continuous-valued RNA-seq data, genes exactly at these thresholds are very rare, so the result is unlikely to differ. However, the specification technically contradicts the implementation.\n\nEvidence:\n- [task instruction_text] Prompt: 'absolute lfc>0.5, baseMean>10' \u2014 strict inequality\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821_executed.ipynb] Cell 38: abs(treatment_results_df.log2FoldChange) >= lfc_threshold and treatment_results_df.baseMean >= 10 \u2014 uses >= not >",
+          "category": "INST",
+          "subcategory": "strict_vs_nonstrict_inequality",
+          "severity": "LOW",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-43-q4": {
+      "task_id": "bix-43-q4",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-43-q4__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-43-q4",
+          "title": "The prompt explicitly lists DEG filtering thresholds (padj < 0.05 and |log2FC| >= 0.5) but the reference notebook applies an additional baseMean >= 10 filter that is not mentioned in the prompt.",
+          "description": "When the prompt explicitly enumerates the filters to use, an agent following it literally would apply only those two criteria. Omitting the baseMean >= 10 filter yields a different (larger) DEG set, which changes the enrichment input list and could alter the overlap count with the TP53 pathway, producing a different numerator than 8. While baseMean filtering is common practice in RNA-seq DE analysis, the prompt's explicit threshold listing could reasonably be read as exhaustive.\n\nEvidence:\n- [instruction_text] Prompt states: 'using padj < 0.05 and |log2FC| \u2265 0.5' \u2014 lists exactly two filtering criteria with no mention of baseMean or minimum expression.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821_executed.ipynb] Cell 38 applies three filters: padj < 0.05, |log2FoldChange| >= 0.5, AND baseMean >= 10. The third filter is used to derive the 679 DEGs that feed into enrichment, producing the 8/49 answer.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-43-q4__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-43-q4",
+          "title": "The phrase 'proportion of differentially expressed genes that contribute to the pathway enrichment' is grammatically ambiguous \u2014 it can be read as asking for 8/679 (fraction of DEGs in the pathway) rather than 8/49 (the gseapy Overlap column: pathway genes found among DEGs / total pathway genes).",
+          "description": "'Proportion of X that Y' in standard English means (count of X satisfying Y) / (total X), which would be 8/679 (8 DEGs in the pathway out of 679 total DEGs). The expected answer 8/49 represents the inverse: 8 out of 49 pathway genes are DEGs, which is the gseapy Overlap column format. While most bioinformaticians familiar with gseapy would recognize and report the Overlap value, a careful reader who takes the prompt literally could compute 8/679 instead. The severity is mitigated by the 'Express as fraction (e.g., X/Y)' hint matching the Overlap format and by domain convention.\n\nEvidence:\n- [instruction_text] Question asks: 'what is the proportion of differentially expressed genes that contribute to the TP53 Regulates Transcription Of Cell Cycle Genes pathway enrichment?' Grammatically, 'proportion of DEGs that contribute' = DEGs in pathway / total DEGs = 8/679.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821/CapsuleNotebook-15ff11e5-2db1-45b6-b3a3-46bc2a74b821_executed.ipynb] Cell 60/65 output shows the TP53 pathway with Overlap column '8/49' (8 DEGs found among 49 pathway genes). Cell 45 shows 679 total DEGs for this comparison. The expected answer 8/49 is the Overlap column value, not the fraction of DEGs.\n- [reference_answer] Expected answer is '8/49'. After str_verifier normalization (strip non-alphanumeric, lowercase), this becomes '849'. An agent answering '8/679' would produce '8679' \u2014 a mismatch.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-49-q4": {
+      "task_id": "bix-49-q4",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-49-q4__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-49-q4",
+          "title": "The question does not specify whether to include sex as a covariate in the DESeq2 design formula. The reference answer of 2118 depends on using ~sex+condition, but ~condition alone is a reasonable interpretation of 'comparing disease vs control' and would yield a different DEG count.",
+          "description": "With exact-match grading (str_verifier), the answer must be precisely 2118. The number of significant DEGs is sensitive to the design formula. An agent using ~condition (without sex adjustment) would get a different count and fail, despite performing a correct and defensible analysis. The question specifies the shrinkage method (apeglm), the significance threshold (padj < 0.05), and the comparison (disease vs control), but omits the design formula \u2014 the one remaining modeling choice that materially affects the result.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4ef3fcd8-1c35-466f-9d93-49b92f4ea760/CapsuleNotebook-4ef3fcd8-1c35-466f-9d93-49b92f4ea760/CapsuleNotebook-4ef3fcd8-1c35-466f-9d93-49b92f4ea760_executed.ipynb] Cell 24: design formula is ~sex+condition. The question never mentions adjusting for sex. The resulting coefficient 'condition_disease_vs_control' is used with lfcShrink(type='apeglm') to produce the results filtered to padj<0.05 yielding 2118 DEGs.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4ef3fcd8-1c35-466f-9d93-49b92f4ea760/CapsuleData-4ef3fcd8-1c35-466f-9d93-49b92f4ea760/Issy_ASXL1_blood_coldata_gender.xlsx] Metadata contains a complete 'sex' column (M/F for all 19 samples) along with age (partially missing), SIRE, and Hispanic columns. Sex is the only complete additional covariate, making it the most natural one to include \u2014 but the question doesn't specify it.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] str_verifier grading: exact match after stripping non-alphanumerics and lowercasing. No tolerance for close-but-different numeric answers. Target '2118' must match exactly.",
+          "category": "INST",
+          "subcategory": "missing_information",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-52-q2": {
+      "task_id": "bix-52-q2",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-52-q2__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-52-q2",
+          "title": "The phrase 'genome-wide average chromosomal density ... per base pair' is ambiguous about both the computation method (mean of per-chromosome densities vs. overall density) and which chromosomes to include (only those with CpGs vs. all). Only one specific combination \u2014 unweighted mean of per-chromosome densities over only the 20 chromosomes that have filtered CpGs \u2014 gives an answer in the accepted range.",
+          "description": "A competent bioinformatician could reasonably compute (a) total CpGs / total genome length (the standard definition of genome-wide density), giving ~4.82e-8, or (b) the mean of per-chromosome densities across all 43 non-MT chromosomes, giving ~5.25e-8. Both are outside the accepted range (1.03e-7, 1.23e-7). Only the mean over the 20 chromosomes with CpGs (~1.13e-7) matches. The word 'genome-wide' actively suggests including all chromosomes, but the accepted answer excludes 23 of 43.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'What is the genome-wide average chromosomal density of filtered (>90% or <10% methylation) unique age-related CpGs per base pair in the Jackdaw genome?' with ideal range (1.03E-07,1.23E-07).\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleData-4dceea58-7d66-4576-bfc6-88c026d5b7a9/JD_AgeRelated_CpG_noMT_Final.csv] After filtering for MethylationPercentage >90 or <10, only 52 rows remain (from 24527), covering 51 unique CpG positions across 20 of 43 non-MT chromosomes.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleData-4dceea58-7d66-4576-bfc6-88c026d5b7a9/JD_Chromosome_Length.csv] Contains 44 chromosomes (43 non-MT). Verified computation: mean of per-chromosome densities over 20 CpG-bearing chromosomes = 1.128e-7 (in range), over all 43 non-MT = 5.248e-8 (out of range), overall density = 4.819e-8 (out of range).\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleNotebook-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleNotebook-4dceea58-7d66-4576-bfc6-88c026d5b7a9_executed.ipynb] Reference notebook cell 39 shows filtered JD data grouped by chromosome (20 rows). The notebook itself computes expected_cpg_density = total_cpgs/total_length (overall density) in the chi-squared test, NOT the mean of per-chromosome densities. The accepted answer corresponds to a statistic not directly computed in the reference notebook.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 155-170: _grade_range_verifier uses ast.literal_eval to parse (lower,upper) and checks lower <= float(predicted) <= upper. The deterministic range check is strict \u2014 no tolerance outside the bounds.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-52-q7": {
+      "task_id": "bix-52-q7",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-52-q7__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-52-q7",
+          "title": "The question asks about 'sites' removed, but the expected answer (19,159) counts rows (individual sample-site observations) removed, not unique CpG sites. In standard bioinformatics terminology, a 'site' is a unique genomic position.",
+          "description": "The ZF dataset has 1,140 unique CpG sites (identified by the Pos column) with multiple rows per site (one per sample). After filtering, 849 unique sites are completely removed. A bioinformatician interpreting 'sites' as unique genomic positions would answer 849, which would be marked wrong by the exact-match grader. However, a data analyst counting DataFrame rows removed would get 19,159. The ambiguity creates a risk of incorrect answers from domain experts who use the precise bioinformatics meaning of 'site'.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'How many sites are removed when filtering sites that do not show >90% or <10% methylation in Zebra Finch?' with ideal answer '19,159'.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleData-4dceea58-7d66-4576-bfc6-88c026d5b7a9/ZF_AgeRelated_CpG_noMT_Final.csv] ZF data file has 19,698 rows (data rows) with 1,140 unique Pos values (CpG sites). Each Pos appears in multiple rows (one per sample, ~20 samples). 539 rows pass the >90 or <10 filter \u2192 19,159 rows removed. 849 unique CpG sites are completely removed (no passing row).\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleNotebook-4dceea58-7d66-4576-bfc6-88c026d5b7a9/CapsuleNotebook-4dceea58-7d66-4576-bfc6-88c026d5b7a9_executed.ipynb] Cell 19 applies the row-level filter: zf_cpgs_filtered = zf_cpgs %>% filter(MethylationPercentage > 90 | MethylationPercentage < 10). The notebook never explicitly counts or prints the number of rows removed; the answer 19,159 is derived from total rows (19,698) minus kept rows (539).",
+          "category": "INST",
+          "subcategory": "ambiguous_terminology",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-54-q7": {
+      "task_id": "bix-54-q7",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-54-q7__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-54-q7",
+          "title": "The question asks the agent to fit 'natural spline models' but does not specify the degrees of freedom (number of basis functions / knots). The reference solution uses ns(Frequency_rhlI, df=4), and the tight acceptance range (184000-185000) means only this specific df choice produces an in-range answer.",
+          "description": "Natural spline degrees of freedom is a free parameter that significantly affects the predicted peak. With 39 data points after filtering, df=3, 4, or 5 are all reasonable choices. A competent biostatistician might choose df=3 (simplest natural spline) or df=5 (more flexible), both of which would produce a peak prediction likely outside the 1000-unit acceptance window. The spline will win as the best-fitting model regardless of df, but the specific peak value \u2014 which is what the question asks for \u2014 depends entirely on this unspecified parameter. Approximately 2-3 out of 5 competent analysts would land on df=4; the rest would reasonably choose differently and be graded incorrect.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-9e52daf6-ca58-43e8-e732-fbac3459d295/CapsuleNotebook-9e52daf6-ca58-43e8-e732-fbac3459d295/CapsuleNotebook-9e52daf6-ca58-43e8-e732-fbac3459d295_executed.ipynb] Cell 19: Reference solution uses 'spline_model <- lm(Area ~ ns(Frequency_rhlI, df = 4), data = tidy_area)' with df=4, yielding peak fitness of 184,371.8 at frequency 0.9076577. The choice of df=4 is not justified in the notebook \u2014 it is simply used without explanation.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] The question text is 'What is the maximum colony area (in mm\u00b2) predicted at the optimal frequency ratio according to the best-fitting model among quadratic, cubic and natural spline models?' \u2014 no mention of degrees of freedom, number of knots, or any spline hyperparameter.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] The acceptance range is '(184000,185000)' \u2014 a 1000-unit window on a value of ~184,000 (0.5% relative width). This is extremely tight given that the spline peak prediction is sensitive to the df parameter.\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/prompts.py] Lines 34-41: The OPEN_ENDED_RANGE_GRADING_PROMPT asks the LLM grader to check if the predicted answer falls within the target range. While LLM-based grading may allow slight flexibility, the narrow target range still constrains valid answers to approximately df=4.",
+          "category": "INST",
+          "subcategory": "unspecified_hyperparameter",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-6-q4": {
+      "task_id": "bix-6-q4",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-6-q4__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-6-q4",
+          "title": "The accepted range (0.001, 0.09) inadvertently accepts the p-value of the Spearman test (0.00124) in addition to the correlation coefficient (0.021), meaning an agent that reports the wrong quantity would still be graded correct.",
+          "description": "The question explicitly asks for 'the Spearman correlation coefficient,' not the p-value. A model that confuses these concepts and reports the p-value would receive full credit despite answering a different question. This makes the evaluation unable to distinguish understanding of correlation statistics from a lucky numeric coincidence.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] The ideal range is (0.001,0.09). The reference notebook shows Spearman correlation=0.020971 and pvalue=0.001236 \u2014 both fall within this range.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-f4dcda89-678d-403d-b155-1483d0071765/CapsuleNotebook-f4dcda89-678d-403d-b155-1483d0071765/CapsuleNotebook-f4dcda89-678d-403d-b155-1483d0071765_executed.ipynb] Cell 27 output: SpearmanrResult(correlation=0.020970981085811226, pvalue=0.001236184716280571). Both values lie in [0.001, 0.09].\n- [${BENCHMARK_REPOS_DIR}/bixbench/repo/bixbench/graders.py] Lines 160-163: _grade_range_verifier checks `lower <= float(predicted) <= upper` with no semantic validation of what quantity the predicted value represents.",
+          "category": "EVAL",
+          "subcategory": "acceptance_criteria_too_broad",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-6-q4__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-6-q4",
+          "title": "The phrase 'genes identified in chronic round 1' is ambiguous about whether to compute the correlation on all genes assayed in round 1 or only the statistically significant ('identified') subset.",
+          "description": "The reference notebook computes Spearman correlation on ALL ~20,000 genes in the 'Chronic Round1 S1' and 'Chronic Round1 S2' columns. However, 'genes identified in' naturally suggests a filtered subset (e.g., genes with p < 0.05). Computing correlation on the significant subset would yield a different value. A competent bioinformatician could reasonably take either interpretation, and the word 'identified' nudges toward filtering.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'What is the Spearman correlation coefficient between replicates for genes identified in chronic round 1 of T cell exposure?' The word 'identified' suggests a subset, not all genes.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/capsules/CapsuleFolder-f4dcda89-678d-403d-b155-1483d0071765/CapsuleNotebook-f4dcda89-678d-403d-b155-1483d0071765/CapsuleNotebook-f4dcda89-678d-403d-b155-1483d0071765_executed.ipynb] Cell 27 computes spearmanr on ALL rows of mageck_scores for Chronic Round1 columns. Cell 28 later defines the significant subset (Chronic_r1_min < 0.05) for a different purpose. The correlation is on the full dataset.",
+          "category": "INST",
+          "subcategory": "underspecified_subset",
+          "severity": "MEDIUM",
+          "confidence": 0.9,
+          "confidence_level": "CONFIRMED",
+          "protocol": ""
+        }
+      ]
+    },
+    "bix-61-q2": {
+      "task_id": "bix-61-q2",
+      "is_revised": true,
+      "findings": [
+        {
+          "finding_id": "bix-61-q2__static_audit__0",
+          "model": "static_audit",
+          "task_id": "bix-61-q2",
+          "title": "The prompt instructs 'Map the trimmed reads with BWA-MEM' but does not specify which capsule files constitute the 'trimmed reads.' The capsule contains both raw subsampled reads (SRR35233585_1.subsample.fastq, ~667K reads, 251MB) and pre-trimmed paired reads (SRR35233585_1_paired.fastq.gz, ~327K reads, 22MB). Only the pre-trimmed files produce the expected answer 12.1283.",
+          "description": "An agent that interprets 'Map the trimmed reads' as 'trim the raw reads yourself then map' would use different input data (and trimming parameters not specified in the prompt), yielding a substantially different coverage value. The _paired.fastq.gz naming convention is standard Trimmomatic output, but the prompt never states to use pre-existing trimmed files nor names them. Roughly 3-4 out of 5 competent bioinformaticians would likely recognize the convention, but 1-2 might trim the raw reads themselves.\n\nEvidence:\n- [Capsule data directory listing] CapsuleData contains both SRR35233585_1.subsample.fastq (251MB, raw) and SRR35233585_1_paired.fastq.gz (22MB, trimmed) for R1, and analogous R2 files. The raw files have ~667K reads; the paired.gz files have ~327K reads \u2014 roughly half, consistent with Trimmomatic filtering.\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Task question text: 'Map the trimmed reads with BWA-MEM' \u2014 uses passive 'the trimmed reads' without specifying file names or stating that trimmed files already exist in the capsule.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.7,
+          "confidence_level": "LIKELY",
+          "protocol": ""
+        },
+        {
+          "finding_id": "bix-61-q2__static_audit__1",
+          "model": "static_audit",
+          "task_id": "bix-61-q2",
+          "title": "The prompt says 'use samtools for depth calculations' without specifying which samtools subcommand or flags. The key choice \u2014 samtools depth (default: only positions with coverage >0) vs samtools depth -a (all positions including zeros) \u2014 changes the denominator of the average and can yield meaningfully different results. The expected answer to 4 decimal places (12.1283) is sensitive to this choice.",
+          "description": "Average coverage depth is a standard concept, but its calculation via samtools has multiple valid implementations. Using 'samtools depth' without -a averages only covered positions (higher result), while 'samtools depth -a' averages across the full genome (lower result). Additional variables include mapping quality filters (-q), base quality filters (-Q), and max depth caps (-d). A competent bioinformatician knows these options but cannot determine which combination produces 12.1283 from the prompt alone.\n\nEvidence:\n- [${BENCHMARK_REPOS_DIR}/bixbench/data/questions.jsonl] Question text: 'use samtools for depth calculations' \u2014 no specification of samtools subcommand, flags, or averaging methodology.\n- [Genome FAI file] GCF_000005845.2_ASM584v2_genomic.fna.fai shows genome is NC_000913.3, 4,641,652 bp. The denominator choice (genome length vs covered-positions count) matters for a 4-decimal-place answer.",
+          "category": "INST",
+          "subcategory": "ambiguity_underspecification",
+          "severity": "MEDIUM",
+          "confidence": 0.7,
+          "confidence_level": "LIKELY",
+          "protocol": ""
+        }
+      ]
+    }
+  },
+  "filter_stats": {
+    "total_raw": 28,
+    "filtered_boilerplate": 0,
+    "total_kept": 28,
+    "findings_per_model": {
+      "static_audit": 28
+    }
+  }
+}

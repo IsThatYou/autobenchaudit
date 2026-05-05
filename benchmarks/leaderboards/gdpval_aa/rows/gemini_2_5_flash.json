@@ -1,0 +1,43 @@
+{
+  "slug": "gemini_2_5_flash",
+  "model_id": "6afbfb62-27e4-435e-9c85-d9fe1b92519e",
+  "model_slug": "gemini-2-5-flash",
+  "name": "Gemini 2.5 Flash (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Gemini 2.5 Flash",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2025-05-20",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 742.3878068562799,
+    "lower_95ci": 712.7624425676725,
+    "upper_95ci": 771.1926343831734,
+    "n_matches": 2475,
+    "avg_turns": 23.24200913242009
+  },
+  "gdpval_breakdown": {
+    "elo": 742.3878068562799,
+    "avg_turns": 23.24200913242009,
+    "n_matches": 2475,
+    "lower_95ci": 712.7624425676725,
+    "upper_95ci": 771.1926343831734,
+    "last_updated": "2026-04-22T02:15:39.040308"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 90074651,
+    "answer_tokens": 3397299,
+    "output_tokens": 3397299,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 20.56,
+  "agentic_index": 15.01,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 2.5
+}

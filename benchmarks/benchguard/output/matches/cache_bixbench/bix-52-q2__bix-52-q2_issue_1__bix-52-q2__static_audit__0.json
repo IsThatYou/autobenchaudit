@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The Gold Issue concerns the definition of 'average' (global vs. per-chromosome), while the BenchGuard Finding concerns the ambiguity of a filtering condition (keep vs. remove extreme methylation values)."
+}

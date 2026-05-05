@@ -1,0 +1,43 @@
+{
+  "slug": "nanbeige4_1_3b",
+  "model_id": "7d73161f-002f-4c9c-b4f8-6c4d91f2ba8e",
+  "model_slug": "nanbeige4-1-3b",
+  "name": "Nanbeige4.1-3B",
+  "gdpval_name": null,
+  "short_name": "Nanbeige4.1-3B",
+  "creator": {
+    "name": "Nanbeige",
+    "slug": "nanbeige",
+    "country": null,
+    "logo": "/img/logos/nanbeige.svg"
+  },
+  "release_date": "2026-02-11",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 362.03720916241184,
+    "lower_95ci": 331.83108768387785,
+    "upper_95ci": 392.7022455535572,
+    "n_matches": 1258,
+    "avg_turns": 81.07425742574257
+  },
+  "gdpval_breakdown": {
+    "elo": 362.03720916241184,
+    "avg_turns": 81.07425742574257,
+    "n_matches": 1258,
+    "lower_95ci": 331.83108768387785,
+    "upper_95ci": 392.7022455535572,
+    "last_updated": "2026-04-22T02:15:52.907623"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 362818368,
+    "answer_tokens": 6449718,
+    "output_tokens": 10361795,
+    "reasoning_tokens": 3912076
+  },
+  "intelligence_index": 16.08,
+  "agentic_index": 7.21,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

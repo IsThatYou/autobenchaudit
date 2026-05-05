@@ -1,0 +1,43 @@
+{
+  "slug": "olmo_3_7b_instruct",
+  "model_id": "8f74a6ed-f82f-4a2f-a96b-4914993e47da",
+  "model_slug": "olmo-3-7b-instruct",
+  "name": "Olmo 3 7B Instruct",
+  "gdpval_name": null,
+  "short_name": "Olmo 3 7B",
+  "creator": {
+    "name": "Allen Institute for AI",
+    "slug": "ai2",
+    "country": null,
+    "logo": "/img/logos/ai2.svg"
+  },
+  "release_date": "2025-11-20",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 287.8022626662282,
+    "lower_95ci": 256.35097510035627,
+    "upper_95ci": 319.8481865111011,
+    "n_matches": 1167,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 287.8022626662282,
+    "avg_turns": 100,
+    "n_matches": 1167,
+    "lower_95ci": 256.35097510035627,
+    "upper_95ci": 319.8481865111011,
+    "last_updated": "2026-04-22T02:15:57.271951"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 216968980,
+    "answer_tokens": 2571177,
+    "output_tokens": 2571177,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 8.15,
+  "agentic_index": 4.19,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.2
+}

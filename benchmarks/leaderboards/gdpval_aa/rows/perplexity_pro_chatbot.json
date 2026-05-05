@@ -1,0 +1,31 @@
+{
+  "slug": "perplexity_pro_chatbot",
+  "model_id": "dd298e8a-0da1-465e-b354-24ea4ccaf54f",
+  "model_slug": "perplexity-pro-chatbot",
+  "name": "Perplexity Pro",
+  "gdpval_name": "Perplexity Pro - Labs",
+  "short_name": "Perplexity Pro - Labs",
+  "creator": {
+    "name": "",
+    "slug": "",
+    "country": null,
+    "logo": ""
+  },
+  "release_date": null,
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1031.62,
+    "lower_95ci": 990.54,
+    "upper_95ci": 1070.4,
+    "n_matches": 656,
+    "avg_turns": null
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": null,
+  "agentic_index": null,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

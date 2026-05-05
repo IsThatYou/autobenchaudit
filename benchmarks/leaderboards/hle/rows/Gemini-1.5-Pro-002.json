@@ -1,0 +1,18 @@
+{
+  "slug": "Gemini-1.5-Pro-002",
+  "model": "Gemini-1.5-Pro-002",
+  "company": "google",
+  "rank": 40,
+  "created_at": "2025-04-10T19:24:55.000Z",
+  "accuracy": 4.6,
+  "ci_upper": 0.82,
+  "calibration_error": 88,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "This model was used as an initial filter for the dataset.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

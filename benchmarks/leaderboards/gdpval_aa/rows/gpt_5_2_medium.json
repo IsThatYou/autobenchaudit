@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_5_2_medium",
+  "model_id": "84e3f11e-d659-4941-8988-1dbfabbaf538",
+  "model_slug": "gpt-5-2-medium",
+  "name": "GPT-5.2 (medium)",
+  "gdpval_name": null,
+  "short_name": "GPT-5.2 (medium)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-12-11",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1405.04279106179,
+    "lower_95ci": 1380.6831238310504,
+    "upper_95ci": 1429.150413365132,
+    "n_matches": 3103,
+    "avg_turns": 33.31797235023041
+  },
+  "gdpval_breakdown": {
+    "elo": 1405.04279106179,
+    "avg_turns": 33.31797235023041,
+    "n_matches": 3103,
+    "lower_95ci": 1380.6831238310504,
+    "upper_95ci": 1429.150413365132,
+    "last_updated": "2026-04-22T02:15:11.846981"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 180039270,
+    "answer_tokens": 2792035,
+    "output_tokens": 4485033,
+    "reasoning_tokens": 1692998
+  },
+  "intelligence_index": 46.64,
+  "agentic_index": 54.93,
+  "price_1m_input_tokens": 1.75,
+  "price_1m_output_tokens": 14
+}

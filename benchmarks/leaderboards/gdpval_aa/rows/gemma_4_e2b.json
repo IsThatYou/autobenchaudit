@@ -1,0 +1,43 @@
+{
+  "slug": "gemma_4_e2b",
+  "model_id": "b07aef0a-b192-46a1-b1c9-40b06d1b9061",
+  "model_slug": "gemma-4-e2b",
+  "name": "Gemma 4 E2B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Gemma 4 E2B",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2026-04-02",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 277.7440084607367,
+    "lower_95ci": 251.31617961505378,
+    "upper_95ci": 303.5554917163573,
+    "n_matches": 2294,
+    "avg_turns": 84.48181818181818
+  },
+  "gdpval_breakdown": {
+    "elo": 277.7440084607367,
+    "avg_turns": 84.48181818181818,
+    "n_matches": 2294,
+    "lower_95ci": 251.31617961505378,
+    "upper_95ci": 303.5554917163573,
+    "last_updated": "2026-04-22T02:15:59.525287"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 341829444,
+    "answer_tokens": 5420706,
+    "output_tokens": 7759797,
+    "reasoning_tokens": 2339091
+  },
+  "intelligence_index": 15.21,
+  "agentic_index": 6.92,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

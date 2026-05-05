@@ -1,0 +1,43 @@
+{
+  "slug": "nvidia_nemotron_3_super_120b_a12b",
+  "model_id": "63872e9c-3377-4a6b-b477-7bba244c38e9",
+  "model_slug": "nvidia-nemotron-3-super-120b-a12b",
+  "name": "NVIDIA Nemotron 3 Super 120B A12B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "NVIDIA Nemotron 3 Super",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2026-03-11",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1004.9981078567821,
+    "lower_95ci": 980.34124017308,
+    "upper_95ci": 1029.4284432283548,
+    "n_matches": 3181,
+    "avg_turns": 37.25
+  },
+  "gdpval_breakdown": {
+    "elo": 1004.9981078567821,
+    "avg_turns": 37.25,
+    "n_matches": 3181,
+    "lower_95ci": 980.34124017308,
+    "upper_95ci": 1029.4284432283548,
+    "last_updated": "2026-04-22T02:15:26.714555"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 132831340,
+    "answer_tokens": 3799469,
+    "output_tokens": 5375989,
+    "reasoning_tokens": 1576520
+  },
+  "intelligence_index": 35.97,
+  "agentic_index": 40.18,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 0.75
+}

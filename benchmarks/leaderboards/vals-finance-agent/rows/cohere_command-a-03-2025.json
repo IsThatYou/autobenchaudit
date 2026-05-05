@@ -1,0 +1,91 @@
+{
+  "slug": "cohere_command-a-03-2025",
+  "model_key": "cohere/command-a-03-2025",
+  "provider": "Cohere",
+  "overall_accuracy": 4.2255,
+  "overall_stderr": 0.9658,
+  "overall_latency": 573.2155,
+  "overall_cost_per_test": 2.339409,
+  "temperature": 0.3,
+  "top_p": null,
+  "max_output_tokens": null,
+  "reasoning": null,
+  "reasoning_effort": null,
+  "verbosity": null,
+  "compute_effort": null,
+  "num_categories": 9,
+  "tasks": [
+    {
+      "task_name": "simple_retrieval_quantitative",
+      "task_label": "Simple retrieval - Quantitative",
+      "accuracy": 9.375,
+      "stderr": 3.6723,
+      "latency": 278.9521,
+      "cost_per_test": 1.216857
+    },
+    {
+      "task_name": "simple_retrieval_qualitative",
+      "task_label": "Simple retrieval - Qualitative",
+      "accuracy": 11.4754,
+      "stderr": 4.1147,
+      "latency": 506.4786,
+      "cost_per_test": 1.929011
+    },
+    {
+      "task_name": "complex_retrieval",
+      "task_label": "Complex Retrieval",
+      "accuracy": 0,
+      "stderr": 0,
+      "latency": 621.5267,
+      "cost_per_test": 3.26366
+    },
+    {
+      "task_name": "numerical_reasoning",
+      "task_label": "Numerical Reasoning",
+      "accuracy": 3.8462,
+      "stderr": 2.6928,
+      "latency": 619.7399,
+      "cost_per_test": 2.610665
+    },
+    {
+      "task_name": "financial_modeling",
+      "task_label": "Financial Modeling  Projections",
+      "accuracy": 13.3333,
+      "stderr": 6.3124,
+      "latency": 310.9639,
+      "cost_per_test": 1.389055
+    },
+    {
+      "task_name": "market_analysis",
+      "task_label": "Market Analysis",
+      "accuracy": 0,
+      "stderr": 0,
+      "latency": 828.1768,
+      "cost_per_test": 3.657835
+    },
+    {
+      "task_name": "beat_or_miss",
+      "task_label": "Beat or Miss",
+      "accuracy": 0,
+      "stderr": 0,
+      "latency": 645.8673,
+      "cost_per_test": 2.662162
+    },
+    {
+      "task_name": "trends",
+      "task_label": "Trends",
+      "accuracy": 0,
+      "stderr": 0,
+      "latency": 1737.2321,
+      "cost_per_test": 5.766424
+    },
+    {
+      "task_name": "adjustments",
+      "task_label": "Adjustments",
+      "accuracy": 0,
+      "stderr": 0,
+      "latency": 371.7309,
+      "cost_per_test": 1.776897
+    }
+  ]
+}

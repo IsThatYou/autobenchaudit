@@ -1,0 +1,43 @@
+{
+  "slug": "claude_sonnet_4_6_non_reasoning_low_effort",
+  "model_id": "f2e21112-192e-4aed-ae82-68ca3b38e667",
+  "model_slug": "claude-sonnet-4-6-non-reasoning-low-effort",
+  "name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
+  "gdpval_name": null,
+  "short_name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2026-02-17",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1458.9119068596656,
+    "lower_95ci": 1433.2725438484317,
+    "upper_95ci": 1487.0430652064003,
+    "n_matches": 3277,
+    "avg_turns": 17.113636363636363
+  },
+  "gdpval_breakdown": {
+    "elo": 1458.9119068596656,
+    "avg_turns": 17.113636363636363,
+    "n_matches": 3277,
+    "lower_95ci": 1433.2725438484317,
+    "upper_95ci": 1487.0430652064003,
+    "last_updated": "2026-04-22T02:15:11.006255"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 91444221,
+    "answer_tokens": 4314295,
+    "output_tokens": 4314295,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 42.6,
+  "agentic_index": 57.45,
+  "price_1m_input_tokens": 3,
+  "price_1m_output_tokens": 15
+}

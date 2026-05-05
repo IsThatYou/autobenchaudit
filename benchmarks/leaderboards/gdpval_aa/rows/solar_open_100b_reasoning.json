@@ -1,0 +1,43 @@
+{
+  "slug": "solar_open_100b_reasoning",
+  "model_id": "59a1bb20-9170-4dc2-ba9c-12d326cf068e",
+  "model_slug": "solar-open-100b-reasoning",
+  "name": "Solar Open 100B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Solar Open 100B",
+  "creator": {
+    "name": "Upstage",
+    "slug": "upstage",
+    "country": null,
+    "logo": "/img/logos/upstage.png"
+  },
+  "release_date": "2025-12-17",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 668.2648053897278,
+    "lower_95ci": 639.5619656236635,
+    "upper_95ci": 699.6546167615761,
+    "n_matches": 1926,
+    "avg_turns": 49.15217391304348
+  },
+  "gdpval_breakdown": {
+    "elo": 668.2648053897278,
+    "avg_turns": 49.15217391304348,
+    "n_matches": 1926,
+    "lower_95ci": 639.5619656236635,
+    "upper_95ci": 699.6546167615761,
+    "last_updated": "2026-04-22T02:15:41.977559"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 257585853,
+    "answer_tokens": 5083318,
+    "output_tokens": 18221558,
+    "reasoning_tokens": 13138240
+  },
+  "intelligence_index": 21.67,
+  "agentic_index": 24.29,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

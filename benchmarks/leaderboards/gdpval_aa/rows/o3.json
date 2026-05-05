@@ -1,0 +1,43 @@
+{
+  "slug": "o3",
+  "model_id": "16c5b637-8bce-4252-81f2-1b87a36a4e4c",
+  "model_slug": "o3",
+  "name": "o3",
+  "gdpval_name": null,
+  "short_name": "o3",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-04-16",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 756.3975213477369,
+    "lower_95ci": 727.0682539328895,
+    "upper_95ci": 787.027244661045,
+    "n_matches": 2090,
+    "avg_turns": 52.79126213592233
+  },
+  "gdpval_breakdown": {
+    "elo": 756.3975213477369,
+    "avg_turns": 52.79126213592233,
+    "n_matches": 2090,
+    "lower_95ci": 727.0682539328895,
+    "upper_95ci": 787.027244661045,
+    "last_updated": "2026-04-22T02:15:37.780424"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 276507911,
+    "answer_tokens": 5326075,
+    "output_tokens": 9705003,
+    "reasoning_tokens": 4378927
+  },
+  "intelligence_index": 38.37,
+  "agentic_index": 36.09,
+  "price_1m_input_tokens": 2,
+  "price_1m_output_tokens": 8
+}

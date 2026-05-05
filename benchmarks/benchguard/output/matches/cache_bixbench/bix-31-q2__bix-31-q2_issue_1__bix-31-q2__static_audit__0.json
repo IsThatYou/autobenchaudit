@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues identify missing or contradictory instructions in the same task (bix-31-q2), but they address different specific flaws: one concerns missing technical parameters (batch correction/software), while the other concerns a logical contradiction in gene filtering (protein-coding vs. lncRNA)."
+}

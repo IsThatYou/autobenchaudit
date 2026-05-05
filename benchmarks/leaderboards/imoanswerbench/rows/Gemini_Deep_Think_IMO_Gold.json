@@ -1,0 +1,18 @@
+{
+  "slug": "Gemini_Deep_Think_IMO_Gold",
+  "model": "Gemini Deep Think (IMO Gold)",
+  "organization": "Google DeepMind",
+  "rank": null,
+  "score": 0.8,
+  "verified": false,
+  "self_reported": false,
+  "self_reported_source": "https://arxiv.org/abs/2511.01846",
+  "announcement_date": "2025-11-03",
+  "param_count": null,
+  "is_open_source": false,
+  "paper_reference": true,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

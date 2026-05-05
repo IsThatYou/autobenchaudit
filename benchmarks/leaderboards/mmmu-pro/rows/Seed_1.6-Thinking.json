@@ -1,0 +1,26 @@
+{
+  "slug": "Seed_1.6-Thinking",
+  "name": "Seed 1.6-Thinking",
+  "size": "20B",
+  "date": "2025-06-25",
+  "type": "proprietary",
+  "link": "https://seed.bytedance.com/en/seed1_6",
+  "pro_overall": 66.4,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 74.8,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

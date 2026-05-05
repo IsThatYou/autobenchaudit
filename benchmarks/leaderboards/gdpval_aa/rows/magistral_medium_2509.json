@@ -1,0 +1,43 @@
+{
+  "slug": "magistral_medium_2509",
+  "model_id": "864da2a5-156c-45fd-873c-8923be91914f",
+  "model_slug": "magistral-medium-2509",
+  "name": "Magistral Medium 1.2",
+  "gdpval_name": null,
+  "short_name": "Magistral Medium 1.2",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2025-09-18",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 631.2529057921216,
+    "lower_95ci": 601.6142657809244,
+    "upper_95ci": 658.9047901582356,
+    "n_matches": 1884,
+    "avg_turns": 17.481081081081083
+  },
+  "gdpval_breakdown": {
+    "elo": 631.2529057921216,
+    "avg_turns": 17.481081081081083,
+    "n_matches": 1884,
+    "lower_95ci": 601.6142657809244,
+    "upper_95ci": 658.9047901582356,
+    "last_updated": "2026-04-22T02:15:43.237710"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 33738871,
+    "answer_tokens": 746796,
+    "output_tokens": 1647193,
+    "reasoning_tokens": 900397
+  },
+  "intelligence_index": 27.1,
+  "agentic_index": 24.45,
+  "price_1m_input_tokens": 2,
+  "price_1m_output_tokens": 5
+}

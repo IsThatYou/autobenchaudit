@@ -1,0 +1,43 @@
+{
+  "slug": "trinity_large_thinking",
+  "model_id": "b6d2e43d-3082-43f5-9318-0f4dbcb54163",
+  "model_slug": "trinity-large-thinking",
+  "name": "Trinity Large Thinking",
+  "gdpval_name": null,
+  "short_name": "Trinity Large Thinking",
+  "creator": {
+    "name": "Arcee AI",
+    "slug": "arcee",
+    "country": null,
+    "logo": "/img/logos/arcee.svg"
+  },
+  "release_date": "2026-04-01",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 868.5882295095021,
+    "lower_95ci": 843.0918675037423,
+    "upper_95ci": 894.119969873824,
+    "n_matches": 2856,
+    "avg_turns": 24.48181818181818
+  },
+  "gdpval_breakdown": {
+    "elo": 868.5882295095021,
+    "avg_turns": 24.48181818181818,
+    "n_matches": 2856,
+    "lower_95ci": 843.0918675037423,
+    "upper_95ci": 894.119969873824,
+    "last_updated": "2026-04-22T02:15:32.600292"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 110925669,
+    "answer_tokens": 4974751,
+    "output_tokens": 5904356,
+    "reasoning_tokens": 929605
+  },
+  "intelligence_index": 31.87,
+  "agentic_index": 42.61,
+  "price_1m_input_tokens": 0.235,
+  "price_1m_output_tokens": 0.875
+}

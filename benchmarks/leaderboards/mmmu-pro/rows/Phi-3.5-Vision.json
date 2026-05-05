@@ -1,0 +1,26 @@
+{
+  "slug": "Phi-3.5-Vision",
+  "name": "Phi-3.5-Vision",
+  "size": "-",
+  "date": "2024-05-21",
+  "type": "open_source",
+  "link": "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct",
+  "pro_overall": 19.7,
+  "pro_vision": 13.1,
+  "pro_standard": 26.3,
+  "pro_source": null,
+  "mmmu_val_overall": 43.0,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

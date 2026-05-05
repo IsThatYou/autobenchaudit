@@ -1,0 +1,26 @@
+{
+  "slug": "GPT-4o_mini",
+  "name": "GPT-4o mini",
+  "size": "-",
+  "date": "2024-07-18",
+  "type": "proprietary",
+  "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+  "pro_overall": 37.6,
+  "pro_vision": 35.2,
+  "pro_standard": 39.9,
+  "pro_source": null,
+  "mmmu_val_overall": 59.4,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

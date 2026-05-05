@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "The gold issue addresses ambiguity in the mathematical definition of the metric (the formula), while the finding addresses ambiguity in the bioinformatics pipeline (tools and parameters) used to calculate the values within that formula."
+}

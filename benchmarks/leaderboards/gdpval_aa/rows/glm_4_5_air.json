@@ -1,0 +1,43 @@
+{
+  "slug": "glm_4_5_air",
+  "model_id": "5d303dc9-c027-401f-9803-4e9aa3331007",
+  "model_slug": "glm-4-5-air",
+  "name": "GLM-4.5-Air",
+  "gdpval_name": null,
+  "short_name": "GLM-4.5-Air",
+  "creator": {
+    "name": "Z AI",
+    "slug": "zai",
+    "country": null,
+    "logo": "/img/logos/zai_small.svg"
+  },
+  "release_date": "2025-07-28",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 563.4611591805278,
+    "lower_95ci": 534.5231151866899,
+    "upper_95ci": 592.6603527537824,
+    "n_matches": 1778,
+    "avg_turns": 31.440191387559807
+  },
+  "gdpval_breakdown": {
+    "elo": 563.4611591805278,
+    "avg_turns": 31.440191387559807,
+    "n_matches": 1778,
+    "lower_95ci": 534.5231151866899,
+    "upper_95ci": 592.6603527537824,
+    "last_updated": "2026-04-22T02:15:45.899125"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 100064248,
+    "answer_tokens": 1822444,
+    "output_tokens": 2442109,
+    "reasoning_tokens": 619664
+  },
+  "intelligence_index": 23.17,
+  "agentic_index": 21.01,
+  "price_1m_input_tokens": 0.2,
+  "price_1m_output_tokens": 1.1
+}

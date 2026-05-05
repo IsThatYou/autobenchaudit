@@ -1,0 +1,43 @@
+{
+  "slug": "llama_3_1_instruct_8b",
+  "model_id": "739684ba-0f63-4e2a-b4ee-30741c9e9320",
+  "model_slug": "llama-3-1-instruct-8b",
+  "name": "Llama 3.1 Instruct 8B",
+  "gdpval_name": null,
+  "short_name": "Llama 3.1 8B",
+  "creator": {
+    "name": "Meta",
+    "slug": "meta",
+    "country": null,
+    "logo": "/img/logos/meta.svg"
+  },
+  "release_date": "2024-07-23",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 284.37631166083725,
+    "lower_95ci": 252.30522296304426,
+    "upper_95ci": 313.68534590420234,
+    "n_matches": 1079,
+    "avg_turns": 95.29901960784314
+  },
+  "gdpval_breakdown": {
+    "elo": 284.37631166083725,
+    "avg_turns": 95.29901960784314,
+    "n_matches": 1079,
+    "lower_95ci": 252.30522296304426,
+    "upper_95ci": 313.68534590420234,
+    "last_updated": "2026-04-22T02:15:56.145003"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 201655448,
+    "answer_tokens": 1105735,
+    "output_tokens": 1105735,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 11.76,
+  "agentic_index": 5.46,
+  "price_1m_input_tokens": 0.1,
+  "price_1m_output_tokens": 0.1
+}

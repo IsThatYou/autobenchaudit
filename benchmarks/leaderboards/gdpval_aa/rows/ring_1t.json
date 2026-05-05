@@ -1,0 +1,43 @@
+{
+  "slug": "ring_1t",
+  "model_id": "a29e66d6-1c3c-456a-8770-59ee3845b35d",
+  "model_slug": "ring-1t",
+  "name": "Ring-1T",
+  "gdpval_name": null,
+  "short_name": "Ring-1T",
+  "creator": {
+    "name": "InclusionAI",
+    "slug": "inclusionai",
+    "country": null,
+    "logo": "/img/logos/inclusionai.jpg"
+  },
+  "release_date": "2025-10-13",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 689.779194582712,
+    "lower_95ci": 661.4545972932236,
+    "upper_95ci": 716.8459748229906,
+    "n_matches": 1930,
+    "avg_turns": 19.217821782178216
+  },
+  "gdpval_breakdown": {
+    "elo": 689.779194582712,
+    "avg_turns": 19.217821782178216,
+    "n_matches": 1930,
+    "lower_95ci": 661.4545972932236,
+    "upper_95ci": 716.8459748229906,
+    "last_updated": "2026-04-22T02:15:39.879089"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 68585342,
+    "answer_tokens": 3068539,
+    "output_tokens": 6119086,
+    "reasoning_tokens": 3050546
+  },
+  "intelligence_index": 22.78,
+  "agentic_index": 18.31,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

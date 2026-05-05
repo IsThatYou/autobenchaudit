@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues identify missing or ambiguous specifications in the task prompt for the same DESeq2 analysis, but they refer to different stages of the pipeline (pre-filtering/dispersion vs. result filtering)."
+}

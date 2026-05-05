@@ -1,0 +1,43 @@
+{
+  "slug": "mistral_medium_3_1",
+  "model_id": "05a32e26-e609-4377-951b-8fa23d329926",
+  "model_slug": "mistral-medium-3-1",
+  "name": "Mistral Medium 3.1",
+  "gdpval_name": null,
+  "short_name": "Mistral Medium 3.1",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2025-08-12",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 783.2733010153761,
+    "lower_95ci": 754.5722049931152,
+    "upper_95ci": 808.495035051476,
+    "n_matches": 1955,
+    "avg_turns": 22.86341463414634
+  },
+  "gdpval_breakdown": {
+    "elo": 783.2733010153761,
+    "avg_turns": 22.86341463414634,
+    "n_matches": 1955,
+    "lower_95ci": 754.5722049931152,
+    "upper_95ci": 808.495035051476,
+    "last_updated": "2026-04-22T02:15:36.521801"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 44629179,
+    "answer_tokens": 1291748,
+    "output_tokens": 1291748,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 21.25,
+  "agentic_index": 25.28,
+  "price_1m_input_tokens": 0.4,
+  "price_1m_output_tokens": 2
+}

@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The Gold Issue concerns the task's scientific specification and target range, while the BenchGuard Finding identifies a software bug in the grading script's logic."
+}

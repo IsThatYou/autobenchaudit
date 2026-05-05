@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_5_122b_a10b",
+  "model_id": "2236df45-0699-40d1-b5cc-69ee345d2257",
+  "model_slug": "qwen3-5-122b-a10b",
+  "name": "Qwen3.5 122B A10B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Qwen3.5 122B A10B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2026-02-24",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1114.6951444920703,
+    "lower_95ci": 1089.6924283911706,
+    "upper_95ci": 1138.4327186302087,
+    "n_matches": 3348,
+    "avg_turns": 25.28181818181818
+  },
+  "gdpval_breakdown": {
+    "elo": 1114.6951444920703,
+    "avg_turns": 25.28181818181818,
+    "n_matches": 3348,
+    "lower_95ci": 1089.6924283911706,
+    "upper_95ci": 1138.4327186302087,
+    "last_updated": "2026-04-22T02:15:22.927982"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 103699376,
+    "answer_tokens": 3717725,
+    "output_tokens": 3855748,
+    "reasoning_tokens": 138023
+  },
+  "intelligence_index": 41.6,
+  "agentic_index": 53,
+  "price_1m_input_tokens": 0.4,
+  "price_1m_output_tokens": 3.2
+}

@@ -1,0 +1,423 @@
+{
+  "slug": "supai__mistral-mistral-large",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "mistral/mistral-large",
+  "vendor": "mistral",
+  "model": "mistral-large",
+  "provider": null,
+  "num_questions": 68,
+  "num_correct": 4,
+  "accuracy": 0.058823529411764705,
+  "avg_confidence": 96.91176470588235,
+  "tasks": [
+    {
+      "task_id": "668825f80a642802bdfeadfa",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "669402b41dcb3d5a1ef9e951",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "0"
+    },
+    {
+      "task_id": "66b2c7c9795022550abb176b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1 + 6x + 11x^2 + 6x^3"
+    },
+    {
+      "task_id": "66ba5510db07a3a9151be0d2",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "\\mathcal{A}^{4+\\alpha}(X)"
+    },
+    {
+      "task_id": "66e4cdec11c64a7e4051b2d9",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e8784d70625d8c7700315a",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "A. 4"
+    },
+    {
+      "task_id": "66e883265ab37f0a7da089be",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66e884515ab37f0a7da089bf",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "Banshee"
+    },
+    {
+      "task_id": "66e88728ba7d8bc0d5806f3a",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e89811ca68059533a83566",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "False"
+    },
+    {
+      "task_id": "66e8a23d15c60c2c32f2ba55",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Yes, the Wasserstein regular subgradient of J at its minimum is the trivial tangent vector (zero vector)."
+    },
+    {
+      "task_id": "66e8add1650a03361a14c6f8",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "True"
+    },
+    {
+      "task_id": "66e8ae603aa94517d4573b32",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "ab - \n\\min(a, b)"
+    },
+    {
+      "task_id": "66e8b578d0c1f7390bad120c",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "F"
+    },
+    {
+      "task_id": "66e8c151efbbc8b5a54da02b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1"
+    },
+    {
+      "task_id": "66e8e05c8bc4119df2ce4395",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "J2s"
+    },
+    {
+      "task_id": "66e8e1056c0b8ace336996ea",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "D"
+    },
+    {
+      "task_id": "66e8e473f59e5564daf565b6",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66e9032060abc895aedcf460",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66e906f860abc895aedcf467",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e90adfa5b0e84a801c7660",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "C"
+    },
+    {
+      "task_id": "66e9100b48468f864f861b90",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "n = -1"
+    },
+    {
+      "task_id": "66e9172ef3f20cc62f5143a4",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e91bc08dd8f00467e3d5d8",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "E. 5"
+    },
+    {
+      "task_id": "66e9249c953867e04c273db7",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "(1, 6, 16, 19, 10, 1)"
+    },
+    {
+      "task_id": "66e93893a3326adf2da92ef0",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "C. Propositional resizing"
+    },
+    {
+      "task_id": "66e939c176b5b4f3e8a369b8",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1/13"
+    },
+    {
+      "task_id": "66e949664ea2c791558f8620",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "H. A, C"
+    },
+    {
+      "task_id": "66e94bf0d61a79cca258c675",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "P(y_{ij} = 1) = E[\u03c6(U_i, U_j)] (or, when F is uniform, P(y_{ij} = 1) = \u222c \u03c6(u,v) dudv)"
+    },
+    {
+      "task_id": "66e9560659cb31393efa7046",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "None of the given Turing Machines halts after more than a few steps on an initially empty tape (all zeros)."
+    },
+    {
+      "task_id": "66e9580bc845662f61f3664b",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "236,236(1),236(2),236(3)"
+    },
+    {
+      "task_id": "66e95faf8451a9b41f307932",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "cafitiere / cafeti\u00e8re"
+    },
+    {
+      "task_id": "66e962f814e5657e81349bfa",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Groucho Marx"
+    },
+    {
+      "task_id": "66e97fd756455f341c7849c3",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66e98ce28056cd9dd9b1d9f6",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "t^{-1} - t^{-2} + t^{-3} - t^{-4} + t^{-5}"
+    },
+    {
+      "task_id": "66e9ae5ba60f4072c0bf5106",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66e9b2899cf8fcf41599246f",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "I"
+    },
+    {
+      "task_id": "66e9b92578e89514d9ab6093",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "South Africa, the Democratic Republic of the Congo, Namibia, and Seychelles"
+    },
+    {
+      "task_id": "66e9d06a420b60a0ede79e8e",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "4"
+    },
+    {
+      "task_id": "66e9fc11c19c8c61add294f0",
+      "correct": 1,
+      "confidence": 100,
+      "model_answer": "1 year"
+    },
+    {
+      "task_id": "66ea031360fbbf249dec70e1",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "2"
+    },
+    {
+      "task_id": "66ea12bd86227f91af18b88b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Yes"
+    },
+    {
+      "task_id": "66ea12d21684c1846037a28d",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "G"
+    },
+    {
+      "task_id": "66ea1dd348eb93c2aef1c735",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "G"
+    },
+    {
+      "task_id": "66ea260280667dae8de4a8ec",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "E"
+    },
+    {
+      "task_id": "66ea387a7cb8e0fce662592b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "(N+1) \u00b7 \u23082\u03c0N\u2309"
+    },
+    {
+      "task_id": "66ea3ba5444b8f31ef575799",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66ea3fb6e2dc97dd61195fe6",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66ea4076d1767539f1308fde",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "No publicly available transcription of the right-hand melody notes in scientific pitch notation for \"All My Loves Are You\" by Erroll Garner (from \"Afternoon Of An Elf\") between seconds 39 and 45 could be found."
+    },
+    {
+      "task_id": "66ea534258a0968d95583cd8",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "1/2"
+    },
+    {
+      "task_id": "66ea542e4509a12ed7db1d7b",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "None"
+    },
+    {
+      "task_id": "66ea63837c49faf4e570535e",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "V_{plateau} = -\\frac{\\mu_2 - \\mu_1}{e}"
+    },
+    {
+      "task_id": "66ea7d2cc321286a5288ef06",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "10"
+    },
+    {
+      "task_id": "66ea99e17094e6aa0bc758e7",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "3"
+    },
+    {
+      "task_id": "66eaa5ddc7a3252f0f3fe53f",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "90"
+    },
+    {
+      "task_id": "66eac1d4124e580e615a27dc",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66eaed13c47c4325f612ff48",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "172.20.64.0 0.0.63.255"
+    },
+    {
+      "task_id": "66eaf0ba5e31c19691fe73b1",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "A"
+    },
+    {
+      "task_id": "66eaf9bbb082c5e6a76a49b5",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "7"
+    },
+    {
+      "task_id": "66eb105d5f6e64fbae56b0fe",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "c = d^{|1/2 - 1/p|}"
+    },
+    {
+      "task_id": "66eb1706d3b17bc68156e3e3",
+      "correct": 0,
+      "confidence": 0,
+      "model_answer": "Insufficient evidence to determine the correct answer from the provided choices."
+    },
+    {
+      "task_id": "66eb1ad641ef9e7d6011c3be",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "p"
+    },
+    {
+      "task_id": "66eb206f99363a31f68414bc",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "R2b3 Rf3+ Kg5 Rg3+ Kf5 Rf3#"
+    },
+    {
+      "task_id": "66eb3aab27b19dd593af7ebe",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Not found"
+    },
+    {
+      "task_id": "66eb533fcd1fb71d6d1127e4",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "Seven of Diamonds"
+    },
+    {
+      "task_id": "66ff0a666dc4b2ab76a19db9",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "For a 1s Slater orbital the response gives\n\nDiagonal element (i = j):\n\u27e8 \u03c6_i | 1/r | \u03c6_i \u27e9 = \u03b6_i\n\nOff-diagonal element (i \u2260 j):\n\u27e8 \u03c6_i | 1/|r \u2212 R_j| | \u03c6_j \u27e9 = (1/R) [ 1 \u2212 (\u03b6_i^2 e^{\u2212R \u03b6_j} \u2212 \u03b6_j^2 e^{\u2212R \u03b6_i}) / (\u03b6_i^2 \u2212 \u03b6_j^2) ] (with a si..."
+    },
+    {
+      "task_id": "6706c88503718618700edfbc",
+      "correct": 0,
+      "confidence": 95,
+      "model_answer": "B"
+    },
+    {
+      "task_id": "6720a7b54f57949fff72b9f3",
+      "correct": 0,
+      "confidence": 100,
+      "model_answer": "D"
+    }
+  ]
+}

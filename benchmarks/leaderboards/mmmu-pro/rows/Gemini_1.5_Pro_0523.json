@@ -1,0 +1,26 @@
+{
+  "slug": "Gemini_1.5_Pro_0523",
+  "name": "Gemini 1.5 Pro (0523)",
+  "size": "-",
+  "date": "2024-05-23",
+  "type": "proprietary",
+  "link": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+  "pro_overall": 43.5,
+  "pro_vision": 40.5,
+  "pro_standard": 46.5,
+  "pro_source": null,
+  "mmmu_val_overall": 62.2,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

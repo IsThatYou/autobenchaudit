@@ -1,0 +1,26 @@
+{
+  "slug": "GPT-5.4_Thinking_w_tools",
+  "name": "GPT-5.4 Thinking w/ tools",
+  "size": "-",
+  "date": "2026-03-05",
+  "type": "proprietary",
+  "link": "https://openai.com/index/introducing-gpt-5-4/",
+  "pro_overall": 82.1,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": null,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

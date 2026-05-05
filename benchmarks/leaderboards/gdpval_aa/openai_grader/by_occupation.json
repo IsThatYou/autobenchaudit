@@ -1,0 +1,5243 @@
+{
+  "source_url": "https://evals.openai.com/gdpval/leaderboard",
+  "source_bundle": "https://evals.openai.com/assets/index-Dn260R3L.js",
+  "num_rows": 748,
+  "entries": [
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.6666666666666667,
+      "win_or_tie_rate": 0.711111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.31111111111111117,
+      "win_or_tie_rate": 0.42222222222222217
+    },
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.5777777777777777
+    },
+    {
+      "model": "claude-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.711111111111111,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.711111111111111,
+      "win_or_tie_rate": 0.7777777777777777
+    },
+    {
+      "model": "claude-45",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.4666666666666667,
+      "win_or_tie_rate": 0.6666666666666667
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.4888888888888888
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.3111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.5333333333333333
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "claude-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.5111111111111112,
+      "win_or_tie_rate": 0.8666666666666666
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0,
+      "win_or_tie_rate": 0.2666666666666667
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.9333333333333332,
+      "win_or_tie_rate": 0.9333333333333332
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.48888888888888893,
+      "win_or_tie_rate": 0.7555555555555554
+    },
+    {
+      "model": "claude-45",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.7555555555555555,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.5333333333333333,
+      "win_or_tie_rate": 0.711111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.7777777777777778,
+      "win_or_tie_rate": 0.7999999999999999
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.35555555555555557,
+      "win_or_tie_rate": 0.7333333333333333
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.6444444444444445,
+      "win_or_tie_rate": 0.7999999999999999
+    },
+    {
+      "model": "claude-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.8,
+      "win_or_tie_rate": 0.8222222222222222
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.3111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.7333333333333333
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.6888888888888888
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.4888888888888888
+    },
+    {
+      "model": "claude-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5111111111111112
+    },
+    {
+      "model": "claude-45",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.33333333333333337,
+      "win_or_tie_rate": 0.4666666666666666
+    },
+    {
+      "model": "claude-45",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.6444444444444444
+    },
+    {
+      "model": "claude-45",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.8666666666666666,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.6222222222222223,
+      "win_or_tie_rate": 0.7333333333333332
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "claude-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.44444444444444436,
+      "win_or_tie_rate": 0.5777777777777777
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.7333333333333333,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.48888888888888893
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.5111111111111111,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.6222222222222222,
+      "win_or_tie_rate": 0.6222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.6222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.37777777777777777
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.4666666666666667,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.7333333333333333,
+      "win_or_tie_rate": 0.7333333333333333
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.4666666666666666
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.4666666666666666
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.4888888888888888,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.6666666666666666,
+      "win_or_tie_rate": 0.6666666666666666
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.711111111111111
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.48888888888888893
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.5333333333333333,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.48888888888888893,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.42222222222222217
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.6444444444444445,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.15555555555555556
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.7555555555555555,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.6666666666666667,
+      "win_or_tie_rate": 0.6666666666666667
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4888888888888888
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.5333333333333333,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.5777777777777777,
+      "win_or_tie_rate": 0.5777777777777777
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.8222222222222222,
+      "win_or_tie_rate": 0.8222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.5777777777777777,
+      "win_or_tie_rate": 0.6666666666666666
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.6222222222222222
+    },
+    {
+      "model": "claude-sonnet-45",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.57778
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.24444,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.37778,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.62222,
+      "win_or_tie_rate": 0.64444
+    },
+    {
+      "model": "claude",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.44444
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.51111,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.55556
+    },
+    {
+      "model": "claude",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.31111,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.37778,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.62222,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.44444,
+      "win_or_tie_rate": 0.48889
+    },
+    {
+      "model": "claude",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.35556
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.73333,
+      "win_or_tie_rate": 0.77778
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.48889
+    },
+    {
+      "model": "claude",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.31111,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.62222
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.57778,
+      "win_or_tie_rate": 0.57778
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.24444,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "claude",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.68889,
+      "win_or_tie_rate": 0.75556
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.42222
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.44444
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.37778,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "claude",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.73333,
+      "win_or_tie_rate": 0.73333
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.15556,
+      "win_or_tie_rate": 0.28889
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.82222,
+      "win_or_tie_rate": 0.82222
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.35556
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.51111,
+      "win_or_tie_rate": 0.51111
+    },
+    {
+      "model": "claude",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.35556
+    },
+    {
+      "model": "claude",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.44444,
+      "win_or_tie_rate": 0.48889
+    },
+    {
+      "model": "claude",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.62222,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "claude",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.31111,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "claude",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.68889,
+      "win_or_tie_rate": 0.71111
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.68889
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.64444,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.57778
+    },
+    {
+      "model": "claude",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.42222,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.5333333333333333,
+      "win_or_tie_rate": 0.6555555555555557
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.5444444444444445
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.4666666666666666,
+      "win_or_tie_rate": 0.48888888888888893
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.7888888888888889
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.6333333333333333
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.48888888888888893
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.5333333333333334,
+      "win_or_tie_rate": 0.611111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.22222222222222218,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.5
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.5333333333333334
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.6888888888888889
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.5333333333333334
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.44444444444444436
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5444444444444445
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.2666666666666667,
+      "win_or_tie_rate": 0.4111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.5111111111111111,
+      "win_or_tie_rate": 0.5777777777777777
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5333333333333333
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.4666666666666666,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.611111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.5777777777777777
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.30000000000000004
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.3666666666666666
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.611111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.4666666666666666,
+      "win_or_tie_rate": 0.5666666666666667
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.6222222222222221,
+      "win_or_tie_rate": 0.8111111111111111
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.3666666666666667
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.5444444444444444
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.6111111111111112
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.39999999999999997,
+      "win_or_tie_rate": 0.4333333333333333
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "gemini-3",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.5333333333333334
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "gemini",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.37777777777777777
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "gemini",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.31111111111111106
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.15555555555555556,
+      "win_or_tie_rate": 0.15555555555555556
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.4666666666666666,
+      "win_or_tie_rate": 0.48888888888888893
+    },
+    {
+      "model": "gemini",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gemini",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gemini",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.4666666666666666
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gemini",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "gemini",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gemini",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gemini",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gemini",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5333333333333333
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "gemini",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.11765,
+      "win_or_tie_rate": 0.17647
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.15556
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.29825,
+      "win_or_tie_rate": 0.31579
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.15556,
+      "win_or_tie_rate": 0.15556
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.01961,
+      "win_or_tie_rate": 0.03922
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.08333,
+      "win_or_tie_rate": 0.10417
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.0625,
+      "win_or_tie_rate": 0.0625
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.15556,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.15556,
+      "win_or_tie_rate": 0.17778
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.04444,
+      "win_or_tie_rate": 0.04444
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.03922,
+      "win_or_tie_rate": 0.03922
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.03509,
+      "win_or_tie_rate": 0.05263
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.15556
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.11111
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.04444,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.28889
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.27451,
+      "win_or_tie_rate": 0.31373
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.01961,
+      "win_or_tie_rate": 0.03922
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.09804,
+      "win_or_tie_rate": 0.09804
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.10417,
+      "win_or_tie_rate": 0.16667
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.23529,
+      "win_or_tie_rate": 0.2549
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.04444,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.12698,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-4o",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.04444,
+      "win_or_tie_rate": 0.04444
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.54054,
+      "win_or_tie_rate": 0.59459
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.10476,
+      "win_or_tie_rate": 0.10476
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.29524,
+      "win_or_tie_rate": 0.31429
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.19048,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.2381,
+      "win_or_tie_rate": 0.2381
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.39048,
+      "win_or_tie_rate": 0.40952
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.20952,
+      "win_or_tie_rate": 0.22857
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.67521
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.39048,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.37838,
+      "win_or_tie_rate": 0.40541
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.20952,
+      "win_or_tie_rate": 0.27619
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.36111,
+      "win_or_tie_rate": 0.39815
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.44444,
+      "win_or_tie_rate": 0.49074
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.55238,
+      "win_or_tie_rate": 0.5619
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.22857,
+      "win_or_tie_rate": 0.24762
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.10476,
+      "win_or_tie_rate": 0.11429
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.77143,
+      "win_or_tie_rate": 0.77143
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.15238,
+      "win_or_tie_rate": 0.15238
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.40952
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.24762,
+      "win_or_tie_rate": 0.29524
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.24762,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.45714,
+      "win_or_tie_rate": 0.47619
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.08571,
+      "win_or_tie_rate": 0.11429
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.20721,
+      "win_or_tie_rate": 0.24324
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.48571,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.12821,
+      "win_or_tie_rate": 0.13675
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.55238
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.4381
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2381
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.65714,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.21905,
+      "win_or_tie_rate": 0.2381
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.62162,
+      "win_or_tie_rate": 0.62162
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.14286,
+      "win_or_tie_rate": 0.1619
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.48571,
+      "win_or_tie_rate": 0.49524
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.17117,
+      "win_or_tie_rate": 0.18018
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.27928,
+      "win_or_tie_rate": 0.28829
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.52381,
+      "win_or_tie_rate": 0.58095
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.18095,
+      "win_or_tie_rate": 0.18095
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.41667,
+      "win_or_tie_rate": 0.46296
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.45946,
+      "win_or_tie_rate": 0.52252
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.2381,
+      "win_or_tie_rate": 0.24762
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.73171,
+      "win_or_tie_rate": 0.78862
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.50485,
+      "win_or_tie_rate": 0.52427
+    },
+    {
+      "model": "gpt-5-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.22857,
+      "win_or_tie_rate": 0.24762
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gpt-5-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.31111111111111106
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "gpt-5-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.7555555555555555,
+      "win_or_tie_rate": 0.8222222222222222
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.6222222222222222
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.42222222222222217,
+      "win_or_tie_rate": 0.7777777777777777
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.7333333333333333,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.7777777777777777,
+      "win_or_tie_rate": 0.8666666666666668
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.7333333333333333
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.6444444444444444,
+      "win_or_tie_rate": 0.9555555555555555
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.7555555555555554,
+      "win_or_tie_rate": 0.8666666666666668
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.5555555555555556,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.8222222222222222
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.31111111111111117,
+      "win_or_tie_rate": 0.5555555555555556
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.5777777777777777,
+      "win_or_tie_rate": 0.7333333333333334
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.6666666666666667,
+      "win_or_tie_rate": 0.7555555555555555
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.4222222222222222,
+      "win_or_tie_rate": 0.6888888888888889
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.2888888888888889
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.711111111111111,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.8666666666666666
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.2888888888888889,
+      "win_or_tie_rate": 0.6444444444444445
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.6444444444444445,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.5111111111111111,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.5777777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.6666666666666666
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.6666666666666666,
+      "win_or_tie_rate": 0.9333333333333332
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.15555555555555559,
+      "win_or_tie_rate": 0.6666666666666666
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.7333333333333332
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.8222222222222222,
+      "win_or_tie_rate": 0.8222222222222222
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.4222222222222222
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.8444444444444444
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.3111111111111111,
+      "win_or_tie_rate": 0.37777777777777777
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.48888888888888893,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.7777777777777778
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.8444444444444444
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.5111111111111111,
+      "win_or_tie_rate": 0.9333333333333332
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.6888888888888889,
+      "win_or_tie_rate": 0.9333333333333332
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.8666666666666666,
+      "win_or_tie_rate": 0.888888888888889
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2888888888888889
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.8,
+      "win_or_tie_rate": 0.9333333333333332
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.5333333333333333,
+      "win_or_tie_rate": 0.7999999999999999
+    },
+    {
+      "model": "gpt-5p2-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.5333333333333334,
+      "win_or_tie_rate": 0.8666666666666666
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.8,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.66667,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.66667,
+      "win_or_tie_rate": 0.66667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.8,
+      "win_or_tie_rate": 0.86667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.73333,
+      "win_or_tie_rate": 0.73333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.8,
+      "win_or_tie_rate": 0.8
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "gpt-5r-high-engprompt",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.5111111111111111,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "grok",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.13333333333333336,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.5333333333333333
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.39999999999999997
+    },
+    {
+      "model": "grok",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "grok",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "grok",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.24444444444444446,
+      "win_or_tie_rate": 0.24444444444444446
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "grok",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "grok",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.4444444444444445,
+      "win_or_tie_rate": 0.5111111111111111
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.4888888888888888
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.37777777777777777,
+      "win_or_tie_rate": 0.37777777777777777
+    },
+    {
+      "model": "grok",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "grok",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "grok",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.26666666666666666,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "grok",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "grok",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.5777777777777777,
+      "win_or_tie_rate": 0.6222222222222222
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.4444444444444445
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.3555555555555555,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "grok",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "human",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.47059,
+      "win_or_tie_rate": 0.4902
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.35556
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.22222,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.17778
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.47368,
+      "win_or_tie_rate": 0.5614
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.37778,
+      "win_or_tie_rate": 0.42222
+    },
+    {
+      "model": "o3-high",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.21569,
+      "win_or_tie_rate": 0.23529
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.22222,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.375,
+      "win_or_tie_rate": 0.41667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.20833,
+      "win_or_tie_rate": 0.22917
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.42222,
+      "win_or_tie_rate": 0.44444
+    },
+    {
+      "model": "o3-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.24444,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.55556,
+      "win_or_tie_rate": 0.55556
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.48889,
+      "win_or_tie_rate": 0.55556
+    },
+    {
+      "model": "o3-high",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.15556,
+      "win_or_tie_rate": 0.17778
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.42222
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.19608,
+      "win_or_tie_rate": 0.21569
+    },
+    {
+      "model": "o3-high",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.62222
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.05263,
+      "win_or_tie_rate": 0.05263
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.33333,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.28889
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "o3-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.68889,
+      "win_or_tie_rate": 0.68889
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.11111,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.45098,
+      "win_or_tie_rate": 0.45098
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.46667
+    },
+    {
+      "model": "o3-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.2549,
+      "win_or_tie_rate": 0.2549
+    },
+    {
+      "model": "o3-high",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.29412,
+      "win_or_tie_rate": 0.29412
+    },
+    {
+      "model": "o3-high",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.51111,
+      "win_or_tie_rate": 0.51111
+    },
+    {
+      "model": "o3-high",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.11111,
+      "win_or_tie_rate": 0.11111
+    },
+    {
+      "model": "o3-high",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.45833,
+      "win_or_tie_rate": 0.54167
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.56863,
+      "win_or_tie_rate": 0.62745
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.13333
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.61905,
+      "win_or_tie_rate": 0.69841
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.53333,
+      "win_or_tie_rate": 0.53333
+    },
+    {
+      "model": "o3-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.24444,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-low",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.31111111111111106
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-low",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "o3-low",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-low",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.31111111111111106
+    },
+    {
+      "model": "o3-low",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "o3-low",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.28888888888888886,
+      "win_or_tie_rate": 0.3333333333333333
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-low",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.22222222222222224,
+      "win_or_tie_rate": 0.2444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.28888888888888886
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.11111111111111112,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.06666666666666667,
+      "win_or_tie_rate": 0.06666666666666667
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.22222222222222224
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.3333333333333333,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0,
+      "win_or_tie_rate": 0
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.15555555555555553,
+      "win_or_tie_rate": 0.15555555555555553
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.2444444444444444,
+      "win_or_tie_rate": 0.26666666666666666
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.02222222222222222,
+      "win_or_tie_rate": 0.02222222222222222
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.11111111111111112
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.17777777777777776,
+      "win_or_tie_rate": 0.17777777777777776
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.04444444444444444,
+      "win_or_tie_rate": 0.04444444444444444
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.31111111111111106,
+      "win_or_tie_rate": 0.3555555555555555
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.08888888888888888,
+      "win_or_tie_rate": 0.08888888888888888
+    },
+    {
+      "model": "o3-medium",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.13333333333333333,
+      "win_or_tie_rate": 0.13333333333333333
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Customer Service Representatives",
+      "win_rate": 0.43137,
+      "win_or_tie_rate": 0.43137
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial Managers",
+      "win_rate": 0.04444,
+      "win_or_tie_rate": 0.04444
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Financial and Investment Analysts",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Personal Financial Advisors",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.17778
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Finance and Insurance",
+      "occupation": "Securities, Commodities, and Financial Services Sales Agents",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "occupation": "Administrative Services Managers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "occupation": "Child, Family, and School Social Workers",
+      "win_rate": 0.13333,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "occupation": "Compliance Officers",
+      "win_rate": 0.47368,
+      "win_or_tie_rate": 0.50877
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "occupation": "First-Line Supervisors of Police and Detectives",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Government",
+      "occupation": "Recreation Workers",
+      "win_rate": 0.15686,
+      "win_or_tie_rate": 0.19608
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+      "win_rate": 0.17778,
+      "win_or_tie_rate": 0.28889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical Secretaries and Administrative Assistants",
+      "win_rate": 0.22917,
+      "win_or_tie_rate": 0.22917
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Medical and Health Services Managers",
+      "win_rate": 0.125,
+      "win_or_tie_rate": 0.16667
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Nurse Practitioners",
+      "win_rate": 0.35556,
+      "win_or_tie_rate": 0.37778
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Health Care and Social Assistance",
+      "occupation": "Registered Nurses",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.31111
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "occupation": "Audio and Video Technicians",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "occupation": "Editors",
+      "win_rate": 0.37778,
+      "win_or_tie_rate": 0.37778
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "occupation": "Film and Video Editors",
+      "win_rate": 0.11111,
+      "win_or_tie_rate": 0.11111
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "occupation": "News Analysts, Reporters, and Journalists",
+      "win_rate": 0.31111,
+      "win_or_tie_rate": 0.33333
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Information",
+      "occupation": "Producers and Directors",
+      "win_rate": 0.08889,
+      "win_or_tie_rate": 0.08889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "occupation": "Buyers and Purchasing Agents",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.4
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "occupation": "First-Line Supervisors of Production and Operating Workers",
+      "win_rate": 0.44444,
+      "win_or_tie_rate": 0.48889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "occupation": "Industrial Engineers",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.04444
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "occupation": "Mechanical Engineers",
+      "win_rate": 0.17647,
+      "win_or_tie_rate": 0.19608
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Manufacturing",
+      "occupation": "Shipping, Receiving, and Inventory Clerks",
+      "win_rate": 0.46667,
+      "win_or_tie_rate": 0.51111
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Accountants and Auditors",
+      "win_rate": 0.08772,
+      "win_or_tie_rate": 0.08772
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Computer and Information Systems Managers",
+      "win_rate": 0.26667,
+      "win_or_tie_rate": 0.26667
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Lawyers",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.17778
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Project Management Specialists",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.24444
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Professional, Scientific, and Technical Services",
+      "occupation": "Software Developers",
+      "win_rate": 0.6,
+      "win_or_tie_rate": 0.6
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Concierges",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Counter and Rental Clerks",
+      "win_rate": 0.31373,
+      "win_or_tie_rate": 0.31373
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Property, Real Estate, and Community Association Managers",
+      "win_rate": 0.22222,
+      "win_or_tie_rate": 0.22222
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Brokers",
+      "win_rate": 0.28889,
+      "win_or_tie_rate": 0.28889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Real Estate and Rental and Leasing",
+      "occupation": "Real Estate Sales Agents",
+      "win_rate": 0.11765,
+      "win_or_tie_rate": 0.11765
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Retail Trade",
+      "occupation": "First-Line Supervisors of Retail Sales Workers",
+      "win_rate": 0.17647,
+      "win_or_tie_rate": 0.19608
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Retail Trade",
+      "occupation": "General and Operations Managers",
+      "win_rate": 0.4,
+      "win_or_tie_rate": 0.48889
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Retail Trade",
+      "occupation": "Pharmacists",
+      "win_rate": 0.02222,
+      "win_or_tie_rate": 0.02222
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Retail Trade",
+      "occupation": "Private Detectives and Investigators",
+      "win_rate": 0.39583,
+      "win_or_tie_rate": 0.47917
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+      "win_rate": 0.5098,
+      "win_or_tie_rate": 0.52941
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Order Clerks",
+      "win_rate": 0.06667,
+      "win_or_tie_rate": 0.06667
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Managers",
+      "win_rate": 0.60317,
+      "win_or_tie_rate": 0.61905
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+      "win_rate": 0.42222,
+      "win_or_tie_rate": 0.44444
+    },
+    {
+      "model": "o4-mini-high",
+      "sector": "Wholesale Trade",
+      "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "win_rate": 0.2,
+      "win_or_tie_rate": 0.2
+    }
+  ]
+}

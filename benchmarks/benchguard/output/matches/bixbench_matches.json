@@ -1,0 +1,341 @@
+{
+  "benchmark": "BIXBench-V50",
+  "judge_model": "gemini/gemini-3-flash-preview",
+  "timestamp": "2026-05-01T00:19:20.874217+00:00",
+  "pairs": [
+    {
+      "task_id": "bix-28-q3",
+      "issue_id": "bix-28-q3_issue_1",
+      "finding_id": "bix-28-q3__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same problem: the original question failed to specify that PhyKIT must be used to calculate the 'long branch score', which is a tool-specific metric."
+    },
+    {
+      "task_id": "bix-20-q3",
+      "issue_id": "bix-20-q3_issue_2",
+      "finding_id": "bix-20-q3__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a task-specific definition change for variant classification, while the finding describes a technical code bug (UnboundLocalError) in the grading logic."
+    },
+    {
+      "task_id": "bix-14-q1",
+      "issue_id": "bix-14-q1_issue_1",
+      "finding_id": "bix-14-q1__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that the question was underspecified by not restricting the scope to coding/exonic variants, leading to a discrepancy between the question and the reference answer."
+    },
+    {
+      "task_id": "bix-20-q3",
+      "issue_id": "bix-20-q3_issue_1",
+      "finding_id": "bix-20-q3__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns the wording of a specific question, while the finding describes a code bug in the grading logic."
+    },
+    {
+      "task_id": "bix-26-q5",
+      "issue_id": "bix-26-q5_issue_1",
+      "finding_id": "bix-26-q5__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same core problem: the question incorrectly conflates gene-level filtering criteria with pathway-level enrichment significance thresholds."
+    },
+    {
+      "task_id": "bix-26-q5",
+      "issue_id": "bix-26-q5_issue_1",
+      "finding_id": "bix-26-q5__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns statistical threshold logic, while the BenchGuard Finding concerns ambiguous terminology for experimental conditions; these are distinct problems within the same task."
+    },
+    {
+      "task_id": "bix-26-q5",
+      "issue_id": "bix-26-q5_issue_1",
+      "finding_id": "bix-26-q5__static_audit__2",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue addresses logical ambiguity in threshold definitions, while the BenchGuard Finding addresses reproducibility issues caused by live API calls to an external database."
+    },
+    {
+      "task_id": "bix-22-q4",
+      "issue_id": "bix-22-q4_issue_1",
+      "finding_id": "bix-22-q4__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns the ambiguity of a specific task's question text, while the finding describes a code bug in the evaluation script's logic."
+    },
+    {
+      "task_id": "bix-14-q1",
+      "issue_id": "bix-14-q1_issue_1",
+      "finding_id": "bix-14-q1__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns the task's scientific specification and target range, while the BenchGuard Finding identifies a software bug in the grading script's logic."
+    },
+    {
+      "task_id": "bix-27-q5",
+      "issue_id": "bix-27-q5_issue_1",
+      "finding_id": "bix-27-q5__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that the original answer range (88,89) for the first principal component's variance in task bix-27-q5 was incorrect and should have been approximately 56."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_1",
+      "finding_id": "bix-31-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue addresses missing technical instructions about batch correction and software, while the BenchGuard Finding identifies a logical contradiction regarding gene biotype filtering."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_2",
+      "finding_id": "bix-31-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns the biological classification of a gene, while the BenchGuard Finding concerns a discrepancy between the calculation instructions and the reference answer range."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_2",
+      "finding_id": "bix-31-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that FAM138A is incorrectly described as a protein-coding gene in the question, leading to a contradiction in the task instructions."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_2",
+      "finding_id": "bix-31-q2__static_audit__2",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify flaws in the same question regarding the gene FAM138A, but they point to different root causes: biological misclassification versus a numerical threshold mismatch."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_3",
+      "finding_id": "bix-31-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that the reference answer range was incorrect because it failed to account for LFC shrinkage, and they both propose or confirm the same corrected range around -0.06."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_1",
+      "finding_id": "bix-31-q2__static_audit__2",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify flaws in the question's instructions for the same task, but they point to different specific problems: missing batch correction/software details versus a contradictory baseMean filter."
+    },
+    {
+      "task_id": "bix-32-q2",
+      "issue_id": "bix-32-q2_issue_1",
+      "finding_id": "bix-32-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues concern the KEGG enrichment analysis task, but one focuses on clarifying the specific statistical method (ORA) while the other focuses on the reproducibility risk of using a live API."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_1",
+      "finding_id": "bix-43-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns missing DESeq2 configuration parameters, while the BenchGuard Finding concerns a grading mismatch due to unspecified rounding precision for a numeric answer."
+    },
+    {
+      "task_id": "bix-28-q3",
+      "issue_id": "bix-28-q3_issue_1",
+      "finding_id": "bix-28-q3__static_audit__1",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "The gold issue addresses inconsistency in the answer generation process by specifying a tool, while the finding addresses inconsistency in the evaluation process due to a lack of numerical tolerance in the grader."
+    },
+    {
+      "task_id": "bix-32-q2",
+      "issue_id": "bix-32-q2_issue_1",
+      "finding_id": "bix-32-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues address ambiguities in the same KEGG enrichment question, but one focuses on the specific algorithm (ORA vs GSEA) while the other focuses on the gene-level filtering criteria and the confusing placement of the fold-change threshold."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_3",
+      "finding_id": "bix-31-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify errors in the same task (bix-31-q2), but one focuses on incorrect statistical parameters (batch covariates/shrinkage) while the other focuses on a logical contradiction in the gene filtering instructions."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_1",
+      "finding_id": "bix-31-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues address the discrepancy between the task instructions regarding LFC shrinkage and the ground truth answer range for task bix-31-q2."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_2",
+      "finding_id": "bix-43-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy between the prompt's use of 'p' and the solution's use of 'padj' for statistical filtering."
+    },
+    {
+      "task_id": "bix-31-q2",
+      "issue_id": "bix-31-q2_issue_3",
+      "finding_id": "bix-31-q2__static_audit__2",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify flaws in the same question's parameters and expected answer, but they focus on different errors: one on the statistical model (batch/shrinkage) and the other on a contradictory filtering criterion (baseMean threshold)."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_1",
+      "finding_id": "bix-43-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify missing or ambiguous specifications in the task prompt for the same DESeq2 analysis, but they refer to different stages of the pipeline (pre-filtering/dispersion vs. result filtering)."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_2",
+      "finding_id": "bix-43-q2__static_audit__2",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy between the strict inequalities in the prompt and the non-strict inequalities used in the reference solution's threshold calculations."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_1",
+      "finding_id": "bix-43-q2__static_audit__2",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns missing instructions for DESeq2 dispersion estimation and pre-filtering, while the BenchGuard Finding identifies a logical discrepancy between strict and non-strict inequality operators in the result filtering step."
+    },
+    {
+      "task_id": "bix-43-q4",
+      "issue_id": "bix-43-q4_issue_1",
+      "finding_id": "bix-43-q4__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same linguistic ambiguity in the question regarding whether the denominator should be the total number of DEGs or the total number of genes in the pathway."
+    },
+    {
+      "task_id": "bix-49-q4",
+      "issue_id": "bix-49-q4_issue_1",
+      "finding_id": "bix-49-q4__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same missing requirement to include 'sex' as a covariate in the DESeq2 analysis to ensure the correct result is obtained."
+    },
+    {
+      "task_id": "bix-43-q4",
+      "issue_id": "bix-43-q4_issue_1",
+      "finding_id": "bix-43-q4__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns the definition of the metric (overlap ratio vs. proportion), while the BenchGuard Finding concerns the filtering criteria used to define the set of differentially expressed genes."
+    },
+    {
+      "task_id": "bix-52-q2",
+      "issue_id": "bix-52-q2_issue_1",
+      "finding_id": "bix-52-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same ambiguity regarding whether 'average' refers to a global genome-wide density or a mean of per-chromosome densities."
+    },
+    {
+      "task_id": "bix-52-q2",
+      "issue_id": "bix-52-q2_issue_2",
+      "finding_id": "bix-52-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same ambiguity regarding whether to include chromosomes with zero filtered CpGs when calculating the average chromosomal density."
+    },
+    {
+      "task_id": "bix-54-q7",
+      "issue_id": "bix-54-q7_issue_1",
+      "finding_id": "bix-54-q7__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that the natural spline model was missing the degrees of freedom parameter (df=4), which is necessary to reach the specific answer required by the tight acceptance range."
+    },
+    {
+      "task_id": "bix-52-q7",
+      "issue_id": "bix-52-q7_issue_1",
+      "finding_id": "bix-52-q7__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same ambiguity regarding the term 'sites' and its confusion with individual data rows versus unique genomic locations."
+    },
+    {
+      "task_id": "bix-43-q2",
+      "issue_id": "bix-43-q2_issue_2",
+      "finding_id": "bix-43-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns incorrect statistical thresholds in the calculation logic, while the BenchGuard finding concerns strict string matching and lack of precision specifications in the grading process."
+    },
+    {
+      "task_id": "bix-54-q7",
+      "issue_id": "bix-54-q7_issue_2",
+      "finding_id": "bix-54-q7__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue addresses the definition of a variable (frequency ratio), while the BenchGuard Finding addresses missing hyperparameters for a statistical model (spline degrees of freedom)."
+    },
+    {
+      "task_id": "bix-61-q2",
+      "issue_id": "bix-61-q2_issue_1",
+      "finding_id": "bix-61-q2__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same ambiguity regarding whether the average coverage depth should be calculated over the entire genome or only over covered regions."
+    },
+    {
+      "task_id": "bix-61-q2",
+      "issue_id": "bix-61-q2_issue_1",
+      "finding_id": "bix-61-q2__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns the mathematical definition of the average depth calculation, while the BenchGuard Finding concerns ambiguity in selecting the correct input files for the mapping step."
+    },
+    {
+      "task_id": "bix-54-q7",
+      "issue_id": "bix-54-q7_issue_3",
+      "finding_id": "bix-54-q7__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues address the underspecification of the spline model fitting process, but they identify different missing details: one focuses on the software environment (R) while the other focuses on the specific hyperparameter (degrees of freedom)."
+    },
+    {
+      "task_id": "bix-6-q4",
+      "issue_id": "bix-6-q4_issue_1",
+      "finding_id": "bix-6-q4__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues concern the Spearman correlation task in the same question, but one addresses ambiguity in the input data to be correlated while the other addresses a flaw in the evaluation range that accepts the wrong statistical output."
+    },
+    {
+      "task_id": "bix-6-q4",
+      "issue_id": "bix-6-q4_issue_1",
+      "finding_id": "bix-6-q4__static_audit__1",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both identify different sources of ambiguity (metric type vs. gene subset) within the same question text."
+    }
+  ],
+  "cost": {
+    "total_usd": 0.052307,
+    "total_pairs": 41,
+    "cached_pairs": 0,
+    "judged_pairs": 41
+  }
+}

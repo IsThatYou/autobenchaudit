@@ -1,0 +1,43 @@
+{
+  "slug": "hyperclova_x_seed_think_32b",
+  "model_id": "339a92c1-8a42-417f-8d1f-cdbc605acd9e",
+  "model_slug": "hyperclova-x-seed-think-32b",
+  "name": "HyperCLOVA X SEED Think (32B)",
+  "gdpval_name": null,
+  "short_name": "HyperCLOVA X SEED Think (32B)",
+  "creator": {
+    "name": "Naver",
+    "slug": "naver",
+    "country": null,
+    "logo": "/img/logos/naver.png"
+  },
+  "release_date": "2025-12-26",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 678.4712423650454,
+    "lower_95ci": 652.97500791598,
+    "upper_95ci": 706.5621438462418,
+    "n_matches": 2384,
+    "avg_turns": 29.456221198156683
+  },
+  "gdpval_breakdown": {
+    "elo": 678.4712423650454,
+    "avg_turns": 29.456221198156683,
+    "n_matches": 2384,
+    "lower_95ci": 652.97500791598,
+    "upper_95ci": 706.5621438462418,
+    "last_updated": "2026-04-22T02:15:40.997561"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 112217069,
+    "answer_tokens": 1976164,
+    "output_tokens": 2371133,
+    "reasoning_tokens": 394969
+  },
+  "intelligence_index": 23.72,
+  "agentic_index": 37.96,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

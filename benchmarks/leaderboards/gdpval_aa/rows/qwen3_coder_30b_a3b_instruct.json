@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_coder_30b_a3b_instruct",
+  "model_id": "da9fe224-8af3-46d7-a8c4-6220779c3f35",
+  "model_slug": "qwen3-coder-30b-a3b-instruct",
+  "name": "Qwen3 Coder 30B A3B Instruct",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Coder 30B A3B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-07-31",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 712.537472378143,
+    "lower_95ci": 685.6600593491208,
+    "upper_95ci": 740.2383738199719,
+    "n_matches": 2443,
+    "avg_turns": 23.58256880733945
+  },
+  "gdpval_breakdown": {
+    "elo": 712.537472378143,
+    "avg_turns": 23.58256880733945,
+    "n_matches": 2443,
+    "lower_95ci": 685.6600593491208,
+    "upper_95ci": 740.2383738199719,
+    "last_updated": "2026-04-22T02:15:39.320032"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 46264542,
+    "answer_tokens": 1574703,
+    "output_tokens": 1574703,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 19.98,
+  "agentic_index": 21.09,
+  "price_1m_input_tokens": 0.45,
+  "price_1m_output_tokens": 2.25
+}

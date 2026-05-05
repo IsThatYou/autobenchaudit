@@ -1,0 +1,43 @@
+{
+  "slug": "ling_mini_2_0",
+  "model_id": "3d64bf83-232e-427e-8590-26b478bae4a8",
+  "model_slug": "ling-mini-2-0",
+  "name": "Ling-mini-2.0",
+  "gdpval_name": null,
+  "short_name": "Ling-mini-2.0",
+  "creator": {
+    "name": "InclusionAI",
+    "slug": "inclusionai",
+    "country": null,
+    "logo": "/img/logos/inclusionai.jpg"
+  },
+  "release_date": "2025-09-09",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 270.19203285380775,
+    "lower_95ci": 243.02117647878356,
+    "upper_95ci": 294.722458950823,
+    "n_matches": 2587,
+    "avg_turns": 83.97272727272727
+  },
+  "gdpval_breakdown": {
+    "elo": 270.19203285380775,
+    "avg_turns": 83.97272727272727,
+    "n_matches": 2587,
+    "lower_95ci": 243.02117647878356,
+    "upper_95ci": 294.722458950823,
+    "last_updated": "2026-04-22T02:16:01.636793"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 117706507,
+    "answer_tokens": 2985469,
+    "output_tokens": 2985469,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 9.19,
+  "agentic_index": 4.39,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

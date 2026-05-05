@@ -1,0 +1,3366 @@
+{
+  "slug": "20251210_mini-v1.17.2_kimi-k2-thinking",
+  "folder": "20251210_mini-v1.17.2_kimi-k2-thinking",
+  "name": "mini-SWE-agent + Kimi K2 Thinking",
+  "date": "2025-12-10",
+  "resolved_pct": 63.4,
+  "accuracy": 0.634,
+  "checked": true,
+  "os_model": true,
+  "os_system": true,
+  "site": "https://mini-swe-agent.com/latest/",
+  "logo": [
+    "https://mini-swe-agent.com/latest/assets/mini_square.svg"
+  ],
+  "logs": "s3://swe-bench-submissions/verified/20251210_mini-v1.17.2_kimi-k2-thinking/logs",
+  "trajs": "s3://swe-bench-submissions/verified/20251210_mini-v1.17.2_kimi-k2-thinking/trajs",
+  "cost": 219.15361769999998,
+  "instance_cost": 0.4383072354,
+  "instance_calls": 46.82,
+  "warning": null,
+  "tags": [
+    "Model: Kimi-K2-Thinking",
+    "Org: Moonshot AI",
+    "System: Attempts - 1",
+    "Mini: 1.17.2",
+    "Org: SWE-agent"
+  ],
+  "parsed_tags": {
+    "model": [
+      "Kimi-K2-Thinking"
+    ],
+    "org": [
+      "Moonshot AI",
+      "SWE-agent"
+    ],
+    "system": [
+      "Attempts - 1"
+    ]
+  },
+  "results_url": "https://raw.githubusercontent.com/SWE-bench/experiments/main/evaluation/bash-only/20251210_mini-v1.17.2_kimi-k2-thinking/per_instance_details.json",
+  "num_resolved": 317,
+  "resolved_instance_ids": [
+    "astropy__astropy-12907",
+    "astropy__astropy-13236",
+    "astropy__astropy-13453",
+    "astropy__astropy-13579",
+    "astropy__astropy-14096",
+    "astropy__astropy-14309",
+    "astropy__astropy-14508",
+    "astropy__astropy-14539",
+    "astropy__astropy-14995",
+    "astropy__astropy-7166",
+    "astropy__astropy-7336",
+    "astropy__astropy-7671",
+    "django__django-10097",
+    "django__django-10880",
+    "django__django-10914",
+    "django__django-10973",
+    "django__django-11066",
+    "django__django-11095",
+    "django__django-11099",
+    "django__django-11119",
+    "django__django-11133",
+    "django__django-11163",
+    "django__django-11179",
+    "django__django-11211",
+    "django__django-11239",
+    "django__django-11276",
+    "django__django-11292",
+    "django__django-11299",
+    "django__django-11433",
+    "django__django-11477",
+    "django__django-11490",
+    "django__django-11551",
+    "django__django-11555",
+    "django__django-11603",
+    "django__django-11740",
+    "django__django-11749",
+    "django__django-11815",
+    "django__django-11880",
+    "django__django-11951",
+    "django__django-11999",
+    "django__django-12050",
+    "django__django-12125",
+    "django__django-12143",
+    "django__django-12155",
+    "django__django-12209",
+    "django__django-12262",
+    "django__django-12276",
+    "django__django-12304",
+    "django__django-12419",
+    "django__django-12663",
+    "django__django-12708",
+    "django__django-12713",
+    "django__django-12741",
+    "django__django-12754",
+    "django__django-12858",
+    "django__django-12965",
+    "django__django-13012",
+    "django__django-13023",
+    "django__django-13028",
+    "django__django-13033",
+    "django__django-13089",
+    "django__django-13109",
+    "django__django-13112",
+    "django__django-13121",
+    "django__django-13128",
+    "django__django-13279",
+    "django__django-13297",
+    "django__django-13315",
+    "django__django-13343",
+    "django__django-13346",
+    "django__django-13363",
+    "django__django-13401",
+    "django__django-13406",
+    "django__django-13410",
+    "django__django-13417",
+    "django__django-13449",
+    "django__django-13512",
+    "django__django-13516",
+    "django__django-13569",
+    "django__django-13590",
+    "django__django-13658",
+    "django__django-13670",
+    "django__django-13786",
+    "django__django-13807",
+    "django__django-13809",
+    "django__django-13810",
+    "django__django-13820",
+    "django__django-13821",
+    "django__django-13837",
+    "django__django-13925",
+    "django__django-13933",
+    "django__django-13964",
+    "django__django-14007",
+    "django__django-14017",
+    "django__django-14053",
+    "django__django-14089",
+    "django__django-14122",
+    "django__django-14238",
+    "django__django-14311",
+    "django__django-14349",
+    "django__django-14351",
+    "django__django-14373",
+    "django__django-14434",
+    "django__django-14493",
+    "django__django-14500",
+    "django__django-14539",
+    "django__django-14559",
+    "django__django-14580",
+    "django__django-14608",
+    "django__django-14672",
+    "django__django-14752",
+    "django__django-14765",
+    "django__django-14771",
+    "django__django-14787",
+    "django__django-14855",
+    "django__django-14915",
+    "django__django-14999",
+    "django__django-15103",
+    "django__django-15104",
+    "django__django-15161",
+    "django__django-15268",
+    "django__django-15277",
+    "django__django-15315",
+    "django__django-15368",
+    "django__django-15380",
+    "django__django-15382",
+    "django__django-15467",
+    "django__django-15499",
+    "django__django-15525",
+    "django__django-15554",
+    "django__django-15561",
+    "django__django-15569",
+    "django__django-15572",
+    "django__django-15731",
+    "django__django-15741",
+    "django__django-15814",
+    "django__django-15851",
+    "django__django-15863",
+    "django__django-15930",
+    "django__django-16032",
+    "django__django-16082",
+    "django__django-16100",
+    "django__django-16116",
+    "django__django-16136",
+    "django__django-16139",
+    "django__django-16145",
+    "django__django-16255",
+    "django__django-16315",
+    "django__django-16333",
+    "django__django-16429",
+    "django__django-16454",
+    "django__django-16485",
+    "django__django-16493",
+    "django__django-16527",
+    "django__django-16560",
+    "django__django-16569",
+    "django__django-16595",
+    "django__django-16612",
+    "django__django-16642",
+    "django__django-16661",
+    "django__django-16662",
+    "django__django-16801",
+    "django__django-16819",
+    "django__django-16877",
+    "django__django-16899",
+    "django__django-17029",
+    "django__django-17087",
+    "django__django-7530",
+    "django__django-9296",
+    "matplotlib__matplotlib-13989",
+    "matplotlib__matplotlib-14623",
+    "matplotlib__matplotlib-20488",
+    "matplotlib__matplotlib-20676",
+    "matplotlib__matplotlib-20859",
+    "matplotlib__matplotlib-22719",
+    "matplotlib__matplotlib-23314",
+    "matplotlib__matplotlib-23412",
+    "matplotlib__matplotlib-24026",
+    "matplotlib__matplotlib-24149",
+    "matplotlib__matplotlib-24570",
+    "matplotlib__matplotlib-24627",
+    "matplotlib__matplotlib-24637",
+    "matplotlib__matplotlib-24970",
+    "matplotlib__matplotlib-25122",
+    "matplotlib__matplotlib-25287",
+    "matplotlib__matplotlib-25311",
+    "matplotlib__matplotlib-26113",
+    "matplotlib__matplotlib-26342",
+    "pallets__flask-5014",
+    "psf__requests-1142",
+    "pydata__xarray-2905",
+    "pydata__xarray-3095",
+    "pydata__xarray-3151",
+    "pydata__xarray-3305",
+    "pydata__xarray-3677",
+    "pydata__xarray-4075",
+    "pydata__xarray-4094",
+    "pydata__xarray-4356",
+    "pydata__xarray-4629",
+    "pydata__xarray-4695",
+    "pydata__xarray-4966",
+    "pydata__xarray-6461",
+    "pydata__xarray-6744",
+    "pydata__xarray-7233",
+    "pydata__xarray-7393",
+    "pylint-dev__pylint-6903",
+    "pylint-dev__pylint-7080",
+    "pytest-dev__pytest-10081",
+    "pytest-dev__pytest-5262",
+    "pytest-dev__pytest-5631",
+    "pytest-dev__pytest-5787",
+    "pytest-dev__pytest-5809",
+    "pytest-dev__pytest-6202",
+    "pytest-dev__pytest-7236",
+    "pytest-dev__pytest-7324",
+    "pytest-dev__pytest-7432",
+    "pytest-dev__pytest-7490",
+    "pytest-dev__pytest-7521",
+    "pytest-dev__pytest-7571",
+    "pytest-dev__pytest-7982",
+    "pytest-dev__pytest-8399",
+    "scikit-learn__scikit-learn-10297",
+    "scikit-learn__scikit-learn-10844",
+    "scikit-learn__scikit-learn-10908",
+    "scikit-learn__scikit-learn-11310",
+    "scikit-learn__scikit-learn-11578",
+    "scikit-learn__scikit-learn-12585",
+    "scikit-learn__scikit-learn-12682",
+    "scikit-learn__scikit-learn-12973",
+    "scikit-learn__scikit-learn-13124",
+    "scikit-learn__scikit-learn-13135",
+    "scikit-learn__scikit-learn-13142",
+    "scikit-learn__scikit-learn-13328",
+    "scikit-learn__scikit-learn-13439",
+    "scikit-learn__scikit-learn-13779",
+    "scikit-learn__scikit-learn-14053",
+    "scikit-learn__scikit-learn-14141",
+    "scikit-learn__scikit-learn-14496",
+    "scikit-learn__scikit-learn-14710",
+    "scikit-learn__scikit-learn-14894",
+    "scikit-learn__scikit-learn-15100",
+    "scikit-learn__scikit-learn-25102",
+    "scikit-learn__scikit-learn-25232",
+    "scikit-learn__scikit-learn-25931",
+    "scikit-learn__scikit-learn-25973",
+    "scikit-learn__scikit-learn-26323",
+    "scikit-learn__scikit-learn-9288",
+    "sphinx-doc__sphinx-10323",
+    "sphinx-doc__sphinx-10466",
+    "sphinx-doc__sphinx-10673",
+    "sphinx-doc__sphinx-11445",
+    "sphinx-doc__sphinx-7440",
+    "sphinx-doc__sphinx-7454",
+    "sphinx-doc__sphinx-7757",
+    "sphinx-doc__sphinx-7889",
+    "sphinx-doc__sphinx-7910",
+    "sphinx-doc__sphinx-8035",
+    "sphinx-doc__sphinx-8120",
+    "sphinx-doc__sphinx-8269",
+    "sphinx-doc__sphinx-8459",
+    "sphinx-doc__sphinx-8475",
+    "sphinx-doc__sphinx-8593",
+    "sphinx-doc__sphinx-8595",
+    "sphinx-doc__sphinx-8721",
+    "sphinx-doc__sphinx-9230",
+    "sphinx-doc__sphinx-9281",
+    "sphinx-doc__sphinx-9320",
+    "sphinx-doc__sphinx-9367",
+    "sphinx-doc__sphinx-9591",
+    "sphinx-doc__sphinx-9658",
+    "sphinx-doc__sphinx-9673",
+    "sphinx-doc__sphinx-9698",
+    "sphinx-doc__sphinx-9711",
+    "sympy__sympy-11618",
+    "sympy__sympy-12096",
+    "sympy__sympy-12419",
+    "sympy__sympy-12481",
+    "sympy__sympy-13372",
+    "sympy__sympy-13480",
+    "sympy__sympy-13647",
+    "sympy__sympy-13757",
+    "sympy__sympy-13878",
+    "sympy__sympy-13974",
+    "sympy__sympy-14531",
+    "sympy__sympy-14711",
+    "sympy__sympy-14976",
+    "sympy__sympy-15345",
+    "sympy__sympy-15349",
+    "sympy__sympy-15809",
+    "sympy__sympy-15875",
+    "sympy__sympy-15976",
+    "sympy__sympy-16450",
+    "sympy__sympy-16766",
+    "sympy__sympy-16792",
+    "sympy__sympy-16886",
+    "sympy__sympy-17139",
+    "sympy__sympy-17655",
+    "sympy__sympy-19040",
+    "sympy__sympy-19346",
+    "sympy__sympy-19637",
+    "sympy__sympy-19783",
+    "sympy__sympy-19954",
+    "sympy__sympy-20154",
+    "sympy__sympy-20590",
+    "sympy__sympy-21379",
+    "sympy__sympy-21847",
+    "sympy__sympy-22714",
+    "sympy__sympy-22914",
+    "sympy__sympy-23262",
+    "sympy__sympy-23534",
+    "sympy__sympy-23824",
+    "sympy__sympy-23950",
+    "sympy__sympy-24066",
+    "sympy__sympy-24213",
+    "sympy__sympy-24443",
+    "sympy__sympy-24539",
+    "sympy__sympy-24661"
+  ],
+  "num_tasks": 500,
+  "total_trials": 500,
+  "total_successes": 317,
+  "tasks": [
+    {
+      "task_name": "astropy__astropy-12907",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-13033",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-13236",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-13398",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-13453",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-13579",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-13977",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-14096",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-14182",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-14309",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-14365",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-14369",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-14508",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-14539",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-14598",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-14995",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-7166",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-7336",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-7606",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-7671",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "astropy__astropy-8707",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "astropy__astropy-8872",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-10097",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-10554",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-10880",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-10914",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-10973",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-10999",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11066",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11087",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11095",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11099",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11119",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11133",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11138",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11141",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11149",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11163",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11179",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11206",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11211",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11239",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11265",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11276",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11292",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11299",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11333",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11400",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11433",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11451",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11477",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11490",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11532",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11551",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11555",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11603",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11728",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11734",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11740",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11749",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11790",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11815",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11820",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11848",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11880",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11885",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11951",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-11964",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-11999",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12039",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12050",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12125",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12143",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12155",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12193",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12209",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12262",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12273",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12276",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12304",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12308",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12325",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12406",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12419",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12663",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12708",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12713",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12741",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12754",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12774",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-12858",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-12965",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13012",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13023",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13028",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13033",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13089",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13109",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13112",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13121",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13128",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13158",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13195",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13212",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13279",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13297",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13315",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13343",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13344",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13346",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13363",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13401",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13406",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13410",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13417",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13449",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13512",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13513",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13516",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13551",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13568",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13569",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13590",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13658",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13670",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13741",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13786",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13794",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-13807",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13809",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13810",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13820",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13821",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13837",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13925",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13933",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-13964",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14007",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14011",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14017",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14034",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14053",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14089",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14122",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14140",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14155",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14170",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14238",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14311",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14315",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14349",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14351",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14373",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14376",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14404",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14434",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14493",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14500",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14534",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14539",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14559",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14580",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14608",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14631",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14672",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14725",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14752",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14765",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14771",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14787",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14792",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-14855",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14915",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-14999",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15022",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15037",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15098",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15103",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15104",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15127",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15128",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15161",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15252",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15268",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15277",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15278",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15280",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15315",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15368",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15375",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15380",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15382",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15467",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15499",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15503",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15525",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15554",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15561",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15563",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15569",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15572",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15629",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15695",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15731",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15732",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15741",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15814",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15851",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15863",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15916",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15930",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-15957",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15973",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-15987",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16032",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16082",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16100",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16116",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16136",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16139",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16145",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16255",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16256",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16263",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16315",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16333",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16429",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16454",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16485",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16493",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16502",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16527",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16560",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16569",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16595",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16612",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16631",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16642",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16661",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16662",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16667",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16801",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16819",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16877",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16899",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-16901",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16938",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-16950",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-17029",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-17084",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "django__django-17087",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-7530",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "django__django-9296",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-13989",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-14623",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-20488",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-20676",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-20826",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-20859",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-21568",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-22719",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-22865",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-22871",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-23299",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-23314",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-23412",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-23476",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24026",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24149",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24177",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24570",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24627",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24637",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24870",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-24970",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25122",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25287",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25311",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25332",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25479",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25775",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-25960",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-26113",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-26208",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-26291",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-26342",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "matplotlib__matplotlib-26466",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "mwaskom__seaborn-3069",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "mwaskom__seaborn-3187",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pallets__flask-5014",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "psf__requests-1142",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "psf__requests-1724",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-1766",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-1921",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-2317",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-2931",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-5414",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "psf__requests-6028",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-2905",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-3095",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-3151",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-3305",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-3677",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-3993",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-4075",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-4094",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-4356",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-4629",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-4687",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-4695",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-4966",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-6461",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-6599",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-6721",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-6744",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-6938",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-6992",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-7229",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pydata__xarray-7233",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pydata__xarray-7393",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-4551",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-4604",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-4661",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-4970",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-6386",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-6528",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-6903",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-7080",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-7277",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pylint-dev__pylint-8898",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-10051",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-10081",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-10356",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-5262",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-5631",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-5787",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-5809",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-5840",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-6197",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-6202",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7205",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7236",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7324",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7432",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7490",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7521",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7571",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-7982",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "pytest-dev__pytest-8399",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-10297",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-10844",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-10908",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-11310",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-11578",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-12585",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-12682",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-12973",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13124",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13135",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13142",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13328",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13439",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13496",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-13779",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14053",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14087",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14141",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14496",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14629",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14710",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14894",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-14983",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-15100",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-25102",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-25232",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-25747",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-25931",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-25973",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-26194",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-26323",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "scikit-learn__scikit-learn-9288",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10323",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10435",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10449",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10466",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10614",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-10673",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-11445",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-11510",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7440",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7454",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7462",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7590",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7748",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7757",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7889",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7910",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-7985",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8035",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8056",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8120",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8265",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8269",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8459",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8475",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8548",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8551",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8593",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8595",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8621",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8638",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-8721",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9229",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9230",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9258",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9281",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9320",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9367",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9461",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9591",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9602",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9658",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9673",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9698",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sphinx-doc__sphinx-9711",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-11618",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-12096",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-12419",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-12481",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-12489",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13031",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13091",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13372",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-13480",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-13551",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13615",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13647",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-13757",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-13798",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13852",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13877",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-13878",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-13974",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-14248",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-14531",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-14711",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-14976",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-15017",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-15345",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-15349",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-15599",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-15809",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-15875",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-15976",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-16450",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-16597",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-16766",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-16792",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-16886",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-17139",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-17318",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-17630",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-17655",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-18189",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-18199",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-18211",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-18698",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-18763",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-19040",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-19346",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-19495",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-19637",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-19783",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-19954",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-20154",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-20428",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-20438",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-20590",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-20801",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-20916",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-21379",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-21596",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-21612",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-21847",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-21930",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-22080",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-22456",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-22714",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-22914",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-23262",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-23413",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-23534",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-23824",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-23950",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-24066",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-24213",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-24443",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-24539",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    },
+    {
+      "task_name": "sympy__sympy-24562",
+      "n_trials": 1,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "sympy__sympy-24661",
+      "n_trials": 1,
+      "n_success": 1,
+      "pass_rate": 1.0
+    }
+  ]
+}

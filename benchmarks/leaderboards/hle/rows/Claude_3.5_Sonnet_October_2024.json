@@ -1,0 +1,18 @@
+{
+  "slug": "Claude_3.5_Sonnet_October_2024",
+  "model": "Claude 3.5 Sonnet (October 2024)",
+  "company": "anthropic",
+  "rank": 41,
+  "created_at": "2025-04-10T19:24:55.000Z",
+  "accuracy": 4.08,
+  "ci_upper": 0.78,
+  "calibration_error": 84,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "This model was used as an initial filter for the dataset.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

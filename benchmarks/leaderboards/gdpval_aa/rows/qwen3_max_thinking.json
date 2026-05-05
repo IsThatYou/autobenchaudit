@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_max_thinking",
+  "model_id": "806032ff-6252-4c22-ba99-a126e411b7a4",
+  "model_slug": "qwen3-max-thinking",
+  "name": "Qwen3 Max Thinking",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Max Thinking",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2026-01-26",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1141.9040759291772,
+    "lower_95ci": 1115.0134773984255,
+    "upper_95ci": 1165.9714474596321,
+    "n_matches": 2366,
+    "avg_turns": 22.378995433789953
+  },
+  "gdpval_breakdown": {
+    "elo": 1141.9040759291772,
+    "avg_turns": 22.378995433789953,
+    "n_matches": 2366,
+    "lower_95ci": 1115.0134773984255,
+    "upper_95ci": 1165.9714474596321,
+    "last_updated": "2026-04-22T02:15:21.664264"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 79246137,
+    "answer_tokens": 3232363,
+    "output_tokens": 3585907,
+    "reasoning_tokens": 353543
+  },
+  "intelligence_index": 39.85,
+  "agentic_index": 50.13,
+  "price_1m_input_tokens": 1.2,
+  "price_1m_output_tokens": 6
+}

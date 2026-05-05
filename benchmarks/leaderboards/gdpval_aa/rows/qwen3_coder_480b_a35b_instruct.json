@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_coder_480b_a35b_instruct",
+  "model_id": "093883ed-f5fc-443b-8e18-afbfb166699e",
+  "model_slug": "qwen3-coder-480b-a35b-instruct",
+  "name": "Qwen3 Coder 480B A35B Instruct",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Coder 480B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-07-22",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 511.2069446700141,
+    "lower_95ci": 482.37968431080066,
+    "upper_95ci": 541.9010016672031,
+    "n_matches": 1659,
+    "avg_turns": 81.845
+  },
+  "gdpval_breakdown": {
+    "elo": 511.2069446700141,
+    "avg_turns": 81.845,
+    "n_matches": 1659,
+    "lower_95ci": 482.37968431080066,
+    "upper_95ci": 541.9010016672031,
+    "last_updated": "2026-04-22T02:15:47.298858"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 416694679,
+    "answer_tokens": 5566227,
+    "output_tokens": 5566227,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 24.77,
+  "agentic_index": 18.31,
+  "price_1m_input_tokens": 1.5,
+  "price_1m_output_tokens": 7.5
+}

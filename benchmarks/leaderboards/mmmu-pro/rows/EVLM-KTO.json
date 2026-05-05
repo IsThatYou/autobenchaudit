@@ -1,0 +1,26 @@
+{
+  "slug": "EVLM-KTO",
+  "name": "EVLM-KTO",
+  "size": "7B",
+  "date": "2024-12-13",
+  "type": "proprietary",
+  "link": "https://arxiv.org/abs/2412.10566",
+  "pro_overall": 43.8,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 53.0,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

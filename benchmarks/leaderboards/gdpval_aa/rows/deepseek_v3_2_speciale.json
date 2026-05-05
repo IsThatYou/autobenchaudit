@@ -1,0 +1,31 @@
+{
+  "slug": "deepseek_v3_2_speciale",
+  "model_id": "527e943a-adc6-4e69-93af-d1608e1b5fed",
+  "model_slug": "deepseek-v3-2-speciale",
+  "name": "DeepSeek V3.2 Speciale",
+  "gdpval_name": null,
+  "short_name": "DeepSeek V3.2 Speciale",
+  "creator": {
+    "name": "DeepSeek",
+    "slug": "deepseek",
+    "country": null,
+    "logo": "/img/logos/deepseek.png"
+  },
+  "release_date": "2025-12-01",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 500,
+    "lower_95ci": 500,
+    "upper_95ci": 500,
+    "n_matches": 0,
+    "avg_turns": 0
+  },
+  "gdpval_breakdown": {},
+  "gdpval_token_use": null,
+  "intelligence_index": 29.43,
+  "agentic_index": 0,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

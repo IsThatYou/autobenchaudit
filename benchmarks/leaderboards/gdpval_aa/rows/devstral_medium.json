@@ -1,0 +1,43 @@
+{
+  "slug": "devstral_medium",
+  "model_id": "aba82268-2bb7-4a0f-80be-9b7722e2145b",
+  "model_slug": "devstral-medium",
+  "name": "Devstral Medium",
+  "gdpval_name": null,
+  "short_name": "Devstral Medium",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2025-07-10",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 686.8694435909199,
+    "lower_95ci": 660.5962826434936,
+    "upper_95ci": 712.8934518824594,
+    "n_matches": 2392,
+    "avg_turns": 22.83490566037736
+  },
+  "gdpval_breakdown": {
+    "elo": 686.8694435909199,
+    "avg_turns": 22.83490566037736,
+    "n_matches": 2392,
+    "lower_95ci": 660.5962826434936,
+    "upper_95ci": 712.8934518824594,
+    "last_updated": "2026-04-22T02:15:40.857587"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 79000425,
+    "answer_tokens": 1606466,
+    "output_tokens": 1606466,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 18.66,
+  "agentic_index": 15.84,
+  "price_1m_input_tokens": 0.4,
+  "price_1m_output_tokens": 2
+}

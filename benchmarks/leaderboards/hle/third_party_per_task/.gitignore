@@ -1,0 +1,3 @@
+# Download cache — repo only needs the extracted minimal rows.
+_cache/
+__pycache__/

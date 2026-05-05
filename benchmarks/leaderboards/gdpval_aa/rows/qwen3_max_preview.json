@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_max_preview",
+  "model_id": "5b2beb12-81a9-47a1-8a2a-d0a727185b50",
+  "model_slug": "qwen3-max-preview",
+  "name": "Qwen3 Max (Preview)",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Max (Preview)",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-09-05",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 820.0890215775703,
+    "lower_95ci": 794.4025733288826,
+    "upper_95ci": 844.2297054446889,
+    "n_matches": 3853,
+    "avg_turns": 33.18957345971564
+  },
+  "gdpval_breakdown": {
+    "elo": 820.0890215775703,
+    "avg_turns": 33.18957345971564,
+    "n_matches": 3853,
+    "lower_95ci": 794.4025733288826,
+    "upper_95ci": 844.2297054446889,
+    "last_updated": "2026-04-22T02:15:34.840752"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 118339814,
+    "answer_tokens": 1099257,
+    "output_tokens": 1099257,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 26.08,
+  "agentic_index": 23.32,
+  "price_1m_input_tokens": 1.2,
+  "price_1m_output_tokens": 6
+}

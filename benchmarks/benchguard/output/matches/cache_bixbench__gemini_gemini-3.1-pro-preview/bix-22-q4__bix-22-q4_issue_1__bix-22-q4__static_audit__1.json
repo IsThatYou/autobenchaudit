@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses an ambiguity in the task question regarding gene expression filtering, while the finding describes a Python code bug in the grading script's range verifier."
+}

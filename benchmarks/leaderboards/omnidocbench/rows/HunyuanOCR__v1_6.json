@@ -1,0 +1,20 @@
+{
+  "slug": "HunyuanOCR__v1_6",
+  "track": "v1.6_full",
+  "name": "HunyuanOCR",
+  "model_type": "Specialized VLMs",
+  "size": "1B",
+  "overall": 89.95,
+  "text_edit": 0.088,
+  "formula_cdm": 87.68,
+  "table_teds": 91.01,
+  "table_teds_s": 93.23,
+  "reading_order_edit": 0.171,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "ling_flash_2_0",
+  "model_id": "882a5da3-94ca-4602-8693-c45970df17e2",
+  "model_slug": "ling-flash-2-0",
+  "name": "Ling-flash-2.0",
+  "gdpval_name": null,
+  "short_name": "Ling-flash-2.0",
+  "creator": {
+    "name": "InclusionAI",
+    "slug": "inclusionai",
+    "country": null,
+    "logo": "/img/logos/inclusionai.jpg"
+  },
+  "release_date": "2025-09-17",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 425.14294248759245,
+    "lower_95ci": 396.1671730034454,
+    "upper_95ci": 451.4358051772836,
+    "n_matches": 1491,
+    "avg_turns": 7.485148514851486
+  },
+  "gdpval_breakdown": {
+    "elo": 425.14294248759245,
+    "avg_turns": 7.485148514851486,
+    "n_matches": 1491,
+    "lower_95ci": 396.1671730034454,
+    "upper_95ci": 451.4358051772836,
+    "last_updated": "2026-04-22T02:15:50.804484"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 16465399,
+    "answer_tokens": 912923,
+    "output_tokens": 912923,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 15.74,
+  "agentic_index": 8.35,
+  "price_1m_input_tokens": 0.14,
+  "price_1m_output_tokens": 0.57
+}

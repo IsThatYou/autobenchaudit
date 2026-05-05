@@ -1,0 +1,59 @@
+{
+  "slug": "Tongyi_Lab_Alibaba_Group_gui-owl-7b_15steps",
+  "model": "gui-owl-7b",
+  "institution": "Tongyi Lab, Alibaba Group",
+  "paper_link": "https://arxiv.org/abs/2508.15144",
+  "paper_authors": "Ye et al., '25",
+  "approach_type": "Specialized model",
+  "max_steps": 15,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-09-03",
+  "success_rate": 32.11,
+  "success_total_raw": "115.92/361",
+  "success_count": 115.92,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 18.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 17.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 8.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 8.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 12.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 9.0,
+      "total": 93
+    },
+    "os": {
+      "success": 12.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 5.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 15.0,
+      "total": 23
+    }
+  }
+}

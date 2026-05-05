@@ -1,0 +1,43 @@
+{
+  "slug": "sarvam_105b",
+  "model_id": "45790612-02e3-4c42-b5bd-cd7ed2ea1f2f",
+  "model_slug": "sarvam-105b",
+  "name": "Sarvam 105B (high)",
+  "gdpval_name": null,
+  "short_name": "Sarvam 105B (high)",
+  "creator": {
+    "name": "Sarvam",
+    "slug": "sarvam",
+    "country": null,
+    "logo": "/img/logos/sarvam.png"
+  },
+  "release_date": "2026-03-06",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 740.0439593501782,
+    "lower_95ci": 717.0112977998324,
+    "upper_95ci": 763.5607324180568,
+    "n_matches": 3173,
+    "avg_turns": 40.69444444444444
+  },
+  "gdpval_breakdown": {
+    "elo": 740.0439593501782,
+    "avg_turns": 40.69444444444444,
+    "n_matches": 3173,
+    "lower_95ci": 717.0112977998324,
+    "upper_95ci": 763.5607324180568,
+    "last_updated": "2026-04-22T02:15:38.620893"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 141542206,
+    "answer_tokens": 2520714,
+    "output_tokens": 2953389,
+    "reasoning_tokens": 432675
+  },
+  "intelligence_index": 18.16,
+  "agentic_index": 24.69,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

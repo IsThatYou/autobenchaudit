@@ -1,0 +1,43 @@
+{
+  "slug": "gpt_5_1_codex",
+  "model_id": "04d023f3-025c-4d78-9571-53edda3eaf2a",
+  "model_slug": "gpt-5-1-codex",
+  "name": "GPT-5.1 Codex (high)",
+  "gdpval_name": null,
+  "short_name": "GPT-5.1 Codex (high)",
+  "creator": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "country": null,
+    "logo": "/img/logos/openai.svg"
+  },
+  "release_date": "2025-11-13",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1195.3918597690104,
+    "lower_95ci": 1169.5630778387904,
+    "upper_95ci": 1220.961347406802,
+    "n_matches": 2225,
+    "avg_turns": 35
+  },
+  "gdpval_breakdown": {
+    "elo": 1195.3918597690104,
+    "avg_turns": 35,
+    "n_matches": 2225,
+    "lower_95ci": 1169.5630778387904,
+    "upper_95ci": 1220.961347406802,
+    "last_updated": "2026-04-22T02:15:18.437279"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 188149463,
+    "answer_tokens": 1530291,
+    "output_tokens": 4489626,
+    "reasoning_tokens": 2959335
+  },
+  "intelligence_index": 43.11,
+  "agentic_index": 50.68,
+  "price_1m_input_tokens": 1.25,
+  "price_1m_output_tokens": 10
+}

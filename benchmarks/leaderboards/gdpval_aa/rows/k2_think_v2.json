@@ -1,0 +1,43 @@
+{
+  "slug": "k2_think_v2",
+  "model_id": "5a49ef80-3af5-404b-8ac0-e1b230ae95de",
+  "model_slug": "k2-think-v2",
+  "name": "K2 Think V2",
+  "gdpval_name": null,
+  "short_name": "K2 Think V2",
+  "creator": {
+    "name": "MBZUAI Institute of Foundation Models",
+    "slug": "mbzuai",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-12-15",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 609.8869300881585,
+    "lower_95ci": 580.5223978641442,
+    "upper_95ci": 636.1696782935438,
+    "n_matches": 2190,
+    "avg_turns": 24.7688679245283
+  },
+  "gdpval_breakdown": {
+    "elo": 609.8869300881585,
+    "avg_turns": 24.7688679245283,
+    "n_matches": 2190,
+    "lower_95ci": 580.5223978641442,
+    "upper_95ci": 636.1696782935438,
+    "last_updated": "2026-04-22T02:15:44.077796"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 83539807,
+    "answer_tokens": 2466804,
+    "output_tokens": 6195379,
+    "reasoning_tokens": 3728575
+  },
+  "intelligence_index": 24.12,
+  "agentic_index": 15.31,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

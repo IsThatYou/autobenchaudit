@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_coder_next",
+  "model_id": "fc92f822-04b7-420d-9c07-a21af5e9aac7",
+  "model_slug": "qwen3-coder-next",
+  "name": "Qwen3 Coder Next",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Coder Next",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2026-02-03",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 914.3732427535708,
+    "lower_95ci": 887.8309968084197,
+    "upper_95ci": 940.505844322458,
+    "n_matches": 2755,
+    "avg_turns": 34.97641509433962
+  },
+  "gdpval_breakdown": {
+    "elo": 914.3732427535708,
+    "avg_turns": 34.97641509433962,
+    "n_matches": 2755,
+    "lower_95ci": 887.8309968084197,
+    "upper_95ci": 940.505844322458,
+    "last_updated": "2026-04-22T02:15:31.618329"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 206569163,
+    "answer_tokens": 5027429,
+    "output_tokens": 5027429,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 28.28,
+  "agentic_index": 42.1,
+  "price_1m_input_tokens": 0.35,
+  "price_1m_output_tokens": 1.2
+}

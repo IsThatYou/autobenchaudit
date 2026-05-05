@@ -1,0 +1,43 @@
+{
+  "slug": "mistral_small_4_non_reasoning",
+  "model_id": "12f6a061-0ab3-4c76-b225-49abee253651",
+  "model_slug": "mistral-small-4-non-reasoning",
+  "name": "Mistral Small 4 (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Mistral Small 4",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2026-03-16",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 847.6683336779107,
+    "lower_95ci": 823.3181038524451,
+    "upper_95ci": 872.3643743227317,
+    "n_matches": 3067,
+    "avg_turns": 25.476635514018692
+  },
+  "gdpval_breakdown": {
+    "elo": 847.6683336779107,
+    "avg_turns": 25.476635514018692,
+    "n_matches": 3067,
+    "lower_95ci": 823.3181038524451,
+    "upper_95ci": 872.3643743227317,
+    "last_updated": "2026-04-22T02:15:33.300593"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 64208596,
+    "answer_tokens": 1565454,
+    "output_tokens": 1565454,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 18.62,
+  "agentic_index": 18.55,
+  "price_1m_input_tokens": 0.15,
+  "price_1m_output_tokens": 0.6
+}

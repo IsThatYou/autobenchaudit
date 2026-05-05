@@ -1,0 +1,59 @@
+{
+  "slug": "ByteDance_Seed_Tsinghua_University_uitars-72b-dpo_100steps",
+  "model": "uitars-72b-dpo",
+  "institution": "ByteDance Seed & Tsinghua University",
+  "paper_link": "https://github.com/bytedance/UI-TARS",
+  "paper_authors": "Qin et al., '24",
+  "approach_type": "Specialized model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 27.1,
+  "success_total_raw": "96.90/361",
+  "success_count": 96.9,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 15.0,
+      "total": 46
+    },
+    "gimp": {
+      "success": 19.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 3.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 11.19,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 8.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 7.71,
+      "total": 93
+    },
+    "os": {
+      "success": 9.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 9.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 3.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 12.0,
+      "total": 23
+    }
+  }
+}

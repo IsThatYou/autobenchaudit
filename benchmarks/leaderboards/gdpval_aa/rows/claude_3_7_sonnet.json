@@ -1,0 +1,43 @@
+{
+  "slug": "claude_3_7_sonnet",
+  "model_id": "d925845d-39ad-4de3-8495-f176b79828c0",
+  "model_slug": "claude-3-7-sonnet",
+  "name": "Claude 3.7 Sonnet (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Claude 3.7 Sonnet",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2025-02-24",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1048.3040464006438,
+    "lower_95ci": 1023.8503852237785,
+    "upper_95ci": 1074.9987623926468,
+    "n_matches": 2374,
+    "avg_turns": 22.55607476635514
+  },
+  "gdpval_breakdown": {
+    "elo": 1048.3040464006438,
+    "avg_turns": 22.55607476635514,
+    "n_matches": 2374,
+    "lower_95ci": 1023.8503852237785,
+    "upper_95ci": 1074.9987623926468,
+    "last_updated": "2026-04-22T02:15:24.751258"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 62173787,
+    "answer_tokens": 2902908,
+    "output_tokens": 2902908,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 30.81,
+  "agentic_index": 35.73,
+  "price_1m_input_tokens": 3,
+  "price_1m_output_tokens": 15
+}

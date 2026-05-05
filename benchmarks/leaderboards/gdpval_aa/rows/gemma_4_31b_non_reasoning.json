@@ -1,0 +1,43 @@
+{
+  "slug": "gemma_4_31b_non_reasoning",
+  "model_id": "d0aa27aa-4705-4184-9a1d-483b78c9331c",
+  "model_slug": "gemma-4-31b-non-reasoning",
+  "name": "Gemma 4 31B (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Gemma 4 31B",
+  "creator": {
+    "name": "Google",
+    "slug": "google",
+    "country": null,
+    "logo": "/img/logos/google.svg"
+  },
+  "release_date": "2026-04-02",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1008.5137378937275,
+    "lower_95ci": 982.914700502515,
+    "upper_95ci": 1032.8055552170802,
+    "n_matches": 2744,
+    "avg_turns": 19.495412844036696
+  },
+  "gdpval_breakdown": {
+    "elo": 1008.5137378937275,
+    "avg_turns": 19.495412844036696,
+    "n_matches": 2744,
+    "lower_95ci": 982.914700502515,
+    "upper_95ci": 1032.8055552170802,
+    "last_updated": "2026-04-22T02:15:27.696701"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 66284905,
+    "answer_tokens": 2556254,
+    "output_tokens": 2556254,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 32.29,
+  "agentic_index": 39.39,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

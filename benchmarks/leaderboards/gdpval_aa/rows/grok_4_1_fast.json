@@ -1,0 +1,43 @@
+{
+  "slug": "grok_4_1_fast",
+  "model_id": "49fd01f9-887d-4479-b8ce-771a81ecef4e",
+  "model_slug": "grok-4-1-fast",
+  "name": "Grok 4.1 Fast (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Grok 4.1 Fast",
+  "creator": {
+    "name": "xAI",
+    "slug": "xai",
+    "country": null,
+    "logo": "/img/logos/xai.svg"
+  },
+  "release_date": "2025-11-19",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 783.3781732679954,
+    "lower_95ci": 754.3614145219165,
+    "upper_95ci": 811.3138252610979,
+    "n_matches": 2537,
+    "avg_turns": 13.8
+  },
+  "gdpval_breakdown": {
+    "elo": 783.3781732679954,
+    "avg_turns": 13.8,
+    "n_matches": 2537,
+    "lower_95ci": 754.3614145219165,
+    "upper_95ci": 811.3138252610979,
+    "last_updated": "2026-04-22T02:15:36.241970"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 37442928,
+    "answer_tokens": 1911353,
+    "output_tokens": 1911353,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 23.56,
+  "agentic_index": 32.95,
+  "price_1m_input_tokens": 0.2,
+  "price_1m_output_tokens": 0.5
+}

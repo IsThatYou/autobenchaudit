@@ -1,0 +1,20 @@
+{
+  "slug": "Gemini_3_Pro__v1_6",
+  "track": "v1.6_full",
+  "name": "Gemini 3 Pro",
+  "model_type": "General VLMs",
+  "size": null,
+  "overall": 92.91,
+  "text_edit": 0.064,
+  "formula_cdm": 95.99,
+  "table_teds": 89.15,
+  "table_teds_s": 92.96,
+  "reading_order_edit": 0.165,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

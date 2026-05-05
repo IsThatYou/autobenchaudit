@@ -1,0 +1,20 @@
+{
+  "slug": "Ovis2.6-30B-A3B__v1_6",
+  "track": "v1.6_full",
+  "name": "Ovis2.6-30B-A3B",
+  "model_type": "General VLMs",
+  "size": "30B",
+  "overall": 93.7,
+  "text_edit": 0.035,
+  "formula_cdm": 95.17,
+  "table_teds": 89.44,
+  "table_teds_s": 92.4,
+  "reading_order_edit": 0.135,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

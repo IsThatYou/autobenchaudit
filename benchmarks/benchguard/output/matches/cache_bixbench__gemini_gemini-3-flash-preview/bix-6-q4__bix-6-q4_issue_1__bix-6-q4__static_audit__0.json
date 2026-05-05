@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues concern the Spearman correlation task in the same question, but one addresses ambiguity in the input data to be correlated while the other addresses a flaw in the evaluation range that accepts the wrong statistical output."
+}

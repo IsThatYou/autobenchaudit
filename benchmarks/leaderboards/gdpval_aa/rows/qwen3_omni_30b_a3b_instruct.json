@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_omni_30b_a3b_instruct",
+  "model_id": "0b226b82-1462-4860-bf1a-f8aed7024791",
+  "model_slug": "qwen3-omni-30b-a3b-instruct",
+  "name": "Qwen3 Omni 30B A3B Instruct",
+  "gdpval_name": null,
+  "short_name": "Qwen3 Omni 30B A3B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-09-22",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 302.1025652525158,
+    "lower_95ci": 269.8732321094615,
+    "upper_95ci": 332.4769230452876,
+    "n_matches": 1077,
+    "avg_turns": 55.60846560846561
+  },
+  "gdpval_breakdown": {
+    "elo": 302.1025652525158,
+    "avg_turns": 55.60846560846561,
+    "n_matches": 1077,
+    "lower_95ci": 269.8732321094615,
+    "upper_95ci": 332.4769230452876,
+    "last_updated": "2026-04-22T02:15:55.721910"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 140160043,
+    "answer_tokens": 16224629,
+    "output_tokens": 16224629,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 10.68,
+  "agentic_index": 5.46,
+  "price_1m_input_tokens": 0.25,
+  "price_1m_output_tokens": 0.97
+}

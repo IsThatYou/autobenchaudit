@@ -1,0 +1,43 @@
+{
+  "slug": "longcat_flash_lite",
+  "model_id": "6056731b-c705-455b-aa0d-43cbf29b1054",
+  "model_slug": "longcat-flash-lite",
+  "name": "LongCat Flash Lite",
+  "gdpval_name": null,
+  "short_name": "LongCat Flash Lite",
+  "creator": {
+    "name": "LongCat",
+    "slug": "longcat",
+    "country": null,
+    "logo": "/img/logos/longcat.svg"
+  },
+  "release_date": "2026-01-28",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 839.7567025577279,
+    "lower_95ci": 813.4837150286876,
+    "upper_95ci": 866.6069442755977,
+    "n_matches": 2013,
+    "avg_turns": 21.295454545454547
+  },
+  "gdpval_breakdown": {
+    "elo": 839.7567025577279,
+    "avg_turns": 21.295454545454547,
+    "n_matches": 2013,
+    "lower_95ci": 813.4837150286876,
+    "upper_95ci": 866.6069442755977,
+    "last_updated": "2026-04-22T02:15:33.720791"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 63644313,
+    "answer_tokens": 2637611,
+    "output_tokens": 2637611,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 23.93,
+  "agentic_index": 38.76,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

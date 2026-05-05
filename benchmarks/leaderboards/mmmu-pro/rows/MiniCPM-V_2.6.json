@@ -1,0 +1,26 @@
+{
+  "slug": "MiniCPM-V_2.6",
+  "name": "MiniCPM-V 2.6",
+  "size": "8B",
+  "date": "2024-08-06",
+  "type": "open_source",
+  "link": "https://huggingface.co/openbmb/MiniCPM-V-2_6",
+  "pro_overall": 27.2,
+  "pro_vision": 24.2,
+  "pro_standard": 30.2,
+  "pro_source": null,
+  "mmmu_val_overall": 49.8,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

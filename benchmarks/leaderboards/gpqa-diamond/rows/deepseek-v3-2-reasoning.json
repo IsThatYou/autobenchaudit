@@ -1,0 +1,1220 @@
+{
+  "slug": "deepseek-v3-2-reasoning",
+  "source": "artificialanalysis",
+  "benchmark": "gpqa_diamond",
+  "id": "d621247c-d47e-458c-82cb-a166bc3b37e5",
+  "aa_slug": "deepseek-v3-2-reasoning",
+  "model": "DeepSeek V3.2 (Reasoning)",
+  "short_name": "DeepSeek V3.2",
+  "creator": "DeepSeek",
+  "creator_id": "58b835bf-4c87-4f87-a846-df4b692c6e7d",
+  "deprecated": false,
+  "deprecated_to": null,
+  "is_reasoning": true,
+  "is_open_weights": true,
+  "license_name": "MIT",
+  "license_url": "https://opensource.org/license/mit",
+  "knowledge_cutoff_date": null,
+  "accuracy": 0.84,
+  "lab_claimed_accuracy": null,
+  "intelligence_index": 41.71,
+  "estimated_intelligence_index": 41.42978028964561,
+  "context_window_tokens": 128000,
+  "active_params_billions": 37,
+  "frontier_model": false,
+  "commercial_allowed": true,
+  "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+  "num_tasks": 198,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": [
+    {
+      "task_name": "gpqa_diamond_b698ebb0cb6d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2662eff7a623",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_13e7c71f8aae",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ee40e0ba4774",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f69ff8c0001c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d81eab0b3dee",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d48362abba76",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b15ab8a50cd7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_fc081c2fbb63",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_85f5a80c9029",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1dec0a47229d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4c49b01c534d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a8be7a4963bf",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_435ccdce7cc6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6b778965b459",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f730b35adb89",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1ce3d847d25b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a80144fd5822",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d8c36bd55ba5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_0c1cc6cb8c9b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_40b2b50a3c99",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a2136b05b782",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_cbf5c336a099",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_16464cac7090",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d49aa1d9efc3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a5bf307fdc69",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_29ffae74d292",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b690990e73ef",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_42da82ad5cb9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_29e6a1db070b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_62f7808cdd91",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e302b2005d8d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e1448af5dcb7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_123161632faf",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8f0911e951ad",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8d132ce83553",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_7fda2b6ca2ff",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ff60c18b72aa",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_089a55e5a3fb",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_83e987d2b0fb",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_18c1c5c103fb",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f56e41493e43",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4ea09b6f6020",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_145b51d1c857",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_477410454021",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d21ba2f1c06b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_19d5ec504b70",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f6518dd763c1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_73f52d6a4b6c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9443960fd266",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6aff7faed92c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_20d48d5f0a9a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ca2abe8a98bc",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1f101bccd200",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b560f550d5d9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_229ffbdb7744",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_299c83f78042",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e9afb4888113",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_618551bfaaf7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ebc638f9e42b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_63318cb18413",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1037e0c8b2c1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1054cb147fa0",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_80cca49a2f6a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_58604895b423",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_82e6266418c6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_7f9b4679645e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f56f3f5d135d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_71075d4447ee",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_bd713289ab1f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_cf500f5f0764",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_57b065d28a6d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_826fb502d2db",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_0cda758f1290",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_89fa5b222a94",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_025e20e6e9b4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f634534b5e23",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2e908bfe562b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_733e93868ff7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2413c551ec9a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b51a836cebaa",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8efc35cf270e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_797be7099117",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_045347c35e29",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9d46302b7638",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_27ae63a85927",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f328e748a74c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c4d795814405",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8b5b2cb731b5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_11464d18e1d6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_654fc443f2ef",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c6231a95c81b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c1dea594f51b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_836be405f3d0",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_790d06fbc2ae",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6dbc821cf1e8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_acf784efba89",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ec22f627211f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e23b62b19c3a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_339602fd0ae9",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_db2ca8d93d5f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c003a37af0ea",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ea1d2c2fd439",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a452108cbace",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9d42c24c2f67",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_41b609bbf5cd",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e426a9a1b097",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c9ed693d3f7d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2c9af2ef64de",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_03946dc24ec6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5ce997bcaa65",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_cd18749d0354",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_16bcf4c7129e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_049a3a3426b3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d25187b99e49",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b494f4c17856",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_019eb0f05f02",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_cdb165b285d5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_083aa3572345",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_ec3a07db51d6",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_c1f013c71ec1",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9e7260c352d5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e2c8b6a88dfe",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b734e134fe45",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6c90e464e06f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_183797b844f5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_188c5d277845",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6d83e7511250",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9211da2d82ad",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1b04aca1c9a8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e6eba602b3ee",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4bab53f38320",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_051eba250138",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8f174dd25b58",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4b45de4106aa",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_656a46f8bac8",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1fc80dd29a6d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2437e4848569",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_32bdeb2d6746",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_14a2ed1ddcec",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_0caf81b8c837",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_de0e795a2e16",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d6e89de54268",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_60c9747de98d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_1f06efeb2323",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_934c12bf2e6d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_364ddb1397ab",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d160134fd023",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4c8dd7600126",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_952132525f3a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_851c6624380d",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_838fc09fd4e7",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e38dd7750710",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d7be2d674d49",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_eae298168d24",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e82f7c84f310",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a817452b182a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_691112dd08ae",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e410f49b6f85",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5a24c76ed39e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_415ea1789217",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2c52c770af75",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_65db6ef4b562",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_916a1ca795d3",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f0c3d97c5c67",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5ea7e9b17f67",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5028b464f9ac",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_bdc1ab103002",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_97732ba422af",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_b114078343a4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e17051d5c4eb",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_e6fd9b7cea6c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_43af6d115970",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_28fc44d6ca68",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_0dbcc69ff355",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4c588d49e166",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5fb04957154b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6cec89b2019b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_84b58aec9b33",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_254c10ac4fdc",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_7cccb7714b35",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_8accf5d31cc4",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_6e2bd9ec28ef",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_f4486aea8f80",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_29f96711820e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_a40790d78d4f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_5264f3cb98bb",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_9ab5fff18dfa",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_d20446ccbbfc",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_17f96c74be83",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_21b950759e4e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_2c08be31c31e",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_bb309e44424b",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_7c427847fb1a",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_35cf9161cc3c",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_4dde21b33c78",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_126561d6b58f",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "task_name": "gpqa_diamond_888abd3e43c5",
+      "n_trials": 0,
+      "n_success": 0,
+      "pass_rate": 0.0
+    }
+  ]
+}

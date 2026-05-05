@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue describes a change in data grouping logic (vernacular vs species names), while the BenchGuard finding identifies a technical geospatial error regarding CRS and coordinate transforms."
+}

@@ -1,0 +1,5 @@
+{
+  "note": "Per-model per-question results are not published for Humanity's Last Exam. The 2,500-question dataset (cais/hle on HuggingFace) is gated behind a click-through agreement, and Scale withholds model predictions to limit training-data leakage. `tasks` and `matrix` are both empty; the file exists for shape parity with other leaderboards.",
+  "tasks": [],
+  "matrix": {}
+}

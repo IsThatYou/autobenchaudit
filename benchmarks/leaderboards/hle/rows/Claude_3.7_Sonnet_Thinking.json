@@ -1,0 +1,18 @@
+{
+  "slug": "Claude_3.7_Sonnet_Thinking",
+  "model": "Claude 3.7 Sonnet (Thinking)",
+  "company": "anthropic",
+  "rank": 28,
+  "created_at": "2025-04-10T19:24:55.000Z",
+  "accuracy": 8.04,
+  "ci_upper": 1.07,
+  "calibration_error": 80,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Thinking budget: 16,000 tokens. Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

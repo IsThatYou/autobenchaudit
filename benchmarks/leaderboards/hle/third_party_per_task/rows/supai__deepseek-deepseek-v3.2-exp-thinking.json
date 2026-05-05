@@ -1,0 +1,21 @@
+{
+  "slug": "supai__deepseek-deepseek-v3.2-exp-thinking",
+  "source": "supai",
+  "source_file": "judged_hle_pro.json",
+  "model_identifier": "deepseek/deepseek-v3.2-exp-thinking",
+  "vendor": "deepseek",
+  "model": "deepseek-v3.2-exp-thinking",
+  "provider": null,
+  "num_questions": 1,
+  "num_correct": 0,
+  "accuracy": 0.0,
+  "avg_confidence": 90.0,
+  "tasks": [
+    {
+      "task_id": "66ff0a666dc4b2ab76a19db9",
+      "correct": 0,
+      "confidence": 90,
+      "model_answer": "\u03b6"
+    }
+  ]
+}

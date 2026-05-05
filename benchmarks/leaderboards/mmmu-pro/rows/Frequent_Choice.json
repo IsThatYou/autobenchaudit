@@ -1,0 +1,26 @@
+{
+  "slug": "Frequent_Choice",
+  "name": "Frequent Choice",
+  "size": "-",
+  "date": "2023-11-27",
+  "type": "random_frequent",
+  "link": null,
+  "pro_overall": 12.1,
+  "pro_vision": 12.1,
+  "pro_standard": 12.1,
+  "pro_source": null,
+  "mmmu_val_overall": 26.8,
+  "mmmu_val_by_domain": {
+    "art_design": 23.3,
+    "business": 29.3,
+    "science": 27.3,
+    "health_medicine": 30.0,
+    "humanities_social_sci": 25.8,
+    "tech_engineering": 24.8
+  },
+  "mmmu_test_overall": 23.9,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

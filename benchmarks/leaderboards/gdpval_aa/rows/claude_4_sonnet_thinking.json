@@ -1,0 +1,43 @@
+{
+  "slug": "claude_4_sonnet_thinking",
+  "model_id": "a7564055-f8ba-4c4b-9e2d-060f61263645",
+  "model_slug": "claude-4-sonnet-thinking",
+  "name": "Claude 4 Sonnet (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Claude 4 Sonnet",
+  "creator": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "country": null,
+    "logo": "/img/logos/anthropic.svg"
+  },
+  "release_date": "2025-05-22",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 1136.5902477841216,
+    "lower_95ci": 1109.024913935102,
+    "upper_95ci": 1162.3368243628731,
+    "n_matches": 1693,
+    "avg_turns": 24.653846153846153
+  },
+  "gdpval_breakdown": {
+    "elo": 1136.5902477841216,
+    "avg_turns": 24.653846153846153,
+    "n_matches": 1693,
+    "lower_95ci": 1109.024913935102,
+    "upper_95ci": 1162.3368243628731,
+    "last_updated": "2026-04-22T02:15:21.804509"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 79878102,
+    "answer_tokens": 3154459,
+    "output_tokens": 3234021,
+    "reasoning_tokens": 79561
+  },
+  "intelligence_index": 38.66,
+  "agentic_index": 43.02,
+  "price_1m_input_tokens": 3,
+  "price_1m_output_tokens": 15
+}

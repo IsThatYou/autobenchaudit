@@ -1,0 +1,18 @@
+{
+  "slug": "Claude_Sonnet_4_Thinking",
+  "model": "Claude Sonnet 4 (Thinking)",
+  "company": "anthropic",
+  "rank": 28,
+  "created_at": "2025-05-23T15:37:20.000Z",
+  "accuracy": 7.76,
+  "ci_upper": 1.05,
+  "calibration_error": 75,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

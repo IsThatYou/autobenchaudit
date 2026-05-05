@@ -1,0 +1,59 @@
+{
+  "slug": "ByteDance_Seed_doubao-1-5-thinking-vision-pro-250428_100steps",
+  "model": "doubao-1-5-thinking-vision-pro-250428",
+  "institution": "ByteDance Seed",
+  "paper_link": "https://arxiv.org/abs/2505.07062",
+  "paper_authors": "ByteDance Seed, '25",
+  "approach_type": "General model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 33.8,
+  "success_total_raw": "122.25/359",
+  "success_count": 122.25,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 21.92,
+      "total": 46
+    },
+    "gimp": {
+      "success": 14.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 16.0,
+      "total": 46
+    },
+    "libreoffice_impress": {
+      "success": 18.99,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 10.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 11.35,
+      "total": 93
+    },
+    "os": {
+      "success": 6.0,
+      "total": 23
+    },
+    "thunderbird": {
+      "success": 9.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 3.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 12.0,
+      "total": 23
+    }
+  }
+}

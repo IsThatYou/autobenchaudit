@@ -1,0 +1,18 @@
+{
+  "slug": "GLM-4.7",
+  "model": "GLM-4.7",
+  "organization": "Zhipu AI",
+  "rank": 5,
+  "score": 0.82,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://z.ai/blog/glm-4.7",
+  "announcement_date": "2025-12-22",
+  "param_count": 358000000000,
+  "is_open_source": true,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

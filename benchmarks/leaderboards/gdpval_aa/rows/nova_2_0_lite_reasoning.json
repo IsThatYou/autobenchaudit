@@ -1,0 +1,43 @@
+{
+  "slug": "nova_2_0_lite_reasoning",
+  "model_id": "61bd9367-e520-4ec8-989e-5fbf50e61610",
+  "model_slug": "nova-2-0-lite-reasoning",
+  "name": "Nova 2.0 Lite (high)",
+  "gdpval_name": null,
+  "short_name": "Nova 2.0 Lite (high)",
+  "creator": {
+    "name": "Amazon",
+    "slug": "aws",
+    "country": null,
+    "logo": "/img/logos/aws.webp"
+  },
+  "release_date": "2025-10-29",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 848.0849311547433,
+    "lower_95ci": 822.3208114100662,
+    "upper_95ci": 874.199696757398,
+    "n_matches": 2709,
+    "avg_turns": 11.287037037037036
+  },
+  "gdpval_breakdown": {
+    "elo": 848.0849311547433,
+    "avg_turns": 11.287037037037036,
+    "n_matches": 2709,
+    "lower_95ci": 822.3208114100662,
+    "upper_95ci": 874.199696757398,
+    "last_updated": "2026-04-22T02:15:34.000610"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 18395158,
+    "answer_tokens": 765628,
+    "output_tokens": 20276473,
+    "reasoning_tokens": 19510844
+  },
+  "intelligence_index": 34.54317368742869,
+  "agentic_index": 37.34,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 2.5
+}

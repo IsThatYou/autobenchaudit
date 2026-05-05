@@ -1,0 +1,1212 @@
+{
+  "slug": "GLM-4.6",
+  "model": "GLM-4.6",
+  "model_type": "Open-Source",
+  "agent": "Default",
+  "date": "2025-10-28",
+  "pass_at_1": 18.8,
+  "pass_at_1_stderr": 2.2,
+  "pass_at_3": 29.6,
+  "pass_pow_3": 9.3,
+  "avg_turns": 27.9,
+  "verified": true,
+  "hf_slug": "glm-4.6",
+  "hf_runs": [
+    "glm-4.6_1.jsonl",
+    "glm-4.6_2.jsonl",
+    "glm-4.6_3.jsonl"
+  ],
+  "num_tasks": 108,
+  "total_trials": 324,
+  "total_successes": 61,
+  "tasks": [
+    {
+      "task_name": "ab-testing",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "max_turn_exceeded"
+      ]
+    },
+    {
+      "task_name": "academic-pdf-report",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "academic-warning",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "add-bibtex",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "apply-phd-email",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "arrange-workspace",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-arrange-exam",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-art-manager",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "max_turn_exceeded",
+        "max_turn_exceeded"
+      ]
+    },
+    {
+      "task_name": "canvas-art-quiz",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-do-quiz",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-homework-grader-python",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-list-test",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-new-students-notification",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "canvas-submit-late-work",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "cooking-guidance",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "course-assistant",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "course-schedule",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "courses-ta-hws",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "cvpr-research",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "max_turn_exceeded",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "dataset-license-issue",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "detect-revised-terms",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "dietary-health",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "email-paper-homepage",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "excel-data-transformation",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "excel-market-research",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "experiments-recordings",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "fillout-online-forms",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "filter-low-selling-products",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "find-alita-paper",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "flagged-transactions",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "game-statistics",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "max_turn_exceeded",
+        "done"
+      ]
+    },
+    {
+      "task_name": "gdp-cr5-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "git-bug-hunt",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "git-milestone",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "git-repo",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "hk-top-conf",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "huggingface-upload",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "identify-all-songs",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "imagenet",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "inter-final-performance-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "interview-report",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "max_turn_exceeded",
+        "max_turn_exceeded",
+        "done"
+      ]
+    },
+    {
+      "task_name": "inventory-sync",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "investment-decision-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "invoice-org",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "ipad-edu-price",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "k8s-deployment-cleanup",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "k8s-mysql",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "k8s-pr-preview-testing",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "k8s-redis-helm-upgrade",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "k8s-safety-audit",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "landing-task-reminder",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "language-school",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "latex-prompt-box",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "live-transactions",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "max_turn_exceeded",
+        "done"
+      ]
+    },
+    {
+      "task_name": "llm-training-dataset",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "logical-datasets-collection",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "machine-operating",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "meeting-assign",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "merge-hf-datasets",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "mrbeast-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "music-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "nhl-b2b-analysis",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "notion-find-job",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "notion-hr",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "notion-movies",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "notion-personal-website",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "nvidia-market",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "nvidia-stock-analysis",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "oil-price",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "paper-checker",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "payable-invoice-checker",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "personal-website-construct",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "ppt-analysis",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "price-comparison",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "privacy-desensitization",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "profile-update-online",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "quantitative-financial-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "reimbursement-form-filler",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "sales-accounting",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "search-ca-school",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "set-conf-cr-ddl",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "shopping-helper",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "sla-timeout-monitor",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "stock-build-position",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "student-interview",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "subway-planning",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "sync-todo-to-readme",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "task-tracker",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "train-ticket-plan",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "travel-exchange",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "travel-expense-reimbursement",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "trip-adviser",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "trip-itinerary-generator",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "university-course-selection",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "update-material-inventory",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "upenn-campus-route",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "verl-dataset",
+      "n_trials": 3,
+      "n_success": 2,
+      "pass_rate": 0.6666666666666666,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "vlm-history-completer",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        null,
+        "done"
+      ]
+    },
+    {
+      "task_name": "wandb-best-score",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "wandb-shortest-length",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-customer-survey",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-new-product",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-new-welcome",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-product-recall",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-stock-alert",
+      "n_trials": 3,
+      "n_success": 1,
+      "pass_rate": 0.3333333333333333,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "woocommerce-update-cover",
+      "n_trials": 3,
+      "n_success": 3,
+      "pass_rate": 1.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "yahoo-analysis",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    },
+    {
+      "task_name": "youtube-repo",
+      "n_trials": 3,
+      "n_success": 0,
+      "pass_rate": 0.0,
+      "trial_running_statuses": [
+        "done",
+        "done",
+        "done"
+      ]
+    }
+  ]
+}

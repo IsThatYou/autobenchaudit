@@ -1,0 +1,43 @@
+{
+  "slug": "kat_coder_pro_v1",
+  "model_id": "fb112343-c82c-4b43-afea-996bd5101d62",
+  "model_slug": "kat-coder-pro-v1",
+  "name": "KAT-Coder-Pro V1",
+  "gdpval_name": null,
+  "short_name": "KAT-Coder-Pro V1",
+  "creator": {
+    "name": "KwaiKAT",
+    "slug": "kwaikat",
+    "country": null,
+    "logo": "/img/logos/"
+  },
+  "release_date": "2025-11-11",
+  "is_open_weights": false,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 822.8618312088363,
+    "lower_95ci": 792.7494121821851,
+    "upper_95ci": 851.359318827678,
+    "n_matches": 2520,
+    "avg_turns": 42.8
+  },
+  "gdpval_breakdown": {
+    "elo": 822.8618312088363,
+    "avg_turns": 42.8,
+    "n_matches": 2520,
+    "lower_95ci": 792.7494121821851,
+    "upper_95ci": 851.359318827678,
+    "last_updated": "2026-04-22T02:15:35.540660"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 185325682,
+    "answer_tokens": 2950585,
+    "output_tokens": 2950585,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 36.03,
+  "agentic_index": 41.74,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 1.2
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "olmOCR__v1_6",
+  "track": "v1.6_full",
+  "name": "olmOCR",
+  "model_type": "Specialized VLMs",
+  "size": "7B",
+  "overall": 85.74,
+  "text_edit": 0.139,
+  "formula_cdm": 88.1,
+  "table_teds": 83.0,
+  "table_teds_s": 87.17,
+  "reading_order_edit": 0.216,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

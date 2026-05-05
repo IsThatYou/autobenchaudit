@@ -1,0 +1,43 @@
+{
+  "slug": "grok_4_20",
+  "model_id": "c72cb85a-18a4-4235-b455-77dff2f16c50",
+  "model_slug": "grok-4-20",
+  "name": "Grok 4.20 0309 v2 (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Grok 4.20 0309 v2",
+  "creator": {
+    "name": "xAI",
+    "slug": "xai",
+    "country": null,
+    "logo": "/img/logos/xai.svg"
+  },
+  "release_date": "2026-04-07",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 1181.123767168213,
+    "lower_95ci": 1155.6644902296573,
+    "upper_95ci": 1206.9364414546512,
+    "n_matches": 2652,
+    "avg_turns": 15.754545454545454
+  },
+  "gdpval_breakdown": {
+    "elo": 1181.123767168213,
+    "avg_turns": 15.754545454545454,
+    "n_matches": 2652,
+    "lower_95ci": 1155.6644902296573,
+    "upper_95ci": 1206.9364414546512,
+    "last_updated": "2026-04-22T02:15:20.542219"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 35399107,
+    "answer_tokens": 2447997,
+    "output_tokens": 3107985,
+    "reasoning_tokens": 659988
+  },
+  "intelligence_index": 49.33,
+  "agentic_index": 53.86,
+  "price_1m_input_tokens": 2,
+  "price_1m_output_tokens": 6
+}

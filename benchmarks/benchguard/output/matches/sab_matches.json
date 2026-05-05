@@ -1,0 +1,229 @@
+{
+  "benchmark": "ScienceAgentBench",
+  "judge_model": "gemini/gemini-3-flash-preview",
+  "timestamp": "2026-05-01T17:41:19.057963+00:00",
+  "pairs": [
+    {
+      "task_id": "9",
+      "issue_id": "9_issue_1",
+      "finding_id": "9__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a change in the mathematical requirement of the task, while the finding concerns a typo in a filename within the documentation."
+    },
+    {
+      "task_id": "29",
+      "issue_id": "29_issue_1",
+      "finding_id": "29__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns an incorrect filename in the instructions, while the BenchGuard finding identifies a logic error in the evaluation script's validation code."
+    },
+    {
+      "task_id": "29",
+      "issue_id": "29_issue_1",
+      "finding_id": "29__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue describes a typo in the task instructions, while the BenchGuard finding describes a logic error in the evaluation script."
+    },
+    {
+      "task_id": "12",
+      "issue_id": "12_issue_1",
+      "finding_id": "12__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a change in output format (SMILES vs. names), while the finding concerns the brittleness and underspecification of the model evaluation criteria."
+    },
+    {
+      "task_id": "9",
+      "issue_id": "9_issue_1",
+      "finding_id": "9__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy between the task instruction (Pearson correlation coefficient) and the gold implementation/evaluation (Pearson R-squared)."
+    },
+    {
+      "task_id": "21",
+      "issue_id": "21_issue_1",
+      "finding_id": "21__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "The BenchGuard finding identifies the specific calculation error in the gold script that the Gold Issue claims to have fixed by updating the script and ground truth data."
+    },
+    {
+      "task_id": "12",
+      "issue_id": "12_issue_1",
+      "finding_id": "12__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy between the task instruction (requesting SMILES strings) and the evaluation/gold standard (expecting drug names)."
+    },
+    {
+      "task_id": "26",
+      "issue_id": "26_issue_1",
+      "finding_id": "26__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues address the discrepancy between the instruction's use of the singular 'a name' and the evaluation script's requirement for the plural column name 'names'."
+    },
+    {
+      "task_id": "29",
+      "issue_id": "29_issue_1",
+      "finding_id": "29__static_audit__2",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same error where the instruction incorrectly specifies 'ecg_1000hz.csv' instead of 'bio_eventrelated_100hz.csv' as the input file."
+    },
+    {
+      "task_id": "26",
+      "issue_id": "26_issue_1",
+      "finding_id": "26__static_audit__1",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues target the same instruction sentence regarding the 'names' column, but the gold issue addresses a grammatical pluralization error while the finding addresses the lack of format and delimiter specification."
+    },
+    {
+      "task_id": "31",
+      "issue_id": "31_issue_1",
+      "finding_id": "31__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The Gold Issue concerns task instruction clarity, while the BenchGuard finding concerns the non-deterministic nature of the evaluation scoring mechanism."
+    },
+    {
+      "task_id": "32",
+      "issue_id": "32_issue_1",
+      "finding_id": "32__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a change in data grouping logic (vernacular vs. species names), while the BenchGuard finding concerns a data integrity error in the preview (missing negative signs in raster values)."
+    },
+    {
+      "task_id": "32",
+      "issue_id": "32_issue_1",
+      "finding_id": "32__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue describes a change in data grouping logic (vernacular vs species names), while the BenchGuard finding describes a fundamental error in geospatial coordinate mapping and CRS handling."
+    },
+    {
+      "task_id": "32",
+      "issue_id": "32_issue_1",
+      "finding_id": "32__static_audit__2",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues address the discrepancy and choice between grouping by 'VernacularNameCategory' versus 'ScientificName' for the coral and sponge visualization."
+    },
+    {
+      "task_id": "29",
+      "issue_id": "29_issue_1",
+      "finding_id": "29__static_audit__3",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues identify different errors within the instructions for the same task: one concerns an incorrect filename, while the other concerns missing information about required data labels."
+    },
+    {
+      "task_id": "21",
+      "issue_id": "21_issue_1",
+      "finding_id": "21__static_audit__1",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues concern the accuracy and correctness of the deforestation calculation script and its resulting ground truth value."
+    },
+    {
+      "task_id": "34",
+      "issue_id": "34_issue_1",
+      "finding_id": "34__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy where the task instructions mention two input files while the gold solution and evaluation only utilize one."
+    },
+    {
+      "task_id": "35",
+      "issue_id": "35_issue_1",
+      "finding_id": "35__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the lack of a specific filename in the task instructions and propose/confirm that specifying 'bio_eventrelated_100hz.csv' is the necessary fix."
+    },
+    {
+      "task_id": "35",
+      "issue_id": "35_issue_1",
+      "finding_id": "35__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a filename update in the instructions, while the BenchGuard finding concerns a discrepancy between the scoring rubric's required functions and the gold program's implementation."
+    },
+    {
+      "task_id": "31",
+      "issue_id": "31_issue_1",
+      "finding_id": "31__static_audit__0",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify that the original task instruction was underspecified regarding the necessary parameters and tools (Phonopy, primitive cell) for the phonon DOS calculation."
+    },
+    {
+      "task_id": "67",
+      "issue_id": "67_issue_1",
+      "finding_id": "67__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a change in instructions for saving output files, while the finding identifies an ambiguity in which data column to select from an input file."
+    },
+    {
+      "task_id": "67",
+      "issue_id": "67_issue_1",
+      "finding_id": "67__static_audit__2",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns a change in the prompt's instruction text, while the finding identifies a technical flaw in the evaluation script's numerical comparison logic."
+    },
+    {
+      "task_id": "78",
+      "issue_id": "78_issue_1",
+      "finding_id": "78__static_audit__1",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns filtering out invalid data rows, while the finding concerns an ambiguity in the mathematical sign convention used for a specific column."
+    },
+    {
+      "task_id": "78",
+      "issue_id": "78_issue_1",
+      "finding_id": "78__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue concerns filtering out invalid rows from the dataset, while the finding concerns a semantic mismatch between the target column name (deltaTm) and the actual values (absolute temperature)."
+    },
+    {
+      "task_id": "67",
+      "issue_id": "67_issue_1",
+      "finding_id": "67__static_audit__0",
+      "model": "static_audit",
+      "verdict": "UNRELATED",
+      "reasoning": "The gold issue describes a minor change in the instruction regarding output file naming and content, while the BenchGuard finding identifies a major technical omission regarding the specific vector encoding scheme required for calculations."
+    },
+    {
+      "task_id": "78",
+      "issue_id": "78_issue_1",
+      "finding_id": "78__static_audit__2",
+      "model": "static_audit",
+      "verdict": "ALIGNED",
+      "reasoning": "Both issues identify the same discrepancy in the test dataset regarding the filtering of invalid examples (163 vs 147 rows) which affects the evaluation process."
+    },
+    {
+      "task_id": "92",
+      "issue_id": "92_issue_1",
+      "finding_id": "92__static_audit__0",
+      "model": "static_audit",
+      "verdict": "PARTIAL",
+      "reasoning": "Both issues involve correcting the prompt instructions for Task 92, but they address different specific errors: the gold issue describes a minor grammatical fix for the H_high factor, while the BenchGuard finding identifies a significant logic error (rows vs. columns) in the W_high/W_low factor."
+    }
+  ],
+  "cost": {
+    "total_usd": 0.035241,
+    "total_pairs": 27,
+    "cached_pairs": 0,
+    "judged_pairs": 27
+  }
+}

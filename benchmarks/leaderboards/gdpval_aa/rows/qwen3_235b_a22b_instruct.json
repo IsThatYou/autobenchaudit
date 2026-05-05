@@ -1,0 +1,43 @@
+{
+  "slug": "qwen3_235b_a22b_instruct",
+  "model_id": "43573c57-2403-46fb-af4b-a93de9a0c3f5",
+  "model_slug": "qwen3-235b-a22b-instruct",
+  "name": "Qwen3 235B A22B (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "Qwen3 235B",
+  "creator": {
+    "name": "Alibaba",
+    "slug": "alibaba",
+    "country": null,
+    "logo": "/img/logos/alibaba.svg"
+  },
+  "release_date": "2025-04-28",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 741.5885041185271,
+    "lower_95ci": 713.227632745145,
+    "upper_95ci": 769.8019235119746,
+    "n_matches": 1967,
+    "avg_turns": 58.754901960784316
+  },
+  "gdpval_breakdown": {
+    "elo": 741.5885041185271,
+    "avg_turns": 58.754901960784316,
+    "n_matches": 1967,
+    "lower_95ci": 713.227632745145,
+    "upper_95ci": 769.8019235119746,
+    "last_updated": "2026-04-22T02:15:38.760891"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 168777656,
+    "answer_tokens": 1457644,
+    "output_tokens": 1457644,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 16.96,
+  "agentic_index": 19.23,
+  "price_1m_input_tokens": 0.7,
+  "price_1m_output_tokens": 2.8
+}

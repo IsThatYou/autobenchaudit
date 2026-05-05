@@ -1,0 +1,43 @@
+{
+  "slug": "mistral_large_2",
+  "model_id": "50f92d5f-f413-4c97-8dab-331101622a28",
+  "model_slug": "mistral-large-2",
+  "name": "Mistral Large 2 (Nov '24)",
+  "gdpval_name": null,
+  "short_name": "Mistral Large 2 (Nov)",
+  "creator": {
+    "name": "Mistral",
+    "slug": "mistral",
+    "country": null,
+    "logo": "/img/logos/mistral.png"
+  },
+  "release_date": "2024-11-18",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 330.48064518532635,
+    "lower_95ci": 298.5327690886219,
+    "upper_95ci": 360.5542864645647,
+    "n_matches": 1187,
+    "avg_turns": 9.164893617021276
+  },
+  "gdpval_breakdown": {
+    "elo": 330.48064518532635,
+    "avg_turns": 9.164893617021276,
+    "n_matches": 1187,
+    "lower_95ci": 298.5327690886219,
+    "upper_95ci": 360.5542864645647,
+    "last_updated": "2026-04-22T02:15:56.004064"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 10803300,
+    "answer_tokens": 321556,
+    "output_tokens": 321556,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 15.09,
+  "agentic_index": 10.23,
+  "price_1m_input_tokens": 2,
+  "price_1m_output_tokens": 6
+}

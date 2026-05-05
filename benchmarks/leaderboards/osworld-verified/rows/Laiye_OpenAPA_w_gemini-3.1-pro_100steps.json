@@ -1,0 +1,59 @@
+{
+  "slug": "Laiye_OpenAPA_w_gemini-3.1-pro_100steps",
+  "model": "OpenAPA w/ gemini-3.1-pro",
+  "institution": "Laiye",
+  "paper_link": "https://github.com/laiye-ai/open-apa",
+  "paper_authors": "Laiye",
+  "approach_type": "Agentic framework",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2026-04-17",
+  "success_rate": 78.34,
+  "success_total_raw": "282.8/361",
+  "success_count": 282.8,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 32.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 22.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 44.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 38.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 17.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 61.14,
+      "total": 93
+    },
+    "os": {
+      "success": 20.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 12.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 15.75,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

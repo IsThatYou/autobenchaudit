@@ -1,0 +1,26 @@
+{
+  "slug": "MiniCPM-Llama3-V_2.5",
+  "name": "MiniCPM-Llama3-V 2.5",
+  "size": "8.5B",
+  "date": "2024-05-20",
+  "type": "open_source",
+  "link": "https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5",
+  "pro_overall": 19.6,
+  "pro_vision": 14.5,
+  "pro_standard": 24.6,
+  "pro_source": null,
+  "mmmu_val_overall": 45.8,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

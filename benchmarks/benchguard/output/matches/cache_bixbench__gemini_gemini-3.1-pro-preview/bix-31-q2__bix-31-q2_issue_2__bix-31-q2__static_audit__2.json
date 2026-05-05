@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue addresses a biological misclassification of FAM138A as a protein-coding gene, whereas the finding identifies a missing parameter specification for the LFC shrinkage estimator in DESeq2."
+}

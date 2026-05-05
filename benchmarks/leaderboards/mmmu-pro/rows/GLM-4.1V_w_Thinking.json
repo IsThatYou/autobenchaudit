@@ -1,0 +1,26 @@
+{
+  "slug": "GLM-4.1V_w_Thinking",
+  "name": "GLM-4.1V w/ Thinking",
+  "size": "9B",
+  "date": "2025-07-01",
+  "type": "open_source",
+  "link": "https://arxiv.org/abs/2507.01006",
+  "pro_overall": 57.1,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 68.0,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

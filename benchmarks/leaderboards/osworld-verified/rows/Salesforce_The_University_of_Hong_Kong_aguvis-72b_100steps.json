@@ -1,0 +1,59 @@
+{
+  "slug": "Salesforce_The_University_of_Hong_Kong_aguvis-72b_100steps",
+  "model": "aguvis-72b",
+  "institution": "Salesforce & The University of Hong Kong",
+  "paper_link": "https://aguvis-project.github.io/",
+  "paper_authors": "Xu et al., '24",
+  "approach_type": "Specialized model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": null,
+  "success_rate": null,
+  "success_total_raw": null,
+  "success_count": null,
+  "total_tasks": null,
+  "per_category": {
+    "chrome": {
+      "success": null,
+      "total": null
+    },
+    "gimp": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_calc": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_impress": {
+      "success": null,
+      "total": null
+    },
+    "libreoffice_writer": {
+      "success": null,
+      "total": null
+    },
+    "multi_apps": {
+      "success": null,
+      "total": null
+    },
+    "os": {
+      "success": null,
+      "total": null
+    },
+    "thunderbird": {
+      "success": null,
+      "total": null
+    },
+    "vlc": {
+      "success": null,
+      "total": null
+    },
+    "vs_code": {
+      "success": null,
+      "total": null
+    }
+  }
+}

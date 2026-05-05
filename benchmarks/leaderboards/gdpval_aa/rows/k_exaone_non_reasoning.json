@@ -1,0 +1,43 @@
+{
+  "slug": "k_exaone_non_reasoning",
+  "model_id": "9cc377dc-67ae-4042-bafc-0466b5f05089",
+  "model_slug": "k-exaone-non-reasoning",
+  "name": "K-EXAONE (Non-reasoning)",
+  "gdpval_name": null,
+  "short_name": "K-EXAONE",
+  "creator": {
+    "name": "LG AI Research",
+    "slug": "lg",
+    "country": null,
+    "logo": "/img/logos/lg.png"
+  },
+  "release_date": "2025-12-31",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 768.8932183839072,
+    "lower_95ci": 741.6590773984655,
+    "upper_95ci": 795.1449647313196,
+    "n_matches": 2443,
+    "avg_turns": 32.68055555555556
+  },
+  "gdpval_breakdown": {
+    "elo": 768.8932183839072,
+    "avg_turns": 32.68055555555556,
+    "n_matches": 2443,
+    "lower_95ci": 741.6590773984655,
+    "upper_95ci": 795.1449647313196,
+    "last_updated": "2026-04-22T02:15:37.640769"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 143668157,
+    "answer_tokens": 5616429,
+    "output_tokens": 5616429,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 23.41,
+  "agentic_index": 31.22,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

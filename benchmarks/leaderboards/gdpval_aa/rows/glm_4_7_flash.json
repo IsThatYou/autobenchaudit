@@ -1,0 +1,43 @@
+{
+  "slug": "glm_4_7_flash",
+  "model_id": "2c4394a2-b443-470a-908e-5c4a271b780c",
+  "model_slug": "glm-4-7-flash",
+  "name": "GLM-4.7-Flash (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "GLM-4.7-Flash",
+  "creator": {
+    "name": "Z AI",
+    "slug": "zai",
+    "country": null,
+    "logo": "/img/logos/zai_small.svg"
+  },
+  "release_date": "2026-01-19",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 839.7072018419885,
+    "lower_95ci": 812.146020542821,
+    "upper_95ci": 865.6366408877269,
+    "n_matches": 1896,
+    "avg_turns": 28.07920792079208
+  },
+  "gdpval_breakdown": {
+    "elo": 839.7072018419885,
+    "avg_turns": 28.07920792079208,
+    "n_matches": 1896,
+    "lower_95ci": 812.146020542821,
+    "upper_95ci": 865.6366408877269,
+    "last_updated": "2026-04-22T02:15:33.860378"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 150416684,
+    "answer_tokens": 6824283,
+    "output_tokens": 7193864,
+    "reasoning_tokens": 369581
+  },
+  "intelligence_index": 30.15,
+  "agentic_index": 45.98,
+  "price_1m_input_tokens": 0.07,
+  "price_1m_output_tokens": 0.4
+}

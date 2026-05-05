@@ -1,0 +1,43 @@
+{
+  "slug": "nova_2_0_omni_reasoning_medium",
+  "model_id": "018c60e8-e908-431a-ba57-c840b1df3987",
+  "model_slug": "nova-2-0-omni-reasoning-medium",
+  "name": "Nova 2.0 Omni (medium)",
+  "gdpval_name": null,
+  "short_name": "Nova 2.0 Omni (medium)",
+  "creator": {
+    "name": "Amazon",
+    "slug": "aws",
+    "country": null,
+    "logo": "/img/logos/aws.webp"
+  },
+  "release_date": "2025-11-26",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 786.0855991623599,
+    "lower_95ci": 758.8096159159171,
+    "upper_95ci": 814.4411837848669,
+    "n_matches": 2074,
+    "avg_turns": 10.6010101010101
+  },
+  "gdpval_breakdown": {
+    "elo": 786.0855991623599,
+    "avg_turns": 10.6010101010101,
+    "n_matches": 2074,
+    "lower_95ci": 758.8096159159171,
+    "upper_95ci": 814.4411837848669,
+    "last_updated": "2026-04-22T02:15:36.801740"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 16155769,
+    "answer_tokens": 709975,
+    "output_tokens": 3887621,
+    "reasoning_tokens": 3177646
+  },
+  "intelligence_index": 28.02,
+  "agentic_index": 38.2,
+  "price_1m_input_tokens": 0.3,
+  "price_1m_output_tokens": 2.5
+}

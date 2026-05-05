@@ -1,0 +1,20 @@
+{
+  "slug": "Nanonets-OCR-s__v1_6",
+  "track": "v1.6_full",
+  "name": "Nanonets-OCR-s",
+  "model_type": "Specialized VLMs",
+  "size": "3B",
+  "overall": 83.61,
+  "text_edit": 0.108,
+  "formula_cdm": 81.46,
+  "table_teds": 80.18,
+  "table_teds_s": 84.51,
+  "reading_order_edit": 0.213,
+  "source": "OpenDataLab/OmniDocBench README",
+  "source_url": "https://github.com/opendatalab/OmniDocBench",
+  "num_pages": 1651,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

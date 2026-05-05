@@ -1,0 +1,26 @@
+{
+  "slug": "dots.vlm1",
+  "name": "dots.vlm1",
+  "size": "37B",
+  "date": "2025-08-05",
+  "type": "open_source",
+  "link": "https://github.com/rednote-hilab/dots.vlm1",
+  "pro_overall": 70.1,
+  "pro_vision": null,
+  "pro_standard": null,
+  "pro_source": "author",
+  "mmmu_val_overall": 80.1,
+  "mmmu_val_by_domain": {
+    "art_design": null,
+    "business": null,
+    "science": null,
+    "health_medicine": null,
+    "humanities_social_sci": null,
+    "tech_engineering": null
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

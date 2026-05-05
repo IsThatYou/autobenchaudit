@@ -1,0 +1,59 @@
+{
+  "slug": "Moonshot_AI_Kimi_K2.6_100steps",
+  "model": "Kimi K2.6",
+  "institution": "Moonshot AI",
+  "paper_link": "https://www.kimi.com/blog/kimi-k2-6",
+  "paper_authors": "Kimi Team",
+  "approach_type": "General model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2026-04-20",
+  "success_rate": 73.06,
+  "success_total_raw": "261.58/358",
+  "success_count": 261.58,
+  "total_tasks": 358,
+  "per_category": {
+    "chrome": {
+      "success": 32.96,
+      "total": 43
+    },
+    "gimp": {
+      "success": 19.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 38.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 38.63,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 17.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 51.12,
+      "total": 93
+    },
+    "os": {
+      "success": 19.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 46371.0,
+      "total": null
+    },
+    "vlc": {
+      "success": 12.87,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 21.0,
+      "total": 23
+    }
+  }
+}

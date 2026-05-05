@@ -1,0 +1,680 @@
+{
+  "source": "github.com/sierra-research/tau2-bench",
+  "benchmark": "tau2-bench-telecom",
+  "num_entries": 20,
+  "schema": {
+    "submission_id": "Canonical tau2-bench submission ID (model_org_date)",
+    "model": "Model display name",
+    "pass_1": "Pass^1 (avg-per-trial) success rate, percent",
+    "pass_2": "Pass^2 metric, percent",
+    "pass_3": "Pass^3 metric, percent",
+    "pass_4": "Pass^4 \u2014 all 4 trials pass, percent",
+    "cost": "Average USD cost per trajectory",
+    "trajectory_file": "Filename in submissions/<id>/trajectories/",
+    "trajectories_available": "Whether submission.json declares trajectories",
+    "methodology.user_simulator": "LLM driving the user side of the conversation",
+    "methodology.tau2_bench_version": "Library version used",
+    "reasoning_effort": "Reasoning effort setting if applicable (high/low/none/enabled)"
+  },
+  "entries": [
+    {
+      "submission_id": "claude-opus-4-5_sierra_2026-02-26",
+      "model": "Claude Opus 4.5",
+      "model_organization": "Anthropic",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-02-26",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "claude-opus-4-5_high_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "high",
+      "methodology": {
+        "evaluation_date": "2026-02-24",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using Claude Opus 4.5 (claude-opus-4-5-20251101) with extended thinking (reasoning_effort: high). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking domain evaluated with terminal-based agentic search retrieval.",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available. Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-11-24",
+        "announcement_url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "announcement_title": "Introducing Claude Opus 4.5"
+      },
+      "pass_1": 92.32,
+      "pass_2": 86.11,
+      "pass_3": 81.36,
+      "pass_4": 78.07,
+      "cost": 0.71992
+    },
+    {
+      "submission_id": "claude-sonnet-4-5_sierra_2026-02-26",
+      "model": "Claude Sonnet 4.5",
+      "model_organization": "Anthropic",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-02-26",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "claude-sonnet-4-5_enabled_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "enabled",
+      "methodology": {
+        "evaluation_date": "2026-02-24",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) with extended thinking enabled. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking domain evaluated with terminal-based agentic search retrieval.",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available. Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-09-29",
+        "announcement_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+        "announcement_title": "Introducing Claude Sonnet 4.5"
+      },
+      "pass_1": 84.87,
+      "pass_2": 75.44,
+      "pass_3": 68.86,
+      "pass_4": 64.04,
+      "cost": 0.48769
+    },
+    {
+      "submission_id": "gpt-5-2_sierra_2026-02-26",
+      "model": "GPT-5.2",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-02-26",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "gpt-5.2_high_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "high",
+      "methodology": {
+        "evaluation_date": "2026-02-24",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using GPT-5.2 with reasoning_effort: high. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking domain evaluated with terminal-based agentic search retrieval (terminal_use).",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available. Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-12-11",
+        "announcement_url": "https://openai.com/index/introducing-gpt-5-2/",
+        "announcement_title": "Introducing GPT-5.2"
+      },
+      "pass_1": 89.69,
+      "pass_2": 82.46,
+      "pass_3": 76.75,
+      "pass_4": 71.93,
+      "cost": 0.09312
+    },
+    {
+      "submission_id": "gpt-5-2-none_sierra_2026-02-26",
+      "model": "GPT-5.2",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-02-26",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "gpt-5.2_none_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "none",
+      "methodology": {
+        "evaluation_date": "2026-02-24",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using GPT-5.2 with reasoning_effort: none (no reasoning). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking domain evaluated with Qwen embedding-based retrieval.",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available. Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-12-11",
+        "announcement_url": "https://openai.com/index/introducing-gpt-5-2/",
+        "announcement_title": "Introducing GPT-5.2"
+      },
+      "pass_1": 61.62,
+      "pass_2": 47.95,
+      "pass_3": 39.91,
+      "pass_4": 34.21,
+      "cost": 0.0623
+    },
+    {
+      "submission_id": "glm-5-think_sierra_2026-03-02",
+      "model": "GLM-5",
+      "model_organization": "Zhipu AI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-03-02",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "glm-5_enabled_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "enabled",
+      "methodology": {
+        "evaluation_date": "2026-02-27",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using GLM-5 with thinking enabled. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Temperature: 1.0, top_p: 0.95. Infrastructure errors treated as failures.",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2026-02-11",
+        "announcement_url": "https://docs.z.ai/guides/llm/glm-5",
+        "announcement_title": "GLM-5 - Overview - Z.AI Developer Document"
+      },
+      "pass_1": 86.84,
+      "pass_2": 76.32,
+      "pass_3": 68.2,
+      "pass_4": 62.28,
+      "cost": null
+    },
+    {
+      "submission_id": "qwen3.5-397b-a17b-think_sierra_2026-03-02",
+      "model": "Qwen3.5-397B-A17B",
+      "model_organization": "Alibaba Cloud",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-03-02",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "qwen3.5-397b-a17b_enabled_telecom_gpt-5.2_4trials.json",
+      "reasoning_effort": "enabled",
+      "methodology": {
+        "evaluation_date": "2026-02-27",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using Qwen3.5-397B-A17B with thinking enabled. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Temperature: 1.0, top_p: 0.95. Self-hosted via vLLM.",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Standard tau-bench scaffold. Clean 4-trial runs with no infrastructure errors across all domains."
+        }
+      },
+      "model_release": {
+        "release_date": "2026-02-16",
+        "announcement_url": "https://www.alibabacloud.com/blog/qwen3-5-towards-native-multimodal-agents_602894",
+        "announcement_title": "Qwen3.5: Towards Native Multimodal Agents"
+      },
+      "pass_1": 97.81,
+      "pass_2": 95.76,
+      "pass_3": 93.86,
+      "pass_4": 92.11,
+      "cost": null
+    },
+    {
+      "submission_id": "gemini-3-flash_sierra_2026-03-02",
+      "model": "Gemini 3 Flash",
+      "model_organization": "Google",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-03-02",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "geminiflash-telecom.json",
+      "reasoning_effort": "high",
+      "methodology": {
+        "evaluation_date": "2026-03-02",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using vertex_ai/gemini-3-flash-preview with reasoning_effort: high. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 123. Telecom domain had 20 simulations terminated due to too_many_errors (all scored as 0). Banking domain had 52 simulations terminated due to max_steps (all scored as 0). Banking domain evaluated with terminal-based agentic search retrieval (terminal_use).",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-12-17",
+        "announcement_url": "https://blog.google/products/gemini/gemini-3-flash/",
+        "announcement_title": "Gemini 3 Flash: frontier intelligence built for speed"
+      },
+      "pass_1": 91.23,
+      "pass_2": 83.48,
+      "pass_3": 76.54,
+      "pass_4": 70.18,
+      "cost": null
+    },
+    {
+      "submission_id": "gemini-3-pro_sierra_2026-03-02",
+      "model": "Gemini 3 Pro",
+      "model_organization": "Google",
+      "submitting_organization": "Sierra",
+      "submission_date": "2026-03-02",
+      "submission_type": "standard",
+      "is_new": false,
+      "trajectories_available": true,
+      "trajectory_file": "geminipro-telecom.json",
+      "reasoning_effort": "high",
+      "methodology": {
+        "evaluation_date": "2026-03-02",
+        "tau2_bench_version": "0.2.1-dev",
+        "user_simulator": "gpt-5.2",
+        "notes": "Evaluated using vertex_ai/gemini-3-pro-preview with reasoning_effort: high. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Infrastructure errors treated as failures (reward 0): 3 in airline, 20 in retail, 2 in telecom. Banking domain had 42 simulations terminated due to max_steps (all scored as 0). Banking domain evaluated with terminal-based agentic search retrieval (terminal_use).",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Standard tau-bench scaffold."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-11-18",
+        "announcement_url": "https://blog.google/products/gemini/gemini-3/",
+        "announcement_title": "Gemini 3: Introducing the latest Gemini AI model from Google"
+      },
+      "pass_1": 91.01,
+      "pass_2": 84.5,
+      "pass_3": 79.17,
+      "pass_4": 74.56,
+      "cost": null
+    },
+    {
+      "submission_id": "claude-3-7-sonnet_anthropic_2024-06-20",
+      "model": "Claude-3.7-Sonnet",
+      "model_organization": "Anthropic",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-06-09",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-06-09",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "notes": "Original evaluation from tau2-bench paper",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-02-24",
+        "announcement_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "announcement_title": "Claude 3.7 Sonnet and Claude Code"
+      },
+      "pass_1": 49.0,
+      "pass_2": 43.7,
+      "pass_3": 40.1,
+      "pass_4": 37.2,
+      "cost": null
+    },
+    {
+      "submission_id": "claude-sonnet-4-5_anthropic_2025-10-02",
+      "model": "Claude-Sonnet-4.5",
+      "model_organization": "Anthropic",
+      "submitting_organization": "Anthropic",
+      "submission_date": "2025-09-29",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-09-29",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": null,
+        "notes": "Scores were achieved using extended thinking with tool use and a prompt addendum to the Airline and Telecom Agent Policy instructing Claude to better target its known failure modes when using the vanilla prompt. A prompt addendum was also added to the Telecom User prompt to avoid failure modes from the user ending the interaction incorrectly.",
+        "verification": {
+          "modified_prompts": null,
+          "omitted_questions": null,
+          "details": "Unverified submission - no trajectory data available, unknown evaluation methodology, telecom domain omitted, incomplete evaluation (Pass^1 only)"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-09-29",
+        "announcement_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+        "announcement_title": "Introducing Claude Sonnet 4.5"
+      },
+      "pass_1": 98.0,
+      "pass_2": null,
+      "pass_3": null,
+      "pass_4": null,
+      "cost": null
+    },
+    {
+      "submission_id": "gpt-4-1_openai_2024-06-20",
+      "model": "GPT-4.1",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-06-09",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-06-09",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "notes": "Original evaluation from tau2-bench paper",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-04-14",
+        "announcement_url": "https://openai.com/index/gpt-4-1/",
+        "announcement_title": "Introducing GPT-4.1 in the API"
+      },
+      "pass_1": 34.0,
+      "pass_2": 27.6,
+      "pass_3": 23.8,
+      "pass_4": 20.4,
+      "cost": null
+    },
+    {
+      "submission_id": "gpt-4-1-mini_openai_2024-06-20",
+      "model": "GPT-4.1-mini",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-06-09",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-06-09",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "notes": "Original evaluation from tau2-bench paper",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-04-14",
+        "announcement_url": "https://openai.com/index/gpt-4-1/",
+        "announcement_title": "Introducing GPT-4.1 in the API"
+      },
+      "pass_1": 48.9,
+      "pass_2": 38.7,
+      "pass_3": 31.2,
+      "pass_4": 26.1,
+      "cost": null
+    },
+    {
+      "submission_id": "kimi-k2_moonshot-ai_2025-07-11",
+      "model": "Kimi-k2",
+      "model_organization": "Moonshot AI",
+      "submitting_organization": "Moonshot AI",
+      "submission_date": "2025-07-28",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-07-28",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": null,
+        "notes": "Evaluation limited to Pass^1 scores only",
+        "verification": {
+          "modified_prompts": null,
+          "omitted_questions": null,
+          "details": "Unverified submission - no trajectory data available, unknown evaluation methodology, incomplete evaluation (Pass^1 only)"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-07-11",
+        "announcement_url": "https://moonshotai.github.io/Kimi-K2/",
+        "announcement_title": "Kimi K2: Open Agentic Intelligence"
+      },
+      "pass_1": 65.8,
+      "pass_2": null,
+      "pass_3": null,
+      "pass_4": null,
+      "cost": null
+    },
+    {
+      "submission_id": "o4-mini_openai_2024-06-20",
+      "model": "o4-mini",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-06-09",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-06-09",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "notes": "Original evaluation from tau2-bench paper",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-04-16",
+        "announcement_url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+        "announcement_title": "Introducing OpenAI o3 and o4-mini"
+      },
+      "pass_1": 50.2,
+      "pass_2": 42.1,
+      "pass_3": 36.8,
+      "pass_4": 32.4,
+      "cost": null
+    },
+    {
+      "submission_id": "gpt-5_sierra_2025-08-09",
+      "model": "GPT-5",
+      "model_organization": "OpenAI",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-10-02",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-08-09",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Verified evaluation with full trajectory data available"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-08-07",
+        "announcement_url": "https://openai.com/index/introducing-gpt-5-for-developers/",
+        "announcement_title": "Introducing GPT-5 for developers"
+      },
+      "pass_1": 95.83333333333334,
+      "pass_2": 91.95906432748538,
+      "pass_3": 88.37719298245614,
+      "pass_4": 85.08771929824562,
+      "cost": 0.16471152192982458
+    },
+    {
+      "submission_id": "qwen3-max_qwen_2024_09_23",
+      "model": "Qwen3-Max",
+      "model_organization": "Qwen",
+      "submitting_organization": "Alibaba",
+      "submission_date": "2024-09-23",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2024-09-23",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": null,
+        "notes": "Only average results are in the blog post. Evaluation limited to Pass^1, Pass^2 and Pass^4 scores only",
+        "verification": {
+          "modified_prompts": null,
+          "omitted_questions": null,
+          "details": "Unverified submission - no trajectory data available, unknown evaluation methodology, incomplete evaluation (Pass^1, Pass^2 and Pass^4 only)"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-09-23",
+        "announcement_url": "https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list",
+        "announcement_title": "Qwen3-Max: Just Scale it"
+      },
+      "pass_1": 84.2,
+      "pass_2": 77.6,
+      "pass_3": null,
+      "pass_4": 61.4,
+      "cost": null
+    },
+    {
+      "submission_id": "gemini-3-pro_google_2025-11-18",
+      "model": "Gemini 3.0 Pro",
+      "model_organization": "Google",
+      "submitting_organization": "Sierra",
+      "submission_date": "2025-11-18",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-11-18",
+        "tau2_bench_version": "v0.1.3",
+        "user_simulator": "Gemini-3.0-Pro",
+        "notes": "\u03c42-bench results for Gemini use standard sierra framework with a prompt adjustment to provide instructions relevant to each environment. The user model uses Gemini with a system instruction. ",
+        "verification": {
+          "modified_prompts": true,
+          "omitted_questions": false,
+          "details": "Prompt adjustments made to provide instructions relevant to each environment. User model uses Gemini with system instruction."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-11-18",
+        "announcement_url": "https://blog.google/products/gemini/gemini-3/",
+        "announcement_title": "Gemini 3: Introducing the latest Gemini AI model from Google"
+      },
+      "pass_1": 98.0,
+      "pass_2": null,
+      "pass_3": null,
+      "pass_4": null,
+      "cost": null
+    },
+    {
+      "submission_id": "deepseek-v3.2_deepseek_2025-12-01",
+      "model": "DeepSeek-V3.2",
+      "model_organization": "DeepSeek",
+      "submitting_organization": "DeepSeek",
+      "submission_date": "2025-12-01",
+      "submission_type": null,
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-12-01",
+        "tau2_bench_version": "v0.1.3",
+        "user_simulator": "DeepSeek-V3.2",
+        "notes": "",
+        "verification": {
+          "modified_prompts": null,
+          "omitted_questions": null,
+          "details": "Unverified submission - results from technical report, no trajectory data available, exact evaluation methodology not specified"
+        }
+      },
+      "model_release": {
+        "release_date": "2025-12-01",
+        "announcement_url": "https://api-docs.deepseek.com/news/news251201",
+        "announcement_title": "DeepSeek-V3.2 Release"
+      },
+      "pass_1": 96.2,
+      "pass_2": null,
+      "pass_3": null,
+      "pass_4": null,
+      "cost": null
+    },
+    {
+      "submission_id": "toolorchestra_nvidia_2025-12-02",
+      "model": "Nemotron-Orchestrator-8B",
+      "model_organization": "NVIDIA",
+      "submitting_organization": "NVIDIA",
+      "submission_date": "2025-12-18",
+      "submission_type": "custom",
+      "is_new": false,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2025-09-15",
+        "tau2_bench_version": "0.1.3",
+        "user_simulator": "gpt-5",
+        "notes": "This submission uses an orchestrator that selects between strong and weak models based on task complexity. See our GitHub repo for full implementation details.",
+        "verification": {
+          "modified_prompts": true,
+          "omitted_questions": false,
+          "details": "Modified the agent system prompt to support orchestrator framework. No questions were omitted."
+        }
+      },
+      "model_release": {
+        "release_date": "2025-11-26",
+        "announcement_url": "https://research.nvidia.com/labs/lpr/ToolOrchestra/",
+        "announcement_title": "ToolOrchestra"
+      },
+      "pass_1": 88.6,
+      "pass_2": null,
+      "pass_3": null,
+      "pass_4": null,
+      "cost": null
+    },
+    {
+      "submission_id": "qwen3-max_qwen_2026-01-23",
+      "model": "Qwen3-Max-Thinking",
+      "model_organization": "Qwen",
+      "submitting_organization": "Qwen",
+      "submission_date": "2026-01-26",
+      "submission_type": "standard",
+      "is_new": true,
+      "trajectories_available": false,
+      "trajectory_file": null,
+      "reasoning_effort": null,
+      "methodology": {
+        "evaluation_date": "2026-01-23",
+        "tau2_bench_version": "v0.1.3",
+        "user_simulator": "gpt-4.1-2025-04-14",
+        "notes": "Evaluation conducted using standard tau2-bench protocol",
+        "verification": {
+          "modified_prompts": false,
+          "omitted_questions": false,
+          "details": "Complete evaluation with all standard tasks"
+        }
+      },
+      "model_release": {
+        "release_date": "2026-01-23",
+        "announcement_url": "https://qwen.ai/blog?id=qwen3-max-thinking",
+        "announcement_title": "Qwen3-Max-Thinking"
+      },
+      "pass_1": 98.24561403508771,
+      "pass_2": 96.63742690058479,
+      "pass_3": 95.17543859649122,
+      "pass_4": 93.85964912280701,
+      "cost": null
+    }
+  ]
+}

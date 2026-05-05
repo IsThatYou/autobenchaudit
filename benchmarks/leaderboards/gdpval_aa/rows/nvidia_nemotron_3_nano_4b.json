@@ -1,0 +1,43 @@
+{
+  "slug": "nvidia_nemotron_3_nano_4b",
+  "model_id": "9ee13921-62a4-425a-a22b-df3302198d93",
+  "model_slug": "nvidia-nemotron-3-nano-4b",
+  "name": "NVIDIA Nemotron 3 Nano 4B",
+  "gdpval_name": null,
+  "short_name": "NVIDIA Nemotron 3 Nano 4B",
+  "creator": {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "country": null,
+    "logo": "/img/logos/nvidia.svg"
+  },
+  "release_date": "2026-03-16",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 482.2856643638095,
+    "lower_95ci": 451.5205807059297,
+    "upper_95ci": 510.3635249207987,
+    "n_matches": 1281,
+    "avg_turns": 34.06046511627907
+  },
+  "gdpval_breakdown": {
+    "elo": 482.2856643638095,
+    "avg_turns": 34.06046511627907,
+    "n_matches": 1281,
+    "lower_95ci": 451.5205807059297,
+    "upper_95ci": 510.3635249207987,
+    "last_updated": "2026-04-22T02:15:48.140292"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 82621943,
+    "answer_tokens": 1189736,
+    "output_tokens": 2255571,
+    "reasoning_tokens": 1065834
+  },
+  "intelligence_index": 14.68,
+  "agentic_index": 9.75,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

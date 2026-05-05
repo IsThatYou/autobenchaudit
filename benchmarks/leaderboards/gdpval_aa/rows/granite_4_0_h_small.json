@@ -1,0 +1,43 @@
+{
+  "slug": "granite_4_0_h_small",
+  "model_id": "5dba8d07-9992-483c-81db-dac97cb15ba8",
+  "model_slug": "granite-4-0-h-small",
+  "name": "Granite 4.0 H Small",
+  "gdpval_name": null,
+  "short_name": "Granite 4.0 H Small",
+  "creator": {
+    "name": "IBM",
+    "slug": "ibm",
+    "country": null,
+    "logo": "/img/logos/ibm.svg"
+  },
+  "release_date": "2025-09-22",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 345.4636135493088,
+    "lower_95ci": 314.0266117000284,
+    "upper_95ci": 374.493950598483,
+    "n_matches": 1397,
+    "avg_turns": 12.58904109589041
+  },
+  "gdpval_breakdown": {
+    "elo": 345.4636135493088,
+    "avg_turns": 12.58904109589041,
+    "n_matches": 1397,
+    "lower_95ci": 314.0266117000284,
+    "upper_95ci": 374.493950598483,
+    "last_updated": "2026-04-22T02:15:53.751710"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 19474994,
+    "answer_tokens": 359438,
+    "output_tokens": 359438,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 10.81,
+  "agentic_index": 5.75,
+  "price_1m_input_tokens": 0.06,
+  "price_1m_output_tokens": 0.25
+}

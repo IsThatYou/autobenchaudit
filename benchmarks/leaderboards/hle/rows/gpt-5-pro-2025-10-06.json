@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-5-pro-2025-10-06",
+  "model": "gpt-5-pro-2025-10-06",
+  "company": "openai",
+  "rank": 6,
+  "created_at": "2025-11-06T22:48:20.000Z",
+  "accuracy": 31.64,
+  "ci_upper": 1.82,
+  "calibration_error": 49,
+  "max_score": 49.852,
+  "deprecated": false,
+  "is_new": false,
+  "contamination_message": "Potential contamination warning: This model was evaluated after the public release of HLE, allowing model builder access to the prompts and solutions.",
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

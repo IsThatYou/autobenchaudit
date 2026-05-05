@@ -1,0 +1,59 @@
+{
+  "slug": "H_Company_Holo3-35B-A3B_100steps_r2",
+  "model": "Holo3-35B-A3B",
+  "institution": "H Company",
+  "paper_link": "https://hcompany.ai/holo3",
+  "paper_authors": "H Company",
+  "approach_type": "Specialized model",
+  "max_steps": 100,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2026-04-20",
+  "success_rate": 78.15,
+  "success_total_raw": "280.55/359",
+  "success_count": 280.55,
+  "total_tasks": 359,
+  "per_category": {
+    "chrome": {
+      "success": 31.96,
+      "total": 44
+    },
+    "gimp": {
+      "success": 23.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 38.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 36.55,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 19.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 56.09,
+      "total": 93
+    },
+    "os": {
+      "success": 23.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 14.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 15.99,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 22.0,
+      "total": 23
+    }
+  }
+}

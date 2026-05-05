@@ -1,0 +1,43 @@
+{
+  "slug": "exaone_4_0_1_2b_reasoning",
+  "model_id": "d734e2ce-5cf8-467f-8148-586d02671333",
+  "model_slug": "exaone-4-0-1-2b-reasoning",
+  "name": "Exaone 4.0 1.2B (Reasoning)",
+  "gdpval_name": null,
+  "short_name": "Exaone 4.0 1.2B",
+  "creator": {
+    "name": "LG AI Research",
+    "slug": "lg",
+    "country": null,
+    "logo": "/img/logos/lg.png"
+  },
+  "release_date": "2025-07-15",
+  "is_open_weights": true,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 305.7663526297331,
+    "lower_95ci": 273.2217036955181,
+    "upper_95ci": 334.60935869144214,
+    "n_matches": 1256,
+    "avg_turns": 50.16744186046512
+  },
+  "gdpval_breakdown": {
+    "elo": 305.7663526297331,
+    "avg_turns": 50.16744186046512,
+    "n_matches": 1256,
+    "lower_95ci": 273.2217036955181,
+    "upper_95ci": 334.60935869144214,
+    "last_updated": "2026-04-22T02:15:56.567976"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 96303427,
+    "answer_tokens": 864739,
+    "output_tokens": 2967654,
+    "reasoning_tokens": 2102915
+  },
+  "intelligence_index": 8.26,
+  "agentic_index": 5.46,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

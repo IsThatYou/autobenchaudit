@@ -1,0 +1,43 @@
+{
+  "slug": "mercury_2",
+  "model_id": "016d330a-2141-4afa-b2fc-62b314423dc1",
+  "model_slug": "mercury-2",
+  "name": "Mercury 2",
+  "gdpval_name": null,
+  "short_name": "Mercury 2",
+  "creator": {
+    "name": "Inception",
+    "slug": "inception",
+    "country": null,
+    "logo": "/img/logos/inception_v2.png"
+  },
+  "release_date": "2026-02-20",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 960.9099340964285,
+    "lower_95ci": 938.7099904909327,
+    "upper_95ci": 985.1168640427,
+    "n_matches": 3546,
+    "avg_turns": 22.97641509433962
+  },
+  "gdpval_breakdown": {
+    "elo": 960.9099340964285,
+    "avg_turns": 22.97641509433962,
+    "n_matches": 3546,
+    "lower_95ci": 938.7099904909327,
+    "upper_95ci": 985.1168640427,
+    "last_updated": "2026-04-22T02:15:30.496747"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 57236197,
+    "answer_tokens": 1504505,
+    "output_tokens": 2752744,
+    "reasoning_tokens": 1248238
+  },
+  "intelligence_index": 32.82,
+  "agentic_index": 39.74,
+  "price_1m_input_tokens": 0.25,
+  "price_1m_output_tokens": 0.75
+}

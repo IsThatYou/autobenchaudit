@@ -1,0 +1,26 @@
+{
+  "slug": "Human_Expert_High",
+  "name": "Human Expert (High)",
+  "size": "-",
+  "date": "2024-01-31",
+  "type": "human_expert",
+  "link": null,
+  "pro_overall": 85.4,
+  "pro_vision": 85.4,
+  "pro_standard": 85.4,
+  "pro_source": null,
+  "mmmu_val_overall": 88.6,
+  "mmmu_val_by_domain": {
+    "art_design": 89.2,
+    "business": 90.7,
+    "science": 90.0,
+    "health_medicine": 87.3,
+    "humanities_social_sci": 89.2,
+    "tech_engineering": 86.2
+  },
+  "mmmu_test_overall": null,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

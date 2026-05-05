@@ -1,0 +1,43 @@
+{
+  "slug": "lfm2_1_2b",
+  "model_id": "0faadeeb-320c-45cf-9c76-5f8768f342e6",
+  "model_slug": "lfm2-1-2b",
+  "name": "LFM2 1.2B",
+  "gdpval_name": null,
+  "short_name": "LFM2 1.2B",
+  "creator": {
+    "name": "Liquid AI",
+    "slug": "liquidai",
+    "country": null,
+    "logo": "/img/logos/liquidai.svg"
+  },
+  "release_date": "2025-07-10",
+  "is_open_weights": true,
+  "reasoning_model": false,
+  "deprecated": true,
+  "safe_gdpval": {
+    "elo": 281.3628973570601,
+    "lower_95ci": 247.92840538592498,
+    "upper_95ci": 310.1810481463065,
+    "n_matches": 1164,
+    "avg_turns": 100
+  },
+  "gdpval_breakdown": {
+    "elo": 281.3628973570601,
+    "avg_turns": 100,
+    "n_matches": 1164,
+    "lower_95ci": 247.92840538592498,
+    "upper_95ci": 310.1810481463065,
+    "last_updated": "2026-04-22T02:15:57.553229"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 273115257,
+    "answer_tokens": 13165274,
+    "output_tokens": 13165274,
+    "reasoning_tokens": 0
+  },
+  "intelligence_index": 6.33,
+  "agentic_index": 4.19,
+  "price_1m_input_tokens": 0,
+  "price_1m_output_tokens": 0
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "OpenAI_computer-use-preview_50steps",
+  "model": "computer-use-preview",
+  "institution": "OpenAI",
+  "paper_link": "https://openai.com/index/computer-using-agent/",
+  "paper_authors": "OpenAI, '25",
+  "approach_type": "Specialized model",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "No",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 31.3,
+  "success_total_raw": "112.62/361",
+  "success_count": 112.62,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 16.96,
+      "total": 46
+    },
+    "gimp": {
+      "success": 9.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 7.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 13.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 6.0,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 14.7,
+      "total": 93
+    },
+    "os": {
+      "success": 17.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 10.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 2.0,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 16.0,
+      "total": 23
+    }
+  }
+}

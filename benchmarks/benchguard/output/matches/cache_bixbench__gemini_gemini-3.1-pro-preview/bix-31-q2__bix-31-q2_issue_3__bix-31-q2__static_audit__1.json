@@ -1,0 +1,4 @@
+{
+  "verdict": "PARTIAL",
+  "reasoning": "Both issues relate to the reference answer for the same task, but the gold issue addresses an incorrect calculation method while the finding addresses a contradiction between the prompt's filtering criteria and the target gene's value."
+}

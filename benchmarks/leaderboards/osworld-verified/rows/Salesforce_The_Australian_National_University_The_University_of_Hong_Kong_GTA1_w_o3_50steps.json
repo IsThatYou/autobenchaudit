@@ -1,0 +1,59 @@
+{
+  "slug": "Salesforce_The_Australian_National_University_The_University_of_Hong_Kong_GTA1_w_o3_50steps",
+  "model": "GTA1 w/ o3",
+  "institution": "Salesforce & The Australian National University & The University of Hong Kong",
+  "paper_link": "https://arxiv.org/abs/2507.05791",
+  "paper_authors": "Yang et al., '25",
+  "approach_type": "Agentic framework",
+  "max_steps": 50,
+  "a11y_tree_used": "No",
+  "additional_coding_action": "Yes",
+  "multiple_rollout": "No",
+  "date": "2025-07-28",
+  "success_rate": 48.59,
+  "success_total_raw": "175.42/361",
+  "success_count": 175.42,
+  "total_tasks": 361,
+  "per_category": {
+    "chrome": {
+      "success": 16.0,
+      "total": 46
+    },
+    "gimp": {
+      "success": 19.0,
+      "total": 26
+    },
+    "libreoffice_calc": {
+      "success": 19.0,
+      "total": 47
+    },
+    "libreoffice_impress": {
+      "success": 20.96,
+      "total": 47
+    },
+    "libreoffice_writer": {
+      "success": 13.97,
+      "total": 23
+    },
+    "multi_apps": {
+      "success": 34.46,
+      "total": 93
+    },
+    "os": {
+      "success": 14.0,
+      "total": 24
+    },
+    "thunderbird": {
+      "success": 13.0,
+      "total": 15
+    },
+    "vlc": {
+      "success": 6.03,
+      "total": 17
+    },
+    "vs_code": {
+      "success": 19.0,
+      "total": 23
+    }
+  }
+}

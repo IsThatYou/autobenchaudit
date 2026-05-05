@@ -1,0 +1,43 @@
+{
+  "slug": "nova_2_0_pro_reasoning_medium",
+  "model_id": "0d94dc87-12c8-4d4a-8d99-804ce3f17bc2",
+  "model_slug": "nova-2-0-pro-reasoning-medium",
+  "name": "Nova 2.0 Pro Preview (medium)",
+  "gdpval_name": null,
+  "short_name": "Nova 2.0 Pro Preview (medium)",
+  "creator": {
+    "name": "Amazon",
+    "slug": "aws",
+    "country": null,
+    "logo": "/img/logos/aws.webp"
+  },
+  "release_date": "2025-11-27",
+  "is_open_weights": false,
+  "reasoning_model": true,
+  "deprecated": false,
+  "safe_gdpval": {
+    "elo": 976.1632636467723,
+    "lower_95ci": 950.3319904619347,
+    "upper_95ci": 1002.0446532792407,
+    "n_matches": 2135,
+    "avg_turns": 18.11219512195122
+  },
+  "gdpval_breakdown": {
+    "elo": 976.1632636467723,
+    "avg_turns": 18.11219512195122,
+    "n_matches": 2135,
+    "lower_95ci": 950.3319904619347,
+    "upper_95ci": 1002.0446532792407,
+    "last_updated": "2026-04-22T02:15:29.515710"
+  },
+  "gdpval_token_use": {
+    "input_tokens": 38716533,
+    "answer_tokens": 1140813,
+    "output_tokens": 4384919,
+    "reasoning_tokens": 3244105
+  },
+  "intelligence_index": 35.71,
+  "agentic_index": 46.95,
+  "price_1m_input_tokens": 1.25,
+  "price_1m_output_tokens": 10
+}

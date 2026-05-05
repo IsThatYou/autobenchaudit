@@ -1,0 +1,4 @@
+{
+  "verdict": "UNRELATED",
+  "reasoning": "The gold issue concerns the ambiguity of a specific task's question text, while the finding describes a code bug in the evaluation script's logic."
+}

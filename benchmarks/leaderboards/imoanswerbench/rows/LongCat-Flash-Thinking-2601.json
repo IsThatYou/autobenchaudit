@@ -1,0 +1,18 @@
+{
+  "slug": "LongCat-Flash-Thinking-2601",
+  "model": "LongCat-Flash-Thinking-2601",
+  "organization": "Meituan",
+  "rank": 9,
+  "score": 0.786,
+  "verified": false,
+  "self_reported": true,
+  "self_reported_source": "https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601",
+  "announcement_date": "2026-01-14",
+  "param_count": 560000000000,
+  "is_open_source": true,
+  "paper_reference": false,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}

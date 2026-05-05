@@ -1,0 +1,26 @@
+{
+  "slug": "NVILA",
+  "name": "NVILA",
+  "size": "15B",
+  "date": "2024-11-20",
+  "type": "open_source",
+  "link": "https://github.com/NVlabs/VILA",
+  "pro_overall": 33.7,
+  "pro_vision": 28.6,
+  "pro_standard": 38.7,
+  "pro_source": "author",
+  "mmmu_val_overall": 58.7,
+  "mmmu_val_by_domain": {
+    "art_design": 65.8,
+    "business": 62.7,
+    "science": 50.0,
+    "health_medicine": 61.3,
+    "humanities_social_sci": 74.2,
+    "tech_engineering": 47.1
+  },
+  "mmmu_test_overall": 51.8,
+  "num_tasks": null,
+  "total_trials": null,
+  "total_successes": null,
+  "tasks": []
+}
