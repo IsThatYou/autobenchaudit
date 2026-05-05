@@ -1,0 +1,12 @@
+benchmark_name: ir_optset
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/yilingqinghan/IR-OptSet
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/ir_optset/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/ir_optset/repo
+
+domain_categories:
+  - code_swe

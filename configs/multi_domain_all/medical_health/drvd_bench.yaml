@@ -1,0 +1,13 @@
+benchmark_name: drvd_bench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/Jerry-Boss/DrVD-Bench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/drvd_bench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/drvd_bench/repo
+
+domain_categories:
+  - medical_health
+  - multimodal_vision

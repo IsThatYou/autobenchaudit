@@ -1,0 +1,13 @@
+benchmark_name: mineanybuild
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/MineAnyBuild/MineAnyBuild
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/mineanybuild/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/mineanybuild/repo
+
+domain_categories:
+  - agent_interactive
+  - embodied_3d

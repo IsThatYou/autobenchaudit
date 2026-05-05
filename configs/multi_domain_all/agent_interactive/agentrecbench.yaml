@@ -1,0 +1,12 @@
+benchmark_name: agentrecbench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/Nghia9211/AgentRecBench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/agentrecbench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/agentrecbench/repo
+
+domain_categories:
+  - agent_interactive

@@ -1,0 +1,13 @@
+benchmark_name: agent_red_teaming
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/GraySwanAI/agent-red-teaming
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/agent_red_teaming/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/agent_red_teaming/repo
+
+domain_categories:
+  - safety_alignment
+  - agent_interactive

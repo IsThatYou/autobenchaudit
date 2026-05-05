@@ -1,0 +1,12 @@
+benchmark_name: natural_reasoning
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://huggingface.co/datasets/facebook/natural_reasoning
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/natural_reasoning/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/natural_reasoning/repo
+
+domain_categories:
+  - reasoning_math

@@ -1,0 +1,12 @@
+benchmark_name: gso
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/gso-bench/gso
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/gso/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/gso/repo
+
+domain_categories:
+  - code_swe

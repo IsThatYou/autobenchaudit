@@ -1,0 +1,12 @@
+benchmark_name: face_human_bench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/lxq1000/Face-Human-Bench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/face_human_bench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/face_human_bench/repo
+
+domain_categories:
+  - multimodal_vision

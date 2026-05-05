@@ -1,0 +1,12 @@
+benchmark_name: opencaptchaworld
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/MetaAgentX/OpenCaptchaWorld
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/opencaptchaworld/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/opencaptchaworld/repo
+
+domain_categories:
+  - agent_interactive

@@ -1,0 +1,12 @@
+benchmark_name: llm_speedrunner
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/facebookresearch/llm-speedrunner
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/llm_speedrunner/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/llm_speedrunner/repo
+
+domain_categories:
+  - agent_interactive

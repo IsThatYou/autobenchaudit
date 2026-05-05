@@ -1,0 +1,13 @@
+benchmark_name: livevqa
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/fumingyang2004/LIVEVQA
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/livevqa/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/livevqa/repo
+
+domain_categories:
+  - agent_interactive
+  - multimodal_vision

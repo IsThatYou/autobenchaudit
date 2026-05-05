@@ -1,0 +1,12 @@
+benchmark_name: agentic_benchmarks
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/uiuc-kang-lab/agentic-benchmarks
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/agentic_benchmarks/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/agentic_benchmarks/repo
+
+domain_categories:
+  - agent_interactive

@@ -1,0 +1,12 @@
+benchmark_name: cgbench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/owencqueen/cgbench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/cgbench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/cgbench/repo
+
+domain_categories:
+  - medical_health

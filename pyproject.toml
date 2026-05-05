@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bench-audit"
+version = "0.1.0"
+description = "Per-task and benchmark-level audit tooling for coding benchmarks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2>=3.1",
+    "openai>=2.30.0",
+    "openreview-py>=2.0.1",
+    "pymupdf>=1.27.2.2",
+    "pyyaml>=6.0",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+bench-audit = "bench_audit.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bench_audit"]

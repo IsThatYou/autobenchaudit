@@ -1,0 +1,12 @@
+benchmark_name: pasbench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://huggingface.co/datasets/Youliang/PaSBench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/pasbench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/pasbench/repo
+
+domain_categories:
+  - safety_alignment

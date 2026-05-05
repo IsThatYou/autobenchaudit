@@ -1,0 +1,12 @@
+benchmark_name: mmperspective
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/yunlong10/MMPerspective
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/mmperspective/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/mmperspective/repo
+
+domain_categories:
+  - multimodal_vision

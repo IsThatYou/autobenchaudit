@@ -1,0 +1,12 @@
+benchmark_name: effibench_x
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/EffiBench/EffiBench-X
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/effibench_x/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/effibench_x/repo
+
+domain_categories:
+  - code_swe

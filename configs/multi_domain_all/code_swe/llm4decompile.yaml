@@ -1,0 +1,12 @@
+benchmark_name: llm4decompile
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/albertan017/LLM4Decompile
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/llm4decompile/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/llm4decompile/repo
+
+domain_categories:
+  - code_swe

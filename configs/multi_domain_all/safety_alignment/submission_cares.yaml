@@ -1,0 +1,13 @@
+benchmark_name: submission_cares
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/XiaominLi1998/Submission-CARES
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/submission_cares/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/submission_cares/repo
+
+domain_categories:
+  - safety_alignment
+  - medical_health

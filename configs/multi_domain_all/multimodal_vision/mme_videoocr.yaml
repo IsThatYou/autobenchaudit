@@ -1,0 +1,13 @@
+benchmark_name: mme_videoocr
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/FrankYang-17/MME-VideoOCR
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/mme_videoocr/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/mme_videoocr/repo
+
+domain_categories:
+  - multimodal_vision
+  - video_understanding

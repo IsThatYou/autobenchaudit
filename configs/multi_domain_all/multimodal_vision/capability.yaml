@@ -1,0 +1,12 @@
+benchmark_name: capability
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/ali-vilab/CAPability
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/capability/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/capability/repo
+
+domain_categories:
+  - multimodal_vision

@@ -1,0 +1,12 @@
+benchmark_name: intermt
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/cby-pku/InterMT
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/intermt/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/intermt/repo
+
+domain_categories:
+  - safety_alignment

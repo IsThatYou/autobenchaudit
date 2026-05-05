@@ -1,0 +1,12 @@
+benchmark_name: raguard
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://huggingface.co/datasets/UCSC-IRKM/RAGuard
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/raguard/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/raguard/repo
+
+domain_categories:
+  - retrieval_rag

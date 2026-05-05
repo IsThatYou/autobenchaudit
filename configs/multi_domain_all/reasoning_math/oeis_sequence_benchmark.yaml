@@ -1,0 +1,12 @@
+benchmark_name: oeis_sequence_benchmark
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/ceodspspectrum/oeis-sequence-benchmark
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/oeis_sequence_benchmark/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/oeis_sequence_benchmark/repo
+
+domain_categories:
+  - reasoning_math

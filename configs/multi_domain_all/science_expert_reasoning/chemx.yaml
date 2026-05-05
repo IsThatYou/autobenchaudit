@@ -1,0 +1,12 @@
+benchmark_name: chemx
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/ai-chem/ChemX
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/chemx/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/chemx/repo
+
+domain_categories:
+  - science_expert_reasoning

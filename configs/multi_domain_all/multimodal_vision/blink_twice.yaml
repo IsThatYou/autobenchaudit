@@ -1,0 +1,12 @@
+benchmark_name: blink_twice
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/PicoTrex/BLINK-Twice
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/blink_twice/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/blink_twice/repo
+
+domain_categories:
+  - multimodal_vision

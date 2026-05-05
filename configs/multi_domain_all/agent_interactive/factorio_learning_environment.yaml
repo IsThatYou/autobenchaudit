@@ -1,0 +1,12 @@
+benchmark_name: factorio_learning_environment
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/JackHopkins/factorio-learning-environment
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/factorio_learning_environment/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/factorio_learning_environment/repo
+
+domain_categories:
+  - agent_interactive

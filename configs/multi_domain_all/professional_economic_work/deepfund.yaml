@@ -1,0 +1,12 @@
+benchmark_name: deepfund
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/HKUSTDial/DeepFund
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/deepfund/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/deepfund/repo
+
+domain_categories:
+  - professional_economic_work

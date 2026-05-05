@@ -1,0 +1,12 @@
+benchmark_name: ms_bench
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/ianeong/MS-Bench
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/ms_bench/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/ms_bench/repo
+
+domain_categories:
+  - retrieval_rag

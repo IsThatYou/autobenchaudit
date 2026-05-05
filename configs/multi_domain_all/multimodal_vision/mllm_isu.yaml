@@ -1,0 +1,13 @@
+benchmark_name: mllm_isu
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/1012537710/MLLM-ISU
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/mllm_isu/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/mllm_isu/repo
+
+domain_categories:
+  - multimodal_vision
+  - safety_alignment

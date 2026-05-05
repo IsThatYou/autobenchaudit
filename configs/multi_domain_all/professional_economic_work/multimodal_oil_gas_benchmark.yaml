@@ -1,0 +1,13 @@
+benchmark_name: multimodal_oil_gas_benchmark
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/climate-nlp/multimodal-oil-gas-benchmark
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/multimodal_oil_gas_benchmark/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/multimodal_oil_gas_benchmark/repo
+
+domain_categories:
+  - professional_economic_work
+  - multimodal_vision

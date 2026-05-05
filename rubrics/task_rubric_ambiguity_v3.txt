@@ -1,0 +1,40 @@
+Per-task audit rubric for coding benchmarks. A finding is a gap between what the prompt tells the agent and what the tests actually require.
+
+Findings fall into one of three categories: ambiguity_underspecification (the prompt is unclear, vague, or missing information needed to pass), tests (the tests are too narrow, too broad, or check something other than what the prompt describes), or environment_conflict (the provided environment, files, or dependencies contradict or block what the prompt asks for).
+
+The agent cannot see the tests. Every piece of information needed to pass must be discoverable from the prompt, the provided files, or standard domain knowledge alone. If it is not, that is a task issue — regardless of whether the agent's implementation was also flawed.
+
+Distinguishing agent error from task issues:
+  Before assigning any finding, ask: could a competent developer, reading only the prompt, reliably produce a passing solution?
+
+  This is agent error (not a finding):
+  - The prompt clearly states the requirement but the agent misreads, ignores, or forgets it.
+  - The agent makes an implementation mistake unrelated to prompt clarity.
+  - The agent runs out of time due to an inefficient strategy, not because the task is infeasible.
+  - The agent fails to use a standard technique the prompt reasonably assumes as domain knowledge.
+
+  This is a task issue (a finding):
+  - The information needed to pass the test is not present in the prompt, the provided files, or standard domain knowledge. The agent would have to guess or reverse-engineer the test.
+  - Two competent developers could reasonably disagree on what the prompt asks, and the tests only accept one interpretation.
+  - The prompt actively misleads: an example or instruction points toward a solution the tests reject.
+  - The tests enforce specific implementation details — function names, internal structure, module organization — that the prompt never specifies. A correct solution using different internals would fail.
+  - The test rejects a solution that correctly implements what the prompt describes.
+
+  Important: an incomplete implementation is not automatically agent error. Before reaching that conclusion, check whether the missing pieces are things the prompt told the agent to build, or things only the tests require. If the tests demand specific internal structure that the prompt never specifies, the incompleteness reflects a task issue, not a skill gap.
+
+  Litmus test: give the prompt to five competent developers in the relevant domain, without showing them the tests. If most would produce solutions the tests reject, the task has a finding.
+
+Examples of hard judgment calls:
+  - The prompt references a live external resource at a historical point but provides no frozen snapshot. If the reference solution reveals a discoverable path via standard tools (git history, well-known APIs), severity is 1. If no standard path exists, severity is 2.
+  - The test silently replaces input data with a different version before evaluation, and the prompt gives no indication. This is a finding even if the agent's solution was also wrong for other reasons.
+  - The tests import specific helper functions by name from the reference solution's module. The agent would need to create those exact functions in those exact locations. This is a finding — the prompt describes the feature, not the internal API.
+  - The prompt is vague but the expected approach is domain-standard. A developer can infer it no problem. This is severity 0, not severity 1 — the gap exists, it is just small.
+
+Severity scale and calibration:
+  Before assigning severity, cross-check the task instruction prompt against the reference solution and tests. Read the reference solution to identify its approach. Read the test suite and the prompt to check whether the prompt is underspecified or ambiguous, and whether the tests are too narrow (only accepting one approach) or too broad (accepting trivially wrong solutions). If the prompt leaves room for multiple reasonable interpretations and the test suite enforces just one, that gap is a finding — even if the reference solution makes the intended interpretation obvious. Then ask: could a competent developer, reading only the prompt, reasonably discover the expected approach using standard tools and practices? Use that answer to assign severity:
+
+  0 (None): The prompt is clear and sufficient. The tests fairly evaluate what the prompt asks for. Any failure is attributable to the agent's own mistakes or skill gaps.
+  1 (Minor): A discoverable gap. Reading only the prompt, a competent developer in the relevant domain can reach the expected solution — but not immediately. The bridge requires deliberate work: consulting git history, a known API, reference docs, or reasoning through which of a few standard approaches the tests likely want. Some developers will cross it, others will pick a different reasonable interpretation that the tests reject.
+  2 (Major): It is almost impossible to understand what you are being asked to do without further information. The prompt omits or obscures key details that no amount of domain expertise can compensate for. The tests are too narrow, too broad, or look for something different from what the task description asks. Information may be missing, contradictory, or actively misleading.
+
+  Include this calibration reasoning in each finding's evidence.

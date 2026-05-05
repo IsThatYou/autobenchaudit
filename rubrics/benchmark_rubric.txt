@@ -1,0 +1,224 @@
+Whole-benchmark audit rubric. The benchmark is evaluated as a published artifact across five independent categories. Within each category, the auditor selects zero or more applicable subtypes and assigns a severity (0-2). A finding is a defect in the benchmark itself — not a limitation that the authors explicitly acknowledge and scope.
+
+Category: Documentation (id: documentation)
+  Whether the benchmark's documentation (README, paper, inline comments, usage guides) is sufficient for an independent researcher to understand, run, and interpret the benchmark without reverse-engineering the code.
+
+  Distinguishing real issues from acceptable trade-offs:
+    Not every documentation gap is a finding. Some benchmarks legitimately defer details to a companion paper or supplementary material. The question is whether a researcher who has read both the README and the paper can successfully use the benchmark.
+
+    Not a finding:
+    - Minor typos or formatting issues that do not affect comprehension.
+    - Missing documentation for optional or advanced features when the core workflow is clear.
+    - Deferring detailed methodology to a published paper, as long as the paper is cited and accessible.
+
+    Finding:
+    - A researcher cannot determine the task format, evaluation procedure, or expected outputs from available documentation.
+    - The README and paper give conflicting instructions.
+    - Essential setup steps are missing — the benchmark cannot be run from the documented instructions.
+
+  Subtypes:
+    D1 — Missing or Incomplete README
+      The repository lacks a README, or the README omits essential sections: purpose, task format, how to run, how to interpret results, or licensing.
+      e.g. Repository has a one-sentence README with only the paper title. No installation, usage, or data format documentation.
+    D2 — Undocumented Task Format
+      The schema, fields, or conventions of individual tasks/problems are not documented. A user cannot determine what each field means or what the expected input/output format is without inspecting data directly.
+      e.g. Dataset has columns "q", "a", "m" with no schema definition. The README only says "see our paper for details" but the paper describes the format in a 3-line table caption.
+    D3 — Undocumented Evaluation Procedure
+      How to run the evaluation — the eval script, expected arguments, scoring aggregation, and what constitutes a "pass" — is not documented or is documented incorrectly.
+      e.g. Repository contains eval.py with 14 command-line flags, none documented. The README says "run eval.py" with no arguments.
+      e.g. Paper describes macro-averaged F1 but eval.py computes micro-averaged accuracy by default.
+    D4 — Missing Scope or Limitations
+      The benchmark does not state its intended scope, known limitations, or conditions under which results should not be generalized.
+      e.g. Benchmark claims to test "general reasoning" but only contains multiple-choice questions from a single textbook.
+
+  Severity scale:
+    0 (None): Documentation is clear, complete, and sufficient. An independent researcher can understand, run, and interpret the benchmark from the README and paper alone.
+    1 (Minor): Small gaps exist but can be resolved by inspecting the code or data for a few minutes.
+    2 (Major): Significant documentation is missing. A researcher must spend substantial time reading source code to understand the benchmark. Risk of misuse is elevated.
+
+Category: Contamination (id: contamination)
+  Whether the benchmark data is at risk of appearing in LLM training corpora, enabling models to memorize rather than solve the benchmark.
+
+  Distinguishing real contamination from acceptable risk:
+    Not a finding:
+    - The benchmark uses a well-known task format (e.g., multiple-choice QA) but the specific questions are provably novel.
+    - The authors provide a decontamination analysis showing low overlap with common training sets.
+    - Data was created after the training cutoff of evaluated models, with temporal controls documented.
+
+    Finding:
+    - Answers are freely available online and predate common training cutoffs.
+    - The paper does not discuss contamination risk at all.
+    - Data overlaps with known training sets and no decontamination analysis is provided.
+
+  Subtypes:
+    C1 — Public Answer Leakage
+      Reference answers, solutions, or walkthroughs are freely available on the public internet in a form that training pipelines would likely ingest.
+      e.g. Problems are drawn verbatim from a popular competitive programming site. Full solutions exist on GitHub predating common training cutoffs.
+    C2 — Training Set Overlap
+      Benchmark data overlaps with datasets known to be in common LLM training mixtures (Wikipedia, Common Crawl, The Pile, etc.) or with other benchmarks models were trained on.
+      e.g. Questions are extracted from Wikipedia "Did you know" sections with minimal rephrasing.
+    C3 — Temporal Leakage
+      The benchmark was released or publicly accessible before the training cutoff of models being evaluated, without decontamination controls.
+      e.g. Dataset uploaded to HuggingFace 18 months before the evaluated model's training cutoff. No decontamination analysis is provided.
+    C4 — Insufficient Decontamination Analysis
+      The paper does not analyze contamination risk, or provides only a superficial analysis with no n-gram overlap checks or temporal analysis.
+      e.g. Paper claims "all problems are novel" but provides no overlap analysis with Common Crawl, existing benchmarks, or GitHub.
+
+  Severity scale:
+    0 (None): No meaningful contamination risk. Data is provably novel, post-cutoff, or the paper includes rigorous decontamination analysis.
+    1 (Minor): Low risk. Some data may be derivable from public sources, but reasonable mitigations are in place.
+    2 (Major): Moderate risk. Significant portions likely present in training corpora, and decontamination analysis is absent or superficial.
+
+Category: Evaluation Methodology (id: eval_methodology)
+  Whether the evaluation procedure — scoring, metrics, answer verification, and aggregation — is sound, well-defined, and appropriate for the benchmark's stated goals.
+
+  Distinguishing real methodology issues from acceptable design choices:
+    Not a finding:
+    - Using a standard metric (accuracy, F1, BLEU) in its standard form for the appropriate task type.
+    - Choosing one reasonable metric over another when both are defensible and the choice is documented.
+    - Small numeric precision differences that do not affect rankings.
+
+    Finding:
+    - The metric is ambiguous or different implementations would yield different rankings.
+    - Answer matching rejects clearly correct responses due to formatting sensitivity.
+    - The eval script's behavior diverges from what the paper describes.
+    - No statistical rigor on a small benchmark where noise could dominate.
+
+  Subtypes:
+    M1 — Ill-Defined Metric
+      The primary evaluation metric is ambiguous, undefined, or inappropriate for the task type.
+      e.g. Paper says "accuracy" but does not specify how partial matches, multi-label predictions, or abstentions are handled.
+    M2 — Fragile Answer Matching
+      Answer verification is brittle — sensitive to whitespace, capitalization, unit formatting, or numeric precision in ways that reject correct answers.
+      e.g. Exact string match for numeric answers: "3.14" passes but "3.140" fails.
+      e.g. Multiple-choice eval rejects "A" if the model outputs "A." or "(A)".
+    M3 — Missing Statistical Rigor
+      Results reported without confidence intervals, variance estimates, or significance tests on a benchmark small or noisy enough that differences may not be meaningful.
+      e.g. Benchmark has 50 questions. Paper reports 72% vs 68% with no confidence intervals.
+    M4 — Eval Script Bug or Inconsistency
+      The evaluation script contains a bug, or its behavior diverges from the paper's description.
+      e.g. Paper says macro-average but script computes micro-average.
+      e.g. Script silently skips erroring tasks instead of counting them as failures.
+    M5 — Single Valid Answer Assumption
+      Evaluation assumes exactly one correct answer when multiple valid answers exist.
+      e.g. Open-ended math benchmark compares against a single reference string. Equivalent expressions ("x+1" vs "1+x") are marked wrong.
+
+  Severity scale:
+    0 (None): Evaluation methodology is sound, well-defined, and appropriate. Metrics are clearly specified and answer matching is robust.
+    1 (Minor): Small imperfections unlikely to change model rankings.
+    2 (Major): Issues that could materially affect results for some models. Rankings may partly reflect evaluation artifacts.
+
+Category: Dataset Quality (id: dataset_quality)
+  Whether the dataset — problems, reference answers, metadata, and annotations — is correct, diverse, and free of systematic bias or artifacts.
+
+  Distinguishing real quality issues from acceptable limitations:
+    Not a finding:
+    - A benchmark intentionally focuses on a narrow domain and documents this scope.
+    - A few ambiguous edge cases exist but do not affect aggregate scores meaningfully.
+    - Class imbalance that is intentional and documented.
+
+    Finding:
+    - Reference answers are demonstrably wrong.
+    - Systematic patterns allow shortcut solutions.
+    - Diversity claims are not supported by the actual data distribution.
+    - Significant duplicates inflate the dataset or leak between splits.
+
+  Subtypes:
+    Q1 — Incorrect Reference Answers
+      One or more reference answers are wrong. A correct model response would be marked incorrect.
+      e.g. A math benchmark's reference answer for a probability question is 0.33 but the correct answer is 0.25.
+    Q2 — Annotation Artifacts
+      Systematic patterns allow models to achieve high scores without genuinely solving the task.
+      e.g. All "correct" answers are option C 40% of the time.
+      e.g. Negative examples are systematically shorter than positive examples.
+    Q3 — Insufficient Diversity
+      The dataset lacks diversity along dimensions the benchmark claims to cover.
+      e.g. A "multilingual reasoning" benchmark has 5000 English problems, 200 Chinese, and 15 each for 8 other languages.
+    Q4 — Duplicates or Near-Duplicates
+      The dataset contains duplicate or near-duplicate entries that inflate size, create split leakage, or bias metrics.
+      e.g. 12% of test set questions are rephrased training set questions.
+    Q5 — Labeling Inconsistency
+      Annotation standards are applied inconsistently. Similar problems are labeled differently with no inter-annotator agreement reported.
+      e.g. A sentiment dataset marks "not bad" as both positive and negative in different entries.
+
+  Severity scale:
+    0 (None): Dataset is correct, diverse, and well-constructed. Reference answers are accurate and free of artifacts.
+    1 (Minor): A few minor issues that do not meaningfully affect overall scores or rankings.
+    2 (Major): Issues that affect a notable fraction of tasks or introduce systematic bias.
+
+Category: Reproducibility (id: reproducibility)
+  Whether an independent researcher can reproduce the benchmark's published results given the provided code, data, and instructions.
+
+  Distinguishing real reproducibility issues from acceptable friction:
+    Not a finding:
+    - Minor version bumps needed for dependencies that do not change behavior.
+    - Eval requires a GPU and this is documented.
+    - Small variance in LLM-based eval that is acknowledged and quantified.
+
+    Finding:
+    - Dependencies are broken, conflicting, or missing.
+    - Data is inaccessible (broken links, private storage, no access process).
+    - Evaluation produces materially different results across runs without documentation.
+    - The data generation pipeline is not provided or not runnable.
+
+  Subtypes:
+    R1 — Missing or Broken Dependencies
+      Required dependencies are not listed, or specified versions are unavailable or conflicting.
+      e.g. requirements.txt pins conflicting transformers and torch versions.
+      e.g. No requirements file exists. README says "install the necessary packages."
+    R2 — Missing Data or Inaccessible Dataset
+      The dataset is not included, download link is broken, or access requires undocumented credentials.
+      e.g. README links to a private Google Drive folder with no access request process.
+      e.g. HuggingFace dataset page exists but actual data files were never uploaded.
+    R3 — Non-Deterministic Evaluation
+      Evaluation produces different results across runs due to random seeds, GPU non-determinism, or API variability without documenting variance.
+      e.g. Eval uses LLM-as-judge with temperature > 0 and no seed. Scores vary 3-5 points across runs but single-run numbers are reported.
+    R4 — Unreproducible Data Pipeline
+      The pipeline for constructing the dataset from raw sources is not provided or not runnable.
+      e.g. Paper describes a 5-stage generation pipeline. Only the final dataset is released; generation code references internal APIs.
+    R5 — Missing Versioning
+      Dataset or evaluation code is not versioned. Changes since publication are undocumented.
+      e.g. HuggingFace dataset updated 6 times since paper with no version tags.
+
+  Severity scale:
+    0 (None): Fully reproducible. Dependencies pinned, data accessible, evaluation deterministic or variance documented, versioning in place.
+    1 (Minor): Mostly reproducible with minor friction.
+    2 (Major): Significant barriers. Missing dependencies, broken links, or undocumented non-determinism.
+
+Category: Evaluation Infrastructure (id: eval_infrastructure)
+  Whether the benchmark's evaluation harness provides proper isolation, state management, solvability guarantees, and resistance to exploits. These are architectural properties of the harness itself, independent of any particular task or model.
+
+  Distinguishing real infrastructure issues from acceptable design choices:
+    Not a finding:
+    - Tasks run in isolated containers and the harness documents its sandboxing approach.
+    - A small number of tasks are marked as "known hard" or "stretch" without verified solutions, and this is documented.
+    - The benchmark acknowledges that its oracle is partial (e.g., covers 90% of tasks) and explains why.
+
+    Finding:
+    - Ground truth or reference solutions are accessible to the agent at runtime.
+    - State from previous runs leaks into subsequent evaluations.
+    - A significant fraction of tasks are unsolvable due to broken setup, revoked APIs, or incorrect ground truth.
+    - The eval harness can be trivially gamed without solving the actual tasks.
+
+  Subtypes:
+    I1 — Residual State Clearing
+      Residual data or state from a previous run are not fully cleared before the next run begins. Leftover files, environment variables, database entries, or cached results leak between evaluations.
+      e.g. After running agent A, its output files remain in the working directory. Agent B's run finds them, producing scores that depend on evaluation order.
+    I2 — Ground Truth Isolation
+      The agent is not completely isolated from ground truth information during evaluation. Reference answers, solution code, test expectations, or scoring logic are accessible to the agent at runtime.
+      e.g. The evaluation container mounts the full benchmark repo including the solutions/ directory. An agent that runs "find / -name '*.gold'" can read all reference answers.
+    I3 — Task Solvability Verification
+      Tasks have not been verified to be solvable — either by a human expert, an oracle script, or both. Tasks that are impossible, broken, or depend on unavailable resources have not been identified or excluded.
+      e.g. 15 of 200 tasks require an API key that was revoked after benchmark creation. No agent can solve them, but they are still counted as failures.
+    I4 — Oracle Solver
+      The benchmark does not include an oracle solver (gold script, reference agent, or automated pipeline) that can solve all tasks and pass all evaluations. Without an oracle, there is no proof that the tasks and evaluation harness are jointly correct.
+      e.g. The benchmark has no way to verify that all 500 tasks are passable. 12 tasks have subtle eval bugs that cause even perfect solutions to fail.
+    I5 — Evaluation Exploit Freedom
+      The evaluation implementation contains vulnerabilities that could be exploited to pass evaluations without actually completing the tasks, including sandbox escapes, eval script injection, and trivially gameable scoring logic.
+      e.g. The eval script reads agent output via eval() in Python. An agent can manipulate the scoring process directly.
+      e.g. The test harness checks for a success marker file. An agent can simply create the file without doing any real work.
+
+  Severity scale:
+    0 (None): Evaluation infrastructure is sound. State is properly isolated between runs, ground truth is inaccessible to agents, all tasks are verified solvable, and the harness resists exploitation.
+    1 (Minor): Small gaps unlikely to affect results in practice. Minor state leakage that does not influence scoring, or a handful of unverified tasks in a large benchmark.
+    2 (Major): Infrastructure issues that could materially affect results. Ground truth partially accessible, state leakage could influence scores, or a significant fraction of tasks are unverified.

@@ -1,0 +1,12 @@
+benchmark_name: infochartqa
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/thu-vis/InfoChartQA
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/infochartqa/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/infochartqa/repo
+
+domain_categories:
+  - multimodal_vision

@@ -1,0 +1,12 @@
+benchmark_name: steer_me
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://huggingface.co/datasets/narunraman/steer_me
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/steer_me/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/steer_me/repo
+
+domain_categories:
+  - professional_economic_work

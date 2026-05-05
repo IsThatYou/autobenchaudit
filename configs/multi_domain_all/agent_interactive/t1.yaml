@@ -1,0 +1,12 @@
+benchmark_name: t1
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: v1
+
+code_url: https://github.com/CapitalOne-Research/T1
+benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/t1/data
+benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/t1/repo
+
+domain_categories:
+  - agent_interactive

@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local environment overrides
+.env
+.env.*
+
+# macOS Finder metadata
+.DS_Store
+
+# Streaming pipeline runtime state
+configs/multi_domain_all/streaming_pipeline_tracking*.json
+configs/multi_domain_all/.streaming_pipeline.lock
+configs/multi_domain_all/.tracking.lock
+
+# Audit outputs
+data/
+logs/
