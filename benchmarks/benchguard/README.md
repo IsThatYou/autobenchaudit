@@ -23,14 +23,14 @@ output/                            # generated; see run_eval.sh for paths
 From repo root:
 
 ```bash
-bench_audit/benchmarks/benchguard/run_eval.sh bixbench
-bench_audit/benchmarks/benchguard/run_eval.sh sab
+benchmarks/benchguard/run_eval.sh bixbench
+benchmarks/benchguard/run_eval.sh sab
 ```
 
 Override the judge model (default `gemini/gemini-3-flash-preview`):
 
 ```bash
-JUDGE_MODEL=gemini/gemini-2.5-flash bench_audit/benchmarks/benchguard/run_eval.sh bixbench
+JUDGE_MODEL=gemini/gemini-2.5-flash benchmarks/benchguard/run_eval.sh bixbench
 ```
 
 ## Outputs (paper-style report)

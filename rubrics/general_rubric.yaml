@@ -1,0 +1,15 @@
+version: "0.2"
+phases:
+  benchmark_audit:
+    enabled: true
+    rubric: rubrics/benchmark_rubric.txt
+    output_file: benchmark_audit.json
+
+  evidence_collection:
+    enabled: true
+
+  per_task_evaluation:
+    enabled: true
+    rubric: rubrics/task_rubric_ambiguity_v3.txt
+    output_dir: task_audits
+    task_filter: failed_or_mixed
