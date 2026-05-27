@@ -1,0 +1,12 @@
+benchmark_name: hle
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: quick
+
+code_url: https://github.com/centerforaisafety/hle
+benchmark_data_dir: data//hle/data
+benchmark_repo_dir: data//hle/repo
+
+domain_categories:
+  - misc

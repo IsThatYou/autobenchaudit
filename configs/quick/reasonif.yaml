@@ -1,0 +1,12 @@
+benchmark_name: reasonif
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: quick
+
+code_url: https://github.com/ykwon0407/reasonIF
+benchmark_data_dir: /Users/shangzhu/Documents/apps/launch_test/auto-bench-audit/data//reasonif/data
+benchmark_repo_dir: /Users/shangzhu/Documents/apps/launch_test/auto-bench-audit/data//reasonif/repo
+
+domain_categories:
+  - misc
