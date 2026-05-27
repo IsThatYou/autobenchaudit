@@ -9,5 +9,5 @@ benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/finance_agent/data
 benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/finance_agent/repo
 
 domain_categories:
-  - social_economic
+  - professional_economic_work
   - agent_interactive

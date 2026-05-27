@@ -9,4 +9,5 @@ benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/humanitys_last_exam_hle/data
 benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/humanitys_last_exam_hle/repo
 
 domain_categories:
+  - science_expert_reasoning
   - nlp_text

@@ -4,7 +4,7 @@ agent_cli: claude
 model: claude-opus-4-7
 output_subdir: ambiguity_claude_opus_4_7
 benchmark_data_dir: ${HARBOR_DATASETS_DIR}/tb2
-jobs_dir: ${TB2_JOBS_DIR}/2026-03-28__23-24-03
+jobs_dir: ${TB2_JOBS_DIR}
 jobs_type: actual
 
 code_url: https://github.com/harbor-framework/harbor

@@ -33,6 +33,7 @@ Point `scripts/audit_one.sh` at any public benchmark's GitHub URL:
 
 ```bash
 scripts/audit_one.sh --url https://github.com/centerforaisafety/hle --sample-n 3
+scripts/audit_one.sh --url https://github.com/harbor-framework/terminal-bench-2 --sample-n 3
 ```
 
 This clones the repo, writes a minimal config to `configs/quick/<name>.yaml`, and runs the three audit phases end-to-end in static mode (`audit-benchmark` → `collect-evidence` → `audit-tasks --mode static --sample-n N`).
@@ -43,26 +44,30 @@ The wrapper works for static-QA benchmarks (HLE, GPQA, MMLU-style) and agentic o
 scripts/audit_one.sh --help        # all flags
 ```
 
-## Audit Pipeline
+## Batch of Benchmarks Audit Pipeline
 
 For batch runs across many benchmarks, trajectory-mode audits, or custom configs, use the underlying `bench-audit` CLI directly. End-to-end, the streaming pipeline runs five stages per benchmark: `audit-benchmark` → `collect-evidence` → `sample-tasks` → `audit-tasks` → cleanup.
 
 ```bash
 # Run all benchmarks under configs/multi_domain_all/
-bash scripts/multi_domain_streaming_pipeline.sh
+bash scripts/batch_static_audit_pipeline.sh
 
 # Limit to one domain
-bash scripts/multi_domain_streaming_pipeline.sh --domain medical_health
+bash scripts/batch_static_audit_pipeline.sh --domain medical_health
 
 # Run a specific config
-bash scripts/multi_domain_streaming_pipeline.sh \
+bash scripts/batch_static_audit_pipeline.sh \
     --config configs/multi_domain_all/medical_health/clinbench.yaml
 
 # Inspect tracker state
-bash scripts/multi_domain_streaming_pipeline.sh --status
+bash scripts/batch_static_audit_pipeline.sh --status
 ```
 
 Configure run output via the `AUDIT_RUN_DIR` env var (or `MULTI_DOMAIN_AUDIT_RUN_DIR`). The pipeline writes its tracker to `configs/multi_domain_all/streaming_pipeline_tracking.json`.
+
+## Step-by-Step Audit Pipeline
+
+To run an audit phase by phase instead of using a one-command wrapper, use the CLI commands below in order: `audit-benchmark` → `collect-evidence` → `audit-tasks`.
 
 ### Step 1 — Benchmark-level audit
 
@@ -114,6 +119,40 @@ bench-audit audit-tasks \
     --mode trajectory --all
 ```
 
+## Switching Agent CLIs
+
+Audit agents are selected through the config field `agent_cli`. Supported values are `claude`, `cursor`, and `codex`. Claude requires `ANTHROPIC_API_KEY`; Cursor and Codex use their own installed CLI auth. The `model` field is passed through for Claude and Codex; Cursor currently ignores it.
+
+For one-off audits, pass `--agent-cli` to `audit_one.sh`:
+
+```bash
+scripts/audit_one.sh \
+    --url https://github.com/centerforaisafety/hle \
+    --agent-cli codex \
+    --model gpt-5 \
+    --sample-n 3
+```
+
+For batch audits, the batch script reads `agent_cli` from each YAML config. Make a copy of a config, switch the agent fields, then pass it explicitly:
+
+```bash
+cp configs/multi_domain_all/science_expert_reasoning/gpqa_diamond.yaml /tmp/gpqa_diamond_codex.yaml
+perl -0pi -e 's/^agent_cli: .*/agent_cli: codex/m; s/^model: .*/model: gpt-5/m' /tmp/gpqa_diamond_codex.yaml
+
+bash scripts/batch_static_audit_pipeline.sh \
+    --config /tmp/gpqa_diamond_codex.yaml \
+    --max-tasks 100 --batch 50 --workers 3
+```
+
+For direct CLI runs, edit or copy the config the same way, then run the desired phase:
+
+```bash
+bench-audit audit-tasks \
+    --config /tmp/gpqa_diamond_codex.yaml \
+    --mode static \
+    --all
+```
+
 ## Project Layout
 
 ```
@@ -122,7 +161,7 @@ auto-bench-audit/
 ├── configs/           # Per-benchmark YAML configs (multi_domain_all, frontier_benchmarks,
 │                      #   swe_bench, tb2, harbor, quick)
 ├── rubrics/           # general_rubric.yaml + benchmark/task rubric .txt files
-├── scripts/           # audit_one.sh (one-command audit), multi_domain_streaming_pipeline
+├── scripts/           # audit_one.sh (one-command audit), batch_static_audit_pipeline
 │                      #   (batch), sample_tasks helper
 ├── src/bench_audit/   # Audit CLI implementation
 └── pyproject.toml
@@ -143,4 +182,3 @@ If you find our work helpful, please cite:
   url           = {https://arxiv.org/abs/2605.26079},
 }
 ```
-

@@ -6,13 +6,13 @@ cd "${ROOT_DIR}"
 [ -f "${ROOT_DIR}/.env" ] && { set -a; source "${ROOT_DIR}/.env"; set +a; }
 
 # --- Usage --------------------------------------------------------------------
-# bash scripts/multi_domain_streaming_pipeline.sh
-# bash scripts/multi_domain_streaming_pipeline.sh --max-tasks 100 --batch 50 --workers 3
-# bash scripts/multi_domain_streaming_pipeline.sh --domain medical_health
-# bash scripts/multi_domain_streaming_pipeline.sh --config configs/multi_domain_all/medical_health/clinbench.yaml
-# bash scripts/multi_domain_streaming_pipeline.sh --status
-# bash scripts/multi_domain_streaming_pipeline.sh --keep            # disable cleanup
-# bash scripts/multi_domain_streaming_pipeline.sh --reset-tracker   # fresh tracker
+# bash scripts/batch_static_audit_pipeline.sh
+# bash scripts/batch_static_audit_pipeline.sh --max-tasks 100 --batch 50 --workers 3
+# bash scripts/batch_static_audit_pipeline.sh --domain medical_health
+# bash scripts/batch_static_audit_pipeline.sh --config configs/multi_domain_all/medical_health/clinbench.yaml
+# bash scripts/batch_static_audit_pipeline.sh --status
+# bash scripts/batch_static_audit_pipeline.sh --keep            # disable cleanup
+# bash scripts/batch_static_audit_pipeline.sh --reset-tracker   # fresh tracker
 #
 # Per-benchmark, runs:
 #   1. audit-benchmark

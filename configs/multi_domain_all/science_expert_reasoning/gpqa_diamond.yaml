@@ -9,5 +9,5 @@ benchmark_data_dir: ${BENCHMARK_REPOS_DIR}/gpqa_diamond/data
 benchmark_repo_dir: ${BENCHMARK_REPOS_DIR}/gpqa_diamond/repo
 
 domain_categories:
-  - science_domain
+  - science_expert_reasoning
   - nlp_text

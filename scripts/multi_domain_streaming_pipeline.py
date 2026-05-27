@@ -542,7 +542,7 @@ def main() -> int:
 
     print()
     print(f"=== Finished: {passed} passed, {failed} failed (of {total}) ===")
-    print(f"Run `bash scripts/multi_domain_streaming_pipeline.sh --status` for the tracker view.")
+    print(f"Run `bash scripts/batch_static_audit_pipeline.sh --status` for the tracker view.")
     return 0 if failed == 0 else 1
 
 

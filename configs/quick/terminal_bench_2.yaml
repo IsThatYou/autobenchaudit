@@ -1,0 +1,12 @@
+benchmark_name: terminal_bench_2
+benchmark_type: neurips
+agent_cli: claude
+model: claude-opus-4-7
+output_subdir: quick
+
+code_url: https://github.com/harbor-framework/terminal-bench-2
+benchmark_data_dir: /Users/junlin/Documents/Research/auto-bench-audit/data/benchmark_repos/terminal_bench_2/data
+benchmark_repo_dir: /Users/junlin/Documents/Research/auto-bench-audit/data/benchmark_repos/terminal_bench_2/repo
+
+domain_categories:
+  - misc
