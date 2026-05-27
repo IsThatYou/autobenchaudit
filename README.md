@@ -1,4 +1,5 @@
-<h1 align="center">Automated Auditing for LLM &amp; Agent Benchmarks</h1>
+<h1 align="center">Automated Benchmark Auditing for AI Agents and LLMs
+</h1>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2605.26079">
@@ -129,7 +130,7 @@ auto-bench-audit/
 
 ## Citation
 
-If you use `auto-bench-audit` in your research, please cite:
+If you find our work helpful, please cite:
 
 ```bibtex
 @misc{wang2026automatedbenchmarkauditingai,
